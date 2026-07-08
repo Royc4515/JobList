@@ -11,12 +11,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 APPS_DIR = ROOT / "applications"
+LEADS_DIR = ROOT / "leads"
 README = ROOT / "README.md"
 
 START = "<!-- DASHBOARD:START -->"
 END = "<!-- DASHBOARD:END -->"
 
-# Canonical status order + display labels
+# Canonical application status order + display labels
 STATUS_ORDER = ["offer", "interview", "in-review", "submitted", "not-submitted", "rejected"]
 STATUS_LABEL = {
     "offer": "🎉 Offer",
@@ -25,6 +26,17 @@ STATUS_LABEL = {
     "submitted": "📤 Submitted",
     "not-submitted": "📝 Not submitted",
     "rejected": "❌ Rejected",
+}
+
+# Networking-lead status order + display labels
+LEAD_STATUS_ORDER = ["responded", "referred", "intro-requested", "contacted", "to-contact", "dead"]
+LEAD_STATUS_LABEL = {
+    "responded": "🟢 Responded",
+    "referred": "✅ Referred",
+    "intro-requested": "🤝 Intro requested",
+    "contacted": "📨 Contacted",
+    "to-contact": "🔵 To contact",
+    "dead": "⚫ Dead",
 }
 
 
@@ -54,11 +66,23 @@ def load_apps():
     return apps
 
 
+def load_leads():
+    leads = []
+    if not LEADS_DIR.is_dir():
+        return leads
+    for path in sorted(LEADS_DIR.glob("*.md")):
+        fm = parse_frontmatter(path.read_text(encoding="utf-8"))
+        fm["_file"] = f"leads/{path.name}"
+        fm.setdefault("status", "to-contact")
+        leads.append(fm)
+    return leads
+
+
 def esc(value):
     return (value or "").replace("|", "\\|").strip() or "—"
 
 
-def build_dashboard(apps):
+def build_dashboard(apps, leads):
     total = len(apps)
     counts = {s: 0 for s in STATUS_ORDER}
     for a in apps:
@@ -108,22 +132,54 @@ def build_dashboard(apps):
             )
         )
     out.append("")
+
+    # Networking leads (only rendered when leads/ has entries)
+    if leads:
+        lc = {s: sum(1 for x in leads if x.get("status") == s) for s in LEAD_STATUS_ORDER}
+        lead_stats = " · ".join(
+            f"**{lc[s]}** {LEAD_STATUS_LABEL[s].split(' ', 1)[1]}"
+            for s in LEAD_STATUS_ORDER
+            if lc.get(s)
+        )
+        out.append("## Networking leads")
+        out.append("")
+        out.append(f"**{len(leads)} leads** — {lead_stats}")
+        out.append("")
+        out.append("| Company | Contact | Connection | Target role | Status | Follow-up |")
+        out.append("| --- | --- | --- | --- | --- | --- |")
+        order = {s: i for i, s in enumerate(LEAD_STATUS_ORDER)}
+        for lead in sorted(leads, key=lambda x: order.get(x.get("status"), 99)):
+            out.append(
+                "| [{company}]({file}) | {contact} | {conn} | {role} | {status} | {follow} |".format(
+                    company=esc(lead.get("company")),
+                    file=lead["_file"],
+                    contact=esc(lead.get("contact")),
+                    conn=esc(lead.get("connection_type")),
+                    role=esc(lead.get("target_role")),
+                    status=LEAD_STATUS_LABEL.get(lead.get("status"), lead.get("status", "")),
+                    follow=esc(lead.get("follow_up")),
+                )
+            )
+        out.append("")
+
     out.append(END)
     return "\n".join(out)
 
 
 def main():
     apps = load_apps()
-    dashboard = build_dashboard(apps)
+    leads = load_leads()
+    dashboard = build_dashboard(apps, leads)
 
     intro = (
         "# JobList — Job Search Tracker\n\n"
         "My job-application pipeline. Each role lives in "
-        "[`applications/`](applications/) as its own Markdown file "
-        "(structured header + notes). To add one, copy "
-        "[`templates/application.md`](templates/application.md), fill it in, then run:\n\n"
+        "[`applications/`](applications/) as its own Markdown file, and each "
+        "networking lead in [`leads/`](leads/) (people who work at a target "
+        "company or can make a warm intro). To add one, copy the matching "
+        "template from [`templates/`](templates/), fill it in, then run:\n\n"
         "```bash\npython scripts/build_dashboard.py\n```\n\n"
-        "The dashboard below is auto-generated — edit application files, not this block.\n\n"
+        "The dashboard below is auto-generated — edit the files, not this block.\n\n"
     )
 
     if README.exists():
@@ -137,7 +193,10 @@ def main():
         new_text = intro + dashboard + "\n"
 
     README.write_text(new_text, encoding="utf-8")
-    print(f"Dashboard updated: {len(apps)} applications written to {README}")
+    print(
+        f"Dashboard updated: {len(apps)} applications, {len(leads)} leads "
+        f"written to {README}"
+    )
 
 
 if __name__ == "__main__":
