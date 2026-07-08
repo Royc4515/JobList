@@ -79,4 +79,13 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Red Hat](applications/redhat-software-engineering-intern-ecosystem.md) | Software Engineering Intern - Ecosystem Engineering (Special Projects) R-055020 | ❌ Rejected | 2026-05-18 | 2026-05-18 |
 | [Wix](applications/wix-see-email.md) | (ראה מייל לפרטי המשרה) | ❌ Rejected | 2026-05-11 | — |
 
+## Networking leads
+
+**2 leads** — **2** To contact
+
+| Company | Contact | Connection | Target role | Status | Follow-up |
+| --- | --- | --- | --- | --- | --- |
+| [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
+| [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
+
 <!-- DASHBOARD:END -->
