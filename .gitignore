@@ -1,0 +1,23 @@
+# LibreOffice / Excel lock & temp files
+.~lock.*#
+~$*.xlsx
+~$*.docx
+
+# Scratch / conversion artifacts
+*.tmp
+*.bin
+b64.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local data snapshots — source xlsx may contain secrets; keep out of the repo
+archive/
+
+# Editor / tooling
+.config/
+.idea/
+.vscode/
+__pycache__/
+.ruff_cache/
