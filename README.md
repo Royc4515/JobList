@@ -10,12 +10,9 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**26 applications** — **1** Interview · **1** In review · **9** Submitted · **11** Not submitted · **4** Rejected
+**26 applications** — **1** In review · **9** Submitted · **11** Not submitted · **5** Rejected
 
 ## Pipeline
-
-### 💬 Interview (1)
-- [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 
 ### 🔎 In review (1)
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
@@ -44,8 +41,9 @@ The dashboard below is auto-generated — edit application files, not this block
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
 - [SAP — Student DevOps](applications/sap-student-devops.md)
 
-### ❌ Rejected (4)
+### ❌ Rejected (5)
 - [Astera Labs — (ראה מייל לפרטי המשרה)](applications/astera-labs-see-email.md)
+- [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 - [Intel — Wi-Fi Driver Software Developer Student (JR0284349)](applications/intel-wifi-driver-software-developer-student.md)
 - [Red Hat — Software Engineering Intern - Ecosystem Engineering (Special Projects) R-055020](applications/redhat-software-engineering-intern-ecosystem.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
@@ -73,7 +71,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [מערך הדיגיטל הלאומי](applications/national-digital-agency-design-system-student.md) | סטודנט/ית מפתח/ת Design System | 📤 Submitted | 2026-06-24 | — |
 | [Siemens Industry Software Ltd.](applications/siemens-software-engineering-student.md) | Software Engineering Student | 🔎 In review | 2026-06-23 | — |
 | [AI6Labs (Wearable Devices)](applications/ai6labs-ai-engineer-student.md) | AI Engineer Student | 📤 Submitted | 2026-06-21 | — |
-| [Chef.i](applications/chefi-full-stack-developer.md) | Full-Stack Developer (Student/Junior) | 💬 Interview | 2026-06-21 | — |
+| [Chef.i](applications/chefi-full-stack-developer.md) | Full-Stack Developer (Student/Junior) | ❌ Rejected | 2026-06-21 | — |
 | [Astera Labs](applications/astera-labs-see-email.md) | (ראה מייל לפרטי המשרה) | ❌ Rejected | 2026-06-16 | — |
 | [Elbit Systems](applications/elbit-software-developer-student-netanya.md) | Software Developer Student - Netanya (Req 6355) | 📤 Submitted | 2026-06-02 | — |
 | [Intel](applications/intel-wifi-driver-software-developer-student.md) | Wi-Fi Driver Software Developer Student (JR0284349) | ❌ Rejected | 2026-06-02 | — |

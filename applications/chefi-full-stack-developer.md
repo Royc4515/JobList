@@ -1,7 +1,7 @@
 ---
 company: Chef.i
 role: Full-Stack Developer (Student/Junior)
-status: interview
+status: rejected
 applied: 2026-06-21
 location: Tel Aviv
 work_model: Remote
@@ -10,7 +10,7 @@ jd_link:
 cv_version: General
 contact:
 follow_up:
-gmail: יש - artifact submit
+gmail: יש - artifact submit; נדחה 16/07 לאחר מטלת הבית
 ---
 
 ## Stack Required
