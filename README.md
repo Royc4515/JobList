@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**25 applications** — **1** Interview · **1** In review · **8** Submitted · **11** Not submitted · **4** Rejected
+**26 applications** — **1** Interview · **1** In review · **9** Submitted · **11** Not submitted · **4** Rejected
 
 ## Pipeline
 
@@ -20,10 +20,11 @@ The dashboard below is auto-generated — edit application files, not this block
 ### 🔎 In review (1)
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 
-### 📤 Submitted (8)
+### 📤 Submitted (9)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
+- [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
 - [Siemens Industry Software Ltd. — AI Research Student (Job ID 512848)](applications/siemens-ai-research-student-512848.md)
 - [Siemens Industry Software Ltd. — Application Engineering Student (Job ID 512845)](applications/siemens-application-engineering-student-512845.md)
@@ -67,6 +68,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 📤 Submitted | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 📤 Submitted | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Fullpath](applications/fullpath-junior-backend-engineer.md) | Junior Backend Engineer | 📤 Submitted | 2026-07-21 | — |
 | [Qualcomm](applications/qualcomm-intern-fy27-ai-test-automation.md) | Intern FY27 - AI Driven Test Automation Engineer (3092068) | 📤 Submitted | 2026-06-29 | — |
 | [מערך הדיגיטל הלאומי](applications/national-digital-agency-design-system-student.md) | סטודנט/ית מפתח/ת Design System | 📤 Submitted | 2026-06-24 | — |
 | [Siemens Industry Software Ltd.](applications/siemens-software-engineering-student.md) | Software Engineering Student | 🔎 In review | 2026-06-23 | — |
