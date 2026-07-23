@@ -1,16 +1,16 @@
 ---
 company: Siemens Industry Software Ltd.
 role: AI Research Student (Job ID 512848)
-status: submitted
+status: in-review
 applied:
 location: Tel Aviv, Israel (Airport City)
 work_model: Hybrid
 scope: Part-time (hours not stated)
 jd_link: https://jobs.siemens.com/en_US/externaljobs/JobDetail/512848?source=LinkedIn
 cv_version: General (TBD)
-contact:
+contact: talentacquisition.people_organization@siemens.com
 follow_up:
-gmail:
+gmail: In review 2026-07-15 — resumes being reviewed with hiring manager
 ---
 
 ## Stack Required
@@ -29,3 +29,5 @@ MCP, GenAI, AI coding assistants, Python, API integration, prototyping, technolo
 Decided: APPLY - 2nd priority after 512845. Lead with the "I constantly evaluate and integrate AI tooling" angle: custom MCP skill, Claude Code workflows, Aside (6 AI providers, BYOK). English-only, no Hebrew gate.
 
 > Sheet inconsistency: Current Status = "הוגש" (submitted) but Date Applied = "לא הוגש" (not submitted). Set to submitted per the status column — verify whether this was actually sent.
+
+2026-07-15 — Siemens Talent Acquisition confirmed the application is being reviewed with the hiring manager ("Follow your application status, Roy"). Moved submitted → in-review. Application confirmed genuinely sent.
