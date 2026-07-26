@@ -10,9 +10,12 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**28 applications** — **4** In review · **8** Submitted · **11** Not submitted · **5** Rejected
+**28 applications** — **1** Interview · **4** In review · **7** Submitted · **11** Not submitted · **5** Rejected
 
 ## Pipeline
+
+### 💬 Interview (1)
+- [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 
 ### 🔎 In review (4)
 - [Siemens Industry Software Ltd. — AI Research Student (Job ID 512848)](applications/siemens-ai-research-student-512848.md)
@@ -20,9 +23,8 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (8)
+### 📤 Submitted (7)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
-- [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
@@ -68,7 +70,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
-| [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | 📤 Submitted | 2026-07-23 | 2026-08-06 |
+| [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | 💬 Interview | 2026-07-23 | 2026-07-31 |
 | [Texas Instruments](applications/ti-wifi-software-development-intern.md) | WiFi Software Development Intern (25007138) | 🔎 In review | 2026-07-23 | — |
 | [Fullpath](applications/fullpath-junior-backend-engineer.md) | Junior Backend Engineer | 📤 Submitted | 2026-07-21 | — |
 | [Qualcomm](applications/qualcomm-intern-fy27-ai-test-automation.md) | Intern FY27 - AI Driven Test Automation Engineer (3092068) | 📤 Submitted | 2026-06-29 | — |
