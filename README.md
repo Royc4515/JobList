@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**28 applications** — **1** Interview · **4** In review · **7** Submitted · **11** Not submitted · **5** Rejected
+**28 applications** — **1** Interview · **4** In review · **9** Submitted · **9** Not submitted · **5** Rejected
 
 ## Pipeline
 
@@ -23,8 +23,10 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (7)
+### 📤 Submitted (9)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
+- [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
+- [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
@@ -32,9 +34,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (11)
-- [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
-- [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
+### 📝 Not submitted (9)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
@@ -56,8 +56,6 @@ The dashboard below is auto-generated — edit application files, not this block
 
 | Company | Role | Status | Applied | Follow-up |
 | --- | --- | --- | --- | --- |
-| [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📝 Not submitted | — | — |
-| [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
@@ -70,6 +68,8 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📤 Submitted | 2026-07-31 | 2026-08-14 |
+| [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | 💬 Interview | 2026-07-23 | 2026-07-31 |
 | [Texas Instruments](applications/ti-wifi-software-development-intern.md) | WiFi Software Development Intern (25007138) | 🔎 In review | 2026-07-23 | — |
 | [Fullpath](applications/fullpath-junior-backend-engineer.md) | Junior Backend Engineer | 📤 Submitted | 2026-07-21 | — |
