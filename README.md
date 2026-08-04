@@ -10,12 +10,9 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**29 applications** — **1** Interview · **4** In review · **10** Submitted · **9** Not submitted · **5** Rejected
+**29 applications** — **4** In review · **10** Submitted · **9** Not submitted · **6** Rejected
 
 ## Pipeline
-
-### 💬 Interview (1)
-- [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 
 ### 🔎 In review (4)
 - [Siemens Industry Software Ltd. — AI Research Student (Job ID 512848)](applications/siemens-ai-research-student-512848.md)
@@ -46,7 +43,8 @@ The dashboard below is auto-generated — edit application files, not this block
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
 - [SAP — Student DevOps](applications/sap-student-devops.md)
 
-### ❌ Rejected (5)
+### ❌ Rejected (6)
+- [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 - [Astera Labs — (ראה מייל לפרטי המשרה)](applications/astera-labs-see-email.md)
 - [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 - [Intel — Wi-Fi Driver Software Developer Student (JR0284349)](applications/intel-wifi-driver-software-developer-student.md)
@@ -72,7 +70,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-02 | 2026-08-16 |
 | [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📤 Submitted | 2026-07-31 | 2026-08-14 |
-| [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | 💬 Interview | 2026-07-23 | 2026-07-31 |
+| [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | ❌ Rejected | 2026-07-23 | — |
 | [Texas Instruments](applications/ti-wifi-software-development-intern.md) | WiFi Software Development Intern (25007138) | 🔎 In review | 2026-07-23 | — |
 | [Fullpath](applications/fullpath-junior-backend-engineer.md) | Junior Backend Engineer | 📤 Submitted | 2026-07-21 | — |
 | [Qualcomm](applications/qualcomm-intern-fy27-ai-test-automation.md) | Intern FY27 - AI Driven Test Automation Engineer (3092068) | 📤 Submitted | 2026-06-29 | — |
