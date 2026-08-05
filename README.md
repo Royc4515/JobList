@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**26 applications** — **1** In review · **9** Submitted · **11** Not submitted · **5** Rejected
+**27 applications** — **1** In review · **9** Submitted · **12** Not submitted · **5** Rejected
 
 ## Pipeline
 
@@ -28,9 +28,10 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (11)
+### 📝 Not submitted (12)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
+- [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
@@ -54,6 +55,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | --- | --- | --- | --- | --- |
 | [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📝 Not submitted | — | — |
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📝 Not submitted | — | — |
+| [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
