@@ -8,7 +8,7 @@ work_model: On-site
 scope: Student, 2nd/3rd year
 jd_link: https://jobs.eu.lever.co/mobileye/ac6d034c-4b34-491b-8f19-ba27ab6b9ff2
 cv_version:
-contact:
+contact: Afik (referral inquiry - 05/08)
 follow_up:
 gmail:
 ---
