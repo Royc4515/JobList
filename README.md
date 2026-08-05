@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**29 applications** — **1** In review · **10** Submitted · **13** Not submitted · **5** Rejected
+**30 applications** — **1** In review · **10** Submitted · **14** Not submitted · **5** Rejected
 
 ## Pipeline
 
@@ -29,7 +29,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (13)
+### 📝 Not submitted (14)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
@@ -37,6 +37,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
+- [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
 - [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md)
@@ -62,6 +63,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | — | — |
+| [Mobileye](applications/mobileye-python-developer-student-jerusalem.md) | Python Developer - Student Position (Road algorithm team) | 📝 Not submitted | — | — |
 | [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 📝 Not submitted | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 📝 Not submitted | — | — |
 | [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | — | — |
