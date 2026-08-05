@@ -8,7 +8,7 @@ work_model:
 scope: Part-time, 24 hours/week
 jd_link: https://motorolasolutions.wd5.myworkdayjobs.com/en-US/Careers/job/Student--SW-Enginner_R66325
 cv_version:
-contact:
+contact: Afik (referral inquiry - 05/08)
 follow_up:
 gmail:
 ---

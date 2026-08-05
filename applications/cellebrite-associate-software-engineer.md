@@ -8,7 +8,7 @@ work_model: On-site
 scope: Full-time, entry-level (0-2 yrs)
 jd_link: https://cellebrite.com/en/about/careers/positions/?comeet_cat=israel-tlv&comeet_pos=50.F69&comeet_all=all
 cv_version:
-contact:
+contact: Afik (referral inquiry - 05/08)
 follow_up:
 gmail:
 ---

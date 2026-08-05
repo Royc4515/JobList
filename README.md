@@ -85,10 +85,12 @@ The dashboard below is auto-generated — edit application files, not this block
 
 ## Networking leads
 
-**2 leads** — **2** To contact
+**4 leads** — **2** Contacted · **2** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
+| [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 
