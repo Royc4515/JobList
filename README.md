@@ -10,17 +10,18 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**33 applications** — **1** In review · **11** Submitted · **16** Not submitted · **5** Rejected
+**32 applications** — **1** In review · **12** Submitted · **14** Not submitted · **5** Rejected
 
 ## Pipeline
 
 ### 🔎 In review (1)
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 
-### 📤 Submitted (11)
+### 📤 Submitted (12)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
+- [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
 - [Mobileye — Operating System Architecture Student](applications/mobileye-os-architecture-student-haifa.md)
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
@@ -30,13 +31,11 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (16)
+### 📝 Not submitted (14)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
-- [Elbit Systems — Real-Time Software Engineer (Req 6799)](applications/elbit-realtime-software-engineer-ramat-hasharon.md)
-- [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
@@ -63,8 +62,6 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📝 Not submitted | — | — |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
-| [Elbit Systems](applications/elbit-realtime-software-engineer-ramat-hasharon.md) | Real-Time Software Engineer (Req 6799) | 📝 Not submitted | — | — |
-| [Elbit Systems](applications/elbit-software-engineering-student-modiin.md) | Software Engineering Student - Modi'in (Req 6610) | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | — | — |
@@ -78,6 +75,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 📤 Submitted | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 📤 Submitted | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Elbit Systems](applications/elbit-software-engineering-student-modiin.md) | Software Engineering Student - Modi'in (Req 6610) | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-software-engineer-student.md) | Software Engineer Student Position | 📤 Submitted | 2026-08-05 | — |
 | [Fullpath](applications/fullpath-junior-backend-engineer.md) | Junior Backend Engineer | 📤 Submitted | 2026-07-21 | — |
