@@ -6,7 +6,7 @@ applied:
 location: Jerusalem
 work_model:
 scope: Student (B.Sc/M.Sc)
-jd_link: https://careers.mobileye.com/jobs/student-algorithm-developer-driving-semantics/ac2524f9-98c4-486a-8676-43d3a802db1b
+jd_link: https://careers.mobileye.com/jobs
 cv_version:
 contact:
 follow_up:
@@ -26,5 +26,5 @@ Exact posting to confirm - SecretHunter alert title ("Algorithm Developer Studen
 C++, Python, algorithms, computer vision, machine learning, driver assistance, ADAS.
 
 ## Notes
-Surfaced via SecretHunter alert 2026-08-09 (Mobileye, Jerusalem, Student). jd_link points to the best-matching live posting. Full Mobileye student board: https://careers.mobileye.com/jobs (filter Jerusalem / Student). Not yet applied.
+Surfaced via SecretHunter alert 2026-08-09 (Mobileye, Jerusalem, Student). 2026-08-09: checked Mobileye's live Lever board - no open "Algorithm Developer Student" posting found (the alert link 404s), so it appears CLOSED. Kept as a watch item; jd_link points to the Mobileye careers search - confirm a live posting before applying. Not applied.
 </content>
