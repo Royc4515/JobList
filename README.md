@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**29 applications** — **4** In review · **10** Submitted · **9** Not submitted · **6** Rejected
+**37 applications** — **4** In review · **13** Submitted · **14** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -20,23 +20,31 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (10)
+### 📤 Submitted (13)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
+- [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
+- [Mobileye — Operating System Architecture Student](applications/mobileye-os-architecture-student-haifa.md)
+- [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [NiCE — DevOps Student (Associate DevOps Engineer, CSA team)](applications/nice-devops-student.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (9)
+### 📝 Not submitted (14)
+- [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
+- [Mobileye — Algorithm Developer Student](applications/mobileye-algorithm-developer-student.md)
+- [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
+- [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
+- [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md)
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md)
@@ -55,10 +63,15 @@ The dashboard below is auto-generated — edit application files, not this block
 
 | Company | Role | Status | Applied | Follow-up |
 | --- | --- | --- | --- | --- |
+| [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | — | — |
+| [Mobileye](applications/mobileye-algorithm-developer-student.md) | Algorithm Developer Student | 📝 Not submitted | — | — |
+| [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | — | — |
+| [Mobileye](applications/mobileye-python-developer-student-jerusalem.md) | Python Developer - Student Position (Road algorithm team) | 📝 Not submitted | — | — |
+| [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 📝 Not submitted | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 📝 Not submitted | — | — |
 | [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | — | — |
 | [SAP](applications/sap-software-engineering-intern-unified-gateway.md) | Software Engineering Intern - Unified Gateway | 📝 Not submitted | — | TBD |
@@ -67,6 +80,9 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Elbit Systems](applications/elbit-software-engineering-student-modiin.md) | Software Engineering Student - Modi'in (Req 6610) | 📤 Submitted | 2026-08-09 | — |
+| [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
+| [Mobileye](applications/mobileye-software-engineer-student.md) | Software Engineer Student Position | 📤 Submitted | 2026-08-05 | — |
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-02 | 2026-08-16 |
 | [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📤 Submitted | 2026-07-31 | 2026-08-14 |
@@ -87,11 +103,14 @@ The dashboard below is auto-generated — edit application files, not this block
 
 ## Networking leads
 
-**3 leads** — **1** Referred · **2** To contact
+**6 leads** — **1** Referred · **3** Contacted · **2** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
+| [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
+| [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
+| [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 
