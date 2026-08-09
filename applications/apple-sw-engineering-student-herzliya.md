@@ -1,16 +1,16 @@
 ---
 company: Apple
 role: SW Engineering Student (Herzliya)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-07-31
 location: הרצליה
 work_model: On-site / Hybrid
 scope: משרת סטודנט (2-3 ימים בשבוע)
-jd_link: לינק למשרה
+jd_link: https://jobs.apple.com/en-us/details/200573350/SW-Engineering-Student-(Herzliya)
 cv_version: גרסת Low-Level / Systems
-contact: Cold Apply
-follow_up:
-gmail: אין מייל גיוס (חשבון בלבד)
+contact: Apple Recruiting — referral via Dolev Orgad
+follow_up: 2026-08-14
+gmail: Submitted 2026-07-31 — Apple confirmed resume received (req 200573350); awaiting recruiter screen
 ---
 
 ## Stack Required
@@ -27,3 +27,7 @@ C, C++, x86-64 Assembly, Systems Programming, Data Structures (93), Memory Manag
 
 ## Notes
 אותו היגיון כמו Intel Wi-Fi Driver שהוגש 02/06, אבל הימור עדיף - מותג חזק + שיוך בין צוותים. למנף ציון 93 במבני נתונים ורקע פיקוד באוגדת עזה. חובה לצרף גיליון ציונים באנגלית.
+
+2026-07-23 — Apple Recruiting email (2026-07-21): "As you may have heard, Dolev Orgad referred you to us... claim your profile and consent... The next step is to apply for roles." Referral req: SW Engineering Student (Herzliya) 200573350. Status stays not-submitted — Roy must claim the profile (unique link, 90-day window) and submit before this becomes an active application. Networking lead tracked in leads/apple-dolev-orgad-referral.md. Auto-updated from Gmail by the daily JobList sweep.
+
+2026-07-31 — Apple Worldwide Recruiting: "We just received your resume for the following role: SW Engineering Student (Herzliya) 200573350." Application now submitted (req matches). Next: "If you're a potential match for the role, you'll hear from one of our recruiters." Follow-up set 2026-08-14. Auto-updated from Gmail by the daily JobList sweep.
