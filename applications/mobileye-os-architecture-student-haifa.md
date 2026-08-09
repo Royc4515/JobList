@@ -1,16 +1,16 @@
 ---
 company: Mobileye
 role: Operating System Architecture Student
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-08-09
 location: Haifa
 work_model: On-site
 scope: Student, at least 3 semesters until graduation
 jd_link: https://jobs.eu.lever.co/mobileye/c5778c26-e0a3-43ab-8c10-33afe4793a3f
-cv_version:
+cv_version: Roy_Carmelli_CV_JUL2026
 contact:
 follow_up:
-gmail:
+gmail: יש - אישור הגשה (Mobileye/Lever 09/08)
 ---
 
 ## Stack Required
