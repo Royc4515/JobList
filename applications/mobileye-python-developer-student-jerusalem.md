@@ -1,16 +1,16 @@
 ---
 company: Mobileye
 role: Python Developer - Student Position (Road algorithm team)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-08-09
 location: Jerusalem
 work_model: On-site
 scope: Student, 2nd/3rd year
 jd_link: https://jobs.eu.lever.co/mobileye/ac6d034c-4b34-491b-8f19-ba27ab6b9ff2
 cv_version:
-contact: Afik (referral inquiry - 05/08)
+contact: Afik (can still vouch - applied directly)
 follow_up:
-gmail:
+gmail: הוגש ישירות דרך Lever 09/08 (לפי דיווח; ללא אישור במייל עדיין)
 ---
 
 ## Stack Required
