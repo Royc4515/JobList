@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**37 applications** — **4** In review · **15** Submitted · **12** Not submitted · **6** Rejected
+**38 applications** — **4** In review · **16** Submitted · **12** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -20,7 +20,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (15)
+### 📤 Submitted (16)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -28,6 +28,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
+- [Intel — AI Product Analyst Student - AI Solutions Group (JR0284923)](applications/intel-ai-product-analyst-student.md)
 - [Mobileye — Algorithm Developer Student](applications/mobileye-algorithm-developer-student.md)
 - [Mobileye — Operating System Architecture Student](applications/mobileye-os-architecture-student-haifa.md)
 - [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
@@ -78,6 +79,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin.md) | Software Engineering Student - Modi'in (Req 6610) | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-algorithm-developer-student.md) | Algorithm Developer Student | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
