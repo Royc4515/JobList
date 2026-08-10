@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**38 applications** — **4** In review · **16** Submitted · **12** Not submitted · **6** Rejected
+**39 applications** — **4** In review · **17** Submitted · **12** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -20,7 +20,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (16)
+### 📤 Submitted (17)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -35,6 +35,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [NiCE — DevOps Student (Associate DevOps Engineer, CSA team)](applications/nice-devops-student.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
+- [SentinelOne — Software Engineer Intern (Backend)](applications/sentinelone-software-engineer-intern.md)
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
@@ -80,6 +81,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
+| [SentinelOne](applications/sentinelone-software-engineer-intern.md) | Software Engineer Intern (Backend) | 📤 Submitted | 2026-08-10 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin.md) | Software Engineering Student - Modi'in (Req 6610) | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-algorithm-developer-student.md) | Algorithm Developer Student | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
