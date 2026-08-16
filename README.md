@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**41 applications** — **4** In review · **18** Submitted · **13** Not submitted · **6** Rejected
+**42 applications** — **4** In review · **19** Submitted · **13** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -20,7 +20,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (18)
+### 📤 Submitted (19)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -32,6 +32,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Mobileye — Algorithm Developer Student](applications/mobileye-algorithm-developer-student.md)
 - [Mobileye — Operating System Architecture Student](applications/mobileye-os-architecture-student-haifa.md)
 - [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
+- [Mobileye — Software CI and Automation Student (EPG CI team)](applications/mobileye-software-ci-automation-student.md)
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [NiCE — DevOps Student (Associate DevOps Engineer, CSA team)](applications/nice-devops-student.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
@@ -83,6 +84,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Mobileye](applications/mobileye-software-ci-automation-student.md) | Software CI and Automation Student (EPG CI team) | 📤 Submitted | 2026-08-16 | — |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-macos-software-engineering-intern.md) | macOS Software Engineering Intern | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-software-engineer-intern.md) | Software Engineer Intern (Backend) | 📤 Submitted | 2026-08-10 | — |
@@ -111,7 +113,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 ## Networking leads
 
-**6 leads** — **1** Referred · **3** Contacted · **2** To contact
+**7 leads** — **1** Referred · **3** Contacted · **3** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -119,6 +121,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
+| [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 
