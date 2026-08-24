@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**42 applications** — **4** In review · **19** Submitted · **13** Not submitted · **6** Rejected
+**43 applications** — **4** In review · **19** Submitted · **14** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -41,8 +41,9 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (13)
+### 📝 Not submitted (14)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
+- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
@@ -69,6 +70,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | Company | Role | Status | Applied | Follow-up |
 | --- | --- | --- | --- | --- |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | — | — |
+| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | 📝 Not submitted | — | — |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
