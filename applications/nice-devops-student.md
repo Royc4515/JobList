@@ -2,15 +2,15 @@
 company: NiCE
 role: DevOps Student (Associate DevOps Engineer, CSA team)
 status: submitted
-applied: 2026-08-02
+applied: 2026-08-24
 location: רעננה
 work_model: Hybrid
 scope: 100 שעות / 2.5 ימים בשבוע (NiCE-FLEX: יומיים משרד, 3 מהבית)
-jd_link: https://www.nice.com/careers/apply?gh_src=cw1f1712teu
-cv_version:
+jd_link: https://boards.eu.greenhouse.io/nice/jobs/4850412101
+cv_version: Roy_Carmelli_CV_Aug2026
 contact:
-follow_up: 2026-08-16
-gmail: Submitted 2026-08-02 — applied via NiCE careers site (req 10738); awaiting confirmation email
+follow_up: 2026-09-07
+gmail: הוגש 24/08 דרך אתר NiCE (Greenhouse, req 10738); כלל תשובת AI-experience + גיליון ציונים. (ניסיון קודם ב-02/08 לא אושר במייל.)
 ---
 
 ## Stack Required
@@ -27,3 +27,5 @@ Python, CI/CD, AWS, Docker, REST APIs, AI/LLM concepts, Self-learner, English co
 
 ## Notes
 2026-08-02 — Roy reported: applied via the NiCE careers site just now (req 10738, DevOps Student, Raanana). Role: Associate DevOps Engineer on the CSA team — CI/CD pipelines, AWS/Azure cloud management, and GenAI/LLM infrastructure automation. NiCE-FLEX hybrid (2 office / 3 remote), 100h ≈ 2.5 days/week. Application form required grade transcript + AI-experience free-text; requires ≥4 semesters until graduation. No confirmation email yet — follow-up set 2026-08-16 to check for recruiter contact. Logged from Roy's chat message by the JobList sweep.
+
+2026-08-24 — Roy completed and submitted the application via the NiCE careers site (Greenhouse). Included a free-text answer to "hands-on experience with AI tools/agents" (Claude Code daily use + MCP, the Aside 6-provider extension, and the Wine Sommelier Telegram agent) plus the grade transcript. Treating 2026-08-24 as the real submission date; the 2026-08-02 attempt never produced a confirmation. Follow-up reset to 2026-09-07.

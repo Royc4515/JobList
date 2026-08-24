@@ -87,6 +87,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | 2026-08-24 | — |
+| [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-24 | 2026-09-07 |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-macos-software-engineering-intern.md) | macOS Software Engineering Intern | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-software-engineer-intern.md) | Software Engineer Intern (Backend) | 📤 Submitted | 2026-08-10 | — |
@@ -95,7 +96,6 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-python-developer-student-jerusalem.md) | Python Developer - Student Position (Road algorithm team) | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-software-engineer-student.md) | Software Engineer Student Position | 📤 Submitted | 2026-08-05 | — |
-| [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-02 | 2026-08-16 |
 | [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | ❌ Rejected | 2026-07-23 | — |
