@@ -1,8 +1,8 @@
 ---
 company: Check Point
 role: Software Developer - Student Position (AI POCs team)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-08-24
 location: Tel Aviv
 work_model:
 scope: Part-time, student (B.Sc. CS)
@@ -10,7 +10,7 @@ jd_link: https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
-gmail:
+gmail: הוגש 24/08 דרך SmartRecruiters; כלל "message to hiring team" שהדגיש את פרויקטי ה-AI (Aside, בוט היין)
 ---
 
 ## Stack Required
