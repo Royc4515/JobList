@@ -1,8 +1,8 @@
 ---
 company: Elbit Systems
 role: Software Engineering Student - Modi'in (Req 6608)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-08-24
 location: Modi'in
 work_model:
 scope: At least 2 days/week
@@ -10,7 +10,7 @@ jd_link: https://elbitsystemscareer.com/job/?jid=20459&src=LinkedIn
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
-gmail:
+gmail: הוגש 24/08 (לפי דיווח - אלביט לרוב לא שולחת אישור אוטומטי)
 ---
 
 ## Stack Required
