@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**42 applications** — **4** In review · **19** Submitted · **13** Not submitted · **6** Rejected
+**45 applications** — **4** In review · **21** Submitted · **14** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -20,12 +20,14 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 
-### 📤 Submitted (19)
+### 📤 Submitted (21)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
+- [Check Point — Software Developer - Student Position (AI POCs team)](applications/checkpoint-software-developer-student-ai-pocs.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
+- [Elbit Systems — Software Engineering Student - Modi'in (Req 6608)](applications/elbit-software-engineering-student-modiin-6608.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
 - [Intel — AI Product Analyst Student - AI Solutions Group (JR0284923)](applications/intel-ai-product-analyst-student.md)
@@ -41,8 +43,9 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (13)
+### 📝 Not submitted (14)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
+- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
@@ -69,6 +72,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | Company | Role | Status | Applied | Follow-up |
 | --- | --- | --- | --- | --- |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | — | — |
+| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | 📝 Not submitted | — | — |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
@@ -84,6 +88,9 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — |
+| [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | 📤 Submitted | 2026-08-24 | — |
+| [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | 2026-08-24 | — |
+| [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-24 | 2026-09-07 |
 | [Mobileye](applications/mobileye-software-ci-automation-student.md) | Software CI and Automation Student (EPG CI team) | 📤 Submitted | 2026-08-16 | — |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-macos-software-engineering-intern.md) | macOS Software Engineering Intern | 📤 Submitted | 2026-08-10 | — |
@@ -93,7 +100,6 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Mobileye](applications/mobileye-os-architecture-student-haifa.md) | Operating System Architecture Student | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-python-developer-student-jerusalem.md) | Python Developer - Student Position (Road algorithm team) | 📤 Submitted | 2026-08-09 | — |
 | [Mobileye](applications/mobileye-software-engineer-student.md) | Software Engineer Student Position | 📤 Submitted | 2026-08-05 | — |
-| [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-02 | 2026-08-16 |
 | [Apple](applications/apple-sw-engineering-student-herzliya.md) | SW Engineering Student (Herzliya) | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Apple](applications/apple-sw-engineering-student-jerusalem.md) | SW Engineering Student | 📤 Submitted | 2026-07-31 | 2026-08-14 |
 | [Amazon](applications/amazon-software-dev-engineer-intern-haifa.md) | 2026 Software Dev Engineer Intern - Haifa, Israel (3147202) | ❌ Rejected | 2026-07-23 | — |
