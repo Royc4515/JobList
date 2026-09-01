@@ -34,6 +34,7 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Mobileye — Algorithm Developer Student](applications/mobileye-algorithm-developer-student.md)
 - [Mobileye — Operating System Architecture Student](applications/mobileye-os-architecture-student-haifa.md)
 - [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
+- [Mobileye — Software CI and Automation Student (EPG CI team)](applications/mobileye-software-ci-automation-student.md)
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [NiCE — DevOps Student (Associate DevOps Engineer, CSA team)](applications/nice-devops-student.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
@@ -92,6 +93,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | 📤 Submitted | 2026-08-24 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | 2026-08-24 | — |
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | 2026-08-24 | 2026-09-07 |
+| [Mobileye](applications/mobileye-software-ci-automation-student.md) | Software CI and Automation Student (EPG CI team) | 📤 Submitted | 2026-08-16 | — |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-macos-software-engineering-intern.md) | macOS Software Engineering Intern | 📤 Submitted | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-software-engineer-intern.md) | Software Engineer Intern (Backend) | 📤 Submitted | 2026-08-10 | — |
@@ -119,7 +121,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 ## Networking leads
 
-**6 leads** — **1** Referred · **3** Contacted · **2** To contact
+**7 leads** — **1** Referred · **3** Contacted · **3** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +129,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
+| [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 
