@@ -127,7 +127,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 ## Networking leads
 
-**7 leads** — **1** Referred · **3** Contacted · **3** To contact
+**8 leads** — **1** Referred · **3** Contacted · **4** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -135,6 +135,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
+| [NiCE / Altera](leads/altera-ex-nice-family-friend.md) | — | inside | Student Developer - via NiCE referral and Kravi Tech mentorship | 🔵 To contact | 2026-09-29 |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
