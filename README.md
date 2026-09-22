@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**48 applications** — **4** In review · **23** Submitted · **15** Not submitted · **6** Rejected
+**49 applications** — **4** In review · **23** Submitted · **16** Not submitted · **6** Rejected
 
 ## Pipeline
 
@@ -45,12 +45,13 @@ The dashboard below is auto-generated — edit application files, not this block
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (15)
+### 📝 Not submitted (16)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md)
+- [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
@@ -79,6 +80,7 @@ The dashboard below is auto-generated — edit application files, not this block
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | — | — |
 | [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 📝 Not submitted | — | — |
+| [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📝 Not submitted | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | — | — |
