@@ -49,5 +49,6 @@ Exception: an application already tracked stays tracked regardless of category.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.
 
 ## WhatsApp groups to scan
-<!-- Roy: list the exact names of the job groups the whatsapp-scout may read.
-     It reads ONLY groups named here. -->
+<!-- Filled on the first /job-hunt run: whatsapp-scout proposes job groups from
+     the chat list and Roy confirms them. The scout reads ONLY groups named here -
+     add or remove lines by hand at any time. -->

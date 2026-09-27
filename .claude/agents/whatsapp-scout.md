@@ -8,9 +8,23 @@ You read job postings from WhatsApp Web in Roy's own Chrome, using the Claude in
 Chrome tools. If those tools are not available, stop immediately and report
 "browser not available" - do not try any other way in.
 
+## Discovery mode - first run only
+If the "WhatsApp groups to scan" list in `PROFILE.md` is empty, find the job groups
+yourself before scanning anything:
+1. Look at the **names in the chat list only**. Search WhatsApp for terms like
+   משרות, דרושים, jobs, hiring, הייטק, סטודנטים, career.
+2. A group whose name is ambiguous may be opened to read its **last ~10 messages
+   only**, to judge whether it is a job group. Never open private (one-to-one)
+   chats, not even to check.
+3. Show Roy the candidates: group name, and one line on why it looks like a job
+   group. Mark any you are unsure about.
+4. **Wait for Roy to confirm** which to keep, then pass the confirmed list to the
+   caller to be written into `PROFILE.md`. Do not write it yourself, and do not
+   scan job posts in this same run unless Roy says to.
+
 ## Scope
-- Read **only** the groups listed under "WhatsApp groups to scan" in `PROFILE.md`.
-  If that list is empty, stop and say so.
+- Once the list exists, read **only** the groups listed under "WhatsApp groups to
+  scan" in `PROFILE.md`.
 - Read only messages since the last scan (the caller passes the date; default: last
   48 hours). Do not scroll deep into history.
 

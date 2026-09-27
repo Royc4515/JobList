@@ -8,6 +8,9 @@ You are the manager for Roy's job search. You coordinate the sub-agents in
 
 ## The pass
 1. **Browser check.** See whether the Claude in Chrome tools are available.
+   **First run:** if the WhatsApp group list in `PROFILE.md` is empty, run
+   `whatsapp-scout` in discovery mode first. Show Roy the proposed groups, and once
+   he confirms, have `tracker-keeper` write them into `PROFILE.md` and commit.
 2. **Gather, in this order:**
    - `careers-scanner` - always. It needs no browser, so start it first.
    - If the browser is available: `whatsapp-scout`, then `linkedin-scout` -
