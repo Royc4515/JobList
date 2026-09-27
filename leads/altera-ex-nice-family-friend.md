@@ -35,5 +35,8 @@ Israeli nonprofit (ע"ר 580799492) integrating combat soldiers into hi-tech thr
 - One ask per message. Do not stack all three into the opener.
 - Do not send the CV unprompted in the first message - offer it, let him ask.
 
+### Update 2026-09-27 - NiCE req 10738 is closed
+The DevOps Student posting is no longer live (the link redirects to NiCE's general careers page), and a scan of NiCE's public Greenhouse board found no open software student roles - only an Employer Branding Student. So the NiCE ask changes shape: not "can you push req 10738", but "do you know what happened with it, and does NiCE have student dev roles coming that are not posted yet". Kravi Tech moves up to the most concrete ask.
+
 ### Conversation log
 <!-- add dates and outcomes here as the conversation progresses -->
