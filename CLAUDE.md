@@ -41,3 +41,14 @@ straight to `main`. It clones/pushes `Royc4515/JobList` (exact casing matters -
 the git proxy allowlist is case-sensitive). If it fails to push, check the repo
 name casing in the Routine prompt first.
 </content>
+
+## Local agents (run on Roy's computer)
+`.claude/commands/job-hunt.md` is the manager: one full search pass. It delegates to
+the sub-agents in `.claude/agents/` - careers-scanner, whatsapp-scout, linkedin-scout,
+fit-reviewer, and tracker-keeper (the only one that writes to the repo). All of them
+read `PROFILE.md` for Roy's targets and hard gates. The two browser scouts need the
+Claude in Chrome extension and are strictly read-only.
+
+Run once with `/job-hunt`, or on a schedule with `/loop 6h /job-hunt`. A local
+session only runs while the computer is on and the session is open; anything that
+must run unattended belongs in a cloud Routine instead.
