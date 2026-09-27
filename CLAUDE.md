@@ -41,3 +41,16 @@ straight to `main`. It clones/pushes `Royc4515/JobList` (exact casing matters -
 the git proxy allowlist is case-sensitive). If it fails to push, check the repo
 name casing in the Routine prompt first.
 </content>
+
+## Local agents (run on Roy's computer)
+`.claude/commands/job-hunt.md` is the manager: one full search pass. It delegates to
+the sub-agents in `.claude/agents/` - careers-scanner, whatsapp-scout, linkedin-scout,
+fit-reviewer, and tracker-keeper (the only one that writes to the repo). All of them
+read `PROFILE.md` for Roy's targets and hard gates. The two browser scouts need the
+Claude in Chrome extension and are strictly read-only.
+
+Run once with `/job-hunt`. To run it on a schedule on Roy's computer, create a
+**local Routine** in the Desktop app (Code tab -> Routines -> New routine -> Local):
+it needs the app running and the computer awake, but no open session. Anything that
+must run while the computer is off belongs in a cloud Routine instead - the browser
+scouts cannot run there.

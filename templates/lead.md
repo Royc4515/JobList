@@ -3,7 +3,7 @@ company:
 target_role:                 # role this lead could help with (optional)
 contact:                     # person's name
 relationship:                # how you know them (friend, ex-colleague, community, alumni...)
-connection_type: inside      # inside | knows-someone | alumni | recruiter | event
+connection_type: inside      # inside | knows-someone | alumni | recruiter | event | cold
 warmth: warm                 # cold | warm | hot
 status: to-contact           # to-contact | contacted | intro-requested | referred | responded | dead
 follow_up:                   # ISO date to follow up

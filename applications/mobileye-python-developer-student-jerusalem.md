@@ -28,3 +28,5 @@ Python, Pandas, NumPy, ETL, big data, data pipelines, cloud, validation automati
 ## Notes
 Road algorithm team - drivable lane detection (DL + classical CV + geometric modeling). Data-tooling / ETL focus rather than modeling. Want to apply - to submit via Lever link. Second Mobileye role alongside the Software Engineer Student position (Ramat Gan, already submitted).
 </content>
+
+2026-09-27 - Posting no longer live (checked directly). This means the req is closed to new applicants - it does not by itself mean the application was rejected, so status stays as-is until an email says otherwise.
