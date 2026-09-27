@@ -49,6 +49,8 @@ fit-reviewer, and tracker-keeper (the only one that writes to the repo). All of 
 read `PROFILE.md` for Roy's targets and hard gates. The two browser scouts need the
 Claude in Chrome extension and are strictly read-only.
 
-Run once with `/job-hunt`, or on a schedule with `/loop 6h /job-hunt`. A local
-session only runs while the computer is on and the session is open; anything that
-must run unattended belongs in a cloud Routine instead.
+Run once with `/job-hunt`. To run it on a schedule on Roy's computer, create a
+**local Routine** in the Desktop app (Code tab -> Routines -> New routine -> Local):
+it needs the app running and the computer awake, but no open session. Anything that
+must run while the computer is off belongs in a cloud Routine instead - the browser
+scouts cannot run there.
