@@ -50,5 +50,13 @@ Exception: an application already tracked stays tracked regardless of category.
 
 ## WhatsApp groups to scan
 <!-- Filled on the first /job-hunt run: whatsapp-scout proposes job groups from
-     the chat list and Roy confirms them. The scout reads ONLY groups named here -
-     add or remove lines by hand at any time. -->
+     the chat list and Roy confirms them. The scout reads ONLY sources listed here -
+     add or remove lines by hand at any time. Confirmed by Roy 2026-09-27. WhatsApp
+     Channels count when listed. -->
+- `משרות סטודנטים, ג'וניורים וMid` - group
+- `משרות סטודנטים - מדעי המחשב` - group
+- `מודעות שוות בין בוגרי גונדה` - WhatsApp Channel (broadcast)
+- `Referally Student` - every chat with this exact display name (it appears under
+  several numbers); student/junior referral postings
+
+Declined 2026-09-27: `בוגרים וסטודנטים מרכז גונדה` (channel, looked inactive).
