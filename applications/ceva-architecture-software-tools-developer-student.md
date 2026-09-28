@@ -1,8 +1,8 @@
 ---
 company: Ceva
 role: Architecture Software Tools Developer Student
-status: dropped
-applied:
+status: rejected
+applied: 2026-08-24
 location: Ra'anana
 work_model:
 scope: 20-25 hrs/week (flex during exams; more on breaks); 2nd/3rd year, 3+ semesters to graduation
@@ -10,7 +10,7 @@ jd_link: https://www.ceva-ip.com/career/position/ED.F64/
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
-gmail:
+gmail: הוגש 24/08 (We Got It); 28/09 המשרה נסגרה
 fit_role: 8
 fit_stack: 6
 fit_gates: 0
@@ -34,4 +34,4 @@ Python, debugging, tooling, neural networks, deep learning, CNNs, Transformers, 
 Architecture Unit - small senior team defining Ceva's DSP processors and AI accelerators. Python-tooling heavy (70%) plus NN modeling/analysis. Strong fit for Roy's Python + CS & Neuroscience + math profile. Option to do the final academic project there. Not yet applied - needs grade sheet attached.
 </content>
 
-2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.
+2026-09-28 - Correction: this was applied on 2026-08-24 (Comeet confirmation); the daily sweep missed it because it could not push. On 2026-09-28 Ceva wrote the position is no longer open, so status is rejected, not dropped.
