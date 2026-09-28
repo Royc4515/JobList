@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**49 applications** — **4** In review · **23** Submitted · **11** Not submitted · **7** Rejected · **4** Dropped
+**50 applications** — **4** In review · **23** Submitted · **12** Not submitted · **7** Rejected · **4** Dropped
 
 ## Next to submit
 
@@ -27,6 +27,9 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 9. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
 10. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
 11. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+
+**Gated out (1)** - a hard gate failed; close or drop:
+- [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md) · role 6 · stack 7 · gates 0 · path 5 — GATED: requires at least 2 years until graduation, Roy has about 1; GPA 85 minimum (85.09) is borderline
 
 ## Pipeline
 
@@ -61,8 +64,9 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (11)
+### 📝 Not submitted (12)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
+- [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
@@ -94,6 +98,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | 17 | — | — |
+| [ChargeAfter](applications/chargeafter-fullstack-engineer-intern.md) | Fullstack Engineer Intern | 📝 Not submitted | gated | — | — |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | 26 | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | 23 | — | — |
 | [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 🚫 Dropped | gated | — | — |
