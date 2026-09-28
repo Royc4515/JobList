@@ -1,7 +1,7 @@
 ---
 company: Intel
 role: ML Engineer Student
-status: not-submitted
+status: dropped
 applied:
 location: Petah Tikva
 work_model: On-site / Hybrid
@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail: אין מייל גיוס (חשבון בלבד)
+fit_role: 7
+fit_stack: 5
+fit_gates: 0
+fit_path: 3
+fit_note: GATED: requires 2+ years remaining
 ---
 
 ## Stack Required
@@ -27,3 +32,5 @@ Linear Algebra, Python Data Processing, Data Ingestion
 
 ## Notes
 High risk of ATS auto-rejection due to degree timeline unless dual-degree extends to 4+ years.
+
+2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.

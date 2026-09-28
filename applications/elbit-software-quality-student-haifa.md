@@ -1,7 +1,7 @@
 ---
 company: Elbit Systems
 role: Software Quality Student - Haifa (Req 7130)
-status: not-submitted
+status: dropped
 applied:
 location: Haifa
 work_model: On-site
@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail:
+fit_role: 0
+fit_stack: 3
+fit_gates: 0
+fit_path: 3
+fit_note: GATED: 2 years remaining required, and QA is a Skip category
 ---
 
 ## Stack Required
@@ -34,3 +39,5 @@ Software quality, QA processes, standards compliance, internal audits, document 
 The one genuinely strong match is the mandatory AI-tools requirement, which is unusual to see stated as a must and which Roy meets straightforwardly - he works with Claude Code daily, and this tracker is itself the evidence.
 
 That single strength does not outweigh the graduation gate, which he fails outright. Fourth Elbit role tracked, alongside Software Developer Student Netanya (6355, submitted), Software Engineering Student Modi'in (6610, submitted) and Modi'in 6608.
+
+2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.

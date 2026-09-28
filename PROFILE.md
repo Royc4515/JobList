@@ -48,6 +48,27 @@ Exception: an application already tracked stays tracked regardless of category.
    easy; Haifa, Jerusalem, Be'er Sheva and the north are long commutes unless hybrid.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.
 
+## Fit score rubric
+Every tracked role gets four sub-scores, 0-10 each, stored as frontmatter keys.
+`scripts/build_dashboard.py` adds them into a total out of 40 and ranks the
+not-submitted roles by it. Never store the total yourself - it is derived so it
+can never disagree with its parts.
+
+| Key | Measures | Anchors |
+| --- | --- | --- |
+| `fit_role` | Direction | Tier 1: 8-10 · Tier 3: 8-9 · Tier 2: 5-7 · adjacent but off-direction (security research, Android, DevOps, .NET): 2-4 · Skip category: 0-1 |
+| `fit_stack` | Must-haves Roy really has (Strengths/Gaps above) | Core is Python / AI tooling: 8-10 · gaps are nice-to-haves only: 6-7 · a learnable must-have missing (Java/Spring, SQL): 3-5 · a hard must-have missing (C#/.NET, reverse engineering): 0-2 |
+| `fit_gates` | Hard gates 1-4 | All clear: 9-10 · commute, heavy scope or "verify GPA": subtract 1-3 each · **any hard gate failed: 0** |
+| `fit_path` | Route to a human | Referral made: 9-10 · warm insider in `leads/`, not yet asked: 7-8 · contact asked and pending, or cold at a startup / small company: 5-6 · cold through a big-brand ATS: 2-3 |
+
+- **`fit_gates: 0` means disqualified, not low.** The dashboard lists it under
+  "Gated out" regardless of the other three, because a failed gate is usually an
+  automatic ATS rejection. Studies-remaining is the gate that fails most often.
+- `fit_path` is weighted on purpose. Roy's only interview so far came from a
+  startup, and the method agreed with Afik is to find a contact before applying.
+  A cold big-brand application scores low here by design.
+- Add `fit_note:` - one line on what drives the score.
+
 ## WhatsApp groups to scan
 <!-- Filled on the first /job-hunt run: whatsapp-scout proposes job groups from
      the chat list and Roy confirms them. The scout reads ONLY groups named here -

@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail: אין מייל גיוס (חשבון בלבד)
+fit_role: 5
+fit_stack: 2
+fit_gates: 7
+fit_path: 3
+fit_note: Hard C#/.NET requirement Roy does not have
 ---
 
 ## Stack Required

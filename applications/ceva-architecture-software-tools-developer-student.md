@@ -1,7 +1,7 @@
 ---
 company: Ceva
 role: Architecture Software Tools Developer Student
-status: not-submitted
+status: dropped
 applied:
 location: Ra'anana
 work_model:
@@ -11,6 +11,11 @@ cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
 gmail:
+fit_role: 8
+fit_stack: 6
+fit_gates: 0
+fit_path: 4
+fit_note: GATED: requires 3+ semesters remaining, Roy has about 2
 ---
 
 ## Stack Required
@@ -28,3 +33,5 @@ Python, debugging, tooling, neural networks, deep learning, CNNs, Transformers, 
 ## Notes
 Architecture Unit - small senior team defining Ceva's DSP processors and AI accelerators. Python-tooling heavy (70%) plus NN modeling/analysis. Strong fit for Roy's Python + CS & Neuroscience + math profile. Option to do the final academic project there. Not yet applied - needs grade sheet attached.
 </content>
+
+2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.

@@ -11,6 +11,11 @@ cv_version:
 contact: Afik (referral inquiry - 05/08)
 follow_up:
 gmail:
+fit_role: 4
+fit_stack: 6
+fit_gates: 2
+fit_path: 5
+fit_note: Offensive-security domain; full-time on-site and requires a finished BSc
 ---
 
 ## Stack Required

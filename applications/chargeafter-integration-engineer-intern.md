@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail:
+fit_role: 7
+fit_stack: 8
+fit_gates: 6
+fit_path: 5
+fit_note: Python automation + AI dev tools valued explicitly; studies gate borderline (>=1 year), GPA>84 to verify
 ---
 
 ## Stack Required

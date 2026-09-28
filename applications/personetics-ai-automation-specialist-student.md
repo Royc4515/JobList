@@ -1,7 +1,7 @@
 ---
 company: Personetics
 role: AI & Automation Specialist Student
-status: not-submitted
+status: dropped
 applied:
 location: Tel Aviv, Israel
 work_model: On-site
@@ -11,6 +11,11 @@ cv_version: General
 contact:
 follow_up:
 gmail: יש - artifact submit
+fit_role: 7
+fit_stack: 6
+fit_gates: 0
+fit_path: 4
+fit_note: GATED: requires 1.5-2 years until graduation
 ---
 
 ## Stack Required
@@ -21,3 +26,5 @@ No explicit version control or Git; no financial modeling tools like Anaplan or 
 
 ## Red Flags
 Student-only role with strict 1.5-2 years until graduation requirement; 3 days/week commitment may be demanding alongside studies; hourly pay with no rate disclosed; heavy responsibility scope for a student position
+
+2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.
