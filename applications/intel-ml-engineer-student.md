@@ -1,7 +1,7 @@
 ---
 company: Intel
 role: ML Engineer Student
-status: not-submitted
+status: dropped
 applied:
 location: Petah Tikva
 work_model: On-site / Hybrid
@@ -32,3 +32,5 @@ Linear Algebra, Python Data Processing, Data Ingestion
 
 ## Notes
 High risk of ATS auto-rejection due to degree timeline unless dual-degree extends to 4+ years.
+
+2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.

@@ -18,7 +18,9 @@ START = "<!-- DASHBOARD:START -->"
 END = "<!-- DASHBOARD:END -->"
 
 # Canonical application status order + display labels
-STATUS_ORDER = ["offer", "interview", "in-review", "submitted", "not-submitted", "rejected"]
+# `dropped` = Roy decided not to apply (e.g. a failed hard gate). Kept distinct
+# from `rejected` so the dashboard never implies a company said no.
+STATUS_ORDER = ["offer", "interview", "in-review", "submitted", "not-submitted", "rejected", "dropped"]
 STATUS_LABEL = {
     "offer": "🎉 Offer",
     "interview": "💬 Interview",
@@ -26,6 +28,7 @@ STATUS_LABEL = {
     "submitted": "📤 Submitted",
     "not-submitted": "📝 Not submitted",
     "rejected": "❌ Rejected",
+    "dropped": "🚫 Dropped",
 }
 
 # Fit-score sub-keys, rubric in PROFILE.md. The total is derived here and never

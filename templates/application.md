@@ -1,7 +1,7 @@
 ---
 company:
 role:
-status: not-submitted        # not-submitted | submitted | rejected | interview | offer
+status: not-submitted        # not-submitted | submitted | in-review | interview | offer | rejected | dropped
 applied:                     # ISO date e.g. 2026-07-08, or leave empty
 location:
 work_model:                  # On-site | Hybrid | Remote

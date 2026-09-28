@@ -14,7 +14,8 @@ dashboard is auto-generated - never hand-edit it.
 
 ## Frontmatter rules
 - `status` allowed values ONLY: `not-submitted | submitted | in-review |
-  interview | offer | rejected`.
+  interview | offer | rejected | dropped`. `dropped` means Roy chose
+  not to apply (usually a failed hard gate); add a dated note saying why.
 - `applied` / `follow_up`: ISO date (e.g. 2026-08-09) or empty.
 - Set `gmail:` to a one-line status summary. Hebrew is fine in `gmail:` and
   `## Notes`.

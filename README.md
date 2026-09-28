@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**49 applications** — **4** In review · **23** Submitted · **16** Not submitted · **6** Rejected
+**49 applications** — **4** In review · **23** Submitted · **11** Not submitted · **6** Rejected · **5** Dropped
 
 ## Next to submit
 
@@ -27,13 +27,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 9. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
 10. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
 11. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
-
-**Gated out (5)** - a hard gate failed; close or drop:
-- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md) · role 8 · stack 6 · gates 0 · path 4 — GATED: requires 3+ semesters remaining, Roy has about 2
-- [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md) · role 0 · stack 3 · gates 0 · path 3 — GATED: 2 years remaining required, and QA is a Skip category
-- [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md) · role 7 · stack 5 · gates 0 · path 3 — GATED: requires 2+ years remaining
-- [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md) · role 5 · stack 3 · gates 0 · path 5 — GATED: requires currently being in 2nd year
-- [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md) · role 7 · stack 6 · gates 0 · path 4 — GATED: requires 1.5-2 years until graduation
 
 ## Pipeline
 
@@ -68,19 +61,14 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (16)
+### 📝 Not submitted (11)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
-- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
-- [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md)
 - [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
-- [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
-- [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
-- [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md)
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md)
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
@@ -94,22 +82,29 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Red Hat — Software Engineering Intern - Ecosystem Engineering (Special Projects) R-055020](applications/redhat-software-engineering-intern-ecosystem.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
+### 🚫 Dropped (5)
+- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
+- [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md)
+- [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
+- [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
+- [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
+
 ## All applications
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | 17 | — | — |
-| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | 📝 Not submitted | gated | — | — |
+| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | 🚫 Dropped | gated | — | — |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | 26 | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | 23 | — | — |
-| [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 📝 Not submitted | gated | — | — |
+| [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 🚫 Dropped | gated | — | — |
 | [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📝 Not submitted | 26 | — | — |
-| [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 📝 Not submitted | gated | — | — |
+| [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 🚫 Dropped | gated | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
-| [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 📝 Not submitted | gated | — | — |
-| [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 📝 Not submitted | gated | — | — |
+| [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 🚫 Dropped | gated | — | — |
+| [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 🚫 Dropped | gated | — | — |
 | [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | 25 | — | — |
 | [SAP](applications/sap-software-engineering-intern-unified-gateway.md) | Software Engineering Intern - Unified Gateway | 📝 Not submitted | 21 | — | TBD |
 | [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 20 | — | TBD |
