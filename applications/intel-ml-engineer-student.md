@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail: אין מייל גיוס (חשבון בלבד)
+fit_role: 7
+fit_stack: 5
+fit_gates: 0
+fit_path: 3
+fit_note: GATED: requires 2+ years remaining
 ---
 
 ## Stack Required

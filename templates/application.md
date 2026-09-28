@@ -11,6 +11,11 @@ cv_version:
 contact:                     # referrer / point of contact
 follow_up:                   # ISO date to follow up
 gmail:                       # Gmail application status
+fit_role:                    # 0-10, rubric in PROFILE.md
+fit_stack:                   # 0-10
+fit_gates:                   # 0-10; 0 = a hard gate failed
+fit_path:                    # 0-10
+fit_note:                    # one line: what drives the score
 ---
 
 ## Stack Required

@@ -11,6 +11,11 @@ cv_version: Backend Focused (TBD)
 contact:
 follow_up: TBD
 gmail: יש - מייל הגשה SAP 02/06
+fit_role: 6
+fit_stack: 3
+fit_gates: 7
+fit_path: 5
+fit_note: Infra-heavy (Go/K8s); duplicate of Student Developer UG - apply to one at most
 ---
 
 ## Stack Required

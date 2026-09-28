@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail:
+fit_role: 0
+fit_stack: 3
+fit_gates: 0
+fit_path: 3
+fit_note: GATED: 2 years remaining required, and QA is a Skip category
 ---
 
 ## Stack Required

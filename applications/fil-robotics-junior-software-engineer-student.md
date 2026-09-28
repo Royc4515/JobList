@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail:
+fit_role: 8
+fit_stack: 6
+fit_gates: 7
+fit_path: 5
+fit_note: Backend, asks exactly 3rd year and names Bar-Ilan; JVM-leaning stack, Binyamina offset by hybrid
 ---
 
 ## Stack Required

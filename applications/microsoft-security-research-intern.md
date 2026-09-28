@@ -11,6 +11,11 @@ cv_version: גרסת Research / OS
 contact:
 follow_up:
 gmail: פרופיל קריירה בלבד, ללא הגשה
+fit_role: 2
+fit_stack: 1
+fit_gates: 9
+fit_path: 3
+fit_note: Vulnerability research with no project in the field; cold big-brand
 ---
 
 ## Stack Required

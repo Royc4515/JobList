@@ -11,6 +11,11 @@ cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
 gmail:
+fit_role: 8
+fit_stack: 6
+fit_gates: 0
+fit_path: 4
+fit_note: GATED: requires 3+ semesters remaining, Roy has about 2
 ---
 
 ## Stack Required

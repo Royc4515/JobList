@@ -11,6 +11,11 @@ cv_version: General
 contact:
 follow_up:
 gmail: יש - artifact submit
+fit_role: 7
+fit_stack: 6
+fit_gates: 0
+fit_path: 4
+fit_note: GATED: requires 1.5-2 years until graduation
 ---
 
 ## Stack Required

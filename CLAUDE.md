@@ -18,6 +18,11 @@ dashboard is auto-generated - never hand-edit it.
 - `applied` / `follow_up`: ISO date (e.g. 2026-08-09) or empty.
 - Set `gmail:` to a one-line status summary. Hebrew is fine in `gmail:` and
   `## Notes`.
+- Fit score: `fit_role`, `fit_stack`, `fit_gates`, `fit_path` are integers 0-10
+  (rubric in `PROFILE.md`), plus a one-line `fit_note`. `fit_gates: 0` means a hard
+  gate failed. The dashboard computes the total and ranks the "Next to submit"
+  queue - never store a total. Run `python3 scripts/test_build_dashboard.py` after
+  changing the dashboard script.
 
 ## How Roy wants me to operate (standing agreement)
 - Be autonomous. Open a PR to `main` whenever a batch of work is ready - do NOT

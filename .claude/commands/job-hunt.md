@@ -30,7 +30,9 @@ You are the manager for Roy's job search. You coordinate the sub-agents in
    passed.
 
 ## Report to Roy - in Hebrew, short
-- **Worth applying** - top picks first, each with link and one-line reason.
+- **Worth applying** - ordered by fit score, each with link, score and one-line reason.
+- **Top of the queue** - the first three entries of the dashboard's "Next to
+  submit" list, so new finds are judged against what is already waiting.
 - **Maybe** - with the reason it is only a maybe.
 - **Closed postings** among his tracked applications.
 - **Overdue follow-ups.**

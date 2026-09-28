@@ -11,6 +11,11 @@ cv_version:
 contact: Afik (referral inquiry - 05/08)
 follow_up:
 gmail:
+fit_role: 5
+fit_stack: 3
+fit_gates: 0
+fit_path: 5
+fit_note: GATED: requires currently being in 2nd year
 ---
 
 ## Stack Required

@@ -11,6 +11,11 @@ cv_version:
 contact: Noam (Community)
 follow_up:
 gmail: יש - מייל הגשה SAP 02/06
+fit_role: 3
+fit_stack: 2
+fit_gates: 6
+fit_path: 7
+fit_note: DevOps is a stated gap and off-direction; only the Noam contact lifts it
 ---
 
 ## Stack Required
