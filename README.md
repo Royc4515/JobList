@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**49 applications** — **4** In review · **23** Submitted · **11** Not submitted · **6** Rejected · **5** Dropped
+**49 applications** — **4** In review · **23** Submitted · **11** Not submitted · **7** Rejected · **4** Dropped
 
 ## Next to submit
 
@@ -74,16 +74,16 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
 - [SAP — Student DevOps](applications/sap-student-devops.md)
 
-### ❌ Rejected (6)
+### ❌ Rejected (7)
 - [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 - [Astera Labs — (ראה מייל לפרטי המשרה)](applications/astera-labs-see-email.md)
+- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 - [Intel — Wi-Fi Driver Software Developer Student (JR0284349)](applications/intel-wifi-driver-software-developer-student.md)
 - [Red Hat — Software Engineering Intern - Ecosystem Engineering (Special Projects) R-055020](applications/redhat-software-engineering-intern-ecosystem.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
-### 🚫 Dropped (5)
-- [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
+### 🚫 Dropped (4)
 - [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
 - [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
@@ -94,7 +94,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | 17 | — | — |
-| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | 🚫 Dropped | gated | — | — |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | 📝 Not submitted | 26 | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | 23 | — | — |
 | [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 🚫 Dropped | gated | — | — |
@@ -114,6 +113,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — | — |
 | [IAI (Israel Aerospace Industries)](applications/iai-software-development-student-ashdod.md) | Software Development Student | 📤 Submitted | — | 2026-09-14 | — |
 | [SAP](applications/sap-cloud-platform-engineer-student-java.md) | Cloud Platform Engineer - Student (Java, UCP team) (Req 459254) | 📤 Submitted | — | 2026-08-25 | — |
+| [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | ❌ Rejected | gated | 2026-08-24 | — |
 | [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | 📤 Submitted | — | 2026-08-24 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | — | 2026-08-24 | — |
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | 📤 Submitted | — | 2026-08-24 | 2026-09-07 |
