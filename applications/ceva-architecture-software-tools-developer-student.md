@@ -36,3 +36,5 @@ Architecture Unit - small senior team defining Ceva's DSP processors and AI acce
 2026-09-28 - Correction: this was applied on 2026-08-24 (Comeet confirmation); the daily sweep missed it because it could not push. On 2026-09-28 Ceva wrote the position is no longer open, so status is rejected, not dropped.
 
 2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.
+
+2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a 21 in Discrete Structures that he is retaking). The official transcript currently shows 84.47.

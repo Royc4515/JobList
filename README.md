@@ -19,21 +19,21 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 1. **27** [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md) · role 7 · stack 8 · gates 9 · path 3 — Final-year students explicitly eligible and Python is an accepted language; cold big-brand ATS, deadline 2026-10-23
 2. **26** [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md) · role 8 · stack 6 · gates 7 · path 5 — Backend, asks exactly 3rd year and names Bar-Ilan; JVM-leaning stack, Binyamina offset by hybrid
 3. **25** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 2 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left now passes; cold big-brand ATS
-4. **24** [Marvell — AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499)](applications/marvell-ai-infrastructure-engineer-intern.md) · role 7 · stack 6 · gates 8 · path 3 — Python data pipelines for an AI research group, no studies-remaining gate, easy commute; SQL is the gap
-5. **23** [Optimum EDA and CAD Services — Computer Science Student (Final Year)](applications/optimum-eda-computer-science-student-final-year.md) · role 5 · stack 7 · gates 6 · path 5 — Asks exactly final-year CS with Python + Linux; GPA 80+ met; Caesarea commute offset by remote; EDA scripting is off-direction
-6. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Posting appears CLOSED since 2026-08-09; location/gates unknown - verify it is live first
-7. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
-8. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-9. **16** [Intel — Software Student for x86 Validation Tools (JR0287280)](applications/intel-software-student-x86-validation-tools.md) · role 5 · stack 5 · gates 4 · path 2 — 3 semesters left now passes; on-site Haifa part-time is the drag; C/C++ from coursework only
-10. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+4. **24** [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md) · role 8 · stack 4 · gates 5 · path 7 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+5. **24** [Marvell — AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499)](applications/marvell-ai-infrastructure-engineer-intern.md) · role 7 · stack 6 · gates 8 · path 3 — Python data pipelines for an AI research group, no studies-remaining gate, easy commute; SQL is the gap
+6. **23** [Optimum EDA and CAD Services — Computer Science Student (Final Year)](applications/optimum-eda-computer-science-student-final-year.md) · role 5 · stack 7 · gates 6 · path 5 — Asks exactly final-year CS with Python + Linux; GPA 80+ met; Caesarea commute offset by remote; EDA scripting is off-direction
+7. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Posting appears CLOSED since 2026-08-09; location/gates unknown - verify it is live first
+8. **19** [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+9. **19** [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+10. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
+11. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+12. **16** [Intel — Software Student for x86 Validation Tools (JR0287280)](applications/intel-software-student-x86-validation-tools.md) · role 5 · stack 5 · gates 4 · path 2 — 3 semesters left now passes; on-site Haifa part-time is the drag; C/C++ from coursework only
+13. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
-**Gated out (6)** - a hard gate failed; close or drop:
+**Gated out (3)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
-- [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md) · role 6 · stack 7 · gates 0 · path 5 — GATED: requires at least 2 years until graduation (Roy ~1.4) and GPA 85 (official 84.47)
+- [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md) · role 6 · stack 7 · gates 0 · path 5 — GATED: requires at least 2 years until graduation (Roy ~1.4) ; GPA 85 borderline (85.09)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md) · role 6 · stack 5 · gates 0 · path 3 — NO LIVE POSTING as of 2026-09-30 - CrowdStrike Workday shows no intern roles in Israel; scanner will flag a new one
-- [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md) · role 8 · stack 4 · gates 0 · path 7 — GATED: SAP Unified Gateway requires GPA 85+ (official 84.47); posting also looks closed
-- [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md) · role 6 · stack 3 · gates 0 · path 5 — GATED: SAP Unified Gateway requires GPA 85+ (official 84.47); posting also looks closed
-- [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md) · role 6 · stack 3 · gates 0 · path 5 — GATED: SAP Unified Gateway requires GPA 85+ (official 84.47); posting also looks closed
 
 ## Pipeline
 
@@ -129,9 +129,9 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 🚫 Dropped | gated | — | — |
 | [Optimum EDA and CAD Services](applications/optimum-eda-computer-science-student-final-year.md) | Computer Science Student (Final Year) | 📝 Not submitted | 23 | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 🚫 Dropped | gated | — | — |
-| [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | gated | — | — |
-| [SAP](applications/sap-software-engineering-intern-unified-gateway.md) | Software Engineering Intern - Unified Gateway | 📝 Not submitted | gated | — | TBD |
-| [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | gated | — | TBD |
+| [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | 24 | — | — |
+| [SAP](applications/sap-software-engineering-intern-unified-gateway.md) | Software Engineering Intern - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
+| [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | 🔎 In review | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | 🔎 In review | — | — | — |
 | [Waterfall Security Solutions](applications/waterfall-security-full-stack-developer.md) | Full Stack Developer (Student) | 📤 Submitted | — | — | — |

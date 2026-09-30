@@ -15,7 +15,7 @@ fit_role: 6
 fit_stack: 7
 fit_gates: 0
 fit_path: 5
-fit_note: GATED: requires at least 2 years until graduation (Roy ~1.4) and GPA 85 (official 84.47)
+fit_note: GATED: requires at least 2 years until graduation (Roy ~1.4) ; GPA 85 borderline (85.09)
 ---
 
 ## Stack Required
@@ -37,3 +37,5 @@ React, MongoDB, full-stack, agile, .NET Core.
 2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. Still fails: this role needs two years remaining.
 
 2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.
+
+2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a 21 in Discrete Structures that he is retaking). The official transcript currently shows 84.47.

@@ -45,9 +45,11 @@ Exception: an application already tracked stays tracked regardless of category.
    October 2026. "3 semesters" passes; "1.5 years" is borderline (~17 months); "2 years"
    fails. Older wording below assumed one year. A posting that requires 1.5+
    years or 3+ semesters remaining is a likely fail; say so plainly.
-2. **Grades.** Official overall GPA **84.47** (transcript of 2026-09-30; Brain Science
-   86.23, CS 78.42). A cutoff of 85+ fails; 80-84 passes. Transcripts also show a
-   failed Automata course and Discrete Structures being retaken.
+2. **Grades.** GPA **85.09** - Roy's own calculation, which he asked to be used. It
+   leaves out a 21 in Discrete Structures, which he is retaking this year; the official
+   transcript (2026-09-30) shows 84.47 until the retake grade replaces it. Algorithms 1
+   is recorded as Pass by Roy's choice. For a cutoff of exactly 85, say "verify": the
+   employer may read the transcript figure.
 3. **Location.** Base is Ramat Gan. Tel Aviv / Gush Dan / Herzliya / Petah Tikva are
    easy; Haifa, Jerusalem, Be'er Sheva and the north are long commutes unless hybrid.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.
