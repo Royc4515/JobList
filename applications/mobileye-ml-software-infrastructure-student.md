@@ -32,4 +32,3 @@ Python, C++, ML infrastructure, data pipelines, runtime, model integration, DevO
 
 ## Notes
 Surfaced via LinkedIn job alert 2026-07-29 (Mobileye, Hawkeye team). 2026-08-09: checked Mobileye's live Lever board - no open student "ML/Infrastructure" posting found (the alert link 404s), so it appears CLOSED. Live ML/infra roles exist but are full-time, not student. Kept as a watch item; jd_link points to the Mobileye careers search - confirm a live posting before applying. Not applied.
-</content>

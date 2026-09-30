@@ -25,19 +25,28 @@ GREENHOUSE = [
 ]
 LEVER_EU = ["mobileye"]
 SMARTRECRUITERS = ["Wix2"]
+# Workday: (tenant, wd-host, site). Searched for "student" and "intern" in Israel.
+WORKDAY = [
+    ("intel", "wd1", "External"), ("marvell", "wd1", "MarvellCareers"),
+    ("hpe", "wd5", "Jobsathpe"), ("motorolasolutions", "wd5", "Careers"),
+    ("nvidia", "wd5", "NVIDIAExternalCareerSite"), ("kla", "wd1", "Search"),
+    ("amat", "wd1", "External"), ("salesforce", "wd12", "External_Career_Site"),
+    ("crowdstrike", "wd5", "crowdstrikecareers"),
+]
 
 STUDENT = re.compile(r"\b(student|intern|internship)\b|סטודנט", re.I)
 ISRAEL = re.compile(
     r"israel|tel[ -]?aviv|herzliya|haifa|jerusalem|petah|petach|ra.?anana|netanya|"
     r"rehovot|yokneam|be.?er ?sheva|ramat|hod hasharon|kfar saba|modi|caesarea|"
-    r"or yehuda|airport city|ישראל",
+    r"or yehuda|airport city|kiryat|migdal|ישראל",
     re.I,
 )
 UA = {"User-Agent": "Mozilla/5.0"}
 
 
-def fetch_json(url):
-    req = urllib.request.Request(url, headers=UA)
+def fetch_json(url, body=None):
+    headers = dict(UA, **({"Content-Type": "application/json"} if body else {}))
+    req = urllib.request.Request(url, json.dumps(body).encode() if body else None, headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read())
 
@@ -62,6 +71,20 @@ def board_jobs(kind, token):
             rows.append((token, j["name"], f'{loc.get("city", "")} {loc.get("country", "")}',
                          f"https://jobs.smartrecruiters.com/{token}/{j['id']}",
                          (j.get("releasedDate") or "")[:10]))
+    elif kind == "workday":
+        tenant, wd, site = token
+        base = f"https://{tenant}.{wd}.myworkdayjobs.com"
+        seen = set()
+        for term in ("student israel", "intern israel"):
+            data = fetch_json(f"{base}/wday/cxs/{tenant}/{site}/jobs",
+                              {"appliedFacets": {}, "limit": 20, "offset": 0, "searchText": term})
+            for j in data.get("jobPostings", []):
+                if j["externalPath"] in seen:
+                    continue
+                seen.add(j["externalPath"])
+                # locationsText can be "2 Locations"; the path carries the city.
+                rows.append((tenant, j["title"], f'{j.get("locationsText", "")} {j["externalPath"]}',
+                             f"{base}/en-US/{site}{j['externalPath']}", j.get("postedOn", "")))
     return rows
 
 
@@ -91,6 +114,13 @@ def is_live(url):
         if "lever.co" in host:
             with _open(url):
                 return "open"
+        if "myworkdayjobs.com" in host:
+            m = re.search(r"https://([^.]+)\.[^/]+/(?:[a-z]{2}-[A-Z]{2}/)?([^/]+)(/job/.+)", url)
+            if not m:
+                return "unknown: unrecognised Workday link"
+            api = f"https://{host}/wday/cxs/{m.group(1)}/{m.group(2)}{m.group(3)}"
+            with _open(api):
+                return "open"
         if "greenhouse.io" in host:
             with _open(url) as r:
                 final = r.geturl()
@@ -117,7 +147,7 @@ def tracked():
 
 def main():
     jobs = [("greenhouse", t) for t in GREENHOUSE] + [("lever_eu", t) for t in LEVER_EU] \
-        + [("smartrecruiters", t) for t in SMARTRECRUITERS]
+        + [("smartrecruiters", t) for t in SMARTRECRUITERS] + [("workday", t) for t in WORKDAY]
     rows, unreachable = [], []
     with cf.ThreadPoolExecutor(8) as ex:
         futures = {ex.submit(board_jobs, k, t): t for k, t in jobs}
@@ -125,11 +155,12 @@ def main():
             try:
                 rows.extend(fut.result())
             except Exception as e:
-                unreachable.append(f"{futures[fut]} ({type(e).__name__})")
+                t = futures[fut]
+                unreachable.append(f"{t[0] if isinstance(t, tuple) else t} ({type(e).__name__})")
 
     apps = tracked()
     links = {a[2].rstrip("/") for a in apps if a[2]}
-    hits = sorted({r for r in rows if STUDENT.search(r[1])
+    hits = sorted({r[:2] + (r[2].split(" /job/")[0],) + r[3:] for r in rows if STUDENT.search(r[1])
                    and (ISRAEL.search(r[2]) or r[0] in LEVER_EU)})
     new = [r for r in hits if r[3].rstrip("/") not in links]
 

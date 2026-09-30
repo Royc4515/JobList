@@ -32,6 +32,5 @@ Java, Android SDK, Generative AI, testing, R&D, live production code.
 
 ## Notes
 Android Department, R&D Center - code ships to live users. Intern/student, part-time (24h/week). Applied via Workday. Found via LinkedIn/SecretHunter alerts - not yet applied.
-</content>
 
 2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.

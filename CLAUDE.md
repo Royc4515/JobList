@@ -55,7 +55,9 @@ fit-reviewer, and tracker-keeper (the only one that writes to the repo). All of 
 read `PROFILE.md` for Roy's targets and hard gates. The two browser scouts need the
 Claude in Chrome extension and are strictly read-only.
 
-Run once with `/job-hunt`. To run it on a schedule on Roy's computer, create a
+Run once with `/job-hunt`. `/apply` submits the roles Roy approved in
+`submissions/` (tailored CVs via `scripts/tailor_cv.py`; CV files stay out of the repo,
+which is public) and waits for Roy's "שלח" before every submit. To run it on a schedule on Roy's computer, create a
 **local Routine** in the Desktop app (Code tab -> Routines -> New routine -> Local):
 it needs the app running and the computer awake, but no open session. Anything that
 must run while the computer is off belongs in a cloud Routine instead - the browser

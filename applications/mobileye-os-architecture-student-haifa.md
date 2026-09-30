@@ -27,6 +27,5 @@ C, C++, Assembly, Linux kernel, drivers, embedded, low-level, computer architect
 
 ## Notes
 OS group in Haifa - research assistant to the OS architect, POCs on Linux kernel/drivers. Third Mobileye role tracked (alongside SW Engineer Student - Ramat Gan, submitted; Python Developer - Jerusalem, not submitted). On-site Haifa may be a logistics consideration.
-</content>
 
 2026-09-27 - Posting no longer live (checked directly). This means the req is closed to new applicants - it does not by itself mean the application was rejected, so status stays as-is until an email says otherwise.

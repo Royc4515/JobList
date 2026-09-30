@@ -27,4 +27,3 @@ C++, Python, algorithms, computer vision, machine learning, driver assistance, A
 
 ## Notes
 Surfaced via SecretHunter alert 2026-08-09 (Mobileye, Jerusalem, Student). Applied directly 2026-08-09 (without Afik); Lever confirmation received same day 11:25 ("we received your application for Algorithm Developer Student"). Role is live - the earlier careers.mobileye.com link was just a wrong slug.
-</content>
