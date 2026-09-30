@@ -34,3 +34,5 @@ Moot while the studies gate fails.
 2026-09-30 - Found via Indeed on 2026-09-27 (posted 2026-08-19). Tracked so it is not re-suggested. Not applied.
 
 2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. The posting asks for at least 3 semesters remaining, 2-3 days a week and a single PDF of CV + transcript. The work is CI/CD pipelines, Python benchmarking of ML inference (vLLM, NKI, NIXL), Grafana dashboards and AI-assisted development (Kiro) - a good fit. Still live on Indeed 2026-09-30.
+
+2026-09-30 - Roy approved applying, with CV version `Roy_Carmelli_CV_AmazonMLIL` merged with the English transcript into one PDF (package: `submissions/2026-09-30-packages.md`). Not submitted yet.

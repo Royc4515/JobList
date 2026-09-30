@@ -30,4 +30,4 @@ Expected Graduation: September 2027, Operating Systems, Software Architecture
 
 2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.
 
-2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a 21 in Discrete Structures that he is retaking). The official transcript currently shows 84.47.
+2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a course he is retaking). The official transcript currently shows 84.47.
