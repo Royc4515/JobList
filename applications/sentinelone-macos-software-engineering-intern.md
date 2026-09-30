@@ -27,4 +27,3 @@ Objective-C, Swift, macOS internals, user space, OS services, low-level debuggin
 
 ## Notes
 Second SentinelOne internship applied to on 2026-08-10 (separate confirmation at 16:47, alongside the backend Software Engineer Intern at 16:44). Low-level macOS security engineering - aligns with the security/systems angle (similar flavor to Cellebrite / Apple roles).
-</content>

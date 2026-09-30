@@ -32,7 +32,6 @@ Python, MongoDB, NoSQL, REST APIs, JSON, automation, validation, integration, de
 
 ## Notes
 Operations team - build/extend an internal Python automation platform for merchant/lender onboarding, plus hands-on integration debugging with partners. Surfaced via SecretHunter alert 2026-08-11. Strong angle: they explicitly value AI dev tools (Claude Code/Cursor/Copilot) - Roy uses these daily. Not yet applied - verify GPA gate (>84) before applying.
-</content>
 
 2026-09-30 - Corrected from `not-submitted`. Gmail shows Roy already applied twice:
 a rejection for this exact position arrived 2026-08-16 11:53 UTC ("we decided to move

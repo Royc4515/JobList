@@ -12,4 +12,3 @@ linked_application: applications/mobileye-python-developer-student-jerusalem.md
 
 ## Notes
 שלחתי לאפיק הודעה (05/08) לגבי משרת Python Developer - Student ב-Mobileye (ירושלים). עדכון 09/08: הגשתי למשרה ישירות בלי לחכות לאפיק. הרפרנס עדיין רלוונטי - אפיק יכול להמליץ/לתת מילה טובה גם אחרי ההגשה, מה שמסייע אצל המגייסים.
-</content>

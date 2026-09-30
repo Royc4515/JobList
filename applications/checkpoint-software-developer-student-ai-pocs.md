@@ -27,4 +27,3 @@ Python, OpenAI, LLM, AI POC, cloud, Java, prototyping, research, self-learner, c
 
 ## Notes
 AI POCs team - research/design/develop/deploy AI proof-of-concepts (Cloud, OpenAI, Python/Java). Very strong fit for Roy's profile: he already builds multi-provider AI tools (Aside) and agentic projects (Wine Sommelier bot) - exactly this kind of "leverage AI to solve problems, ship a POC" work. Not yet applied. Pulled full JD from SmartRecruiters API 2026-08-24.
-</content>

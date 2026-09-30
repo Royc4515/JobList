@@ -32,6 +32,5 @@ Python, debugging, tooling, neural networks, deep learning, CNNs, Transformers, 
 
 ## Notes
 Architecture Unit - small senior team defining Ceva's DSP processors and AI accelerators. Python-tooling heavy (70%) plus NN modeling/analysis. Strong fit for Roy's Python + CS & Neuroscience + math profile. Option to do the final academic project there. Not yet applied - needs grade sheet attached.
-</content>
 
 2026-09-28 - Correction: this was applied on 2026-08-24 (Comeet confirmation); the daily sweep missed it because it could not push. On 2026-09-28 Ceva wrote the position is no longer open, so status is rejected, not dropped.

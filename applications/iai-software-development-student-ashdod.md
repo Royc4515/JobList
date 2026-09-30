@@ -27,4 +27,3 @@ Software development, Computer Science, self-learner, teamwork.
 
 ## Notes
 Software Development Student at IAI, Ashdod. Applied 2026-09-14; confirmation received same day from the IAI recruiting system (adamtotal). Surfaced via a community/LinkedIn forward and a SecretHunter alert. JD is brief - details TBD on recruiter contact.
-</content>

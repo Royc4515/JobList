@@ -27,4 +27,5 @@ Data analysis, AI product, ML, Big Data, Generative AI, Agile, stakeholder colla
 
 ## Notes
 Intel AI Solutions Group (250+ AI engineers, mostly Israel). Applied 2026-08-10 via Intel careers (Workday); application confirmed on the job page. Third distinct Intel role tracked, alongside ML Engineer Student (not submitted) and the Wi-Fi Driver Student (rejected).
-</content>
+
+2026-09-30 - Posting no longer live on Intel Workday (closed to new applicants). Not a rejection - status unchanged.

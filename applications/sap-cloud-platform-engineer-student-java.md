@@ -27,4 +27,3 @@ Java, Spring Boot, REST APIs, cloud, automation, infrastructure provisioning, SA
 
 ## Notes
 Unified Cloud Platform (UCP) team - builds internal cloud services used by ~2,500 SAP developers (provisioning, system management, automation). Fifth SAP role tracked and the first one actually submitted (the earlier four Gateway/DevOps roles are not-submitted). Applied 2026-08-25 (posting went up same day).
-</content>

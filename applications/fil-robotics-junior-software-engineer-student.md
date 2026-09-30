@@ -6,7 +6,7 @@ applied:
 location: Binyamina
 work_model: Hybrid
 scope: Student, fixed-term
-jd_link:
+jd_link: https://to.indeed.com/aaqqg9t2x9hw
 cv_version:
 contact:
 follow_up:
