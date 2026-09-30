@@ -27,3 +27,5 @@ Expected Graduation: September 2027, Operating Systems, Software Architecture
 
 ## Notes
 ממוצע 86.16 וציון 93 במבנה נתונים מהווים יתרון מובהק מול ה-ATS. חובה לצרף גיליון ציונים באנגלית מהאינ-בר ומכתב מקדים לגישור פער ה-C++.
+
+2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.

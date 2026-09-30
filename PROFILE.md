@@ -45,8 +45,9 @@ Exception: an application already tracked stays tracked regardless of category.
    October 2026. "3 semesters" passes; "1.5 years" is borderline (~17 months); "2 years"
    fails. Older wording below assumed one year. A posting that requires 1.5+
    years or 3+ semesters remaining is a likely fail; say so plainly.
-2. **Grades.** Roy's GPA is not recorded here. If a posting sets a cutoff, flag it
-   as "verify GPA" - never guess whether he passes.
+2. **Grades.** Official overall GPA **84.47** (transcript of 2026-09-30; Brain Science
+   86.23, CS 78.42). A cutoff of 85+ fails; 80-84 passes. Transcripts also show a
+   failed Automata course and Discrete Structures being retaken.
 3. **Location.** Base is Ramat Gan. Tel Aviv / Gush Dan / Herzliya / Petah Tikva are
    easy; Haifa, Jerusalem, Be'er Sheva and the north are long commutes unless hybrid.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.

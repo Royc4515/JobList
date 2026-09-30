@@ -15,7 +15,7 @@ fit_role: 6
 fit_stack: 7
 fit_gates: 0
 fit_path: 5
-fit_note: GATED: requires at least 2 years until graduation, Roy has about 1.4; GPA 85 minimum (85.09) is borderline
+fit_note: GATED: requires at least 2 years until graduation (Roy ~1.4) and GPA 85 (official 84.47)
 ---
 
 ## Stack Required
@@ -35,3 +35,5 @@ React, MongoDB, full-stack, agile, .NET Core.
 2026-09-28 - Found on ChargeAfter's careers page while checking the Integration Engineer Intern posting. Tracked for completeness; the studies-remaining gate makes it a likely automatic rejection.
 
 2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. Still fails: this role needs two years remaining.
+
+2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.
