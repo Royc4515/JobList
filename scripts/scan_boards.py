@@ -31,6 +31,7 @@ WORKDAY = [
     ("hpe", "wd5", "Jobsathpe"), ("motorolasolutions", "wd5", "Careers"),
     ("nvidia", "wd5", "NVIDIAExternalCareerSite"), ("kla", "wd1", "Search"),
     ("amat", "wd1", "External"), ("salesforce", "wd12", "External_Career_Site"),
+    ("crowdstrike", "wd5", "crowdstrikecareers"),
 ]
 
 STUDENT = re.compile(r"\b(student|intern|internship)\b|סטודנט", re.I)
