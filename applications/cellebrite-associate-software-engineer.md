@@ -32,3 +32,5 @@ Python, reverse engineering, ARM64, iOS, exploit development, vulnerability rese
 
 ## Notes
 Entry-level role, recent graduates encouraged. BSc in CS/SW Eng required. Good fit for the security/mobile angle; on-site TLV. Found via SecretHunter job alert - not yet applied.
+
+2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.

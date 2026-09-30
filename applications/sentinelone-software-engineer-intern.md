@@ -27,3 +27,5 @@ Python, Java, distributed systems, multi-threading, async, data structures, algo
 
 ## Notes
 Backend Engineering Intern, R&D center Tel Aviv - distributed systems / stream-processing ingesting petabytes of endpoint telemetry. Applied 2026-08-10; confirmation from SentinelOne (Greenhouse) received same day. Good fit for the SW-engineering direction (unlike the analyst-leaning Intel role).
+
+2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.

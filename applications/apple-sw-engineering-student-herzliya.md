@@ -31,3 +31,5 @@ C, C++, x86-64 Assembly, Systems Programming, Data Structures (93), Memory Manag
 2026-07-23 — Apple Recruiting email (2026-07-21): "As you may have heard, Dolev Orgad referred you to us... claim your profile and consent... The next step is to apply for roles." Referral req: SW Engineering Student (Herzliya) 200573350. Status stays not-submitted — Roy must claim the profile (unique link, 90-day window) and submit before this becomes an active application. Networking lead tracked in leads/apple-dolev-orgad-referral.md. Auto-updated from Gmail by the daily JobList sweep.
 
 2026-07-31 — Apple Worldwide Recruiting: "We just received your resume for the following role: SW Engineering Student (Herzliya) 200573350." Application now submitted (req matches). Next: "If you're a potential match for the role, you'll hear from one of our recruiters." Follow-up set 2026-08-14. Auto-updated from Gmail by the daily JobList sweep.
+
+2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.

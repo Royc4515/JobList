@@ -31,3 +31,6 @@ Decided: APPLY - 2nd priority after 512845. Lead with the "I constantly evaluate
 > Sheet inconsistency: Current Status = "הוגש" (submitted) but Date Applied = "לא הוגש" (not submitted). Set to submitted per the status column — verify whether this was actually sent.
 
 2026-07-15 — Siemens Talent Acquisition confirmed the application is being reviewed with the hiring manager ("Follow your application status, Roy"). Moved submitted → in-review. Application confirmed genuinely sent.
+
+2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+A different Siemens AI Research Student posting (Job ID 520016, PSCoPilot evaluation team) is live, but it requires a Master's student with 2+ years left, so it is not one to apply to.
