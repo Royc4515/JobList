@@ -17,6 +17,9 @@ application and lead counts did not drop unexpectedly.
 ## Rules
 - New finds go in as `status: not-submitted`, with the fit-reviewer's verdict and
   gates in `## Notes`. Only write entries the caller passes as `apply` or `maybe`.
+- Copy the fit-reviewer's `fit_role`, `fit_stack`, `fit_gates`, `fit_path` and
+  `fit_note` into the frontmatter verbatim. Never write a total. If the dashboard
+  build prints a `WARNING:` about a fit score, fix the file before committing.
 - **Never mark `submitted`** without a confirmation email or Roy's explicit word -
   this is a hard rule in `CLAUDE.md`.
 - A closed posting gets a dated note, not a status change.

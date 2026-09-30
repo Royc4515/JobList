@@ -11,6 +11,11 @@ cv_version:
 contact:
 follow_up:
 gmail:
+fit_role: 7
+fit_stack: 5
+fit_gates: 5
+fit_path: 3
+fit_note: Posting appears CLOSED since 2026-08-09; location/gates unknown - verify it is live first
 ---
 
 ## Stack Required

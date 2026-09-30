@@ -11,6 +11,11 @@ cv_version:
 contact: Oriyah (Community)
 follow_up:
 gmail: יש - מייל הגשה SAP 02/06
+fit_role: 8
+fit_stack: 4
+fit_gates: 6
+fit_path: 7
+fit_note: Backend direction, but Java/Spring/AWS are gaps; Oriyah is an insider not yet asked
 ---
 
 ## Stack Required

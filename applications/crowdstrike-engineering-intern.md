@@ -11,6 +11,11 @@ cv_version: גרסת Backend / Generalist
 contact:
 follow_up:
 gmail: אין מייל גיוס (חשבון בלבד)
+fit_role: 6
+fit_stack: 5
+fit_gates: 9
+fit_path: 3
+fit_note: Generic SWE intern, cloud gap; no JD link and cold big-brand ATS
 ---
 
 ## Stack Required
