@@ -1,7 +1,7 @@
 ---
 company: Amazon (Annapurna Labs)
 role: SW Automation Student, Annapurna Labs
-status: not-submitted
+status: dropped
 applied:
 location: Tel Aviv
 work_model:
@@ -36,3 +36,5 @@ Python, test automation, CI, Linux, AWS, cloud, scripting, embedded testing, AI-
 
 ## Notes
 2026-09-30 - Found via Indeed on 2026-09-27. Not applied. Of the three Amazon student roles found that day, this is the only one without a studies-remaining gate; the other two are tracked as gated.
+
+2026-09-30 - Dropped: Roy chose to skip it (test automation, close to QA; basic quals want Java/C++/C#).

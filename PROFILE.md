@@ -6,7 +6,8 @@ than in each agent.
 
 ## Who
 - Roy Carmelli. Third-year B.Sc., **Computer Science + Neuroscience**, Bar-Ilan
-  University (Ramat Gan). Roughly **one year of studies remaining**.
+  University (Ramat Gan). **Expected graduation: February 2028** - about three semesters
+  (~17 months) remaining as of October 2026. Available 2-3 days a week.
 - Reservist. Served as a battalion medic in the Gaza sector from 7 October and
   continues reserve duty - availability can be interrupted by call-ups.
 - GitHub: https://github.com/Royc4515 - Portfolio: https://roy-carmelli-portfolio.vercel.app/
@@ -40,7 +41,9 @@ operations), hardware / firmware / physical design, PhD-only roles.
 Exception: an application already tracked stays tracked regardless of category.
 
 ## Hard gates - check every posting
-1. **Studies remaining.** Roy has about one year. A posting that requires 1.5+
+1. **Studies remaining.** Roy graduates February 2028: three semesters left from
+   October 2026. "3 semesters" passes; "1.5 years" is borderline (~17 months); "2 years"
+   fails. Older wording below assumed one year. A posting that requires 1.5+
    years or 3+ semesters remaining is a likely fail; say so plainly.
 2. **Grades.** Roy's GPA is not recorded here. If a posting sets a cutoff, flag it
    as "verify GPA" - never guess whether he passes.

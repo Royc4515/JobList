@@ -34,3 +34,5 @@ Linear Algebra, Python Data Processing, Data Ingestion
 High risk of ATS auto-rejection due to degree timeline unless dual-degree extends to 4+ years.
 
 2026-09-28 - Dropped: fails the studies-remaining hard gate (fit_gates 0). Reopen only if the posting's requirement changes.
+
+2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. Still fails: this role needs two years remaining.

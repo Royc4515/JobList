@@ -23,3 +23,5 @@ Modern C++ backend on a large distributed system (Zerto disaster recovery); OOP 
 
 ## Notes
 2026-09-30 - Found on Indeed / Workday (posted 2026-08-10). Tracked only so it is not suggested again: requires at least two years of studies remaining, plus GPA 85+ and C++.
+
+2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. Still fails: this role needs two years remaining.

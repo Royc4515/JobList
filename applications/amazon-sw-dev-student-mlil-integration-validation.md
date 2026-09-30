@@ -6,16 +6,16 @@ applied:
 location: Tel Aviv
 work_model:
 scope: Student, part-time, 2-3 days/week
-jd_link: https://to.indeed.com/aamppf4qdddk
+jd_link: https://to.indeed.com/aajd87nkzy82
 cv_version:
 contact:
 follow_up:
 gmail:
-fit_role: 6
-fit_stack: 5
-fit_gates: 0
+fit_role: 7
+fit_stack: 7
+fit_gates: 9
 fit_path: 2
-fit_note: GATED: requires at least 3 semesters remaining before graduation, Roy has about one year
+fit_note: ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left now passes; cold big-brand ATS
 ---
 
 ## Stack Required
@@ -32,3 +32,5 @@ Moot while the studies gate fails.
 
 ## Notes
 2026-09-30 - Found via Indeed on 2026-09-27 (posted 2026-08-19). Tracked so it is not re-suggested. Not applied.
+
+2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. The posting asks for at least 3 semesters remaining, 2-3 days a week and a single PDF of CV + transcript. The work is CI/CD pipelines, Python benchmarking of ML inference (vLLM, NKI, NIXL), Grafana dashboards and AI-assisted development (Kiro) - a good fit. Still live on Indeed 2026-09-30.

@@ -15,7 +15,7 @@ fit_role: 6
 fit_stack: 5
 fit_gates: 0
 fit_path: 2
-fit_note: GATED: requires at least 2 years remaining until graduation, Roy has about one year
+fit_note: GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
 ---
 
 ## Stack Required
@@ -32,3 +32,5 @@ Moot while the studies gate fails.
 
 ## Notes
 2026-09-30 - Found via Indeed on 2026-09-27 (posted 2026-09-22). Tracked so it is not re-suggested. Not applied.
+
+2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. Still fails: this role needs two years remaining.
