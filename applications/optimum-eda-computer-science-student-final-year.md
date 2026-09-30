@@ -35,3 +35,5 @@ Python, Linux, Bash, scripting, automation, EDA tools, workflow optimization, R&
 
 ## Notes
 2026-09-30 - Roy saved this on LinkedIn; LinkedIn sent an "apply now" reminder on 2026-09-29. Not applied. Small service company, so a cold application still has a fair chance of reaching a person.
+
+2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.

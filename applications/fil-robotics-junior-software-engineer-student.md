@@ -44,3 +44,5 @@ It also names **Bar-Ilan explicitly** in its preferred-universities list, alongs
 Real backend engineering on systems that run robots, working alongside senior engineers - much closer to the hands-on direction Roy has been aiming for than the QA and process roles that have come up recently.
 
 FIL Robotics also has two sibling student roles at the same Binyamina site: Junior QA Engineer (internship) and Robotics Engineering Student (fixed-term). The QA one is the same category as the Elbit Haifa role that was recommended against; this development role is the right target of the three.
+
+2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.

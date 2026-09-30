@@ -42,3 +42,5 @@ The gate that has knocked Roy out of most recent roles - studies remaining - wor
 other way here: the posting is for students in their **penultimate or final** year, so
 being a third-year finisher is exactly what it asks for. Follow-up date set three days
 before the deadline as a reminder to submit, not to chase.
+
+2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.

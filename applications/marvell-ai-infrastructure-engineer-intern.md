@@ -39,3 +39,5 @@ Python, pandas, NumPy, SQL, data preprocessing, data pipelines, ETL, JSON, CSV, 
 The CTO Office AI Research group needs someone to turn messy chip-design data into model-ready datasets. It asks for an "advanced BSc student" with no minimum time remaining, so the studies gate that has blocked most recent roles does not apply. Petah Tikva is an easy commute from Ramat Gan.
 
 Angle for the CV: this tracker and the agents Roy builds are real data-extraction work (parsing emails and postings into structured records, Git-versioned). Say that directly. The Neuroscience side adds lab-data handling if any course involved it.
+
+2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.
