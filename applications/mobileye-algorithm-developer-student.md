@@ -1,7 +1,7 @@
 ---
 company: Mobileye
 role: Algorithm Developer Student
-status: submitted
+status: rejected
 applied: 2026-08-09
 location: Jerusalem
 work_model:
@@ -10,7 +10,7 @@ jd_link: https://careers.mobileye.com/jobs
 cv_version:
 contact:
 follow_up:
-gmail: יש - אישור הגשה (Mobileye/Lever 09/08)
+gmail: Rejected 2026-08-10 - Mobileye/Lever email: won't be moving forward
 ---
 
 ## Stack Required
@@ -27,3 +27,5 @@ C++, Python, algorithms, computer vision, machine learning, driver assistance, A
 
 ## Notes
 Surfaced via SecretHunter alert 2026-08-09 (Mobileye, Jerusalem, Student). Applied directly 2026-08-09 (without Afik); Lever confirmation received same day 11:25 ("we received your application for Algorithm Developer Student"). Role is live - the earlier careers.mobileye.com link was just a wrong slug.
+
+2026-10-01 - Gmail check: Rejected 2026-08-10 - Mobileye/Lever email: won't be moving forward.

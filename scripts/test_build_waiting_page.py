@@ -59,7 +59,27 @@ class Collect(unittest.TestCase):
         self.assertEqual([e["posting_closed"] for e in got], [True, False])
 
 
+class CompanyKey(unittest.TestCase):
+    def test_latin_name_slugged(self):
+        self.assertEqual(wp.company_key("Check Point"), "check-point")
+        self.assertEqual(wp.company_key("IAI (Israel Aerospace Industries)"),
+                         "iai-israel-aerospace-industries")
+
+    def test_hebrew_name_gets_stable_hash(self):
+        key = wp.company_key("מערך הדיגיטל הלאומי")
+        self.assertRegex(key, r"^c-[0-9a-f]{10}$")
+        self.assertEqual(key, wp.company_key("מערך הדיגיטל הלאומי"))
+
+    def test_entry_carries_key(self):
+        self.assertEqual(collect([app()])[0]["company_key"], "acme")
+
+
 class Render(unittest.TestCase):
+    def test_stale_days_filled_in(self):
+        html = wp.render([], "2026-10-01")
+        self.assertNotIn("__STALE_DAYS__", html)
+        self.assertIn(f"var STALE_DAYS = {wp.STALE_DAYS};", html)
+
     def test_script_close_is_escaped(self):
         html = wp.render([{"role": "</script><b>x"}], "2026-10-01")
         self.assertNotIn("</script><b>", html)

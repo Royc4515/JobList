@@ -124,6 +124,21 @@ h2 {
 .wait span { font: 400 .8rem var(--font-data); color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .empty { color: var(--muted); padding: 24px 0; }
+.note { margin: 0; color: var(--muted); max-width: 62ch; }
+.stale .company { background: transparent; border-style: dashed; }
+.stale .company-head h3 { font-size: 1.15rem; }
+.chip.quiet { border-style: dashed; color: var(--muted); background: transparent; }
+.chip .check { display: none; color: var(--good); font-weight: 700; }
+.chip.talked .check { display: inline; }
+
+.talk {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  font-size: .88rem; color: var(--muted); user-select: none;
+}
+.talk input { width: 18px; height: 18px; margin: 0; accent-color: var(--good); cursor: pointer; }
+.talk input:disabled, .talk input:disabled + span { cursor: default; opacity: .6; }
+.talk input:checked + span { color: var(--good); font-weight: 600; }
+.company-head .head-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
 footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
 
 @media (max-width: 560px) {
@@ -156,10 +171,15 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     </div>
     <div class="legend">
       <span><i class="dot fresh"></i>עד 3 שבועות</span>
-      <span><i class="dot"></i>3 עד 8 שבועות</span>
-      <span><i class="dot long"></i>יותר מ-8 שבועות</span>
+      <span><i class="dot"></i>3 שבועות עד __STALE_DAYS__ יום</span>
     </div>
     <div class="companies" id="companies"></div>
+  </section>
+
+  <section class="index" id="stale-section" aria-labelledby="stale-title">
+    <h2 id="stale-title">בלי תשובה יותר מ-__STALE_DAYS__ יום</h2>
+    <p class="note">כאן כבר עבר הרבה זמן בלי תשובה, אז אני לא מחכה להן באופן פעיל. אבל אף אחת מהן לא נסגרה רשמית, והיכרות מבפנים יכולה להחזיר אותן לחיים.</p>
+    <div class="companies stale" id="stale"></div>
   </section>
 
   <footer id="footer"></footer>
@@ -169,6 +189,7 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
 <script>
 (function () {
   var BUILT = "__BUILT__";
+  var STALE_DAYS = __STALE_DAYS__;
   var entries = JSON.parse(document.getElementById("data").textContent);
   var STAGE = {
     offer: { label: "הצעה", rank: 0, cls: "review" },
@@ -196,7 +217,7 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
   function waitClass(days) {
     if (days === null) return "";
     if (days <= 21) return "fresh";
-    return days > 56 ? "long" : "";
+    return days > STALE_DAYS ? "long" : "";
   }
   function el(tag, attrs, children) {
     var node = document.createElement(tag);
@@ -208,47 +229,62 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     (children || []).forEach(function (c) { if (c) node.appendChild(c); });
     return node;
   }
-  function slug(name, i) { return "c" + i; }
-
   var roles = entries.map(function (e) {
     return Object.assign({}, e, { days: daysSince(e.applied), stage: STAGE[e.status] || STAGE.submitted });
   });
+  // Roles past STALE_DAYS with no answer leave the active list for their own section.
+  var active = roles.filter(function (r) { return r.days === null || r.days <= STALE_DAYS; });
+  var stale = roles.filter(function (r) { return r.days !== null && r.days > STALE_DAYS; });
 
-  var byCompany = {};
-  roles.forEach(function (r) { (byCompany[r.company] = byCompany[r.company] || []).push(r); });
-  var companies = Object.keys(byCompany).map(function (name) {
-    var list = byCompany[name].slice().sort(function (a, b) {
-      return a.stage.rank - b.stage.rank || (b.applied || "").localeCompare(a.applied || "");
-    });
-    var best = Math.min.apply(null, list.map(function (r) { return r.stage.rank; }));
-    var latest = list.reduce(function (m, r) { return r.applied > m ? r.applied : m; }, "");
-    return { name: name, roles: list, best: best, latest: latest };
-  }).sort(function (a, b) {
-    return a.best - b.best || b.latest.localeCompare(a.latest) || a.name.localeCompare(b.name);
-  });
-  companies.forEach(function (c, i) { c.id = slug(c.name, i); });
+  function groupByCompany(list, prefix) {
+    var byCompany = {};
+    list.forEach(function (r) { (byCompany[r.company] = byCompany[r.company] || []).push(r); });
+    return Object.keys(byCompany).map(function (name) {
+      var items = byCompany[name].slice().sort(function (a, b) {
+        return a.stage.rank - b.stage.rank || (b.applied || "").localeCompare(a.applied || "");
+      });
+      var best = Math.min.apply(null, items.map(function (r) { return r.stage.rank; }));
+      var latest = items.reduce(function (m, r) { return r.applied > m ? r.applied : m; }, "");
+      return { name: name, key: items[0].company_key, roles: items, best: best, latest: latest };
+    }).sort(function (a, b) {
+      return a.best - b.best || b.latest.localeCompare(a.latest) || a.name.localeCompare(b.name);
+    }).map(function (c, i) { return Object.assign(c, { id: prefix + i }); });
+  }
+  var companies = groupByCompany(active, "a");
+  var staleCompanies = groupByCompany(stale, "s");
 
-  var advanced = roles.filter(function (r) { return r.stage.rank < 3; }).length;
-  var known = roles.filter(function (r) { return r.days !== null; });
-  var median = known.map(function (r) { return r.days; }).sort(function (a, b) { return a - b; })[Math.floor(known.length / 2)];
+  var advanced = active.filter(function (r) { return r.stage.rank < 3; }).length;
   var stats = [
     [companies.length, "חברות"],
-    [roles.length, "משרות"],
+    [active.length, "משרות בהמתנה"],
     [advanced, "בבדיקה פעילה"],
-    [median === undefined ? "-" : median, "ימי המתנה (חציון)"]
+    [stale.length, "בלי תשובה מעל " + STALE_DAYS + " יום"],
+    ["-", "חברות שדיברנו עם מישהו בהן"]
   ];
   var statsBox = document.getElementById("stats");
-  stats.forEach(function (s) {
-    statsBox.appendChild(el("div", { cls: "stat" }, [el("b", { text: String(s[0]) }), el("span", { text: s[1] })]));
+  var statValues = stats.map(function (s) {
+    var b = el("b", { text: String(s[0]) });
+    statsBox.appendChild(el("div", { cls: "stat" }, [b, el("span", { text: s[1] })]));
+    return b;
   });
+  var talkedStat = statValues[statValues.length - 1];
 
   var chipsBox = document.getElementById("chips");
-  companies.forEach(function (c) {
-    chipsBox.appendChild(el("a", { cls: "chip" + (c.best < 3 ? " hot" : ""), href: "#" + c.id }, [
+  var activeNames = companies.map(function (c) { return c.name; });
+  var chipsByKey = {};
+  function addChip(c, cls) {
+    var chip = el("a", { cls: "chip" + cls, href: "#" + c.id }, [
+      el("span", { cls: "check", text: "✓", "aria-hidden": "true" }),
       document.createTextNode(c.name),
       el("small", { text: String(c.roles.length) })
-    ]));
-  });
+    ]);
+    chipsByKey[c.key] = chip;
+    chipsBox.appendChild(chip);
+  }
+  companies.forEach(function (c) { addChip(c, c.best < 3 ? " hot" : ""); });
+  staleCompanies
+    .filter(function (c) { return activeNames.indexOf(c.name) === -1; })
+    .forEach(function (c) { addChip(c, " quiet"); });
 
   function roleRow(r) {
     var title = r.link
@@ -274,19 +310,42 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     ]);
   }
 
-  var box = document.getElementById("companies");
-  var blocks = companies.map(function (c) {
-    var n = c.roles.length;
-    var block = el("article", { cls: "company", id: c.id }, [
-      el("div", { cls: "company-head" }, [
-        el("h3", { text: c.name }),
-        el("span", { text: n === 1 ? "משרה אחת" : n + " משרות" })
-      ]),
-      el("ul", { cls: "roles" }, c.roles.map(roleRow))
+  // One "talked to someone there" checkbox per company block; a company can
+  // have blocks in both sections, so a key may map to two inputs.
+  var talkInputs = [];
+  function talkBox(c) {
+    var input = el("input", { type: "checkbox", id: "talk-" + c.id });
+    input.disabled = true;
+    input.dataset.key = c.key;
+    input.dataset.company = c.name;
+    talkInputs.push(input);
+    return el("label", { cls: "talk", "for": "talk-" + c.id }, [
+      input,
+      el("span", { text: "דיברנו עם מישהו מהחברה" })
     ]);
-    box.appendChild(block);
-    return block;
-  });
+  }
+
+  function renderCompanies(list, box) {
+    return list.map(function (c) {
+      var n = c.roles.length;
+      var block = el("article", { cls: "company", id: c.id }, [
+        el("div", { cls: "company-head" }, [
+          el("h3", { text: c.name }),
+          el("div", { cls: "head-side" }, [
+            el("span", { text: n === 1 ? "משרה אחת" : n + " משרות" }),
+            talkBox(c)
+          ])
+        ]),
+        el("ul", { cls: "roles" }, c.roles.map(roleRow))
+      ]);
+      box.appendChild(block);
+      return block;
+    });
+  }
+  var box = document.getElementById("companies");
+  var blocks = renderCompanies(companies, box)
+    .concat(renderCompanies(staleCompanies, document.getElementById("stale")));
+  document.getElementById("stale-section").hidden = stale.length === 0;
   var empty = el("p", { cls: "empty", text: "לא נמצאו משרות שמתאימות לחיפוש." });
   empty.hidden = true;
   box.appendChild(empty);
@@ -306,6 +365,54 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     });
     empty.hidden = shown > 0;
   });
+
+  // "Talked to someone" ticks live in the page's shared db (contacts/<company_key>),
+  // so every viewer sees the same state. Without db the boxes are hidden.
+  var talked = {};
+  function paintTalked() {
+    talkInputs.forEach(function (input) { input.checked = !!talked[input.dataset.key]; });
+    Object.keys(chipsByKey).forEach(function (k) { chipsByKey[k].classList.toggle("talked", !!talked[k]); });
+    var allKeys = {};
+    companies.concat(staleCompanies).forEach(function (c) { allKeys[c.key] = true; });
+    talkedStat.textContent = String(Object.keys(allKeys).filter(function (k) { return talked[k]; }).length);
+  }
+  function hideTalk() {
+    talkInputs.forEach(function (input) { input.parentNode.hidden = true; });
+    talkedStat.parentNode.hidden = true;
+  }
+  async function initTalked() {
+    var db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+    if (!db) { hideTalk(); return; }
+    var user = await window.claude.use("user");
+    var canWrite = user ? await user.can("data.write") : null;
+    var contacts = db.collection("contacts");
+    contacts.onSnapshot(function (snap) {
+      var next = {};
+      snap.docs.forEach(function (d) { var v = d.data(); if (v && v.talked === true) next[d.id] = true; });
+      talked = next;
+      paintTalked();
+    }, function () { hideTalk(); });
+    talkInputs.forEach(function (input) {
+      input.disabled = canWrite === false;
+      input.addEventListener("change", async function () {
+        var key = input.dataset.key;
+        var value = input.checked;
+        talkInputs.forEach(function (i) { if (i.dataset.key === key) i.disabled = true; });
+        try {
+          await contacts.doc(key).set({ talked: value, company: input.dataset.company });
+          talked[key] = value;
+          paintTalked();
+          talkInputs.forEach(function (i) { if (i.dataset.key === key) i.disabled = false; });
+        } catch (e) {
+          input.checked = !value;
+          // Not allowed to write: keep showing the shared state, read-only.
+          var readOnly = e && e.code === "invalid_argument";
+          talkInputs.forEach(function (i) { if (readOnly || i.dataset.key === key) i.disabled = readOnly; });
+        }
+      });
+    });
+  }
+  initTalked().catch(hideTalk);
 
   document.getElementById("footer").textContent =
     "הרשימה עודכנה ב-" + fmtDate(BUILT) + ". ימי ההמתנה מחושבים לפי היום.";

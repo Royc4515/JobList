@@ -2,7 +2,7 @@
 company: Waterfall Security Solutions
 role: Full Stack Developer (Student)
 status: submitted
-applied:
+applied: 2026-06-03
 location: Israel
 work_model: Unspecified (flexible work)
 scope: Hourly / part-time student

@@ -1,7 +1,7 @@
 ---
 company: Texas Instruments
 role: WiFi Software Development Intern (25007138)
-status: in-review
+status: rejected
 applied: 2026-07-23
 location:
 work_model:
@@ -10,7 +10,7 @@ jd_link: https://careers.ti.com/s/w2hrx1f77H
 cv_version:
 contact: ti_myhiring_no-reply@recruiting.ti.com
 follow_up:
-gmail: Application received 2026-07-23 — TI reviewing applications
+gmail: Rejected 2026-09-24 - TI email: not been selected for this position
 ---
 
 ## Stack Required
@@ -30,3 +30,5 @@ gmail: Application received 2026-07-23 — TI reviewing applications
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
 Note: jd_link points to a TI candidate-profile page, not the posting.
+
+2026-10-01 - Gmail check: Rejected 2026-09-24 - TI email: not been selected for this position.

@@ -1,7 +1,7 @@
 ---
 company: Mobileye
 role: Software CI and Automation Student (EPG CI team)
-status: submitted
+status: rejected
 applied: 2026-08-16
 location: Jerusalem
 work_model: On-site
@@ -10,7 +10,7 @@ jd_link: https://jobs.eu.lever.co/mobileye/f55eea29-25bc-4c11-85e0-c3f21502097c
 cv_version:
 contact:
 follow_up:
-gmail: יש - אישור הגשה (Mobileye/Lever 16/08)
+gmail: Rejected 2026-08-17 - Mobileye/Lever email: won't be moving forward
 ---
 
 ## Stack Required
@@ -33,3 +33,5 @@ Surfaced via SecretHunter alert 2026-08-16 13:13; Roy applied the same day via L
 Sixth Mobileye role tracked and the fifth submitted (SW Engineer Student - Ramat Gan; Algorithm Developer Student - Jerusalem; OS Architecture Student - Haifa; Python Developer Student - Jerusalem; this one). Afik is an existing Mobileye connection (see leads/mobileye-afik-referral.md) and could still vouch across the open Mobileye applications - worth one message covering all of them rather than per role.
 
 Note the posting states Mobileye may use AI tools to screen applications and to look for inconsistencies across materials, with humans making the final call. Keep the CV, LinkedIn and Lever profile consistent on dates and titles.
+
+2026-10-01 - Gmail check: Rejected 2026-08-17 - Mobileye/Lever email: won't be moving forward.
