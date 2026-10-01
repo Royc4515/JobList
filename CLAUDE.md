@@ -44,8 +44,17 @@ never mark those submitted.
 ## Automation
 A daily Routine "Daily JobList Gmail Sweep" (05:00 UTC) scans Gmail and commits
 straight to `main`. It clones/pushes `Royc4515/JobList` (exact casing matters -
-the git proxy allowlist is case-sensitive). If it fails to push, check the repo
-name casing in the Routine prompt first.
+the git proxy allowlist is case-sensitive).
+
+If it reports "not in this session's authorized repository set" (HTTP 403), the
+cause is the Routine's environment, not the casing. Push access comes only from
+a repository attached to the Routine, or from the `add_repo` tool. A Routine
+created by an agent through the trigger API, with no repository and no
+environment, runs in the Cowork-scheduled environment. That environment has no
+`add_repo` and gets no GitHub credential (diagnosed 2026-10-01; last successful
+push 2026-08-04). The fix is in the claude.ai Routines UI: the Routine needs
+`Royc4515/JobList` selected as its repository, a cloud environment, and the Gmail
+connector. The trigger API cannot attach repositories or connectors.
 </content>
 
 ## Local agents (run on Roy's computer)
