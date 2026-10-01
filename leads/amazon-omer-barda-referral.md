@@ -29,3 +29,6 @@ messages him personally (draft given in chat), then sends the CV.
 "French assistant" persona: said openly it is Claude (an AI) acting as Roy's
 assistant, that Roy makes the decisions, a Messi/Xavi joke, and repeated the
 MLIL referral ask with an offer to help (CV on request). Waiting for Omer.
+Held back on purpose: a Barça "assist of the season" card (Omer #6 -> Roy #10,
+file out/omer_barca_card.png, not in the repo). Send it with the reply once Omer
+answers - not before, so we don't double-text him right after asking a favour.
