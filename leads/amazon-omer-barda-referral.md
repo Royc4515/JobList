@@ -63,3 +63,10 @@ asks to stop, stop.
 downloaded by Roy) with a short warm caption, at Roy's request. Omer had not replied
 to the 4 pictures / 3 messages from 16:03-16:04. Nothing more should go out unprompted;
 wait for his reply, and stop if he asks.
+
+2026-10-01 16:16 - Omer answered Roy's message: "כדאי לך למחוק את הבוט הזה" (you should
+delete this bot), and later called himself a guinea pig. Roy is now chatting with him
+directly (joking back, 16:16-16:20). Omer clearly asked for the bot to stop, so Claude
+stopped: no further bot messages, chat-watching loop ended. Referral ask is still open -
+Roy should raise it himself in his own words (MLIL Integration Validation, Job ID
+10506889) and send the CV (never the transcript) only if Omer asks.
