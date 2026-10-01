@@ -32,3 +32,9 @@ MLIL referral ask with an offer to help (CV on request). Waiting for Omer.
 Held back on purpose: a Barça "assist of the season" card (Omer #6 -> Roy #10,
 file out/omer_barca_card.png, not in the repo). Send it with the reply once Omer
 answers - not before, so we don't double-text him right after asking a favour.
+
+2026-10-01 15:17 - At Roy's explicit request, Claude sent Omer a Flow-generated
+picture (the croissant assistant and an invented cartoon guy at a chalkboard of
+graph-theory and induction proofs - no real photo used) plus a short message
+("proving by induction that you're the king"). He had read the 13:39 message but
+not replied yet.
