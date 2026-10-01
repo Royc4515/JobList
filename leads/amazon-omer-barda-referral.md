@@ -45,3 +45,8 @@ why the bot is French. Claude answered honestly (an invented character from text
 not his photo; the croissant is Claude; French was Roy's idea) and said it would
 pass his request on to Roy. Second time Omer asked for Roy directly - Roy should
 write to him personally. Referral ask still unanswered.
+
+2026-10-01 15:55 - Roy wrote to Omer himself ("היי חזרתי מה הולך"), as Omer asked.
+Not read yet at 16:00. Claude tried to follow up with one picture (flow_stands.jpg)
+but the attach action was blocked by permissions, so nothing more was sent. Ten
+pictures are still waiting in out/ (PNG and JPG).
