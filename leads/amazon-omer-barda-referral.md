@@ -24,3 +24,8 @@ Status: not yet asked. A message is drafted (2026-10-01) but not sent. Plan: sen
 2026-10-01 - Omer replied at 13:24, teasing: he wants Roy to write to him himself,
 not through the assistant. No refusal - the ask is still open. Next step: Roy
 messages him personally (draft given in chat), then sends the CV.
+
+2026-10-01 13:39 - On Roy's explicit go-ahead, Claude replied on WhatsApp in the
+"French assistant" persona: said openly it is Claude (an AI) acting as Roy's
+assistant, that Roy makes the decisions, a Messi/Xavi joke, and repeated the
+MLIL referral ask with an offer to help (CV on request). Waiting for Omer.
