@@ -1,0 +1,420 @@
+<title>הגשות פתוחות של רועי</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&family=Assistant:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column. Company index up top, then one block per company with its roles as rows. */
+:root {
+  --bg: #f4f5f8;
+  --surface: #ffffff;
+  --ink: #1b2230;
+  --muted: #5d6576;
+  --line: #e0e3ea;
+  --accent: #34509c;
+  --accent-soft: #e6ebf7;
+  --good: #0e7a6a;
+  --good-soft: #dff2ee;
+  --warn: #9a5b0b;
+  --warn-soft: #fbefdc;
+  --font-display: "Frank Ruhl Libre", "David", Georgia, serif;
+  --font-body: "Assistant", "Segoe UI", Arial, sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #12151b; --surface: #1a1e27; --ink: #e8ebf1; --muted: #9ba3b4; --line: #2b313d;
+    --accent: #93abee; --accent-soft: #232c45; --good: #5fd0bd; --good-soft: #17322e;
+    --warn: #e9b46a; --warn-soft: #362a17; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #12151b; --surface: #1a1e27; --ink: #e8ebf1; --muted: #9ba3b4; --line: #2b313d;
+  --accent: #93abee; --accent-soft: #232c45; --good: #5fd0bd; --good-soft: #17322e;
+  --warn: #e9b46a; --warn-soft: #362a17; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1rem/1.55 var(--font-body);
+}
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding-inline: 16px;
+  padding-block: 40px 64px;
+  display: grid;
+  gap: 32px;
+}
+header { display: grid; gap: 10px; }
+.eyebrow {
+  font-size: .8rem; font-weight: 600; letter-spacing: .06em; color: var(--muted);
+}
+h1 {
+  margin: 0; font: 700 clamp(1.9rem, 4.5vw, 2.6rem)/1.15 var(--font-display);
+  text-wrap: balance;
+}
+.lede { margin: 0; color: var(--muted); max-width: 62ch; font-size: 1.05rem; }
+
+.stats { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 6px; }
+.stat { display: grid; }
+.stat b { font: 500 1.6rem/1.2 var(--font-data); font-variant-numeric: tabular-nums; }
+.stat span { font-size: .85rem; color: var(--muted); }
+
+.index { display: grid; gap: 12px; }
+h2 {
+  margin: 0; font: 600 .8rem/1 var(--font-body); letter-spacing: .06em; color: var(--muted);
+}
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600;
+}
+.chip:hover { border-color: var(--accent); }
+.chip:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip small { font: 500 .78rem var(--font-data); color: var(--muted); }
+.chip.hot { border-color: var(--good); }
+.chip.hot small { color: var(--good); }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
+.toolbar input {
+  flex: 1 1 260px; max-width: 360px; padding: 9px 12px; border-radius: 8px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit;
+}
+.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: .85rem; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+.dot.fresh { background: var(--good); }
+.dot.long { background: var(--warn); }
+
+.companies { display: grid; gap: 16px; }
+.company {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+  padding: 18px 20px; display: grid; gap: 6px; scroll-margin-top: 16px;
+}
+.company-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
+.company-head h3 { margin: 0; font: 700 1.35rem/1.25 var(--font-display); }
+.company-head span { font-size: .88rem; color: var(--muted); }
+
+.roles { list-style: none; margin: 0; padding: 0; display: grid; }
+.role {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px;
+  padding-block: 12px; border-top: 1px solid var(--line);
+}
+.role:first-child { border-top: 0; }
+.role-main { min-width: 0; display: grid; gap: 4px; }
+.role-title { font-weight: 600; overflow-wrap: anywhere; }
+.role-title a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.role-title a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .88rem; color: var(--muted); }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  font-size: .78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px;
+  background: var(--accent-soft); color: var(--accent);
+}
+.tag.review { background: var(--good-soft); color: var(--good); }
+.tag.quiet { background: transparent; color: var(--muted); border: 1px dashed var(--line); font-weight: 400; }
+
+.wait { text-align: end; display: grid; align-content: start; gap: 2px; }
+.wait b { font: 500 1.25rem/1.2 var(--font-data); font-variant-numeric: tabular-nums; }
+.wait b.fresh { color: var(--good); }
+.wait b.long { color: var(--warn); }
+.wait span { font: 400 .8rem var(--font-data); color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.empty { color: var(--muted); padding: 24px 0; }
+.note { margin: 0; color: var(--muted); max-width: 62ch; }
+.stale .company { background: transparent; border-style: dashed; }
+.stale .company-head h3 { font-size: 1.15rem; }
+.chip.quiet { border-style: dashed; color: var(--muted); background: transparent; }
+.chip .check { display: none; color: var(--good); font-weight: 700; }
+.chip.talked .check { display: inline; }
+
+.talk {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
+  font-size: .88rem; color: var(--muted); user-select: none;
+}
+.talk input { width: 18px; height: 18px; margin: 0; accent-color: var(--good); cursor: pointer; }
+.talk input:disabled, .talk input:disabled + span { cursor: default; opacity: .6; }
+.talk input:checked + span { color: var(--good); font-weight: 600; }
+.company-head .head-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+
+@media (max-width: 560px) {
+  .role { grid-template-columns: 1fr; }
+  .wait { text-align: start; display: flex; gap: 10px; align-items: baseline; }
+  .company { padding: 16px; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .chip, .role-title a { transition: color .15s, border-color .15s; }
+}
+</style>
+
+<main class="page" dir="rtl" lang="he">
+  <header>
+    <div class="eyebrow">רועי כרמלי · משרות סטודנט ופיתוח תוכנה</div>
+    <h1>החברות שאני מחכה מהן לתשובה</h1>
+    <p class="lede">כל המשרות שהגשתי אליהן ועדיין לא קיבלתי תשובה סופית. אם אתה מכיר מישהו באחת החברות, אשמח לשמוע.</p>
+    <div class="stats" id="stats"></div>
+  </header>
+
+  <section class="index" aria-labelledby="index-title">
+    <h2 id="index-title">חברות</h2>
+    <div class="chips" id="chips"></div>
+  </section>
+
+  <section class="index" aria-labelledby="detail-title">
+    <div class="toolbar">
+      <h2 id="detail-title">פירוט לפי חברה</h2>
+      <input id="filter" type="search" placeholder="חיפוש חברה, משרה או עיר" aria-label="חיפוש">
+    </div>
+    <div class="legend">
+      <span><i class="dot fresh"></i>עד 3 שבועות</span>
+      <span><i class="dot"></i>3 שבועות עד __STALE_DAYS__ יום</span>
+    </div>
+    <div class="companies" id="companies"></div>
+  </section>
+
+  <section class="index" id="stale-section" aria-labelledby="stale-title">
+    <h2 id="stale-title">בלי תשובה יותר מ-__STALE_DAYS__ יום</h2>
+    <p class="note">כאן כבר עבר הרבה זמן בלי תשובה, אז אני לא מחכה להן באופן פעיל. אבל אף אחת מהן לא נסגרה רשמית, והיכרות מבפנים יכולה להחזיר אותן לחיים.</p>
+    <div class="companies stale" id="stale"></div>
+  </section>
+
+  <footer id="footer"></footer>
+</main>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  var BUILT = "__BUILT__";
+  var STALE_DAYS = __STALE_DAYS__;
+  var entries = JSON.parse(document.getElementById("data").textContent);
+  var STAGE = {
+    offer: { label: "הצעה", rank: 0, cls: "review" },
+    interview: { label: "בשלב ראיונות", rank: 1, cls: "review" },
+    "in-review": { label: "בבדיקה אצל המגייסים", rank: 2, cls: "review" },
+    submitted: { label: "הוגש", rank: 3, cls: "" }
+  };
+  var DAY = 86400000;
+  var today = new Date(); today.setHours(0, 0, 0, 0);
+
+  function parseDate(iso) {
+    if (!iso) return null;
+    var p = iso.split("-");
+    return new Date(+p[0], +p[1] - 1, +p[2]);
+  }
+  function daysSince(iso) {
+    var d = parseDate(iso);
+    return d ? Math.max(0, Math.round((today - d) / DAY)) : null;
+  }
+  function fmtDate(iso) {
+    var d = parseDate(iso);
+    if (!d) return "תאריך לא ידוע";
+    return String(d.getDate()).padStart(2, "0") + "/" + String(d.getMonth() + 1).padStart(2, "0") + "/" + d.getFullYear();
+  }
+  function waitClass(days) {
+    if (days === null) return "";
+    if (days <= 21) return "fresh";
+    return days > STALE_DAYS ? "long" : "";
+  }
+  function el(tag, attrs, children) {
+    var node = document.createElement(tag);
+    Object.keys(attrs || {}).forEach(function (k) {
+      if (k === "text") node.textContent = attrs[k];
+      else if (k === "cls") node.className = attrs[k];
+      else node.setAttribute(k, attrs[k]);
+    });
+    (children || []).forEach(function (c) { if (c) node.appendChild(c); });
+    return node;
+  }
+  var roles = entries.map(function (e) {
+    return Object.assign({}, e, { days: daysSince(e.applied), stage: STAGE[e.status] || STAGE.submitted });
+  });
+  // Roles past STALE_DAYS with no answer leave the active list for their own section.
+  var active = roles.filter(function (r) { return r.days === null || r.days <= STALE_DAYS; });
+  var stale = roles.filter(function (r) { return r.days !== null && r.days > STALE_DAYS; });
+
+  function groupByCompany(list, prefix) {
+    var byCompany = {};
+    list.forEach(function (r) { (byCompany[r.company] = byCompany[r.company] || []).push(r); });
+    return Object.keys(byCompany).map(function (name) {
+      var items = byCompany[name].slice().sort(function (a, b) {
+        return a.stage.rank - b.stage.rank || (b.applied || "").localeCompare(a.applied || "");
+      });
+      var best = Math.min.apply(null, items.map(function (r) { return r.stage.rank; }));
+      var latest = items.reduce(function (m, r) { return r.applied > m ? r.applied : m; }, "");
+      return { name: name, key: items[0].company_key, roles: items, best: best, latest: latest };
+    }).sort(function (a, b) {
+      return a.best - b.best || b.latest.localeCompare(a.latest) || a.name.localeCompare(b.name);
+    }).map(function (c, i) { return Object.assign(c, { id: prefix + i }); });
+  }
+  var companies = groupByCompany(active, "a");
+  var staleCompanies = groupByCompany(stale, "s");
+
+  var advanced = active.filter(function (r) { return r.stage.rank < 3; }).length;
+  var stats = [
+    [companies.length, "חברות"],
+    [active.length, "משרות בהמתנה"],
+    [advanced, "בבדיקה פעילה"],
+    [stale.length, "בלי תשובה מעל " + STALE_DAYS + " יום"],
+    ["-", "חברות שדיברנו עם מישהו בהן"]
+  ];
+  var statsBox = document.getElementById("stats");
+  var statValues = stats.map(function (s) {
+    var b = el("b", { text: String(s[0]) });
+    statsBox.appendChild(el("div", { cls: "stat" }, [b, el("span", { text: s[1] })]));
+    return b;
+  });
+  var talkedStat = statValues[statValues.length - 1];
+
+  var chipsBox = document.getElementById("chips");
+  var activeNames = companies.map(function (c) { return c.name; });
+  var chipsByKey = {};
+  function addChip(c, cls) {
+    var chip = el("a", { cls: "chip" + cls, href: "#" + c.id }, [
+      el("span", { cls: "check", text: "✓", "aria-hidden": "true" }),
+      document.createTextNode(c.name),
+      el("small", { text: String(c.roles.length) })
+    ]);
+    chipsByKey[c.key] = chip;
+    chipsBox.appendChild(chip);
+  }
+  companies.forEach(function (c) { addChip(c, c.best < 3 ? " hot" : ""); });
+  staleCompanies
+    .filter(function (c) { return activeNames.indexOf(c.name) === -1; })
+    .forEach(function (c) { addChip(c, " quiet"); });
+
+  function roleRow(r) {
+    var title = r.link
+      ? el("a", { href: r.link, target: "_blank", rel: "noopener", text: r.role })
+      : document.createTextNode(r.role);
+    var meta = [r.location, r.work_model].filter(Boolean).map(function (t) { return el("span", { text: t }); });
+    var tags = [el("span", { cls: "tag " + r.stage.cls, text: r.stage.label })];
+    if (r.referral) tags.push(el("span", { cls: "tag", text: "עם הפניה" }));
+    if (r.posting_closed) tags.push(el("span", { cls: "tag quiet", title: "המודעה ירדה מאתר החברה. זה לא אומר שנדחיתי, רק שהם הפסיקו לקבל מועמדים חדשים.", text: "המודעה כבר לא באתר" }));
+    var wait = r.days === null
+      ? el("div", { cls: "wait" }, [el("span", { text: "תאריך הגשה לא ידוע" })])
+      : el("div", { cls: "wait" }, [
+          el("b", { cls: waitClass(r.days), text: r.days + " ימים" }),
+          el("span", { text: "הוגש " + fmtDate(r.applied) })
+        ]);
+    return el("li", { cls: "role", "data-search": [r.company, r.role, r.location].join(" ").toLowerCase() }, [
+      el("div", { cls: "role-main" }, [
+        el("div", { cls: "role-title" }, [title]),
+        meta.length ? el("div", { cls: "meta" }, meta) : null,
+        el("div", { cls: "tags" }, tags)
+      ]),
+      wait
+    ]);
+  }
+
+  // One "talked to someone there" checkbox per company block; a company can
+  // have blocks in both sections, so a key may map to two inputs.
+  var talkInputs = [];
+  function talkBox(c) {
+    var input = el("input", { type: "checkbox", id: "talk-" + c.id });
+    input.disabled = true;
+    input.dataset.key = c.key;
+    input.dataset.company = c.name;
+    talkInputs.push(input);
+    return el("label", { cls: "talk", "for": "talk-" + c.id }, [
+      input,
+      el("span", { text: "דיברנו עם מישהו מהחברה" })
+    ]);
+  }
+
+  function renderCompanies(list, box) {
+    return list.map(function (c) {
+      var n = c.roles.length;
+      var block = el("article", { cls: "company", id: c.id }, [
+        el("div", { cls: "company-head" }, [
+          el("h3", { text: c.name }),
+          el("div", { cls: "head-side" }, [
+            el("span", { text: n === 1 ? "משרה אחת" : n + " משרות" }),
+            talkBox(c)
+          ])
+        ]),
+        el("ul", { cls: "roles" }, c.roles.map(roleRow))
+      ]);
+      box.appendChild(block);
+      return block;
+    });
+  }
+  var box = document.getElementById("companies");
+  var blocks = renderCompanies(companies, box)
+    .concat(renderCompanies(staleCompanies, document.getElementById("stale")));
+  document.getElementById("stale-section").hidden = stale.length === 0;
+  var empty = el("p", { cls: "empty", text: "לא נמצאו משרות שמתאימות לחיפוש." });
+  empty.hidden = true;
+  box.appendChild(empty);
+
+  document.getElementById("filter").addEventListener("input", function (ev) {
+    var q = ev.target.value.trim().toLowerCase();
+    var shown = 0;
+    blocks.forEach(function (block) {
+      var any = false;
+      block.querySelectorAll(".role").forEach(function (row) {
+        var match = !q || row.getAttribute("data-search").indexOf(q) !== -1;
+        row.hidden = !match;
+        any = any || match;
+      });
+      block.hidden = !any;
+      if (any) shown++;
+    });
+    empty.hidden = shown > 0;
+  });
+
+  // "Talked to someone" ticks live in the page's shared db (contacts/<company_key>),
+  // so every viewer sees the same state. Without db the boxes are hidden.
+  var talked = {};
+  function paintTalked() {
+    talkInputs.forEach(function (input) { input.checked = !!talked[input.dataset.key]; });
+    Object.keys(chipsByKey).forEach(function (k) { chipsByKey[k].classList.toggle("talked", !!talked[k]); });
+    var allKeys = {};
+    companies.concat(staleCompanies).forEach(function (c) { allKeys[c.key] = true; });
+    talkedStat.textContent = String(Object.keys(allKeys).filter(function (k) { return talked[k]; }).length);
+  }
+  function hideTalk() {
+    talkInputs.forEach(function (input) { input.parentNode.hidden = true; });
+    talkedStat.parentNode.hidden = true;
+  }
+  async function initTalked() {
+    var db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+    if (!db) { hideTalk(); return; }
+    var user = await window.claude.use("user");
+    var canWrite = user ? await user.can("data.write") : null;
+    var contacts = db.collection("contacts");
+    contacts.onSnapshot(function (snap) {
+      var next = {};
+      snap.docs.forEach(function (d) { var v = d.data(); if (v && v.talked === true) next[d.id] = true; });
+      talked = next;
+      paintTalked();
+    }, function () { hideTalk(); });
+    talkInputs.forEach(function (input) {
+      input.disabled = canWrite === false;
+      input.addEventListener("change", async function () {
+        var key = input.dataset.key;
+        var value = input.checked;
+        talkInputs.forEach(function (i) { if (i.dataset.key === key) i.disabled = true; });
+        try {
+          await contacts.doc(key).set({ talked: value, company: input.dataset.company });
+          talked[key] = value;
+          paintTalked();
+          talkInputs.forEach(function (i) { if (i.dataset.key === key) i.disabled = false; });
+        } catch (e) {
+          input.checked = !value;
+          // Not allowed to write: keep showing the shared state, read-only.
+          var readOnly = e && e.code === "invalid_argument";
+          talkInputs.forEach(function (i) { if (readOnly || i.dataset.key === key) i.disabled = readOnly; });
+        }
+      });
+    });
+  }
+  initTalked().catch(hideTalk);
+
+  document.getElementById("footer").textContent =
+    "הרשימה עודכנה ב-" + fmtDate(BUILT) + ". ימי ההמתנה מחושבים לפי היום.";
+})();
+</script>

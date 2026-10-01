@@ -1,7 +1,7 @@
 ---
 company: Siemens Industry Software Ltd.
 role: Software Engineering Student
-status: in-review
+status: rejected
 applied: 2026-06-23
 location: Tel Aviv, Israel (Airport City)
 work_model: Hybrid
@@ -10,7 +10,7 @@ jd_link:
 cv_version: General
 contact: '[credential removed]'
 follow_up:
-gmail: יש - artifact submit
+gmail: Rejected 2026-08-05 - Siemens email: decided to move forward with other candidates (req 510111)
 ---
 
 ## Stack Required
@@ -24,3 +24,5 @@ Airport City campus may mean a significant commute from central Tel Aviv; role i
 
 ## Notes
 A plaintext password was previously stored in this record and has been removed. Rotate that credential if it is still in use.
+
+2026-10-01 - Gmail check: Rejected 2026-08-05 - Siemens email: decided to move forward with other candidates (req 510111).

@@ -1,7 +1,7 @@
 ---
 company: Siemens Industry Software Ltd.
 role: AI Research Student (Job ID 512848)
-status: in-review
+status: rejected
 applied:
 location: Tel Aviv, Israel (Airport City)
 work_model: Hybrid
@@ -10,7 +10,7 @@ jd_link: https://jobs.siemens.com/en_US/externaljobs/JobDetail/512848?source=Lin
 cv_version: General (TBD)
 contact: talentacquisition.people_organization@siemens.com
 follow_up:
-gmail: In review 2026-07-15 — resumes being reviewed with hiring manager
+gmail: Rejected 2026-08-17 - Siemens email: decided to move forward with other candidates
 ---
 
 ## Stack Required
@@ -36,3 +36,5 @@ Decided: APPLY - 2nd priority after 512845. Lead with the "I constantly evaluate
 A different Siemens AI Research Student posting (Job ID 520016, PSCoPilot evaluation team) is live, but it requires a Master's student with 2+ years left, so it is not one to apply to.
 
 2026-10-01 - Posting closed as of 2026-10-01 (Page not found while a control job loads; careers-scanner liveness check). Closed is not a rejection - status unchanged.
+
+2026-10-01 - Gmail check: Rejected 2026-08-17 - Siemens email: decided to move forward with other candidates.

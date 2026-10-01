@@ -21,3 +21,6 @@ archive/
 .vscode/
 __pycache__/
 .ruff_cache/
+
+# Generated share pages (scripts/build_waiting_page.py)
+out/

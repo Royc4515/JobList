@@ -1,7 +1,7 @@
 ---
 company: ChargeAfter
 role: Integration Engineer Intern - Operations Group
-status: submitted
+status: rejected
 applied: 2026-08-17
 location: Tel Aviv
 work_model: Hybrid
@@ -10,7 +10,7 @@ jd_link: https://chargeafter.com/careers/co/tel-aviv-israel/2D.F6D/integration-e
 cv_version:
 contact:
 follow_up:
-gmail: נדחה 16/08 ("move forward with other candidates"); הוגש שוב 17/08 - אישור אוטומטי מ-comeet
+gmail: Rejected twice - 2026-08-16 and again 2026-08-18 after re-applying (Comeet: decided to move forward with other candidates)
 fit_role: 7
 fit_stack: 8
 fit_gates: 6
@@ -42,3 +42,5 @@ already declined for him, so `rejected` may be the truer status - left for Roy t
 decide. Either way it must not sit in the "Next to submit" queue.
 
 2026-10-01 - Posting closed as of 2026-10-01 (Comeet says the position may have been filled; careers-scanner liveness check). Closed is not a rejection - status unchanged.
+
+2026-10-01 - Gmail check: Rejected twice - 2026-08-16 and again 2026-08-18 after re-applying (Comeet: decided to move forward with other candidates).

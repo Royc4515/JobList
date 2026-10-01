@@ -1,7 +1,7 @@
 ---
 company: NiCE
 role: DevOps Student (Associate DevOps Engineer, CSA team)
-status: submitted
+status: rejected
 applied: 2026-08-24
 location: רעננה
 work_model: Hybrid
@@ -10,7 +10,7 @@ jd_link: https://boards.eu.greenhouse.io/nice/jobs/4850412101
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up: 2026-09-07
-gmail: הוגש 24/08 דרך אתר NiCE (Greenhouse, req 10738); כלל תשובת AI-experience + גיליון ציונים. (ניסיון קודם ב-02/08 לא אושר במייל.)
+gmail: Closed 2026-09-15 - NiCE email: role no longer open (encouraged to apply again)
 ---
 
 ## Stack Required
@@ -33,3 +33,5 @@ Python, CI/CD, AWS, Docker, REST APIs, AI/LLM concepts, Self-learner, English co
 2026-09-27 - Posting no longer live (checked directly). This means the req is closed to new applicants - it does not by itself mean the application was rejected, so status stays as-is until an email says otherwise.
 
 2026-10-01 - Posting closed as of 2026-10-01 (Greenhouse link redirects to the generic careers page, API 404; careers-scanner liveness check). Closed is not a rejection - status unchanged.
+
+2026-10-01 - Gmail check: Closed 2026-09-15 - NiCE email: role no longer open (encouraged to apply again). Recorded as rejected because the process ended for Roy; the email says the role closed, not that he was turned down. The Shay lead (leads/atera-ex-nice-shay.md) can still ask about unposted NiCE roles.

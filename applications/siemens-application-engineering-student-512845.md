@@ -1,7 +1,7 @@
 ---
 company: Siemens Industry Software Ltd.
 role: Application Engineering Student (Job ID 512845)
-status: in-review
+status: rejected
 applied:
 location: Tel Aviv, Israel (Airport City)
 work_model: Hybrid
@@ -10,7 +10,7 @@ jd_link: https://jobs.siemens.com/en_US/externaljobs/JobDetail/512845?recommenda
 cv_version: General (TBD)
 contact: talentacquisition.people_organization@siemens.com
 follow_up:
-gmail: In review 2026-07-15 — resumes being reviewed with hiring manager
+gmail: Rejected 2026-08-28 - Siemens email: decided to move forward with other candidates
 ---
 
 ## Stack Required
@@ -35,3 +35,5 @@ Decided: APPLY - 1st priority of the Siemens roles. Build-first / hands-on build
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
 
 2026-10-01 - Posting closed as of 2026-10-01 (Page not found while a control job loads; careers-scanner liveness check). Closed is not a rejection - status unchanged.
+
+2026-10-01 - Gmail check: Rejected 2026-08-28 - Siemens email: decided to move forward with other candidates.
