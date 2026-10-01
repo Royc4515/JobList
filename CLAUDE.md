@@ -35,6 +35,15 @@ dashboard is auto-generated - never hand-edit it.
 - Only mark a role `submitted` with real evidence (a confirmation email) or
   Roy's explicit confirmation. Otherwise `not-submitted`.
 
+## Shareable "waiting for an answer" page
+`python3 scripts/build_waiting_page.py` writes `out/waiting.html` (gitignored): every
+submitted / in-review / interview / offer role, grouped by company, public-safe fields
+only (no contacts, Gmail notes or fit scores). Roy shares it with people helping him
+(e.g. Shay). It is published as the Artifact
+https://claude.ai/artifact/UcTjHSXjkpK7GvL8XdkAok - after status changes, rebuild and
+republish to that same URL (pass it as `url`) so the shared link stays current. Run
+`python3 scripts/test_build_waiting_page.py` after changing the script.
+
 ## Determining application status from Gmail
 A confirmation email ("we received your application", "your application was
 sent to X") means submitted - use its date. Job-board digests (Alljobs,
