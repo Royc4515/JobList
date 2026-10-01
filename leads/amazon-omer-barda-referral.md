@@ -58,3 +58,8 @@ Claude ended up in the chat, that the pictures are imaginary and not based on Om
 photo, and an "if it's too much, say stop" opt-out. The Flow video ("AI assistant
 waving at camera", 8s) was NOT sent: downloading it from Flow was blocked. If Omer
 asks to stop, stop.
+
+2026-10-01 16:14 - Sent Omer the 8-second Flow video (the croissant waving in a stadium,
+downloaded by Roy) with a short warm caption, at Roy's request. Omer had not replied
+to the 4 pictures / 3 messages from 16:03-16:04. Nothing more should go out unprompted;
+wait for his reply, and stop if he asks.
