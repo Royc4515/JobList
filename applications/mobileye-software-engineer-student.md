@@ -27,3 +27,5 @@ Python, deep learning, computer vision, PyTorch, training infrastructure, data p
 
 ## Notes
 R&D - Algorithms, real-time vision models for autonomous driving / ADAS. Hands-on SW engineering is a must; strong Python required. Applied via Lever 05/08, confirmation received same day.
+
+2026-10-01 - Posting closed as of 2026-10-01 (Lever page and API both 404; careers-scanner liveness check). Closed is not a rejection - status unchanged.

@@ -29,3 +29,5 @@ C#, TypeScript, Angular, requirements analysis, software design, integration, sy
 Command-and-control systems for UAS fleets, Modi'in (Maccabim-Reut). Distinct from the other Elbit Modi'in Software Engineering Student role (Req 6610) already tracked. Military background in UAVs / C2 / intelligence is an advantage. Application form was pre-filled with CV Roy_Carmelli_CV_Aug2026.pdf - confirm whether it was actually submitted.
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+
+2026-10-01 - Posting closed as of 2026-10-01 (jobId 20459 missing from the Elbit feed; careers-scanner liveness check). Closed is not a rejection - status unchanged.

@@ -29,3 +29,5 @@ Objective-C, Swift, macOS internals, user space, OS services, low-level debuggin
 Second SentinelOne internship applied to on 2026-08-10 (separate confirmation at 16:47, alongside the backend Software Engineer Intern at 16:44). Low-level macOS security engineering - aligns with the security/systems angle (similar flavor to Cellebrite / Apple roles).
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+
+2026-10-01 - Posting closed as of 2026-10-01 (sentinellabs Greenhouse board lacks the id, per-job API 404; careers-scanner liveness check). Closed is not a rejection - status unchanged.

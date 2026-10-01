@@ -29,3 +29,5 @@ C, C++, C#, Node.js, Angular, React, requirements analysis, systems understandin
 Command and control team for UAV platforms, Modi'in (Maccabim-Reut) site. Different role from the Elbit Netanya Software Developer Student (Req 6355) already tracked. Application form was pre-filled with CV Roy_Carmelli_CV_JUL2026.pdf - confirm whether it was actually submitted.
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+
+2026-10-01 - Posting closed as of 2026-10-01 (jobId 20461 missing from the Elbit feed; careers-scanner liveness check). Closed is not a rejection - status unchanged.

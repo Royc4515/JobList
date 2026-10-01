@@ -34,3 +34,5 @@ Decided: APPLY - 2nd priority after 512845. Lead with the "I constantly evaluate
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
 A different Siemens AI Research Student posting (Job ID 520016, PSCoPilot evaluation team) is live, but it requires a Master's student with 2+ years left, so it is not one to apply to.
+
+2026-10-01 - Posting closed as of 2026-10-01 (Page not found while a control job loads; careers-scanner liveness check). Closed is not a rejection - status unchanged.
