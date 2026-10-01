@@ -38,3 +38,10 @@ picture (the croissant assistant and an invented cartoon guy at a chalkboard of
 graph-theory and induction proofs - no real photo used) plus a short message
 ("proving by induction that you're the king"). He had read the 13:39 message but
 not replied yet.
+
+2026-10-01 15:36 - Omer replied: laughed, again asked Roy to write to him himself
+("רועי ימניאק תכתוב לי בעצמך"), asked whether the picture was meant to be him, and
+why the bot is French. Claude answered honestly (an invented character from text,
+not his photo; the croissant is Claude; French was Roy's idea) and said it would
+pass his request on to Roy. Second time Omer asked for Roy directly - Roy should
+write to him personally. Referral ask still unanswered.
