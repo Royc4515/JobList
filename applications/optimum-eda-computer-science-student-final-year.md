@@ -1,16 +1,16 @@
 ---
 company: Optimum EDA and CAD Services
 role: Computer Science Student (Final Year)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-01
 location: Caesarea (remote options)
 work_model: Hybrid
 scope: Internship
 jd_link: https://www.linkedin.com/jobs/view/4443109385
 cv_version:
 contact:
-follow_up:
-gmail: נשמרה בלינקדאין - תזכורת "apply now" 29/09
+follow_up: 2026-10-15
+gmail: Applied by email 2026-10-01 to amir@optimum-eda.com; awaiting reply
 fit_role: 5
 fit_stack: 7
 fit_gates: 6
@@ -37,3 +37,5 @@ Python, Linux, Bash, scripting, automation, EDA tools, workflow optimization, R&
 2026-09-30 - Roy saved this on LinkedIn; LinkedIn sent an "apply now" reminder on 2026-09-29. Not applied. Small service company, so a cold application still has a fair chance of reaching a person.
 
 2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.
+
+2026-10-01 - Applied by email to amir@optimum-eda.com (the apply address on their jobs page), with `Roy_Carmelli_CV_OptimumEDA.pdf` attached. Said Roy is available in 2-3 days and can work on-site in Caesarea or hybrid. Roy approved in chat; evidence is the sent email. Small company, so follow-up 2026-10-15 with a short nudge if there is no reply.

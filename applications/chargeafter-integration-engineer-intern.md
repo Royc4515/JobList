@@ -40,3 +40,5 @@ automatic "We Got It" acknowledgement at 15:48 UTC. Marked `submitted` on that
 confirmation email, per CLAUDE.md. The auto-ack does not reopen a req the company
 already declined for him, so `rejected` may be the truer status - left for Roy to
 decide. Either way it must not sit in the "Next to submit" queue.
+
+2026-10-01 - Posting closed as of 2026-10-01 (Comeet says the position may have been filled; careers-scanner liveness check). Closed is not a rejection - status unchanged.

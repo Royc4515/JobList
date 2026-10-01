@@ -33,3 +33,5 @@ C, C++, x86-64 Assembly, Systems Programming, Data Structures (93), Memory Manag
 2026-07-31 — Apple Worldwide Recruiting: "We just received your resume for the following role: SW Engineering Student (Herzliya) 200573350." Application now submitted (req matches). Next: "If you're a potential match for the role, you'll hear from one of our recruiters." Follow-up set 2026-08-14. Auto-updated from Gmail by the daily JobList sweep.
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+
+2026-10-01 - Posting closed as of 2026-10-01 (page says the role does not exist or is no longer available; careers-scanner liveness check). Closed is not a rejection - status unchanged.

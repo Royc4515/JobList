@@ -31,3 +31,5 @@ Python, CI/CD, AWS, Docker, REST APIs, AI/LLM concepts, Self-learner, English co
 2026-08-24 — Roy completed and submitted the application via the NiCE careers site (Greenhouse). Included a free-text answer to "hands-on experience with AI tools/agents" (Claude Code daily use + MCP, the Aside 6-provider extension, and the Wine Sommelier Telegram agent) plus the grade transcript. Treating 2026-08-24 as the real submission date; the 2026-08-02 attempt never produced a confirmation. Follow-up reset to 2026-09-07.
 
 2026-09-27 - Posting no longer live (checked directly). This means the req is closed to new applicants - it does not by itself mean the application was rejected, so status stays as-is until an email says otherwise.
+
+2026-10-01 - Posting closed as of 2026-10-01 (Greenhouse link redirects to the generic careers page, API 404; careers-scanner liveness check). Closed is not a rejection - status unchanged.

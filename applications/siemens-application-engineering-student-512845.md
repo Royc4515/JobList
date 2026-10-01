@@ -33,3 +33,5 @@ Decided: APPLY - 1st priority of the Siemens roles. Build-first / hands-on build
 2026-07-15 — Siemens Talent Acquisition confirmed the application is being reviewed with the hiring manager ("Follow your application status, Roy"). Moved submitted → in-review. Application confirmed genuinely sent.
 
 2026-09-27 - Posting no longer live (direct check of the posting page / careers API). Closed, not a rejection - status unchanged.
+
+2026-10-01 - Posting closed as of 2026-10-01 (Page not found while a control job loads; careers-scanner liveness check). Closed is not a rejection - status unchanged.
