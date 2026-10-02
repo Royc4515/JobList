@@ -31,3 +31,5 @@ Road algorithm team - drivable lane detection (DL + classical CV + geometric mod
 2026-09-27 - Posting no longer live (checked directly). This means the req is closed to new applicants - it does not by itself mean the application was rejected, so status stays as-is until an email says otherwise.
 
 2026-10-01 - Posting closed as of 2026-10-01 (Lever page and API both 404; careers-scanner liveness check). Closed is not a rejection - status unchanged.
+
+2026-10-02 - Posting closed (liveness check). Closed is not a rejection - status unchanged.

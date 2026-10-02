@@ -1,7 +1,7 @@
 ---
 company: Intel
 role: Software Student for x86 Validation Tools (JR0287280)
-status: not-submitted
+status: dropped
 applied:
 location: Haifa
 work_model: On-site
@@ -25,3 +25,5 @@ C/C++ and Python, assembly; CPU validation tools; x86 architecture an advantage;
 2026-09-30 - Found by a Workday scan (posted 2026-09-27). Tracked only so it is not suggested again: requires at least three semesters remaining, and it is on-site in Haifa.
 
 2026-09-30 - Roy confirmed his expected graduation is **February 2028**, so about three semesters remain (not one year, as the tracker assumed). Re-scored against that. The three-semester requirement is met. Remaining concern: on-site in Haifa.
+
+2026-10-02 - Posting closed (liveness check). Status set to dropped: it was never applied to (on-site Haifa part-time was the drag) and the posting is gone.
