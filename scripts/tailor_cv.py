@@ -51,6 +51,14 @@ SUMMARIES = {
         ("automation", B),
         (": scripts and tools that take repetitive work off people's hands. ", None),
     ],
+    "Claroty": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" full-stack and AI development", B), (": ", None),
+        ("Python", B), (", ", None), ("TypeScript/React", B),
+        (", integrations and AI tooling. I build and ship real projects on my own, "
+         "and I pick up whatever stack or tool the job requires. ", None),
+    ],
     "AmazonMLIL": [
         ("Third-year ", None), ("Computer Science & Neuroscience", B),
         (" B.Sc. student at Bar-Ilan University, looking for a", None),
