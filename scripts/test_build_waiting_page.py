@@ -53,10 +53,18 @@ class Collect(unittest.TestCase):
         lead = {"status": "contacted", "linked_application": "applications/a.md"}
         self.assertFalse(collect([app("applications/a.md")], [lead])[0]["referral"])
 
-    def test_closed_posting_detected_from_notes(self):
-        bodies = {"applications/a.md": "2026-10-01 - Posting closed as of today."}
-        got = collect([app("applications/a.md"), app("applications/b.md")], bodies=bodies)
-        self.assertEqual([e["posting_closed"] for e in got], [True, False])
+    def test_closed_posting_excluded_from_page(self):
+        bodies = {"applications/a.md": "2026-10-01 - Posting closed as of today.",
+                  "applications/c.md": "Posting no longer live."}
+        got = collect([app("applications/a.md"), app("applications/b.md", role="Open"),
+                       app("applications/c.md")], bodies=bodies)
+        self.assertEqual([e["role"] for e in got], ["Open"])
+
+    def test_company_with_only_closed_roles_disappears(self):
+        bodies = {"applications/a.md": "Posting closed."}
+        got = collect([app("applications/a.md", company="Gone"),
+                       app("applications/b.md", company="Here")], bodies=bodies)
+        self.assertEqual({e["company"] for e in got}, {"Here"})
 
 
 class CompanyKey(unittest.TestCase):
