@@ -3,6 +3,7 @@ company: Mobileye
 role: ML Software & Infrastructure Engineer (Student) - Hawkeye
 status: not-submitted
 applied:
+found: 2026-08-09
 location:
 work_model:
 scope: Student

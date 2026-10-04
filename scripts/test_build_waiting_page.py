@@ -4,6 +4,7 @@
 Stdlib only, matching the script.  Run:  python3 scripts/test_build_waiting_page.py
 """
 import unittest
+from datetime import date
 
 import build_waiting_page as wp
 
@@ -79,6 +80,73 @@ class Collect(unittest.TestCase):
         got = collect([app("applications/a.md", company="Gone"),
                        app("applications/b.md", company="Here")], bodies=bodies)
         self.assertEqual({e["company"] for e in got}, {"Here"})
+
+
+class CollectTodo(unittest.TestCase):
+    TODAY = date(2026, 10, 4)
+
+    def todo(self, apps, bodies=None):
+        bodies = bodies or {}
+        return wp.collect_todo(list(apps), lambda f: bodies.get(f, ""), self.TODAY)
+
+    def fresh(self, file="applications/t.md", **fields):
+        base = dict(status="not-submitted", found="2026-10-01", fit_gates="7")
+        base.update(fields)
+        return app(file, **base)
+
+    def test_recent_open_role_included(self):
+        self.assertEqual(len(self.todo([self.fresh()])), 1)
+
+    def test_window_boundaries(self):
+        got = self.todo([self.fresh("applications/a.md", found="2026-09-27"),
+                         self.fresh("applications/b.md", found="2026-09-26"),
+                         self.fresh("applications/c.md", found="2026-10-04"),
+                         self.fresh("applications/d.md", found="2026-10-05")])
+        self.assertEqual({e["found"] for e in got}, {"2026-09-27", "2026-10-04"})
+
+    def test_older_than_a_week_excluded(self):
+        self.assertEqual(self.todo([self.fresh(found="2026-08-05")]), [])
+
+    def test_missing_or_bad_found_excluded(self):
+        self.assertEqual(self.todo([self.fresh(found=""), self.fresh(found="yesterday")]), [])
+        self.assertEqual(self.todo([app(status="not-submitted", fit_gates="7")]), [])
+
+    def test_gated_out_excluded(self):
+        self.assertEqual(self.todo([self.fresh(fit_gates="0")]), [])
+        self.assertEqual(self.todo([self.fresh(fit_gates="")]), [])
+        self.assertEqual(self.todo([self.fresh(fit_gates="n/a")]), [])
+
+    def test_closed_posting_excluded(self):
+        bodies = {"applications/t.md": "2026-10-02 - Posting closed."}
+        self.assertEqual(self.todo([self.fresh()], bodies), [])
+
+    def test_other_statuses_excluded(self):
+        got = self.todo([self.fresh(f"applications/{s}.md", status=s) for s in
+                         ("submitted", "in-review", "interview", "offer", "rejected", "dropped")])
+        self.assertEqual(got, [])
+
+    def test_newest_first(self):
+        got = self.todo([self.fresh("applications/a.md", role="Old", found="2026-09-30"),
+                         self.fresh("applications/b.md", role="New", found="2026-10-03")])
+        self.assertEqual([e["role"] for e in got], ["New", "Old"])
+
+    def test_only_public_fields_exported(self):
+        entry = self.todo([self.fresh(
+            contact="Dana referral", gmail="gmail-secret", fit_role="9", fit_stack="8",
+            fit_path="7", fit_note="Omer referral note", blurb="public blurb",
+            location="Haifa", jd_link="https://x.io/j")],
+            {"applications/t.md": "Omer Barda body-secret"})[0]
+        self.assertEqual(set(entry), {"company", "role", "location", "blurb", "link", "found"})
+        blob = repr(entry)
+        for secret in ("Dana", "gmail-secret", "Omer", "body-secret"):
+            self.assertNotIn(secret, blob)
+
+    def test_render_embeds_todo_and_hides_nothing_secret(self):
+        html = wp.render([], "2026-10-04", [{"company": "A", "role": "</script>x", "found": "2026-10-04"}])
+        self.assertNotIn("__TODO__", html)
+        self.assertNotIn("__RECENT_DAYS__", html)
+        self.assertNotIn("</script>x", html)
+        self.assertIn(f"var RECENT_DAYS = {wp.RECENT_DAYS};", html)
 
 
 class CompanyKey(unittest.TestCase):

@@ -3,6 +3,7 @@ company: Amazon (Annapurna Labs)
 role: Software Engineer Student, Virtual Platforms, Annapurna Labs
 status: not-submitted
 applied:
+found: 2026-10-01
 location: Tel Aviv
 work_model:
 scope: Student, part-time, 2-3 days/week
