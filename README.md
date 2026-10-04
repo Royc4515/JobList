@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**62 applications** — **24** Submitted · **12** Not submitted · **19** Rejected · **7** Dropped
+**62 applications** — **23** Submitted · **12** Not submitted · **20** Rejected · **7** Dropped
 
 ## Next to submit
 
@@ -33,11 +33,10 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Pipeline
 
-### 📤 Submitted (24)
+### 📤 Submitted (23)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
-- [Check Point — Software Developer - Student Position (AI POCs team)](applications/checkpoint-software-developer-student-ai-pocs.md)
 - [Claroty — Software Engineer - Student Position](applications/claroty-software-engineer-student.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6608)](applications/elbit-software-engineering-student-modiin-6608.md)
@@ -73,11 +72,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md)
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
 
-### ❌ Rejected (19)
+### ❌ Rejected (20)
 - [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
 - [Astera Labs — (ראה מייל לפרטי המשרה)](applications/astera-labs-see-email.md)
 - [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
+- [Check Point — Software Developer - Student Position (AI POCs team)](applications/checkpoint-software-developer-student-ai-pocs.md)
 - [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
@@ -137,7 +137,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [IAI (Israel Aerospace Industries)](applications/iai-software-development-student-ashdod.md) | Software Development Student | 📤 Submitted | — | 2026-09-14 | — |
 | [SAP](applications/sap-cloud-platform-engineer-student-java.md) | Cloud Platform Engineer - Student (Java, UCP team) (Req 459254) | 📤 Submitted | — | 2026-08-25 | — |
 | [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | ❌ Rejected | gated | 2026-08-24 | — |
-| [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | 📤 Submitted | — | 2026-08-24 | — |
+| [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | ❌ Rejected | — | 2026-08-24 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | — | 2026-08-24 | — |
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | ❌ Rejected | — | 2026-08-24 | 2026-09-07 |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | ❌ Rejected | 26 | 2026-08-17 | — |

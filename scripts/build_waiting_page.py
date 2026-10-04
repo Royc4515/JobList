@@ -6,6 +6,10 @@ Picks every role whose status means Roy applied and has no final answer yet
 grouped by company, to out/waiting.html. Only public-safe fields are exported:
 no contacts, Gmail notes or fit scores, since the page is meant to be shared.
 
+Roles whose posting is closed / no longer live (a dated "Posting closed" note in
+the tracker file) are left off the page entirely, and a company with no remaining
+roles disappears. Their tracker status is unchanged: they are not rejections.
+
 Days-waiting is computed in the browser, so the page stays accurate between
 rebuilds. Roles past STALE_DAYS move to a separate "no answer" section.
 Stdlib only.
@@ -88,11 +92,12 @@ def to_entry(app, body, referred):
 
 def collect(apps, leads, read_body):
     referred = referred_files(leads)
-    return [
+    entries = (
         to_entry(app, read_body(app["_file"]), referred)
         for app in apps
         if app.get("status") in WAITING_STATUSES
-    ]
+    )
+    return [e for e in entries if not e["posting_closed"]]
 
 
 def render(entries, built_on):
