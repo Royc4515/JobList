@@ -3,6 +3,7 @@ company: ChargeAfter
 role: Fullstack Engineer Intern
 status: not-submitted
 applied:
+found: 2026-09-28
 location: Tel Aviv
 work_model: Hybrid
 scope: 2-3 days/week, min 2 in office

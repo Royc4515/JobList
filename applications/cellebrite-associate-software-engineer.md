@@ -3,6 +3,7 @@ company: Cellebrite
 role: Associate Software Engineer
 status: not-submitted
 applied:
+found: 2026-08-05
 location: Tel Aviv
 work_model: On-site
 scope: Full-time, entry-level (0-2 yrs)

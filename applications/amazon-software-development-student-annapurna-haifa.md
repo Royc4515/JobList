@@ -3,6 +3,7 @@ company: Amazon (Annapurna Labs)
 role: Software Development Student, AWS Annapurna Labs (Haifa)
 status: not-submitted
 applied:
+found: 2026-10-04
 location: Haifa
 work_model:
 scope: Student, part-time
@@ -16,6 +17,7 @@ fit_stack: 6
 fit_gates: 7
 fit_path: 6
 fit_note: Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+blurb: משרת סטודנט ב-AWS Annapurna Labs בחיפה: פיתוח בשפת C ברמה נמוכה סביב רשתות (פרוטוקול SRD) בחומרה ותוכנה של AWS.
 ---
 
 ## Stack Required

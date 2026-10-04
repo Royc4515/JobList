@@ -3,6 +3,7 @@ company: SAP
 role: Software Engineering Intern - Unified Gateway
 status: not-submitted
 applied:
+found: 2026-07-08
 location: Ra'anana
 work_model: Hybrid/On-site
 scope: 2-3 Days/Week

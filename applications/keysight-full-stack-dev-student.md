@@ -3,6 +3,7 @@ company: Keysight
 role: Full Stack Dev Student
 status: not-submitted
 applied:
+found: 2026-07-08
 location: Raanana
 work_model: On-site / Hybrid
 scope: Student/Grad

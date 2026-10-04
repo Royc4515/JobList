@@ -140,6 +140,8 @@ h2 {
 .talk input:disabled, .talk input:disabled + span { cursor: default; opacity: .6; }
 .talk input:checked + span { color: var(--good); font-weight: 600; }
 .company-head .head-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
+.todo-list { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px 20px; }
+.todo-company { font-weight: 700; font-family: var(--font-display); font-size: 1.1rem; }
 footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
 
 @media (max-width: 560px) {
@@ -183,14 +185,22 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     <div class="companies stale" id="stale"></div>
   </section>
 
+  <section class="index" id="todo-section" aria-labelledby="todo-title" hidden>
+    <h2 id="todo-title">עוד לא הוגשו - נמצאו בשבוע האחרון</h2>
+    <p class="note">משרות חדשות שמצאתי ועדיין לא הגשתי אליהן. אם אתה מכיר מישהו באחת מהן, זה הזמן לספר לי לפני שאני מגיש.</p>
+    <ul class="roles todo-list" id="todo"></ul>
+  </section>
+
   <footer id="footer"></footer>
 </main>
 
 <script id="data" type="application/json">__DATA__</script>
+<script id="todo-data" type="application/json">__TODO__</script>
 <script>
 (function () {
   var BUILT = "__BUILT__";
   var STALE_DAYS = __STALE_DAYS__;
+  var RECENT_DAYS = __RECENT_DAYS__;
   var entries = JSON.parse(document.getElementById("data").textContent);
   var STAGE = {
     offer: { label: "הצעה", rank: 0, cls: "review" },
@@ -415,6 +425,33 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     });
   }
   initTalked().catch(hideTalk);
+
+  // Roles found but not yet submitted. The build already filtered them; the
+  // recency check is repeated here so the list also ages out between rebuilds.
+  var todo = JSON.parse(document.getElementById("todo-data").textContent).filter(function (r) {
+    var d = daysSince(r.found);
+    return d !== null && d <= RECENT_DAYS;
+  });
+  function foundLabel(d) {
+    return d === 0 ? "נמצאה היום" : d === 1 ? "נמצאה אתמול" : "נמצאה לפני " + d + " ימים";
+  }
+  todo.forEach(function (r) {
+    var d = daysSince(r.found);
+    var title = r.link
+      ? el("a", { href: r.link, target: "_blank", rel: "noopener", text: r.role })
+      : document.createTextNode(r.role);
+    var meta = r.location ? el("div", { cls: "meta" }, [el("span", { text: r.location })]) : null;
+    document.getElementById("todo").appendChild(el("li", { cls: "role" }, [
+      el("div", { cls: "role-main" }, [
+        el("div", { cls: "todo-company", text: r.company }),
+        el("div", { cls: "role-title" }, [title]),
+        r.blurb ? el("p", { cls: "blurb", text: r.blurb }) : null,
+        meta
+      ]),
+      el("div", { cls: "wait" }, [el("b", { cls: "fresh", text: foundLabel(d) })])
+    ]));
+  });
+  document.getElementById("todo-section").hidden = todo.length === 0;
 
   document.getElementById("footer").textContent =
     "הרשימה עודכנה ב-" + fmtDate(BUILT) + ". ימי ההמתנה מחושבים לפי היום.";

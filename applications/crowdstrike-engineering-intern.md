@@ -3,6 +3,7 @@ company: CrowdStrike
 role: Engineering Intern
 status: not-submitted
 applied:
+found: 2026-07-08
 location: תל אביב
 work_model: On-site / Hybrid
 scope: 2-3 ימים בשבוע
