@@ -17,6 +17,9 @@ dashboard is auto-generated - never hand-edit it.
   interview | offer | rejected | dropped`. `dropped` means Roy chose
   not to apply (usually a failed hard gate); add a dated note saying why.
 - `applied` / `follow_up`: ISO date (e.g. 2026-08-09) or empty.
+- `found:` (optional): ISO date the posting was first found. Set it on every new
+  find (the day it is added). Only the waiting page reads it; roles without it
+  never appear in its "not submitted yet" section.
 - Set `gmail:` to a one-line status summary. Hebrew is fine in `gmail:` and
   `## Notes`.
 - Fit score: `fit_role`, `fit_stack`, `fit_gates`, `fit_path` are integers 0-10
@@ -42,7 +45,16 @@ only (no contacts, Gmail notes or fit scores). Roy shares it with people helping
 (e.g. Shay). It is published as the Artifact
 https://claude.ai/artifact/UcTjHSXjkpK7GvL8XdkAok - after status changes, rebuild and
 republish to that same URL (pass it as `url`) so the shared link stays current.
-Roles with no answer after `STALE_DAYS` (50) move to a separate section. The
+Each role can carry an optional `blurb:` frontmatter key (1-2 short Hebrew sentences: what
+the job/team does and the main tech, from the posting) shown under the role title. It is
+public: never put fit scores, contacts, Gmail notes, Roy's gaps or referral status in it.
+Roles with no answer after `STALE_DAYS` (50) move to a separate section.
+A second section, "עוד לא הוגשו - נמצאו בשבוע האחרון", lists roles Roy still has to
+apply to: `status: not-submitted`, `found:` within `RECENT_DAYS` (7) of the build
+date (and of the viewing day), `fit_gates > 0`, posting not closed. Public-safe
+fields only (company, role, location, `blurb:`, days since found); no fit scores,
+contacts or referral info, and no "talked to someone" checkbox there. Write a
+`blurb:` for each such role. The section is hidden when empty. The
 per-company "talked to someone there" checkbox lives in the Artifact's db
 (`contacts/<company_key>`, `{talked, company}`), not in the repo; republish without
 `capabilities` so the db declaration carries over. Run

@@ -16,6 +16,7 @@ fit_stack: 6
 fit_gates: 8
 fit_path: 3
 fit_note: Python data pipelines for an AI research group, no studies-remaining gate, easy commute; SQL is the gap
+blurb: התמחות בצוות מחקר ה-AI של ה-CTO Office: הכנת נתוני תכנון שבבים למערכי נתונים למודלים, עם Python (pandas, NumPy), SQL וצנרות נתונים. פתח תקווה.
 ---
 
 ## Stack Required

@@ -16,6 +16,7 @@ fit_stack: 8
 fit_gates: 9
 fit_path: 3
 fit_note: Final-year students explicitly eligible and Python is an accepted language; cold big-brand ATS, deadline 2026-10-23
+blurb: התמחות חלקית (2-4 ימים בשבוע) בהנדסת תוכנה לסטודנטים לתואר ראשון ושני, לפחות 26 שבועות מסוף מרץ-מאי 2027. הצוות נקבע אחרי הקבלה.
 ---
 
 ## Stack Required

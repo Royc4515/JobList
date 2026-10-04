@@ -3,6 +3,7 @@ company: Amazon (Annapurna Labs)
 role: Software Development Student, MLIL - Integration Validation
 status: not-submitted
 applied:
+found: 2026-10-01
 location: Tel Aviv
 work_model:
 scope: Student, part-time, 2-3 days/week
@@ -16,6 +17,7 @@ fit_stack: 7
 fit_gates: 9
 fit_path: 7
 fit_note: ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
+blurb: משרת סטודנט בתל אביב, 2-3 ימים בשבוע: בניית תשתיות CI/CD ואוטומציית בדיקות ב-Python ובדיקות ביצועים למודלי ML על שבבי האצה של Annapurna Labs.
 ---
 
 ## Stack Required

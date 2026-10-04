@@ -3,6 +3,7 @@ company:
 role:
 status: not-submitted        # not-submitted | submitted | in-review | interview | offer | rejected | dropped
 applied:                     # ISO date e.g. 2026-07-08, or leave empty
+found:                       # optional, ISO date the posting was first found. Not-submitted roles found in the last 7 days (and not gated out or closed) show in the waiting page's "to apply" section
 location:
 work_model:                  # On-site | Hybrid | Remote
 scope:                       # hours / days per week
@@ -16,6 +17,7 @@ fit_stack:                   # 0-10
 fit_gates:                   # 0-10; 0 = a hard gate failed
 fit_path:                    # 0-10
 fit_note:                    # one line: what drives the score
+blurb:                       # optional, shown on the shared waiting page: 1-2 short Hebrew sentences, what the job does + main tech. Public-safe only (no fit, contacts, gaps, referral)
 ---
 
 ## Stack Required

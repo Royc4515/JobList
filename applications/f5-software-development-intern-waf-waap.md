@@ -16,6 +16,7 @@ fit_stack: 5
 fit_gates: 9
 fit_path: 3
 fit_note: Gates all clear (3rd-year OK, ~20h/wk, TLV, no GPA); Go is a plus and Docker is listed tooling, Roy has neither; cold LinkedIn Easy Apply at a big brand, no contact in leads/
+blurb: התמחות בפיתוח תוכנה בצוות WAF & WAAP (הגנה על אפליקציות ווב): HTTP, Git ו-Docker, עם Go כיתרון. חצי משרה בתל אביב.
 ---
 
 ## Stack Required

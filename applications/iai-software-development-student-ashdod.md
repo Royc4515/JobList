@@ -11,6 +11,7 @@ cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
 gmail: יש - אישור הגשה (IAI / adamtotal 14/09)
+blurb: משרת סטודנט בפיתוח תוכנה בתעשייה האווירית, באשדוד, לפחות 3 ימים בשבוע. המודעה לא מפרטת את סביבת הפיתוח.
 ---
 
 ## Stack Required

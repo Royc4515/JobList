@@ -10,7 +10,7 @@ jd_link: https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
-gmail: נדחה 04/10 - מייל דחייה מ-Check Point (הוגש 24/08 דרך SmartRecruiters)
+gmail: התקבל מייל דחייה ב-04/10/2026 (notifications@checkpoint.com); הוגש 24/08 דרך SmartRecruiters
 ---
 
 ## Stack Required
@@ -28,4 +28,4 @@ Python, OpenAI, LLM, AI POC, cloud, Java, prototyping, research, self-learner, c
 ## Notes
 AI POCs team - research/design/develop/deploy AI proof-of-concepts (Cloud, OpenAI, Python/Java). Very strong fit for Roy's profile: he already builds multi-provider AI tools (Aside) and agentic projects (Wine Sommelier bot) - exactly this kind of "leverage AI to solve problems, ship a POC" work. Not yet applied. Pulled full JD from SmartRecruiters API 2026-08-24.
 
-2026-10-04 - Rejection email from Check Point (notifications@checkpoint.com, "Your Application to Software Developer - Student Position"): not moving forward.
+2026-10-04 - Rejection email received from Check Point (notifications@checkpoint.com, subject "Your Application to Software Developer - Student Position"): "After careful consideration, we've decided not to move forward with your application". Status set to rejected.

@@ -11,6 +11,7 @@ cv_version: General - security-tailored
 contact: None yet
 follow_up:
 gmail: יש - אישור הגשה (Comeet 03/06)
+blurb: משרת סטודנט שעתית בפיתוח Full Stack עם React, Node.js ו-Git, בחברת אבטחת מידע.
 ---
 
 ## Stack Required

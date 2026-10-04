@@ -11,6 +11,7 @@ cv_version:
 contact:
 follow_up:
 gmail: יש - אישור הגשה (Qualcomm/Workday 29/06)
+blurb: התמחות באוטומציית בדיקות מבוססת AI, עם Python, סקריפטים ו-AI/ML. הוד השרון.
 ---
 
 ## Stack Required
