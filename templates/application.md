@@ -16,6 +16,7 @@ fit_stack:                   # 0-10
 fit_gates:                   # 0-10; 0 = a hard gate failed
 fit_path:                    # 0-10
 fit_note:                    # one line: what drives the score
+blurb:                       # optional, shown on the shared waiting page: 1-2 short Hebrew sentences, what the job does + main tech. Public-safe only (no fit, contacts, gaps, referral)
 ---
 
 ## Stack Required

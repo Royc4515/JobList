@@ -16,6 +16,7 @@ fit_stack: 7
 fit_gates: 7
 fit_path: 3
 fit_note: Tier 2 SWE but Python/AI-tools heavy; TS/React/SQL preferred not required; GPA cutoff 85 needs a check (85.09 own vs 84.47 transcript); 3-semester minimum met with no margin; cold, no lead
+blurb: משרת סטודנט בפיתוח תוכנה, חצי משרה (2.5 ימים בשבוע), היברידי בתל אביב. הדגש על Python וכלי פיתוח מבוססי AI.
 ---
 
 ## Stack Required

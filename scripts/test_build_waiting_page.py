@@ -32,6 +32,20 @@ class Collect(unittest.TestCase):
         for key in ("contact", "gmail", "fit_role", "_file"):
             self.assertNotIn(key, entry)
 
+    def test_blurb_passed_through_and_optional(self):
+        self.assertEqual(collect([app(blurb="  פיתוח backend  ")])[0]["blurb"], "פיתוח backend")
+        self.assertEqual(collect([app()])[0]["blurb"], "")
+
+    def test_private_text_not_leaked_via_other_fields(self):
+        entry = collect([app(contact="dana@x.com", gmail="gmail-secret",
+                             fit_note="note-secret", fit_gates="0", blurb="public")],
+                        bodies={"applications/x.md": "body-secret"})[0]
+        blob = repr(entry)
+        for secret in ("dana@x.com", "gmail-secret", "note-secret", "body-secret"):
+            self.assertNotIn(secret, blob)
+        for key in ("fit_note", "fit_gates", "fit_stack", "fit_path"):
+            self.assertNotIn(key, entry)
+
     def test_company_suffix_stripped(self):
         self.assertEqual(collect([app()])[0]["company"], "Acme")
 

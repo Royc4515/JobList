@@ -11,6 +11,7 @@ cv_version: General
 contact:
 follow_up:
 gmail: יש - artifact submit
+blurb: משרת סטודנט בפיתוח AI: עבודה עם Python, מודלי שפה, Agentic AI ו-PyTorch, וחיבור בין נתוני חיישנים לתוכנה. היברידי, יקנעם עילית.
 ---
 
 ## Stack Required

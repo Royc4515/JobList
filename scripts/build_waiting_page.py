@@ -5,6 +5,8 @@ Picks every role whose status means Roy applied and has no final answer yet
 (submitted, in-review, interview, offer) and writes a self-contained HTML page,
 grouped by company, to out/waiting.html. Only public-safe fields are exported:
 no contacts, Gmail notes or fit scores, since the page is meant to be shared.
+The optional `blurb:` frontmatter key (a 1-2 sentence role description) is shown
+under the role title.
 
 Roles whose posting is closed / no longer live (a dated "Posting closed" note in
 the tracker file) are left off the page entirely, and a company with no remaining
@@ -84,6 +86,7 @@ def to_entry(app, body, referred):
         "applied": iso_or_empty(app.get("applied")),
         "location": app.get("location", "").strip(),
         "work_model": app.get("work_model", "").split("#", 1)[0].strip(),
+        "blurb": app.get("blurb", "").strip(),
         "link": public_link(app.get("jd_link")),
         "referral": app["_file"] in referred or "referral" in contact.lower(),
         "posting_closed": bool(CLOSED_PATTERN.search(body)),

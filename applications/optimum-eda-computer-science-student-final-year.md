@@ -16,6 +16,7 @@ fit_stack: 7
 fit_gates: 6
 fit_path: 5
 fit_note: Asks exactly final-year CS with Python + Linux; GPA 80+ met; Caesarea commute offset by remote; EDA scripting is off-direction
+blurb: התמחות בחברת שירותי EDA: סקריפטים ב-Python ועבודה בסביבת Linux לאוטומציה ותמיכה בכלי תכנון שבבים. קיסריה, עם אפשרות להיברידי.
 ---
 
 ## Stack Required

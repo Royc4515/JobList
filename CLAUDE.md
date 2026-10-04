@@ -42,6 +42,9 @@ only (no contacts, Gmail notes or fit scores). Roy shares it with people helping
 (e.g. Shay). It is published as the Artifact
 https://claude.ai/artifact/UcTjHSXjkpK7GvL8XdkAok - after status changes, rebuild and
 republish to that same URL (pass it as `url`) so the shared link stays current.
+Each role can carry an optional `blurb:` frontmatter key (1-2 short Hebrew sentences: what
+the job/team does and the main tech, from the posting) shown under the role title. It is
+public: never put fit scores, contacts, Gmail notes, Roy's gaps or referral status in it.
 Roles with no answer after `STALE_DAYS` (50) move to a separate section. The
 per-company "talked to someone there" checkbox lives in the Artifact's db
 (`contacts/<company_key>`, `{talked, company}`), not in the repo; republish without

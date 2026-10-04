@@ -16,6 +16,7 @@ fit_stack:
 fit_gates:
 fit_path:
 fit_note:
+blurb: משרת סטודנט בפיתוח בפלטפורמת SAP BTP, ברעננה.
 ---
 
 ## Notes
