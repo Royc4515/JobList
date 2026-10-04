@@ -11,6 +11,7 @@ cv_version: Full-Stack / Frontend (TBD)
 contact:
 follow_up:
 gmail: אין מייל למרות סטטוס הוגש - לבדוק
+blurb: משרת סטודנט בפיתוח תוכנה בנתניה, בארכיטקטורת client-server עם C#, JavaScript ו-React.
 ---
 
 ## Stack Required

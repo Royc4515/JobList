@@ -108,6 +108,7 @@ h2 {
 .role-title { font-weight: 600; overflow-wrap: anywhere; }
 .role-title a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .role-title a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.blurb { margin: 0; font-size: .9rem; line-height: 1.5; color: var(--muted); max-width: 68ch; text-wrap: pretty; overflow-wrap: anywhere; }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .88rem; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag {
@@ -300,9 +301,10 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
           el("b", { cls: waitClass(r.days), text: r.days + " ימים" }),
           el("span", { text: "הוגש " + fmtDate(r.applied) })
         ]);
-    return el("li", { cls: "role", "data-search": [r.company, r.role, r.location].join(" ").toLowerCase() }, [
+    return el("li", { cls: "role", "data-search": [r.company, r.role, r.location, r.blurb].join(" ").toLowerCase() }, [
       el("div", { cls: "role-main" }, [
         el("div", { cls: "role-title" }, [title]),
+        r.blurb ? el("p", { cls: "blurb", text: r.blurb }) : null,
         meta.length ? el("div", { cls: "meta" }, meta) : null,
         el("div", { cls: "tags" }, tags)
       ]),

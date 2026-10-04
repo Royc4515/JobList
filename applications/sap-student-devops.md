@@ -16,6 +16,7 @@ fit_stack: 2
 fit_gates: 6
 fit_path: 7
 fit_note: DevOps is a stated gap and off-direction; only the Noam contact lifts it
+blurb: משרת סטודנט (חצי משרה) בתחום ה-DevOps: ענן, Kubernetes ו-CI/CD. רעננה.
 ---
 
 ## Stack Required

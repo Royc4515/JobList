@@ -11,6 +11,7 @@ cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
 gmail: הוגש 25/08 (לפי דיווח - הגיש דרך אתר הקריירה של SAP, Req 459254)
+blurb: משרת סטודנט בצוות Unified Cloud Platform: בניית שירותי ענן פנימיים (הקצאת תשתיות ואוטומציה) לכ-2,500 מפתחי SAP, עם Java ו-Spring Boot. רעננה, היברידי.
 ---
 
 ## Stack Required

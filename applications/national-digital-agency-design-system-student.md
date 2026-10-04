@@ -11,6 +11,7 @@ cv_version:
 contact: טופס Monday (ללא מכר)
 follow_up:
 gmail:
+blurb: פיתוח Design System במערך הדיגיטל הלאומי: HTML, CSS/SCSS, JavaScript ו-React, design tokens ונגישות. משרת סטודנט, 96-120 שעות בחודש, מודיעין.
 ---
 
 ## Stack Required

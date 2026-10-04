@@ -16,6 +16,7 @@ fit_stack: 6
 fit_gates: 7
 fit_path: 5
 fit_note: Backend, asks exactly 3rd year and names Bar-Ilan; JVM-leaning stack, Binyamina offset by hybrid
+blurb: פיתוח צד שרת ב-Java, Python ו-Kotlin: שירותי API למערכות רובוטיות ולאפליקציות ענן, עם מסדי נתונים SQL. בנימינה, היברידי.
 ---
 
 ## Stack Required
