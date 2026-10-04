@@ -1,7 +1,7 @@
 ---
 company: Check Point
 role: Software Developer - Student Position (AI POCs team)
-status: submitted
+status: rejected
 applied: 2026-08-24
 location: Tel Aviv
 work_model:
@@ -10,7 +10,7 @@ jd_link: https://jobs.smartrecruiters.com/CheckPointSoftwareTechnologies2/744000
 cv_version: Roy_Carmelli_CV_Aug2026
 contact:
 follow_up:
-gmail: הוגש 24/08 דרך SmartRecruiters; כלל "message to hiring team" שהדגיש את פרויקטי ה-AI (Aside, בוט היין)
+gmail: נדחה 04/10 - מייל דחייה מ-Check Point (הוגש 24/08 דרך SmartRecruiters)
 ---
 
 ## Stack Required
@@ -27,3 +27,5 @@ Python, OpenAI, LLM, AI POC, cloud, Java, prototyping, research, self-learner, c
 
 ## Notes
 AI POCs team - research/design/develop/deploy AI proof-of-concepts (Cloud, OpenAI, Python/Java). Very strong fit for Roy's profile: he already builds multi-provider AI tools (Aside) and agentic projects (Wine Sommelier bot) - exactly this kind of "leverage AI to solve problems, ship a POC" work. Not yet applied. Pulled full JD from SmartRecruiters API 2026-08-24.
+
+2026-10-04 - Rejection email from Check Point (notifications@checkpoint.com, "Your Application to Software Developer - Student Position"): not moving forward.
