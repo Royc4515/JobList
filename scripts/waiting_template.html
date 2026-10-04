@@ -8,36 +8,39 @@
   --bg: #f4f5f8;
   --surface: #ffffff;
   --ink: #1b2230;
-  --muted: #5d6576;
-  --line: #e0e3ea;
+  --muted: #465064;
+  --line: #d5d9e2;
+  --neutral-soft: #eceff5;
   --accent: #34509c;
   --accent-soft: #e6ebf7;
   --good: #0e7a6a;
   --good-soft: #dff2ee;
-  --warn: #9a5b0b;
-  --warn-soft: #fbefdc;
+  --warn: #8a4f00;
+  --warn-soft: #fcebd0;
   --font-display: "Frank Ruhl Libre", "David", Georgia, serif;
   --font-body: "Assistant", "Segoe UI", Arial, sans-serif;
   --font-data: "IBM Plex Mono", ui-monospace, Consolas, monospace;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #12151b; --surface: #1a1e27; --ink: #e8ebf1; --muted: #9ba3b4; --line: #2b313d;
-    --accent: #93abee; --accent-soft: #232c45; --good: #5fd0bd; --good-soft: #17322e;
-    --warn: #e9b46a; --warn-soft: #362a17; color-scheme: dark;
+    --bg: #12151b; --surface: #1a1e27; --ink: #f0f2f6; --muted: #b6bdcc; --line: #323947;
+    --neutral-soft: #272d39;
+    --accent: #a9bdf5; --accent-soft: #263150; --good: #6fdcc9; --good-soft: #17352f;
+    --warn: #f0be78; --warn-soft: #3b2d19; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #12151b; --surface: #1a1e27; --ink: #e8ebf1; --muted: #9ba3b4; --line: #2b313d;
-  --accent: #93abee; --accent-soft: #232c45; --good: #5fd0bd; --good-soft: #17322e;
-  --warn: #e9b46a; --warn-soft: #362a17; color-scheme: dark;
+  --bg: #12151b; --surface: #1a1e27; --ink: #f0f2f6; --muted: #b6bdcc; --line: #323947;
+  --neutral-soft: #272d39;
+  --accent: #a9bdf5; --accent-soft: #263150; --good: #6fdcc9; --good-soft: #17352f;
+  --warn: #f0be78; --warn-soft: #3b2d19; color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
 body {
   background: var(--bg);
   color: var(--ink);
-  font: 400 1rem/1.55 var(--font-body);
+  font: 400 1.0625rem/1.6 var(--font-body);
 }
 .page {
   max-width: 980px;
@@ -45,37 +48,37 @@ body {
   padding-inline: 16px;
   padding-block: 40px 64px;
   display: grid;
-  gap: 32px;
+  gap: 40px;
 }
 header { display: grid; gap: 10px; }
 .eyebrow {
-  font-size: .8rem; font-weight: 600; letter-spacing: .06em; color: var(--muted);
+  font-size: .95rem; font-weight: 600; letter-spacing: .04em; color: var(--muted);
 }
 h1 {
   margin: 0; font: 700 clamp(1.9rem, 4.5vw, 2.6rem)/1.15 var(--font-display);
   text-wrap: balance;
 }
-.lede { margin: 0; color: var(--muted); max-width: 62ch; font-size: 1.05rem; }
+.lede { margin: 0; color: var(--ink); max-width: 60ch; font-size: 1.15rem; line-height: 1.6; }
 
-.stats { display: flex; flex-wrap: wrap; gap: 8px 28px; margin-top: 6px; }
-.stat { display: grid; }
-.stat b { font: 500 1.6rem/1.2 var(--font-data); font-variant-numeric: tabular-nums; }
-.stat span { font-size: .85rem; color: var(--muted); }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-top: 8px; }
+.stat { display: grid; gap: 2px; align-content: start; padding: 14px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.stat b { font: 500 2rem/1.15 var(--font-data); font-variant-numeric: tabular-nums; }
+.stat span { font-size: .95rem; color: var(--muted); }
+.stat.good b { color: var(--good); }
+.stat.warn b { color: var(--warn); }
 
 .index { display: grid; gap: 12px; }
-h2 {
-  margin: 0; font: 600 .8rem/1 var(--font-body); letter-spacing: .06em; color: var(--muted);
-}
+h2 { margin: 0; font: 700 1.5rem/1.25 var(--font-display); text-wrap: balance; }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   display: inline-flex; align-items: center; gap: 8px;
-  padding: 6px 12px; border: 1px solid var(--line); border-radius: 999px;
-  background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600;
+  min-height: 40px; padding: 6px 14px; border: 1px solid var(--line); border-radius: 999px;
+  background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 1rem;
 }
 .chip:hover { border-color: var(--accent); }
 .chip:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.chip small { font: 500 .78rem var(--font-data); color: var(--muted); }
-.chip.hot { border-color: var(--good); }
+.chip small { font: 500 .85rem var(--font-data); color: var(--muted); }
+.chip.hot { border-color: var(--good); background: var(--good-soft); }
 .chip.hot small { color: var(--good); }
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; }
@@ -83,49 +86,49 @@ h2 {
   flex: 1 1 260px; max-width: 360px; padding: 9px 12px; border-radius: 8px;
   border: 1px solid var(--line); background: var(--surface); color: var(--ink); font: inherit;
 }
-.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: .85rem; color: var(--muted); }
-.legend span { display: inline-flex; align-items: center; gap: 6px; }
-.dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
-.dot.fresh { background: var(--good); }
-.dot.long { background: var(--warn); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 10px; font-size: .95rem; }
+.legend span { display: inline-flex; align-items: center; gap: 8px; padding: 3px 12px; border-radius: 999px; background: var(--neutral-soft); color: var(--ink); }
+.legend .l-good { background: var(--good-soft); color: var(--good); }
+.legend .l-warn { background: var(--warn-soft); color: var(--warn); }
 
 .companies { display: grid; gap: 16px; }
 .company {
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-  padding: 18px 20px; display: grid; gap: 6px; scroll-margin-top: 16px;
+  padding: 20px 22px; display: grid; gap: 8px; scroll-margin-top: 16px;
 }
 .company-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; }
-.company-head h3 { margin: 0; font: 700 1.35rem/1.25 var(--font-display); }
-.company-head span { font-size: .88rem; color: var(--muted); }
+.company-head h3 { margin: 0; font: 700 1.5rem/1.25 var(--font-display); }
+.company-head span { font-size: .95rem; color: var(--muted); }
 
 .roles { list-style: none; margin: 0; padding: 0; display: grid; }
 .role {
   display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 16px;
-  padding-block: 12px; border-top: 1px solid var(--line);
+  padding-block: 14px; border-top: 1px solid var(--line);
 }
 .role:first-child { border-top: 0; }
-.role-main { min-width: 0; display: grid; gap: 4px; }
-.role-title { font-weight: 600; overflow-wrap: anywhere; }
+.role-main { min-width: 0; display: grid; gap: 6px; }
+.role-title { font-weight: 700; font-size: 1.1rem; line-height: 1.4; overflow-wrap: anywhere; }
 .role-title a { color: inherit; text-decoration-color: var(--line); text-underline-offset: 3px; }
 .role-title a:hover { color: var(--accent); text-decoration-color: currentColor; }
-.blurb { margin: 0; font-size: .9rem; line-height: 1.5; color: var(--muted); max-width: 68ch; text-wrap: pretty; overflow-wrap: anywhere; }
-.meta { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .88rem; color: var(--muted); }
+.blurb { margin: 0; font-size: 1rem; line-height: 1.6; color: var(--ink); max-width: 66ch; text-wrap: pretty; overflow-wrap: anywhere; }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: .95rem; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; }
 .tag {
-  font-size: .78rem; font-weight: 600; padding: 2px 9px; border-radius: 999px;
+  font-size: .9rem; font-weight: 600; padding: 3px 11px; border-radius: 999px;
   background: var(--accent-soft); color: var(--accent);
 }
+.tag.todo { background: var(--warn-soft); color: var(--warn); }
 .tag.review { background: var(--good-soft); color: var(--good); }
 .tag.quiet { background: transparent; color: var(--muted); border: 1px dashed var(--line); font-weight: 400; }
 
 .wait { text-align: end; display: grid; align-content: start; gap: 2px; }
-.wait b { font: 500 1.25rem/1.2 var(--font-data); font-variant-numeric: tabular-nums; }
-.wait b.fresh { color: var(--good); }
-.wait b.long { color: var(--warn); }
-.wait span { font: 400 .8rem var(--font-data); color: var(--muted); font-variant-numeric: tabular-nums; }
+.wait b { justify-self: end; font: 500 1.1rem/1.3 var(--font-data); padding: 3px 12px; border-radius: 999px; background: var(--neutral-soft); color: var(--ink); font-variant-numeric: tabular-nums; }
+.wait b.fresh { background: var(--good-soft); color: var(--good); }
+.wait b.long { background: var(--warn-soft); color: var(--warn); }
+.wait span { font: 400 .9rem var(--font-data); color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .empty { color: var(--muted); padding: 24px 0; }
-.note { margin: 0; color: var(--muted); max-width: 62ch; }
+.note { margin: 0; color: var(--ink); max-width: 62ch; font-size: 1.02rem; }
 .stale .company { background: transparent; border-style: dashed; }
 .stale .company-head h3 { font-size: 1.15rem; }
 .chip.quiet { border-style: dashed; color: var(--muted); background: transparent; }
@@ -134,19 +137,21 @@ h2 {
 
 .talk {
   display: inline-flex; align-items: center; gap: 8px; cursor: pointer;
-  font-size: .88rem; color: var(--muted); user-select: none;
+  font-size: .95rem; color: var(--muted); user-select: none;
 }
-.talk input { width: 18px; height: 18px; margin: 0; accent-color: var(--good); cursor: pointer; }
+.talk input { width: 22px; height: 22px; margin: 0; accent-color: var(--good); cursor: pointer; }
 .talk input:disabled, .talk input:disabled + span { cursor: default; opacity: .6; }
 .talk input:checked + span { color: var(--good); font-weight: 600; }
 .company-head .head-side { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; }
-.todo-list { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px 20px; }
-.todo-company { font-weight: 700; font-family: var(--font-display); font-size: 1.1rem; }
-footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
+.todo-list { background: var(--surface); border: 2px solid var(--warn); border-radius: 12px; padding: 6px 22px; }
+.todo-company { font-weight: 700; font-family: var(--font-display); font-size: 1.3rem; }
+footer { font-size: .92rem; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; }
 
 @media (max-width: 560px) {
   .role { grid-template-columns: 1fr; }
-  .wait { text-align: start; display: flex; gap: 10px; align-items: baseline; }
+  .wait { text-align: start; display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; }
+  .wait b { justify-self: start; }
+  .todo-list { padding: 4px 16px; }
   .company { padding: 16px; }
 }
 @media (prefers-reduced-motion: no-preference) {
@@ -162,19 +167,26 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     <div class="stats" id="stats"></div>
   </header>
 
+  <section class="index" id="todo-section" aria-labelledby="todo-title" hidden>
+    <h2 id="todo-title">עוד לא הוגשו</h2>
+    <p class="note">משרות שמצאתי בשבוע האחרון ועדיין לא הגשתי אליהן. אם אתה מכיר מישהו באחת מהן, זה הזמן לספר לי לפני שאני מגיש.</p>
+    <ul class="roles todo-list" id="todo"></ul>
+  </section>
+
   <section class="index" aria-labelledby="index-title">
-    <h2 id="index-title">חברות</h2>
+    <h2 id="index-title">חברות שהגשתי אליהן</h2>
+    <p class="note">ירוק אומר שהמשרה כבר בבדיקה אצל המגייסים. המספר ליד שם החברה הוא מספר המשרות שהגשתי שם.</p>
     <div class="chips" id="chips"></div>
   </section>
 
   <section class="index" aria-labelledby="detail-title">
     <div class="toolbar">
-      <h2 id="detail-title">פירוט לפי חברה</h2>
+      <h2 id="detail-title">כל המשרות לפי חברה</h2>
       <input id="filter" type="search" placeholder="חיפוש חברה, משרה או עיר" aria-label="חיפוש">
     </div>
     <div class="legend">
-      <span><i class="dot fresh"></i>עד 3 שבועות</span>
-      <span><i class="dot"></i>3 שבועות עד __STALE_DAYS__ יום</span>
+      <span class="l-good">עד 3 שבועות מההגשה</span>
+      <span>3 שבועות עד __STALE_DAYS__ יום</span>
     </div>
     <div class="companies" id="companies"></div>
   </section>
@@ -183,12 +195,6 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
     <h2 id="stale-title">בלי תשובה יותר מ-__STALE_DAYS__ יום</h2>
     <p class="note">כאן כבר עבר הרבה זמן בלי תשובה, אז אני לא מחכה להן באופן פעיל. אבל אף אחת מהן לא נסגרה רשמית, והיכרות מבפנים יכולה להחזיר אותן לחיים.</p>
     <div class="companies stale" id="stale"></div>
-  </section>
-
-  <section class="index" id="todo-section" aria-labelledby="todo-title" hidden>
-    <h2 id="todo-title">עוד לא הוגשו - נמצאו בשבוע האחרון</h2>
-    <p class="note">משרות חדשות שמצאתי ועדיין לא הגשתי אליהן. אם אתה מכיר מישהו באחת מהן, זה הזמן לספר לי לפני שאני מגיש.</p>
-    <ul class="roles todo-list" id="todo"></ul>
   </section>
 
   <footer id="footer"></footer>
@@ -268,14 +274,14 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
   var stats = [
     [companies.length, "חברות"],
     [active.length, "משרות בהמתנה"],
-    [advanced, "בבדיקה פעילה"],
-    [stale.length, "בלי תשובה מעל " + STALE_DAYS + " יום"],
+    [advanced, "בבדיקה פעילה", "good"],
+    [stale.length, "בלי תשובה מעל " + STALE_DAYS + " יום", "warn"],
     ["-", "חברות שדיברנו עם מישהו בהן"]
   ];
   var statsBox = document.getElementById("stats");
   var statValues = stats.map(function (s) {
     var b = el("b", { text: String(s[0]) });
-    statsBox.appendChild(el("div", { cls: "stat" }, [b, el("span", { text: s[1] })]));
+    statsBox.appendChild(el("div", { cls: "stat" + (s[2] ? " " + s[2] : "") }, [b, el("span", { text: s[1] })]));
     return b;
   });
   var talkedStat = statValues[statValues.length - 1];
@@ -446,7 +452,8 @@ footer { font-size: .85rem; color: var(--muted); border-top: 1px solid var(--lin
         el("div", { cls: "todo-company", text: r.company }),
         el("div", { cls: "role-title" }, [title]),
         r.blurb ? el("p", { cls: "blurb", text: r.blurb }) : null,
-        meta
+        meta,
+        el("div", { cls: "tags" }, [el("span", { cls: "tag todo", text: "עוד לא הוגשה" })])
       ]),
       el("div", { cls: "wait" }, [el("b", { cls: "fresh", text: foundLabel(d) })])
     ]));
