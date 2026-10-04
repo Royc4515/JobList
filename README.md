@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**59 applications** — **22** Submitted · **12** Not submitted · **19** Rejected · **6** Dropped
+**62 applications** — **24** Submitted · **12** Not submitted · **19** Rejected · **7** Dropped
 
 ## Next to submit
 
@@ -18,12 +18,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 1. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
 2. **24** [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md) · role 8 · stack 4 · gates 5 · path 7 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
-3. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Posting appears CLOSED since 2026-08-09; location/gates unknown - verify it is live first
-4. **19** [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
-5. **19** [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
-6. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
-7. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-8. **16** [Intel — Software Student for x86 Validation Tools (JR0287280)](applications/intel-software-student-x86-validation-tools.md) · role 5 · stack 5 · gates 4 · path 2 — 3 semesters left now passes; on-site Haifa part-time is the drag; C/C++ from coursework only
+3. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+4. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Posting appears CLOSED since 2026-08-09; location/gates unknown - verify it is live first
+5. **19** [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+6. **19** [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+7. **17** [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
+8. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
 9. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (3)** - a hard gate failed; close or drop:
@@ -33,14 +33,16 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Pipeline
 
-### 📤 Submitted (22)
+### 📤 Submitted (24)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
 - [Check Point — Software Developer - Student Position (AI POCs team)](applications/checkpoint-software-developer-student-ai-pocs.md)
+- [Claroty — Software Engineer - Student Position](applications/claroty-software-engineer-student.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6608)](applications/elbit-software-engineering-student-modiin-6608.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
+- [F5 — Software Development Intern - WAF & WAAP](applications/f5-software-development-intern-waf-waap.md)
 - [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
 - [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 - [IAI (Israel Aerospace Industries) — Software Development Student](applications/iai-software-development-student-ashdod.md)
@@ -58,12 +60,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
 ### 📝 Not submitted (12)
+- [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
-- [Intel — Software Student for x86 Validation Tools (JR0287280)](applications/intel-software-student-x86-validation-tools.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
@@ -92,11 +94,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
-### 🚫 Dropped (6)
+### 🚫 Dropped (7)
 - [Amazon (Annapurna Labs) — SW Automation Student, Annapurna Labs](applications/amazon-sw-automation-student-annapurna.md)
 - [Elbit Systems — Software Quality Student - Haifa (Req 7130)](applications/elbit-software-quality-student-haifa.md)
 - [Hewlett Packard Enterprise (Zerto) — Backend Intern (1211019)](applications/hpe-zerto-backend-intern.md)
 - [Intel — ML Engineer Student](applications/intel-ml-engineer-student.md)
+- [Intel — Software Student for x86 Validation Tools (JR0287280)](applications/intel-software-student-x86-validation-tools.md)
 - [Motorola Solutions — Student - Software Engineer (R66325)](applications/motorola-solutions-student-software-engineer.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 
@@ -104,6 +107,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| [Amazon (Annapurna Labs)](applications/amazon-software-development-student-annapurna-haifa.md) | Software Development Student, AWS Annapurna Labs (Haifa) | 📝 Not submitted | 23 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-automation-student-annapurna.md) | SW Automation Student, Annapurna Labs | 🚫 Dropped | 19 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 📝 Not submitted | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
@@ -113,7 +117,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 🚫 Dropped | gated | — | — |
 | [Hewlett Packard Enterprise (Zerto)](applications/hpe-zerto-backend-intern.md) | Backend Intern (1211019) | 🚫 Dropped | gated | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 🚫 Dropped | gated | — | — |
-| [Intel](applications/intel-software-student-x86-validation-tools.md) | Software Student for x86 Validation Tools (JR0287280) | 📝 Not submitted | 16 | — | — |
+| [Intel](applications/intel-software-student-x86-validation-tools.md) | Software Student for x86 Validation Tools (JR0287280) | 🚫 Dropped | 16 | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
@@ -124,6 +128,8 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
+| [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
+| [F5](applications/f5-software-development-intern-waf-waap.md) | Software Development Intern - WAF & WAAP | 📤 Submitted | 22 | 2026-10-04 | 2026-10-18 |
 | [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📤 Submitted | 26 | 2026-10-01 | 2026-10-15 |
 | [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 📤 Submitted | 27 | 2026-10-01 | 2026-10-15 |
 | [Marvell](applications/marvell-ai-infrastructure-engineer-intern.md) | AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499) | 📤 Submitted | 24 | 2026-10-01 | 2026-10-15 |

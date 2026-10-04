@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Roy's five tailored CV versions from his base CV (.docx).
+"""Build Roy's tailored CV versions (one per entry in SUMMARIES) from his base CV (.docx).
 
 Only the summary, the graduation date, and the order of a few lines change;
 everything else is copied from the base file as-is. Roy approved these exact
@@ -58,6 +58,22 @@ SUMMARIES = {
         ("automation", B), (". I write ", None), ("Python", B),
         (" daily and build tools with AI coding agents, and I pick up whatever stack "
          "or tool the job requires. ", None),
+    ],
+    "Claroty": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" software engineering", B), (", ", None),
+        ("Python", B), (" and ", None), ("AI tooling", B), (" first. I build agents and tools "
+         "that have to work end to end, and I am available 2-3 days a week. ", None),
+    ],
+    "F5": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" software development internship", B), (", ", None),
+        ("Python", B), (" and ", None), ("backend/web", B),
+        (" first, and interested in ", None), ("web application security", B),
+        (". I build tools that call many APIs (Aside, a browser extension over six "
+         "model providers), use Git daily, and am available about 20 hours a week. ", None),
     ],
 }
 
