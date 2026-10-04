@@ -1,16 +1,16 @@
 ---
 company: Claroty
 role: Software Engineer - Student Position
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-04
 location: Tel Aviv
 work_model: Hybrid
 scope: Part-time, 2.5 days/week
 jd_link: https://www.linkedin.com/jobs/view/4472969032/
 cv_version:
 contact:
-follow_up:
-gmail:
+follow_up: 2026-10-18
+gmail: הוגש ב-2026-10-04 דרך Comeet (רוי הגיש בעצמו); ממתין למייל אישור
 fit_role: 7
 fit_stack: 7
 fit_gates: 7
@@ -36,3 +36,5 @@ Python, AI-assisted development, AI tooling, agents, automation, end-to-end owne
 2026-10-01 - Found via LinkedIn. Applies on LinkedIn. Requirements: at least 3 semesters left, GPA 85+, 2.5 days/week. Cold, no lead.
 
 2026-10-02 - Tracked as not-submitted. Package drafted in `submissions/2026-10-02-packages.md`; waiting on Roy's decision about the GPA figure. Nothing submitted.
+
+2026-10-04 - Submitted by Roy himself via the Comeet form (his explicit confirmation in chat). CV: Roy_Carmelli_CV_Claroty.pdf, personal note filled. GPA stated as 85.09 per Roy's call (excluding the retaken Discrete Structures course); the official transcript shows 84.47. Awaiting a confirmation email; follow up 2026-10-18.
