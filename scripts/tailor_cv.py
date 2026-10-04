@@ -71,9 +71,9 @@ SUMMARIES = {
         (" B.Sc. student at Bar-Ilan University, looking for a", None),
         (" software development internship", B), (", ", None),
         ("Python", B), (" and ", None), ("backend/web", B),
-        (" first, into ", None), ("web application security", B),
+        (" first, and interested in ", None), ("web application security", B),
         (". I build tools that call many APIs (Aside, a browser extension over six "
-         "model providers), use Git daily, and have about 20 hours a week. ", None),
+         "model providers), use Git daily, and am available about 20 hours a week. ", None),
     ],
 }
 
