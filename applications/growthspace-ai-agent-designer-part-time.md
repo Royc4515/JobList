@@ -37,3 +37,5 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 2026-10-05 - Found by the expanded careers scan ("part-time" titles now count as student roles; GrowthSpace's Comeet board was not scanned before). The posting itself says it is "a strong fit for a student looking for practical experience with AI systems". Lower priority than any engineering role; a reasonable fallback that keeps Roy close to AI agents. Nothing submitted.
 </content>
 </invoke>
+
+2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `GrowthSpace`). Psychometric 700+ still to confirm with Roy before submitting. Not submitted yet.

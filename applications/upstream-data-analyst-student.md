@@ -36,3 +36,5 @@ Python, Pandas, NumPy, data analysis, anomaly detection, AI tools (only what is 
 
 ## Notes
 2026-10-05 - Found by the expanded careers scan (Upstream's Comeet board, not scanned before). Gates clear on every axis: "at least one year until graduation" passes, exactly 2 office days a week, Herzliya. Worth a cold application if Roy wants a data foothold. Nothing submitted.
+
+2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `Upstream`). Not submitted yet.

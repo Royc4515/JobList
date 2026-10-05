@@ -10,19 +10,20 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**66 applications** — **23** Submitted · **16** Not submitted · **20** Rejected · **7** Dropped
+**67 applications** — **23** Submitted · **17** Not submitted · **20** Rejected · **7** Dropped
 
 ## Next to submit
 
 Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROFILE.md)).
 
 1. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
-2. **25** [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md) · role 5 · stack 8 · gates 7 · path 5 — Prompt/agent-behaviour work on a voice-agent platform - AI-direct but not engineering; daily Claude use is exactly the must-have; psychometric 700+ required (verify Roy's score); cold startup. Verdict maybe.
-3. **24** [Upstream Security — Data Analyst (Student Position)](applications/upstream-data-analyst-student.md) · role 5 · stack 5 · gates 9 · path 5 — Tier 2-adjacent data role with Python/Pandas must-have Roy has; SQL at scale and prior analyst experience are must-haves he lacks; gates all clear (1 year left, 2 days in Herzliya); cold startup. Verdict maybe.
-4. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
-5. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-6. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-7. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+2. **26** [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md) · role 8 · stack 7 · gates 8 · path 3 — Research role in ML/NLU/HCI open to BSc students; Python + neuro-data project + AI agents fit; schedule unstated; deadline 2026-12-13; cold big brand
+3. **25** [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md) · role 5 · stack 8 · gates 7 · path 5 — Prompt/agent-behaviour work on a voice-agent platform - AI-direct but not engineering; daily Claude use is exactly the must-have; psychometric 700+ required (verify Roy's score); cold startup. Verdict maybe.
+4. **24** [Upstream Security — Data Analyst (Student Position)](applications/upstream-data-analyst-student.md) · role 5 · stack 5 · gates 9 · path 5 — Tier 2-adjacent data role with Python/Pandas must-have Roy has; SQL at scale and prior analyst experience are must-haves he lacks; gates all clear (1 year left, 2 days in Herzliya); cold startup. Verdict maybe.
+5. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+6. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+7. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+8. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (4)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -64,13 +65,14 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (16)
+### 📝 Not submitted (17)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
+- [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md)
 - [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
@@ -125,6 +127,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [ChargeAfter](applications/chargeafter-fullstack-engineer-intern.md) | Fullstack Engineer Intern | 📝 Not submitted | gated | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | gated | — | — |
 | [Elbit Systems](applications/elbit-software-quality-student-haifa.md) | Software Quality Student - Haifa (Req 7130) | 🚫 Dropped | gated | — | — |
+| [Google](applications/google-student-researcher-2027.md) | Student Researcher, 2027 | 📝 Not submitted | 26 | — | 2026-12-06 |
 | [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 📝 Not submitted | 25 | — | — |
 | [Hewlett Packard Enterprise (Zerto)](applications/hpe-zerto-backend-intern.md) | Backend Intern (1211019) | 🚫 Dropped | gated | — | — |
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 🚫 Dropped | gated | — | — |
