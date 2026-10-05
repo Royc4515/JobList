@@ -86,6 +86,36 @@ class Queue(unittest.TestCase):
         text = self.build([app("applications/new.md")])
         self.assertIn("Unscored (1)", text)
 
+    def test_closed_posting_leaves_the_ranking(self):
+        # A role whose posting closed cannot be submitted; ranking it would hide
+        # the live roles below it.
+        closed = app("applications/closed.md", fit_role=10, fit_stack=10, fit_gates=10, fit_path=10)
+        closed["_closed"] = True
+        text = self.build([closed, app("applications/live.md", **FULL)])
+        ranked, closed_block = text.split("**Posting closed")
+        self.assertIn("live.md", ranked)
+        self.assertNotIn("closed.md", ranked)
+        self.assertIn("closed.md", closed_block)
+        self.assertIn("1. **29**", ranked)
+
+
+class ClosedNote(unittest.TestCase):
+    def test_dated_closed_notes_match(self):
+        for body in ("2026-10-05 - Posting closed: Greenhouse API returns 404",
+                     "2026-10-05 - Posting no longer live: careers.sap.com lists ..."):
+            self.assertTrue(bd.posting_closed(body), body)
+
+    def test_hedged_or_unrelated_text_does_not_match(self):
+        for body in ("Not on the Lever board - very likely closed", "The posting is live.",
+                     "2026-10-06 - Was the posting closed? No - verified live again.",
+                     "It was reopened after Posting closed on 2026-09-01; live now."):
+            self.assertFalse(bd.posting_closed(body), body)
+
+    def test_frontmatter_alone_does_not_count(self):
+        text = "---\nfit_note: Posting closed 2026-10-05 per a mirror\n---\n\n## Notes\n2026-10-05 - Found.\n"
+        self.assertFalse(bd.posting_closed(text))
+        self.assertTrue(bd.posting_closed(text + "2026-10-06 - Posting closed: board 404.\n"))
+
 
 if __name__ == "__main__":
     unittest.main()

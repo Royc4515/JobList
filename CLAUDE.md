@@ -27,6 +27,11 @@ dashboard is auto-generated - never hand-edit it.
   gate failed. The dashboard computes the total and ranks the "Next to submit"
   queue - never store a total. Run `python3 scripts/test_build_dashboard.py` after
   changing the dashboard script.
+- Closed postings: a dated note line `YYYY-MM-DD - Posting closed ...` (or `... -
+  Posting no longer live ...`) in the body takes a not-submitted role out of the
+  ranking into the dashboard's "Posting closed" list; the waiting page also drops a
+  waiting role whose notes mention it. Write that phrase only when the closure is
+  verified; for a hedge ("not on the board") use other words.
 
 ## How Roy wants me to operate (standing agreement)
 - Be autonomous. Open a PR to `main` whenever a batch of work is ready - do NOT
