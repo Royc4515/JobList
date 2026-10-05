@@ -7,6 +7,7 @@ README.md so any hand-written intro text above them is preserved.
 
 Usage:  python scripts/build_dashboard.py
 """
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,6 +37,13 @@ STATUS_LABEL = {
 FIT_KEYS = ("fit_role", "fit_stack", "fit_gates", "fit_path")
 FIT_SHORT = {"fit_role": "role", "fit_stack": "stack", "fit_gates": "gates", "fit_path": "path"}
 FIT_MAX = 10
+
+# A dated note line "YYYY-MM-DD - Posting closed..." / "... - Posting no longer
+# live" in the body means the role can no longer be submitted. Only such a line
+# counts: a mention mid-sentence or in the frontmatter is not a verified closure.
+CLOSED_PATTERN = re.compile(
+    r"^\s*\d{4}-\d{2}-\d{2}\s*[-:–]\s*posting (closed|no longer live)", re.IGNORECASE | re.MULTILINE
+)
 
 # Networking-lead status order + display labels
 LEAD_STATUS_ORDER = ["responded", "referred", "intro-requested", "contacted", "to-contact", "dead"]
@@ -99,6 +107,14 @@ def parse_fit(app):
     return (sum(parts.values()), parts, gated), None
 
 
+def posting_closed(text):
+    """True when the file's body (after the frontmatter) holds a dated closure note."""
+    if text.startswith("---"):
+        _, _, rest = text.partition("\n---")
+        text = rest if rest else text
+    return bool(CLOSED_PATTERN.search(text))
+
+
 def fmt_parts(parts):
     return " · ".join(f"{FIT_SHORT[k]} {parts[k]}" for k in FIT_KEYS)
 
@@ -109,10 +125,12 @@ def build_queue(apps):
     if not pending:
         return []
 
-    ranked, gated, unscored = [], [], []
+    ranked, gated, unscored, closed = [], [], [], []
     for a in pending:
         fit = a.get("_fit")
-        if fit is None:
+        if a.get("_closed"):
+            closed.append(a)
+        elif fit is None:
             unscored.append(a)
         elif fit[2]:
             gated.append(a)
@@ -131,10 +149,8 @@ def build_queue(apps):
         role_txt = f" — {role}" if role else ""
         note = a.get("fit_note", "").strip()
         note_txt = f" — {note}" if note else ""
-        return (
-            f"{prefix}[{esc(a.get('company'))}{role_txt}]({a['_file']}) "
-            f"· {fmt_parts(a['_fit'][1])}{note_txt}"
-        )
+        parts_txt = f" · {fmt_parts(a['_fit'][1])}" if a.get("_fit") else ""
+        return f"{prefix}[{esc(a.get('company'))}{role_txt}]({a['_file']}){parts_txt}{note_txt}"
 
     out = ["## Next to submit", ""]
     out.append(
@@ -148,6 +164,11 @@ def build_queue(apps):
         out.append("")
         out.append(f"**Gated out ({len(gated)})** - a hard gate failed; close or drop:")
         for a in sorted(gated, key=lambda x: x.get("company", "").lower()):
+            out.append(line(a, "- "))
+    if closed:
+        out.append("")
+        out.append(f"**Posting closed ({len(closed)})** - no longer open to applicants; drop when confirmed:")
+        for a in sorted(closed, key=lambda x: x.get("company", "").lower()):
             out.append(line(a, "- "))
     if unscored:
         out.append("")
@@ -163,8 +184,10 @@ def build_queue(apps):
 def load_apps():
     apps = []
     for path in sorted(APPS_DIR.glob("*.md")):
-        fm = parse_frontmatter(path.read_text(encoding="utf-8"))
+        text = path.read_text(encoding="utf-8")
+        fm = parse_frontmatter(text)
         fm["_file"] = f"applications/{path.name}"
+        fm["_closed"] = posting_closed(text)
         fm.setdefault("status", "not-submitted")
         apps.append(fm)
     return apps

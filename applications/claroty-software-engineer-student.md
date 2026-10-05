@@ -41,3 +41,5 @@ Python, AI-assisted development, AI tooling, agents, automation, end-to-end owne
 2026-10-04 - Submitted by Roy himself via the Comeet form (his explicit confirmation in chat). CV: Roy_Carmelli_CV_Claroty.pdf, personal note filled. GPA stated as 85.09 per Roy's call (excluding the retaken Discrete Structures course); the official transcript shows 84.47. Awaiting a confirmation email; follow up 2026-10-18.
 
 2026-10-05 - Confirmation email from no-reply@claroty.comeet-notifications.com dated 2026-10-04 ("We have received your application").
+
+2026-10-05 - Posting closed to new applicants: the Comeet position (https://www.comeet.com/jobs/Claroty/F2.004/software-engineer---student-position/C2.27A) now redirects to Claroty's board and is gone from the board's list. Closed is not a rejection - status unchanged; the 2026-10-18 follow-up still stands.
