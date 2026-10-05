@@ -10,7 +10,7 @@ jd_link: https://il.linkedin.com/jobs/view/software-development-intern-waf-waap-
 cv_version:
 contact:
 follow_up: 2026-10-18
-gmail: הוגש 2026-10-04 דרך Workday; ממתין לאישור במייל
+gmail: הוגש 04/10 - אישור קבלה מ-Workday ("Thank you for applying")
 fit_role: 5
 fit_stack: 5
 fit_gates: 9
@@ -36,3 +36,5 @@ Python, HTTP, APIs, web, Git, web application security (interest only).
 ## Notes
 2026-10-02 - Found by wider web search. LinkedIn Easy Apply. Gates all clear: third-year is fine, about 20h/week, Tel Aviv, no GPA requirement. Cold, no contact in leads/. Package drafted in `submissions/2026-10-02-packages.md`. Nothing submitted.
 2026-10-04 - Submitted by Roy himself via Workday (his explicit confirmation in chat), with the F5 CV variant (Roy_Carmelli_CV_F5.pdf), GPA 85.09. The 'government entity' question was answered No regarding IDF reserve - Roy's call. Awaiting a confirmation email; follow up 2026-10-18.
+
+2026-10-05 - Confirmation email from ffive@myworkday.com dated 2026-10-04 ("Thank you for applying!").

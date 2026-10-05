@@ -6,7 +6,7 @@ relationship: Family friend - Roy's mother asked him to help; he offered to help
 connection_type: inside
 warmth: warm
 status: contacted
-follow_up: 2026-10-05
+follow_up: 2026-10-12
 linked_application: applications/nice-devops-student.md
 ---
 
@@ -66,3 +66,6 @@ Good questions for the conversation:
   earlier attempts the same day went to `Shai.k@atera.com` (with an i) and all
   bounced "Address not found"; the correct spelling is `shay.k`. No reply yet.
   Follow-up set for 2026-10-05.
+- 2026-10-05 - One week on: no email reply from shay.k@atera.com (checked Gmail since
+  2026-09-28). He accepted Roy's LinkedIn invitation on 2026-09-28. A short follow-up
+  was drafted for Roy (not sent). Next check 2026-10-12.
