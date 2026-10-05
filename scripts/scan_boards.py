@@ -5,7 +5,8 @@ Also re-checks every tracked posting URL in applications/ directly, because a
 board's API is not a reliable liveness signal (Lever's API has been seen to omit
 postings that are still live).
 
-Boards: Greenhouse, Lever (global + EU), Ashby, SmartRecruiters, Workday and
+Boards: Greenhouse, Lever (global + EU), Ashby, SmartRecruiters (Check Point), Workday,
+Microsoft Israel R&D (its own page) and
 Comeet. Comeet is what most Israeli startups use; it has no public API, but each
 company's hosted page (comeet.com/jobs/<slug>/<uid>) embeds the full position
 list as JSON, so no browser is needed.
@@ -39,7 +40,10 @@ GREENHOUSE = [
 LEVER = ["cloudinary", "walkme"]
 LEVER_EU = ["mobileye"]
 ASHBY = ["finout", "lemonade", "moonactive", "sisense", "snowflake", "wonderful"]
-SMARTRECRUITERS = ["Wix2", "armis", "servicenow"]
+# Check Point's token is case-sensitive and ends in 2 (the plain name has no jobs).
+SMARTRECRUITERS = ["Wix2", "armis", "servicenow", "CheckPointSoftwareTechnologies2"]
+# Microsoft Israel R&D lists its Israel roles on one page of its own site (no API).
+MICROSOFT_IL = ["microsoft"]
 # Workday: (tenant, wd-host, site). Searched for "student" and "intern" in Israel.
 WORKDAY = [
     ("intel", "wd1", "External"), ("marvell", "wd1", "MarvellCareers"),
@@ -169,6 +173,23 @@ def parse_smartrecruiters(token, data):
     return rows
 
 
+MS_JOB = re.compile(
+    r'href="/JobDetails\?JobSeqNo=(\d+)"[^>]*>\s*<span class="job-title"[^>]*>([^<]+)</span>'
+    r'.*?<span class="job-location">\s*([^<]*?)\s*<',
+    re.S,
+)
+
+
+def parse_microsoft_il(token, html):
+    """Rows from microsoftrnd.co.il/Jobs. Raises when no job is found (layout change)."""
+    rows = [(token, title.strip(), f"{loc} Israel",
+             f"https://www.microsoftrnd.co.il/JobDetails?JobSeqNo={seq}", "")
+            for seq, title, loc in MS_JOB.findall(html)]
+    if not rows:
+        raise ValueError("no jobs on the Microsoft Israel page")
+    return rows
+
+
 def comeet_positions(html):
     """The position list a Comeet hosted page embeds.
 
@@ -220,8 +241,18 @@ def board_jobs(kind, token):
     if kind == "ashby":
         return parse_ashby(token, fetch_json(f"https://api.ashbyhq.com/posting-api/job-board/{token}"))
     if kind == "smartrecruiters":
-        url = f"https://api.smartrecruiters.com/v1/companies/{token}/postings?limit=100"
-        return parse_smartrecruiters(token, fetch_json(url))
+        # The API returns at most 100 postings a page; Check Point has more than that.
+        rows, offset = [], 0
+        while True:
+            url = (f"https://api.smartrecruiters.com/v1/companies/{token}/postings"
+                   f"?limit=100&offset={offset}")
+            data = fetch_json(url)
+            rows.extend(parse_smartrecruiters(token, data))
+            offset += 100
+            if offset >= data.get("totalFound", 0) or not data["content"]:
+                return rows
+    if kind == "microsoft_il":
+        return parse_microsoft_il(token, fetch_text("https://www.microsoftrnd.co.il/Jobs"))
     if kind == "comeet":
         slug, uid = token
         return parse_comeet(slug, comeet_positions(fetch_text(f"https://www.comeet.com/jobs/{slug}/{uid}")))
@@ -397,7 +428,7 @@ def all_boards():
     return ([("greenhouse", t) for t in GREENHOUSE] + [("lever", t) for t in LEVER]
             + [("lever_eu", t) for t in LEVER_EU] + [("ashby", t) for t in ASHBY]
             + [("smartrecruiters", t) for t in SMARTRECRUITERS] + [("workday", t) for t in WORKDAY]
-            + [("comeet", t) for t in COMEET])
+            + [("comeet", t) for t in COMEET] + [("microsoft_il", t) for t in MICROSOFT_IL])
 
 
 def scan(boards):
