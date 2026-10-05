@@ -16,7 +16,7 @@ fit_role: 6
 fit_stack: 3
 fit_gates: 8
 fit_path: 3
-fit_note: Tier 2 backend/data (Java, SQL, Spark/Kafka, K8s) - stack is mostly gaps; 3 office days is top of 2-3 day range; no studies/GPA line found; cold. Verdict maybe.
+fit_note: Posting CLOSED 2026-10-05. Tier 2 backend/data (Java, SQL, Spark/Kafka, K8s) - stack is mostly gaps; 3 office days is top of 2-3 day range; no studies/GPA line found; cold. Verdict maybe.
 blurb: התמחות בפיתוח backend ונתונים בטאבולה: עבודה עם Java, SQL, Spark ו-Kafka על גבי Kubernetes. היברידי בתל אביב.
 ---
 
@@ -37,3 +37,5 @@ Python, SQL, backend, data pipelines, Git (only what is true on the CV).
 
 ## Notes
 2026-10-05 - Found and reviewed by fit-reviewer: verdict maybe. Tier 2 backend/data role. Link was 404 on 2026-10-05, so confirm it is still open (Greenhouse gh_jid=4847843) before spending time on a package. Nothing submitted.
+
+2026-10-05 - Posting closed: Greenhouse API returns 404 for gh_jid=4847843 (careers-scanner, which now checks Greenhouse ids embedded in company sites). Closed to new applicants; nothing was submitted.

@@ -16,7 +16,7 @@ fit_role: 6
 fit_stack: 3
 fit_gates: 5
 fit_path: 5
-fit_note: 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting likely CLOSED - verify first
+fit_note: 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting CLOSED (careers.sap.com, 2026-10-05)
 ---
 
 ## Stack Required
@@ -41,3 +41,5 @@ Team deals with API Gateways. Requires pivoting CV away from frontend/UI towards
 2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded. This role requires an 85+ average, so it is gated again.
 
 2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a course he is retaking). The official transcript currently shows 84.47. Against the 85+ cutoff this is borderline, not a fail.
+
+2026-10-05 - Posting no longer live: careers.sap.com (Israel, searched "student", "intern" and "gateway") lists only three student roles - Cloud Platform Engineer - Student (Java), Student DevOps Engineer - CxP, Student Developer - SAP BTP - CCS - and Roy has applied to all three. No Gateway role is open. Closed to new applicants; nothing was submitted here.

@@ -40,3 +40,5 @@ React, MongoDB, full-stack, agile, .NET Core.
 2026-09-30 - Official English transcript (Bar-Ilan, dated 2026-09-30): **overall scholastic index 84.47** (Brain Science 86.23, Computer Science 78.42). The 85.09 on the September CV and the 86.16 in older notes are superseded.
 
 2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a course he is retaking). The official transcript currently shows 84.47.
+
+2026-10-05 - Posting still live on ChargeAfter's Comeet board (FA.D53), verified by the careers scan. Still gated on the 2-year studies requirement.
