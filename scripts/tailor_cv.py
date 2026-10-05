@@ -75,6 +75,29 @@ SUMMARIES = {
         (". I build tools that call many APIs (Aside, a browser extension over six "
          "model providers), use Git daily, and am available about 20 hours a week. ", None),
     ],
+    "GrowthSpace": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" AI agent design", B), (": ", None),
+        ("prompting", B), (", agent behaviour and ", None), ("conversation quality", B),
+        (". I use Claude and other models every day and build agents that run in "
+         "production. ", None),
+    ],
+    "Upstream": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" data analysis", B), (": ", None),
+        ("Python", B), (", ", None), ("Pandas", B),
+        (" and turning raw real-world data into findings. I am available 2 days a week. ", None),
+    ],
+    "AmazonHaifa": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" systems software", B), (": ", None),
+        ("C", B), (", ", None), ("low-level code", B),
+        (" and the layer between hardware and software. I pick up whatever stack or "
+         "tool the job requires. ", None),
+    ],
 }
 
 
@@ -94,7 +117,7 @@ def build(base, name, runs):
     edu = P[find(P, "Oct 2024 - present")]
     for r in edu.runs:
         r.text = r.text.replace("expected 2027", "expected Feb 2028")
-    if name in ("Marvell", "AmazonMLIL"):  # Python Data Processing first in coursework
+    if name in ("Marvell", "AmazonMLIL", "Upstream"):  # Python Data Processing first in coursework
         c = P[find(P, "Relevant coursework")].runs
         c[1].text, c[3].text = c[3].text, c[1].text
         c[2].text, c[4].text = c[4].text, c[2].text

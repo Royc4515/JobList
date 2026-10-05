@@ -37,3 +37,5 @@ C is coursework only; no networking or embedded production experience.
 
 ## Notes
 2026-10-02 - Amazon job ID 10432733. Verdict from fit review: maybe. Studies gate passes (2+ semesters left). Tracked, not applied.
+
+2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `AmazonHaifa` + transcript in one PDF). Not submitted yet.

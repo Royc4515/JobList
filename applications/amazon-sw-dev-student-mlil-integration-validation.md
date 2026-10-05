@@ -44,3 +44,5 @@ No production CI/CD or Grafana experience; Python and AI-assisted development ar
 2026-10-01 - Form answers for when Roy applies through the referral link: previously applied to Amazon - Yes (last in July 2026; does not block); government employee in the past 3 years - **"Yes, I am a CURRENT government employee"**, because Roy is an active IDF reservist and the question covers "a member of the armed forces" of any government (Roy agreed). Sponsorship No, citizenship Israel, no non-compete. Upload `Roy_Carmelli_CV_and_Transcript_Amazon.pdf`.
 
 2026-10-05 - Amazon sent an "Your application is incomplete" email on 2026-10-03: the application was opened but not submitted. Status stays not-submitted; still on hold for the Omer Barda referral.
+
+2026-10-05 - Roy approved applying now, without waiting further for Omer Barda's referral (use the referral link only if it already exists). Not submitted yet.

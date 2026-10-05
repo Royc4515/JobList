@@ -37,3 +37,5 @@ Machine learning, NLP, human-computer interaction, data science, Python, Pandas,
 
 ## Notes
 2026-10-05 - Arrived via an AllJobs alert (posted on LinkedIn the same day). Deadline 2026-12-13. Strong angle for Roy: CS + Neuroscience dual major, a neuro-data research project (OpenNeuro, hierarchical regression in Python), and hands-on LLM-agent work - HCI and NLU sit right between them. Applying to both Google roles is allowed; the research track is a different pipeline from the SWE intern track.
+
+2026-10-05 - Roy approved applying. Not submitted yet.
