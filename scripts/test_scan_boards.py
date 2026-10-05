@@ -189,7 +189,32 @@ class Liveness(unittest.TestCase):
 
     def test_every_board_kind_is_dispatchable(self):
         kinds = {k for k, _ in sb.all_boards()}
-        self.assertEqual(kinds, {"greenhouse", "lever", "lever_eu", "ashby", "smartrecruiters", "workday", "comeet"})
+        self.assertEqual(kinds, {"greenhouse", "lever", "lever_eu", "ashby", "smartrecruiters", "workday", "comeet",
+                                 "microsoft_il"})
+
+    def test_microsoft_il_page_parsed(self):
+        html = ('<a role="link" class="x" href="/JobDetails?JobSeqNo=42" aria-label="t">'
+                '<span class="job-title" style="c">Software Engineering INTERN</span></a>'
+                '<span class="job-location">\n  Herzliya  <span> | </span></span>')
+        rows = sb.parse_microsoft_il("microsoft", html)
+        self.assertEqual(rows[0][1], "Software Engineering INTERN")
+        self.assertIn("Herzliya", rows[0][2])
+        self.assertTrue(sb.is_israel_student(rows[0]))
+        self.assertTrue(rows[0][3].endswith("JobSeqNo=42"))
+
+    def test_microsoft_il_page_without_jobs_raises(self):
+        with self.assertRaises(ValueError):
+            sb.parse_microsoft_il("microsoft", "<html>consent wall</html>")
+
+    def test_smartrecruiters_pages_past_one_hundred(self):
+        def page(n, total):
+            return {"totalFound": total, "content": [
+                {"id": str(i), "name": f"Student {i}", "location": {"city": "Tel Aviv", "country": "il"}}
+                for i in range(n)]}
+        with mock.patch.object(sb, "fetch_json", side_effect=[page(100, 107), page(7, 107)]) as fj:
+            rows = sb.board_jobs("smartrecruiters", "acme")
+        self.assertEqual(len(rows), 107)
+        self.assertEqual(fj.call_count, 2)
 
 
 if __name__ == "__main__":
