@@ -10,7 +10,7 @@ jd_link: https://il.linkedin.com/jobs/view/software-development-intern-waf-waap-
 cv_version:
 contact:
 follow_up: 2026-10-18
-gmail: הוגש 04/10 - אישור קבלה מ-Workday ("Thank you for applying")
+gmail: הוגש 04/10 - אישור רשמי מ-Workday ("Thank you for applying") מ-2026-10-04 11:20 UTC
 fit_role: 5
 fit_stack: 5
 fit_gates: 9

@@ -10,7 +10,7 @@ jd_link: https://www.linkedin.com/jobs/view/4472969032/
 cv_version:
 contact:
 follow_up: 2026-10-18
-gmail: הוגש 04/10 - אישור קבלה מ-Comeet ("We Got It")
+gmail: הוגש 04/10 - אישור רשמי מ-Comeet ("We Got It") מ-2026-10-04 11:10 UTC
 fit_role: 7
 fit_stack: 7
 fit_gates: 7

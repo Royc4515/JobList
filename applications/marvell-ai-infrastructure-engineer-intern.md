@@ -44,3 +44,5 @@ Angle for the CV: this tracker and the agents Roy builds are real data-extractio
 2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.
 
 2026-10-01 - Submitted via Workday (req 2604499) with `Roy_Carmelli_CV_Marvell.pdf`. Workday shows "Application In Process". No cover-letter field. Roy approved in chat. Follow-up 2026-10-15.
+
+2026-10-05 - Posting closed (liveness check: Workday JSON endpoint 404). Status unchanged.
