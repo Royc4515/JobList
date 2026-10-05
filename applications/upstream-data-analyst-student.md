@@ -1,17 +1,17 @@
 ---
 company: Upstream Security
 role: Data Analyst (Student Position)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-06
 found: 2026-10-05
 location: Herzliya (Sapir 7)
 work_model: Hybrid (2 office days/week: Mon, Wed or Thu)
 scope: Part-time, hourly, 2 days/week
 jd_link: https://www.comeet.com/jobs/upstream/E4.003/data-analyst-student-position/8E.073
-cv_version:
+cv_version: Roy_Carmelli_CV_Upstream.pdf
 contact:
-follow_up:
-gmail:
+follow_up: 2026-10-20
+gmail: הוגש 2026-10-06 דרך Comeet; ממתין לאישור במייל
 fit_role: 5
 fit_stack: 5
 fit_gates: 9
@@ -38,3 +38,5 @@ Python, Pandas, NumPy, data analysis, anomaly detection, AI tools (only what is 
 2026-10-05 - Found by the expanded careers scan (Upstream's Comeet board, not scanned before). Gates clear on every axis: "at least one year until graduation" passes, exactly 2 office days a week, Herzliya. Worth a cold application if Roy wants a data foothold. Nothing submitted.
 
 2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `Upstream`). Not submitted yet.
+
+2026-10-06 - SUBMITTED by Roy via Comeet (success page: "Thank you Roy! Your application has been submitted"), CV Roy_Carmelli_CV_Upstream.pdf; screening answers: English Fluent, available 2 office days a week in Herzliya = yes. Explicit confirmation from Roy ("שלח"). The posting lists SQL/ElasticSearch and data-analyst experience as musts which Roy lacks (basic SQL), so odds are lower.
