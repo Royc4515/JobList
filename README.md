@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**69 applications** — **26** Submitted · **16** Not submitted · **20** Rejected · **7** Dropped
+**70 applications** — **26** Submitted · **17** Not submitted · **20** Rejected · **7** Dropped
 
 ## Next to submit
 
@@ -19,9 +19,10 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 1. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
 2. **26** [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md) · role 8 · stack 7 · gates 8 · path 3 — Research role in ML/NLU/HCI open to BSc students; Python + neuro-data project + AI agents fit; schedule unstated; deadline 2026-12-13; cold big brand
 3. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
-4. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-5. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-6. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+4. **21** [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md) · role 5 · stack 5 · gates 3 · path 8 — Low-level SW in Apple's hardware org; 3+ semesters completed passes, but the minimum names EE/Computer Engineering (Roy is CS); Dolev Orgad referral available
+5. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+6. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+7. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (5)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -67,10 +68,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (16)
+### 📝 Not submitted (17)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
+- [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md)
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md)
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
@@ -124,6 +126,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Amazon (Annapurna Labs)](applications/amazon-sw-automation-student-annapurna.md) | SW Automation Student, Annapurna Labs | 🚫 Dropped | 19 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 📝 Not submitted | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
+| [Apple](applications/apple-software-engineering-student-hardware-2026.md) | Software Engineering Student - Hardware org (200676939-0865) | 📝 Not submitted | 21 | — | — |
 | [Cellebrite](applications/cellebrite-associate-software-engineer.md) | Associate Software Engineer | 📝 Not submitted | 17 | — | — |
 | [ChargeAfter](applications/chargeafter-fullstack-engineer-intern.md) | Fullstack Engineer Intern | 📝 Not submitted | gated | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | gated | — | — |
