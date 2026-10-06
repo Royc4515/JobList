@@ -37,3 +37,5 @@ Python, AI, deep learning, machine learning, algorithms, LLM, software modules, 
 
 ## Notes
 2026-10-06 - Roy sent the posting (IAI careers, job 147135, reached via LinkedIn). No studies-remaining or GPA requirement stated. The direction is a better fit than the earlier IAI role (AI rather than general software development); the cost is the Ashdod commute.
+
+2026-10-06 - Roy approved applying (package `submissions/2026-10-05-packages.md` section 6). Not submitted yet.
