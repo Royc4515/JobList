@@ -75,6 +75,14 @@ SUMMARIES = {
         (". I build tools that call many APIs (Aside, a browser extension over six "
          "model providers), use Git daily, and am available about 20 hours a week. ", None),
     ],
+    "IAI_AI": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" AI development", B), (": ", None),
+        ("Python", B), (", ", None), ("AI algorithms", B),
+        (" and the software around them. I build AI tools that work end to end and "
+         "am taking Machine Learning this semester. ", None),
+    ],
     "GrowthSpace": [
         ("Third-year ", None), ("Computer Science & Neuroscience", B),
         (" B.Sc. student at Bar-Ilan University, looking for a", None),
@@ -117,7 +125,7 @@ def build(base, name, runs):
     edu = P[find(P, "Oct 2024 - present")]
     for r in edu.runs:
         r.text = r.text.replace("expected 2027", "expected Feb 2028")
-    if name in ("Marvell", "AmazonMLIL", "Upstream"):  # Python Data Processing first in coursework
+    if name in ("Marvell", "AmazonMLIL", "Upstream", "IAI_AI"):  # Python Data Processing first in coursework
         c = P[find(P, "Relevant coursework")].runs
         c[1].text, c[3].text = c[3].text, c[1].text
         c[2].text, c[4].text = c[4].text, c[2].text
