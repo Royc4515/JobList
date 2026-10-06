@@ -1,17 +1,17 @@
 ---
 company: IAI (Israel Aerospace Industries) - Elta
 role: AI Student - Elta Land Systems (147135)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-06
 found: 2026-10-06
 location: Ashdod
 work_model: On-site
 scope: 3 days/week (mandatory), flexible hours
 jd_link: https://jobs.iai.co.il/job/76050214/
-cv_version: Roy_Carmelli_CV_IAI_AI
+cv_version: Roy_Carmelli_CV_IAI_AI.pdf
 contact:
-follow_up:
-gmail: נשלחה ע"י רועי 06/10 (קישור מלינקדאין); טרם הוגש
+follow_up: 2026-10-20
+gmail: הוגש 2026-10-06 דרך פורטל IAI; ממתין לאישור במייל
 blurb: משרת סטודנט בחטיבת אלתא של התעשייה האווירית, באשדוד: הגדרת אלגוריתמי AI ומימוש מודולי תוכנה בצוות פיתוח לפרויקט ביטחוני. Python ולמידה עמוקה כיתרון. 3 ימים בשבוע.
 fit_role: 8
 fit_stack: 6
@@ -39,3 +39,5 @@ Python, AI, deep learning, machine learning, algorithms, LLM, software modules, 
 2026-10-06 - Roy sent the posting (IAI careers, job 147135, reached via LinkedIn). No studies-remaining or GPA requirement stated. The direction is a better fit than the earlier IAI role (AI rather than general software development); the cost is the Ashdod commute.
 
 2026-10-06 - Roy approved applying (package `submissions/2026-10-05-packages.md` section 6). Not submitted yet.
+
+2026-10-06 - Submitted by Roy himself on jobs.iai.co.il (CV Roy_Carmelli_CV_IAI_AI.pdf; the form had no note field; stated GPA 85.09, graduation 2028). Confirmed by Roy in chat ("הגשתי את IAI"). Confirmation email not yet seen.
