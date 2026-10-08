@@ -1,7 +1,7 @@
 ---
 company: GrowthSpace
 role: AI Agent Designer (Part-Time)
-status: submitted
+status: in-review
 applied: 2026-10-06
 found: 2026-10-05
 location: Tel Aviv (Menachem Begin 154)
@@ -10,8 +10,8 @@ scope: Part-time, hourly
 jd_link: https://www.comeet.com/jobs/growthspace/D7.00A/ai-agent-designer-part-time/80.378
 cv_version: Roy_Carmelli_CV_GrowthSpace.pdf
 contact:
-follow_up: 2026-10-20
-gmail: הוגש 2026-10-06 דרך Comeet; ממתין לאישור במייל
+follow_up: 2026-10-10
+gmail: 2026-10-08 נלי וילק (מגייסת) שלחה 7 שאלות סינון לפני שיחת היכרות; ממתין לתשובת רועי
 fit_role: 5
 fit_stack: 8
 fit_gates: 7
@@ -39,3 +39,5 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `GrowthSpace`). Psychometric 700+ still to confirm with Roy before submitting. Not submitted yet.
 
 2026-10-06 - Submitted by Roy via Comeet (success page: "Your application has been submitted"; Roy confirmed with "שלח"). CV Roy_Carmelli_CV_GrowthSpace.pdf; personal note included his psychometric score (704, posting requires 700+). Waiting for a confirmation email; follow up 2026-10-20.
+
+2026-10-08 - Recruiter Nelly Vilk replied by email (Spark Hire on behalf of GrowthSpace) with 7 screening questions before a short intro call: ~60% scope, AI tool use with a prompt-refinement example, careful work with complex material, psychometric score, technical comfort (JSON, dashboards), STEM background, hourly salary expectation. Reply drafted for Roy; not sent.
