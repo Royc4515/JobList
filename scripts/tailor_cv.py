@@ -83,6 +83,14 @@ SUMMARIES = {
         (" and the software around them. I build AI tools that work end to end and "
          "am taking Machine Learning this semester. ", None),
     ],
+    "Apple": [
+        ("Third-year ", None), ("Computer Science & Neuroscience", B),
+        (" B.Sc. student at Bar-Ilan University, looking for a", None),
+        (" student ", B), ("role in", None), (" low-level software", B), (": ", None),
+        ("C/C++", B), (", ", None), ("Python", B),
+        (" and the layer between hardware and software. I pick up whatever stack or "
+         "tool the job requires. ", None),
+    ],
     "GrowthSpace": [
         ("Third-year ", None), ("Computer Science & Neuroscience", B),
         (" B.Sc. student at Bar-Ilan University, looking for a", None),
