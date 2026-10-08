@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**70 applications** — **1** In review · **25** Submitted · **17** Not submitted · **20** Rejected · **7** Dropped
+**70 applications** — **1** In review · **26** Submitted · **16** Not submitted · **20** Rejected · **7** Dropped
 
 ## Next to submit
 
@@ -31,19 +31,18 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Google — Hardware/Electrical Engineering BS/MS Intern, 2027](applications/google-hardware-electrical-engineering-intern-2027.md) · role 1 · stack 1 · gates 0 · path 3 — GATED: requires an EE/Computer Engineering student with practical hardware experience (VLSI, ASIC, FPGA, verification); hardware is a Skip category; 12-month internship
 - [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md) · role 9 · stack 9 · gates 0 · path 3 — GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
 
-**Posting closed (5)** - no longer open to applicants; drop when confirmed:
+**Posting closed (4)** - no longer open to applicants; drop when confirmed:
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md) · role 8 · stack 4 · gates 5 · path 7 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting CLOSED (careers.sap.com, 2026-10-05)
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting CLOSED (careers.sap.com, 2026-10-05)
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md) · role 6 · stack 3 · gates 5 · path 5 — 3 semesters left passes; GPA 85+ borderline (85.09 vs transcript 84.47); posting CLOSED (careers.sap.com, 2026-10-05)
-- [Taboola — Software Engineer Intern](applications/taboola-software-engineer-intern.md) · role 6 · stack 3 · gates 8 · path 3 — Posting CLOSED 2026-10-05. Tier 2 backend/data (Java, SQL, Spark/Kafka, K8s) - stack is mostly gaps; 3 office days is top of 2-3 day range; no studies/GPA line found; cold. Verdict maybe.
 
 ## Pipeline
 
 ### 🔎 In review (1)
 - [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md)
 
-### 📤 Submitted (25)
+### 📤 Submitted (26)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -66,11 +65,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [SAP — Cloud Platform Engineer - Student (Java, UCP team) (Req 459254)](applications/sap-cloud-platform-engineer-student-java.md)
 - [SAP — Student Developer - SAP BTP - CCS (ID 443334)](applications/sap-student-developer-btp-ccs.md)
 - [SAP — Student DevOps](applications/sap-student-devops.md)
+- [Taboola — Software Engineer Intern](applications/taboola-software-engineer-intern.md)
 - [Upstream Security — Data Analyst (Student Position)](applications/upstream-data-analyst-student.md)
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (17)
+### 📝 Not submitted (16)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
@@ -87,7 +87,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md)
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md)
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
-- [Taboola — Software Engineer Intern](applications/taboola-software-engineer-intern.md)
 
 ### ❌ Rejected (20)
 - [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
@@ -149,7 +148,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
-| [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📝 Not submitted | 20 | — | — |
+| [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📤 Submitted | 20 | 2026-10-08 | 2026-10-22 |
 | [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 🔎 In review | 25 | 2026-10-06 | 2026-10-10 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-ai-student-ashdod.md) | AI Student - Elta Land Systems (147135) | 📤 Submitted | 23 | 2026-10-06 | 2026-10-20 |
 | [Upstream Security](applications/upstream-data-analyst-student.md) | Data Analyst (Student Position) | 📤 Submitted | 24 | 2026-10-06 | 2026-10-20 |
