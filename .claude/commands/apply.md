@@ -15,12 +15,12 @@ and `CLAUDE.md`.
 ## 1. Build the application files (no help from Roy needed)
 Work in `~/Documents/JobList-CVs/` (create it). **Never put these files in the repo -
 it is public and they contain Roy's phone number, email and ID number.**
-1. **Base CV:** find `Roy_Carmelli_CV_sep2026.docx` - first on this computer (Google
+1. **Base CV:** find `Roy_Carmelli_CV.docx` (the October 2026 CV; before 2026-10-11 it was `Roy_Carmelli_CV_sep2026.docx`) - first on this computer (Google
    Drive folder, Downloads, Documents); otherwise open drive.google.com in the browser,
    search for it and download it. It is the base CV Roy approved edits to.
 2. **Tailored CVs:** `pip install python-docx pypdf` if needed, then
-   `python scripts/tailor_cv.py <base.docx> ~/Documents/JobList-CVs`. It writes the five
-   approved versions (Google, Marvell, FIL, OptimumEDA, AmazonMLIL).
+   `python scripts/tailor_cv.py <base.docx> ~/Documents/JobList-CVs`. It writes every
+   version in its `VARIANTS` (one per role, plus `General`); use the one the package names.
 3. **PDF:** export each `.docx` to PDF with Word (or LibreOffice). Open each PDF and
    check it is **exactly one page**. If one spills over, stop and tell Roy - do not
    edit the text yourself.
