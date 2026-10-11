@@ -12,5 +12,5 @@ linked_application: applications/iai-elta-ai-student-ashdod.md
 
 ## Notes
 2026-10-11 - Mesayaatech announced a dedicated IAI recruiting channel for reservists: a dedicated IAI recruiter handles and prioritises their applications. Two ways in: (1) the general CV link (campaign.adamtotal.co.il, from the Mesayaatech message), where the recruiter looks for a matching role; (2) email Nitay a CV + posting link and he forwards it.
-Roy's IAI picks in order: 76050214 (AI student, Elta Land Systems, 147135 - already submitted directly 2026-10-06), 76049695 (C#/WPF 147023), 76049687 (404 on 2026-10-11), 76049547 (C++ RT embedded 147020). The two software roles require 2+ years of study left (Roy has ~3 semesters).
-Draft email to Nitay prepared in chat; not sent.
+Roy's IAI picks in order: 76050214 (AI student, Elta Land Systems, 147135 - already submitted directly 2026-10-06), 76049695 (C#/WPF 147023), 76049687 (signal-processing software student 147022; 404 once on 2026-10-11, live on recheck), 76049547 (C++ RT embedded 147020). The three software roles require 2+ years of study left (Roy has ~3 semesters).
+Draft email to Nitay prepared in chat (all four links in Roy's order, asking him to push the AI role first); not sent.
