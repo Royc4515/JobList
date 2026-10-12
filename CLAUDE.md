@@ -77,6 +77,11 @@ Gmail with push + email; it labels what it reported `JobList-alerted` so nothing
 It needs the Gmail connector attached in the claude.ai Routines UI - the trigger API
 cannot attach connectors.
 
+## Referral routing
+For every role Roy may apply to, check `leads/network-map.md` and say which contact to go
+through (named contact at the company, else Tomer / Shay / Amir) before suggesting a cold
+application. Keep the map current when Roy shares new contacts or a contact's job changes.
+
 ## Determining application status from Gmail
 A confirmation email ("we received your application", "your application was
 sent to X") means submitted - use its date. Job-board digests (Alljobs,
