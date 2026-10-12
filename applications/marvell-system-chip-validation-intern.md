@@ -1,8 +1,8 @@
 ---
 company: Marvell
 role: System Chip Validation Intern (2604495)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-12
 found: 2026-10-12
 location: Petah Tikva
 work_model: On-site
@@ -10,8 +10,8 @@ scope: Student position (Workday says "Full time")
 jd_link: https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/System-Chip-Validation-Intern_2604495
 cv_version: Roy_Carmelli_CV_Marvell_Validation.pdf
 contact: aramati@marvell.com (Marvell recruiter, via the Mesayaatech channel)
-follow_up:
-gmail:
+follow_up: 2026-10-22
+gmail: נשלח במייל ל-aramati@marvell.com דרך מסייעטק (לפי רועי, 2026-10-12); המייל עוד לא נראה ב-Gmail
 fit_role: 5
 fit_stack: 6
 fit_gates: 0
@@ -35,4 +35,6 @@ No networking/switch or post-silicon background; no Ixia. Python automation and 
 Python, C++, automation, AI-assisted development, Computer Architecture (only what is true on the CV).
 
 ## Notes
-2026-10-12 - From the Mesayaatech jobs list: apply by email to aramati@marvell.com with the job link, saying you came via Mesayaatech (students only). Under Roy's rule (apply when the work fits even if a gate fails): the Python automation side fits. Same email can mention the AI Infrastructure application from 2026-10-01. CV variant `Marvell_Validation` built (one page). Not submitted yet.
+2026-10-12 - From the Mesayaatech jobs list: apply by email to aramati@marvell.com with the job link, saying you came via Mesayaatech (students only). Under Roy's rule (apply when the work fits even if a gate fails): the Python automation side fits. Same email can mention the AI Infrastructure application from 2026-10-01. CV variant `Marvell_Validation` built (one page).
+
+2026-10-12 - Roy emailed aramati@marvell.com (via Mesayaatech) with the job link, the AI Infrastructure application link and his CV. Confirmed by Roy in chat; the sent email was not yet visible in Gmail search at the time.
