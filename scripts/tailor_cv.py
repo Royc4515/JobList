@@ -77,6 +77,8 @@ VARIANTS = {
                  "courses": ["PDP", "LA"], "neuro": True},
     "Rafael_AI": {"focus": "AI developer integrating LLM APIs (Claude, OpenAI, Gemini) into tools "
                            "with React UIs."},
+    "ChargeAfter": {"focus": "Full-stack developer building React, Node.js and MongoDB apps, with AI "
+                             "integrations."},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},

@@ -7,8 +7,8 @@ found: 2026-09-28
 location: Tel Aviv
 work_model: Hybrid
 scope: 2-3 days/week, min 2 in office
-jd_link: https://chargeafter.com/careers-2/co/tel-aviv-israel/FA.D53/fullstack-engineer-intern/all
-cv_version:
+jd_link: https://www.comeet.com/jobs/chargeafter/C5.004/fullstack-engineer-intern/FA.D53
+cv_version: Roy_Carmelli_CV_ChargeAfter.pdf (+ English transcript)
 contact:
 follow_up:
 gmail: No application email (checked 2026-09-28)
@@ -42,3 +42,5 @@ React, MongoDB, full-stack, agile, .NET Core.
 2026-09-30 - GPA: Roy uses **85.09** (his calculation, excluding a course he is retaking). The official transcript currently shows 84.47.
 
 2026-10-05 - Posting still live on ChargeAfter's Comeet board (FA.D53), verified by the careers scan. Still gated on the 2-year studies requirement.
+
+2026-10-12 - Roy decided to apply anyway despite the gates ("what do I lose"). CV variant `ChargeAfter` built (full-stack focus, no GPA line on the CV since the attached official transcript shows 84.47). Grade sheet required - attach the official English transcript. Not submitted yet.
