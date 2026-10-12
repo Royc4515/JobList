@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**74 applications** — **2** In review · **25** Submitted · **19** Not submitted · **20** Rejected · **8** Dropped
+**74 applications** — **1** Interview · **1** In review · **25** Submitted · **19** Not submitted · **20** Rejected · **8** Dropped
 
 ## Next to submit
 
@@ -42,9 +42,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Pipeline
 
-### 🔎 In review (2)
-- [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
+### 💬 Interview (1)
 - [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md)
+
+### 🔎 In review (1)
+- [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 
 ### 📤 Submitted (25)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
@@ -160,7 +162,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
 | [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📤 Submitted | 20 | 2026-10-08 | 2026-10-22 |
-| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 🔎 In review | 25 | 2026-10-06 | 2026-10-18 |
+| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 💬 Interview | 25 | 2026-10-06 | 2026-10-13 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-ai-student-ashdod.md) | AI Student - Elta Land Systems (147135) | 📤 Submitted | 23 | 2026-10-06 | 2026-10-20 |
 | [Upstream Security](applications/upstream-data-analyst-student.md) | Data Analyst (Student Position) | 📤 Submitted | 24 | 2026-10-06 | 2026-10-20 |
 | [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
