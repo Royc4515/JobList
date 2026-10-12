@@ -75,6 +75,8 @@ VARIANTS = {
     "Upstream": {"focus": "Python developer focused on data analysis with Pandas, turning raw "
                           "real-world data into findings.",
                  "courses": ["PDP", "LA"], "neuro": True},
+    "Rafael_AI": {"focus": "AI developer integrating LLM APIs (Claude, OpenAI, Gemini) into tools "
+                           "with React UIs."},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
