@@ -11,7 +11,7 @@ jd_link: https://jobs.iai.co.il/job/76050214/
 cv_version: Roy_Carmelli_CV_IAI_AI.pdf
 contact:
 follow_up: 2026-10-20
-gmail: הוגש 2026-10-06 דרך פורטל IAI; ממתין לאישור במייל
+gmail: הוגש 2026-10-06 דרך פורטל IAI; אישור קבלה מ-adamtotal (2026-10-06); ממתין
 blurb: משרת סטודנט בחטיבת אלתא של התעשייה האווירית, באשדוד: הגדרת אלגוריתמי AI ומימוש מודולי תוכנה בצוות פיתוח לפרויקט ביטחוני. Python ולמידה עמוקה כיתרון. 3 ימים בשבוע.
 fit_role: 8
 fit_stack: 6
@@ -41,3 +41,5 @@ Python, AI, deep learning, machine learning, algorithms, LLM, software modules, 
 2026-10-06 - Roy approved applying (package `submissions/2026-10-05-packages.md` section 6). Not submitted yet.
 
 2026-10-06 - Submitted by Roy himself on jobs.iai.co.il (CV Roy_Carmelli_CV_IAI_AI.pdf; the form had no note field; stated GPA 85.09, graduation 2028). Confirmed by Roy in chat ("הגשתי את IAI"). Confirmation email not yet seen.
+
+2026-10-12 - Confirmation found: adamtotal for IAI, 2026-10-06 09:41 UTC, "thank you for applying to a role at IAI - your CV is being reviewed by the recruiting team". No reply since.

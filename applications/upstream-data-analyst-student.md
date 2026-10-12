@@ -11,7 +11,7 @@ jd_link: https://www.comeet.com/jobs/upstream/E4.003/data-analyst-student-positi
 cv_version: Roy_Carmelli_CV_Upstream.pdf
 contact:
 follow_up: 2026-10-20
-gmail: הוגש 2026-10-06 דרך Comeet; ממתין לאישור במייל
+gmail: הוגש 2026-10-06 דרך Comeet; אישור We Got It התקבל (2026-10-05 22:33 UTC)
 fit_role: 5
 fit_stack: 5
 fit_gates: 9
@@ -40,3 +40,5 @@ Python, Pandas, NumPy, data analysis, anomaly detection, AI tools (only what is 
 2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `Upstream`). Not submitted yet.
 
 2026-10-06 - SUBMITTED by Roy via Comeet (success page: "Thank you Roy! Your application has been submitted"), CV Roy_Carmelli_CV_Upstream.pdf; screening answers: English Fluent, available 2 office days a week in Herzliya = yes. Explicit confirmation from Roy ("שלח"). The posting lists SQL/ElasticSearch and data-analyst experience as musts which Roy lacks (basic SQL), so odds are lower.
+
+2026-10-12 - Confirmation found: Upstream Comeet "We Got It: Thanks for applying for Data Analyst (Student Position)", 2026-10-05 22:33 UTC (= 2026-10-06 01:33 Israel time). No reply since.
