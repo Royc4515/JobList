@@ -9,13 +9,13 @@ work_model: On-site
 scope: 2+ days/week
 jd_link: https://career.rafael.co.il/job/13481/
 cv_version: Roy_Carmelli_CV_Rafael_AI.pdf
-contact:
+contact: via Tomer Shmargad (friends at Rafael, e.g. Moshe Pnini) - leads/rafael-moshe-pnini-via-tomer.md
 follow_up:
 gmail:
 fit_role: 9
 fit_stack: 9
 fit_gates: 7
-fit_path: 7
+fit_path: 8
 fit_note: Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
 blurb: משרת סטודנט ברפאל, מכון דוד בקריות: פיתוח כלים מבוססי AI, כולל אינטגרציה של מודלי LLM ו-VLM ופיתוח ממשקי משתמש. Python, TypeScript ו-React.
 ---
@@ -36,3 +36,5 @@ LLM APIs (Claude, OpenAI, Gemini), Claude Code, MCP, AI agents, React, TypeScrip
 
 ## Notes
 2026-10-12 - Roy sent the posting (pasted text; Rafael's site blocks automated reads). Likely the same "Rafael - student, AI-based applications" SecretJobs match noted in submissions/2026-09-30-packages.md. Strong fit; CV variant `Rafael_AI` built (new October base CV, one page). Waiting for Roy's go-ahead.
+
+2026-10-12 - Referral route opened: Tomer Shmargad will look for the right person at Rafael (friends across divisions, e.g. Moshe Pnini). Wait for that before applying on the Rafael site.
