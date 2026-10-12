@@ -20,6 +20,7 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 | (asked about Mobileye, Cellebrite, Motorola - not an insider) | Afik Friedberg, Roy's StandWithUs mentor | *-afik-referral.md |
 | SAP | Noam, Oriyah (community) | sap-*.md |
 | Samsung (SIRC) | Malka Izmailov, Samsung recruiter (with Roy in StandWithUs at Bar-Ilan) | samsung-recruiter.md |
+| Marvell | aramati@marvell.com - recruiter, Mesayaatech channel (mention Mesayaatech) | applications/marvell-system-chip-validation-intern.md |
 | IAI | Nitay (Mesayaatech reservist channel) | iai-mesayaatech-nitay.md |
 | Atera / NiCE | Shay Kopilevich | atera-ex-nice-shay.md |
 | Droxi.ai | Tomer Shmargad | tomer-shmargad-cafe.md |

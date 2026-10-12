@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**77 applications** — **1** Interview · **1** In review · **25** Submitted · **22** Not submitted · **20** Rejected · **8** Dropped
+**78 applications** — **1** Interview · **1** In review · **25** Submitted · **23** Not submitted · **20** Rejected · **8** Dropped
 
 ## Next to submit
 
@@ -26,7 +26,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 8. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
 9. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
-**Gated out (9)** - a hard gate failed; close or drop:
+**Gated out (10)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md) · role 6 · stack 7 · gates 0 · path 5 — GATED: requires at least 2 years until graduation (Roy ~1.4) ; GPA 85 borderline (85.09)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md) · role 6 · stack 5 · gates 0 · path 3 — NO LIVE POSTING as of 2026-09-30 - CrowdStrike Workday shows no intern roles in Israel; scanner will flag a new one
@@ -34,6 +34,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [IAI (Israel Aerospace Industries) - Elta — Signal Processing Software Student (147022)](applications/iai-elta-signal-processing-software-student-ashdod.md) · role 7 · stack 5 · gates 0 · path 5 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C/C++ yes, Python an advantage; signal-processing knowledge an advantage, ties to neuroscience; 3 days/week on-site Ashdod mandatory
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md) · role 6 · stack 5 · gates 0 · path 4 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C++ yes but no RT/embedded; Linux asked; 3 days/week on-site Ashdod mandatory
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C#/WPF, C2 systems (147023)](applications/iai-elta-software-student-csharp-ashdod.md) · role 6 · stack 4 · gates 0 · path 3 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C#/WPF not on CV; 3 days/week on-site Ashdod mandatory
+- [Marvell — System Chip Validation Intern (2604495)](applications/marvell-system-chip-validation-intern.md) · role 5 · stack 6 · gates 0 · path 7 — Gate fails - 2+ years before graduation; EE/CompE preferred. Work is Python/C++ test automation + AI-assisted debugging on networking switch chips (post-silicon); hardware domain is new to Roy. Warm route via the Mesayaatech recruiter email
 - [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md) · role 7 · stack 7 · gates 0 · path 8 — Gate fails - must graduate after August 2028, Roy graduates Feb 2028; GPA 85+ also borderline (official transcript 84.47); stack fits (Python/C++, Claude Code, Flask/MongoDB)
 - [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md) · role 9 · stack 9 · gates 0 · path 8 — GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
 
@@ -78,7 +79,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (22)
+### 📝 Not submitted (23)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
@@ -92,6 +93,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md)
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C#/WPF, C2 systems (147023)](applications/iai-elta-software-student-csharp-ashdod.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
+- [Marvell — System Chip Validation Intern (2604495)](applications/marvell-system-chip-validation-intern.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
 - [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md)
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
@@ -156,6 +158,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 🚫 Dropped | gated | — | — |
 | [Intel](applications/intel-software-student-x86-validation-tools.md) | Software Student for x86 Validation Tools (JR0287280) | 🚫 Dropped | 16 | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
+| [Marvell](applications/marvell-system-chip-validation-intern.md) | System Chip Validation Intern (2604495) | 📝 Not submitted | gated | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
 | [Mobileye](applications/mobileye-algorithm-sw-developer-student-calibration.md) | Algorithm SW Developer Student - Calibration Team | 📝 Not submitted | 29 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
@@ -218,7 +221,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**14 leads** — **1** Responded · **2** Referred · **1** Intro requested · **5** Contacted · **5** To contact
+**14 leads** — **1** Responded · **2** Referred · **1** Intro requested · **6** Contacted · **4** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -231,9 +234,9 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-18 |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
+| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 📨 Contacted | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
-| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 

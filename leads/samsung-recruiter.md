@@ -5,7 +5,7 @@ contact: Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIR
 relationship: Was with Roy in the StandWithUs programme at Bar-Ilan in his first year; 1st-degree LinkedIn connection
 connection_type: recruiter
 warmth: warm
-status: to-contact
+status: contacted
 follow_up:
 linked_application: applications/samsung-sirc-application-automation-sw-student.md
 ---
@@ -16,3 +16,4 @@ linked_application: applications/samsung-sirc-application-automation-sw-student.
 - https://www.comeet.com/jobs/samsung/D4.005/algorithms-infrastructure-student/EF.07A
 
 2026-10-12 - Malka posted on LinkedIn today (about 6 hours before Roy saw it) that Samsung R&D Center Israel opened new roles, listing exactly the two student roles above (plus Junior Digital Design / Verification Engineer, both hardware - not for Roy), and asked people to tag friends. A LinkedIn message to her, referring to the post and to StandWithUs, is the route. Draft given to Roy in chat; not sent.
+2026-10-12 - Roy messaged Malka on LinkedIn about the two SIRC student roles (short, casual; asked whether to send her the CV). Earlier chat in the same thread: Roy had asked about student roles, she said none were open yet but they open all the time.

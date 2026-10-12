@@ -85,6 +85,9 @@ VARIANTS = {
                        "courses": ["LA", "CALC"], "neuro": True},
     "Samsung": {"focus": "Python and C++ developer building tools and automation with Claude "
                          "Code."},
+    "Marvell_Validation": {"focus": "Python and C++ developer focused on automation, coding daily with AI "
+                                    "tools.",
+                           "courses": ["ARCH", "ASP"]},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
