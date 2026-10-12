@@ -6,7 +6,7 @@ relationship: Family friend - Roy's mother asked him to help; he offered to help
 connection_type: inside
 warmth: warm
 status: contacted
-follow_up: 2026-10-12
+follow_up: 2026-10-19
 linked_application: applications/nice-devops-student.md
 ---
 
@@ -69,3 +69,4 @@ Good questions for the conversation:
 - 2026-10-05 - One week on: no email reply from shay.k@atera.com (checked Gmail since
   2026-09-28). He accepted Roy's LinkedIn invitation on 2026-09-28. A short follow-up
   was drafted for Roy (not sent). Next check 2026-10-12.
+- 2026-10-12 - Two weeks on: still no email reply from shay.k@atera.com (Gmail checked since 2026-09-28). Asked Roy whether he messaged Shay on WhatsApp after the 2026-10-05 draft. Next check 2026-10-19.

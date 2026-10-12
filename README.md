@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**74 applications** — **1** In review · **26** Submitted · **19** Not submitted · **20** Rejected · **8** Dropped
+**74 applications** — **2** In review · **25** Submitted · **19** Not submitted · **20** Rejected · **8** Dropped
 
 ## Next to submit
 
@@ -42,10 +42,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Pipeline
 
-### 🔎 In review (1)
+### 🔎 In review (2)
+- [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 - [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md)
 
-### 📤 Submitted (26)
+### 📤 Submitted (25)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -55,7 +56,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [F5 — Software Development Intern - WAF & WAAP](applications/f5-software-development-intern-waf-waap.md)
 - [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
-- [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 - [IAI (Israel Aerospace Industries) — Software Development Student](applications/iai-software-development-student-ashdod.md)
 - [IAI (Israel Aerospace Industries) - Elta — AI Student - Elta Land Systems (147135)](applications/iai-elta-ai-student-ashdod.md)
 - [Intel — AI Product Analyst Student - AI Solutions Group (JR0284923)](applications/intel-ai-product-analyst-student.md)
@@ -160,13 +160,13 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
 | [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📤 Submitted | 20 | 2026-10-08 | 2026-10-22 |
-| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 🔎 In review | 25 | 2026-10-06 | 2026-10-10 |
+| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 🔎 In review | 25 | 2026-10-06 | 2026-10-18 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-ai-student-ashdod.md) | AI Student - Elta Land Systems (147135) | 📤 Submitted | 23 | 2026-10-06 | 2026-10-20 |
 | [Upstream Security](applications/upstream-data-analyst-student.md) | Data Analyst (Student Position) | 📤 Submitted | 24 | 2026-10-06 | 2026-10-20 |
 | [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
 | [F5](applications/f5-software-development-intern-waf-waap.md) | Software Development Intern - WAF & WAAP | 📤 Submitted | 22 | 2026-10-04 | 2026-10-18 |
 | [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📤 Submitted | 26 | 2026-10-01 | 2026-10-15 |
-| [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 📤 Submitted | 27 | 2026-10-01 | 2026-10-15 |
+| [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 🔎 In review | 27 | 2026-10-01 | 2026-10-12 |
 | [Marvell](applications/marvell-ai-infrastructure-engineer-intern.md) | AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499) | 📤 Submitted | 24 | 2026-10-01 | 2026-10-15 |
 | [Optimum EDA and CAD Services](applications/optimum-eda-computer-science-student-final-year.md) | Computer Science Student (Final Year) | 📤 Submitted | 23 | 2026-10-01 | 2026-10-15 |
 | [IAI (Israel Aerospace Industries)](applications/iai-software-development-student-ashdod.md) | Software Development Student | 📤 Submitted | — | 2026-09-14 | — |
@@ -213,7 +213,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | --- | --- | --- | --- | --- | --- |
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
-| [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay K. (shay.k@atera.com) | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-12 |
+| [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay K. (shay.k@atera.com) | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
