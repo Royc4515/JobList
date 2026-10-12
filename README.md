@@ -233,7 +233,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
-| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Samsung recruiter (name to confirm with Roy) | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 🔵 To contact | — |
+| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 

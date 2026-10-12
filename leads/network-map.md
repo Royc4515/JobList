@@ -19,7 +19,7 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 | Apple | Dolev Orgad | apple-dolev-orgad-referral.md |
 | (asked about Mobileye, Cellebrite, Motorola - not an insider) | Afik Friedberg, Roy's StandWithUs mentor | *-afik-referral.md |
 | SAP | Noam, Oriyah (community) | sap-*.md |
-| Samsung (SIRC) | Samsung recruiter (Roy's direct connection) | samsung-recruiter.md |
+| Samsung (SIRC) | Malka Izmailov, Samsung recruiter (with Roy in StandWithUs at Bar-Ilan) | samsung-recruiter.md |
 | IAI | Nitay (Mesayaatech reservist channel) | iai-mesayaatech-nitay.md |
 | Atera / NiCE | Shay Kopilevich | atera-ex-nice-shay.md |
 | Droxi.ai | Tomer Shmargad | tomer-shmargad-cafe.md |

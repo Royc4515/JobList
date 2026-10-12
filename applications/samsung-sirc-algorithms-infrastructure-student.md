@@ -9,7 +9,7 @@ work_model: On-site
 scope: Student position
 jd_link: https://www.comeet.com/jobs/samsung/D4.005/algorithms-infrastructure-student/EF.07A
 cv_version: Roy_Carmelli_CV_Samsung.pdf
-contact: Samsung recruiter (Roy's connection) - leads/samsung-recruiter.md
+contact: Malka Izmailov (Samsung recruiter) - leads/samsung-recruiter.md
 follow_up:
 gmail:
 fit_role: 9
