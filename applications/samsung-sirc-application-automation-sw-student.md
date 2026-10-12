@@ -9,13 +9,13 @@ work_model: On-site
 scope:
 jd_link: https://www.comeet.com/jobs/samsung/D4.005/application-automation-sw-student/39.373
 cv_version: Roy_Carmelli_CV_Samsung.pdf
-contact:
+contact: Samsung recruiter (Roy's connection) - leads/samsung-recruiter.md
 follow_up:
 gmail:
 fit_role: 7
 fit_stack: 7
 fit_gates: 0
-fit_path: 6
+fit_path: 8
 fit_note: Gate fails - must graduate after August 2028, Roy graduates Feb 2028; GPA 85+ also borderline (official transcript 84.47); stack fits (Python/C++, Claude Code, Flask/MongoDB)
 blurb: משרת סטודנט במרכז הפיתוח של סמסונג: פיתוח כלים ותשתיות תוכנה ב-Python וב-C++ וסביבות בדיקה אוטומטיות למוצרי עיבוד תמונה.
 ---
@@ -37,3 +37,5 @@ None major on the stack side.
 2026-10-12 - From the Mesayaatech jobs list. Gated on graduation date. Same gate as the other SIRC student role already tracked.
 
 2026-10-12 - Roy's rule: apply when the work fits even if a gate fails. CV variant `Samsung` built (one page). State the real graduation date (Feb 2028) in the form. Not submitted yet.
+
+2026-10-12 - Roy has a direct connection to Samsung's recruiter: go through her rather than applying cold.

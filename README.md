@@ -34,8 +34,8 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [IAI (Israel Aerospace Industries) - Elta — Signal Processing Software Student (147022)](applications/iai-elta-signal-processing-software-student-ashdod.md) · role 7 · stack 5 · gates 0 · path 5 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C/C++ yes, Python an advantage; signal-processing knowledge an advantage, ties to neuroscience; 3 days/week on-site Ashdod mandatory
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md) · role 6 · stack 5 · gates 0 · path 4 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C++ yes but no RT/embedded; Linux asked; 3 days/week on-site Ashdod mandatory
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C#/WPF, C2 systems (147023)](applications/iai-elta-software-student-csharp-ashdod.md) · role 6 · stack 4 · gates 0 · path 3 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C#/WPF not on CV; 3 days/week on-site Ashdod mandatory
-- [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md) · role 7 · stack 7 · gates 0 · path 6 — Gate fails - must graduate after August 2028, Roy graduates Feb 2028; GPA 85+ also borderline (official transcript 84.47); stack fits (Python/C++, Claude Code, Flask/MongoDB)
-- [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md) · role 9 · stack 9 · gates 0 · path 3 — GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
+- [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md) · role 7 · stack 7 · gates 0 · path 8 — Gate fails - must graduate after August 2028, Roy graduates Feb 2028; GPA 85+ also borderline (official transcript 84.47); stack fits (Python/C++, Claude Code, Flask/MongoDB)
+- [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md) · role 9 · stack 9 · gates 0 · path 8 — GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
 
 **Posting closed (4)** - no longer open to applicants; drop when confirmed:
 - [Cellebrite — Associate Software Engineer](applications/cellebrite-associate-software-engineer.md) · role 4 · stack 6 · gates 2 · path 5 — Offensive-security domain; full-time on-site and requires a finished BSc
@@ -218,7 +218,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**13 leads** — **1** Responded · **2** Referred · **1** Intro requested · **5** Contacted · **4** To contact
+**14 leads** — **1** Responded · **2** Referred · **1** Intro requested · **5** Contacted · **5** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -227,12 +227,13 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
 | [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145 | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
-| [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
+| [Cellebrite](leads/cellebrite-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-18 |
-| [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
-| [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
+| [Mobileye](leads/mobileye-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
+| [Motorola Solutions](leads/motorola-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
+| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Samsung recruiter (name to confirm with Roy) | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 
