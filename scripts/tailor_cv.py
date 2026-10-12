@@ -79,6 +79,9 @@ VARIANTS = {
                            "with React UIs."},
     "ChargeAfter": {"focus": "Full-stack developer building React, Node.js and MongoDB apps, with AI "
                              "integrations."},
+    "Mobileye_Calib": {"focus": "C++ and Python developer with ML basics, coding daily with Claude "
+                                "Code.",
+                       "courses": ["LA", "CALC"], "neuro": True},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
