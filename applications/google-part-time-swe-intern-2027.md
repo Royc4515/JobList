@@ -9,8 +9,8 @@ scope: Part-time, 2-4 days/week, min 26 weeks from Mar-May 2027
 jd_link: https://to.indeed.com/aa7z769kkb8x
 cv_version:
 contact:
-follow_up: 2026-10-12
-gmail: 2026-10-09 Google (Sourabh Swami, Randstad for Google Staffing) - מתקדמים: צריך לבחור יום לקבלת coding sample (א-ה, 7 ימים לפתור); טרם נענה
+follow_up: 2026-10-14
+gmail: 2026-10-12 רועי ענה לגוגל: מוכן לקבל את ה-coding sample היום (12.10) או מוקדם ככל האפשר; 7 ימים לפתור
 fit_role: 7
 fit_stack: 8
 fit_gates: 9
@@ -49,3 +49,5 @@ before the deadline as a reminder to submit, not to chase.
 2026-10-01 - Submitted via Google Careers (Tel Aviv preferred). Roy approved in chat and the portal showed the success page. Uploaded `Roy_Carmelli_CV_Google.pdf` plus the English transcript; cover note pasted. Evidence is the portal success page; no confirmation email checked yet. Follow-up 2026-10-15. Reminder: Google allows 3 applications per 30 days, so this uses one slot until about 2026-10-31. Response can take 90+ days.
 
 2026-10-12 - Email 2026-10-09 from Sourabh Swami (Online Staffing Specialist, Randstad Sourceright supporting Google): the application is moving forward; next step is a coding sample. Roy must reply with the day he wants to receive it (Mon-Fri only; 7 days to complete). No reply from Roy found in Gmail as of 2026-10-12. Reply drafted in chat.
+
+2026-10-12 - Replied to Sourabh in the thread (sent with Roy's go-ahead): ready to receive the coding sample today, Monday 2026-10-12, or as soon as possible after. Once it arrives Roy has 7 days. Follow up 2026-10-14 if nothing arrives.
