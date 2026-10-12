@@ -1,7 +1,7 @@
 ---
 company: Rafael
 role: Information Systems & BI Student (13713)
-status: not-submitted
+status: dropped
 applied:
 found: 2026-10-12
 location: Kiryat (Machon David, Haifa Bay)
@@ -11,7 +11,7 @@ jd_link: https://career.rafael.co.il/job/13713/
 cv_version:
 contact:
 follow_up:
-gmail:
+gmail: לא הוגש - רועי החליט לוותר (2026-10-12)
 fit_role: 3
 fit_stack: 4
 fit_gates: 0
@@ -35,4 +35,6 @@ No Power BI or VBA on the CV. Python/Pandas data work is the closest overlap.
 -
 
 ## Notes
-2026-10-12 - Roy sent the posting and asked whether to apply (the site blocks automated reads, so he pasted the text). Recommendation: skip - fails the studies-remaining gate, wrong direction (BI/Excel, not software or AI), and the location is far. Waiting for Roy's call before marking it dropped.
+2026-10-12 - Roy sent the posting and asked whether to apply (the site blocks automated reads, so he pasted the text). Recommendation: skip - fails the studies-remaining gate, wrong direction (BI/Excel, not software or AI), and the location is far.
+
+2026-10-12 - Dropped by Roy: fails the studies-remaining gate (2+ years required), BI/Excel role off target, on-site in the Krayot. Not applying.
