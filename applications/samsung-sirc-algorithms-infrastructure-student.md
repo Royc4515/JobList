@@ -8,7 +8,7 @@ location: Tel Aviv (Azrieli Town, Menachem Begin 146)
 work_model: On-site
 scope: Student position
 jd_link: https://www.comeet.com/jobs/samsung/D4.005/algorithms-infrastructure-student/EF.07A
-cv_version:
+cv_version: Roy_Carmelli_CV_Samsung.pdf
 contact:
 follow_up:
 gmail:
@@ -37,3 +37,5 @@ AI agents, coding agents, Claude Code, MCP, Python, CI/CD, full stack, experimen
 
 ## Notes
 2026-10-05 - Found by the expanded careers scan (Samsung's Comeet board, not scanned before). Gated on studies remaining, so it is listed under "Gated out". The fit on everything else is unusually high; the only route worth trying is a person at SIRC who can say whether the 2-year rule is firm - not a cold application. Roy's call. Nothing submitted.
+
+2026-10-12 - Roy's rule: apply when the work fits even if a gate fails. CV variant `Samsung` built (one page). State the real graduation date (Feb 2028) in the form. Not submitted yet.

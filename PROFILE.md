@@ -53,6 +53,14 @@ Exception: an application already tracked stays tracked regardless of category.
    easy; Haifa, Jerusalem, Be'er Sheva and the north are long commutes unless hybrid.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.
 
+**Roy's rule (2026-10-12): a failed gate does not stop an application.** If the work
+itself fits (Tier 1-3 direction, stack Roy really has), prepare it and let Roy apply -
+it costs a few minutes and the worst case is a rejection. Still score `fit_gates: 0` so
+the dashboard shows it as a long shot, say which gate fails, and keep everything true:
+the real graduation date (Feb 2028) and the real GPA on anything that sits next to the
+transcript. Skip only when the work is off-direction or the terms are unworkable for
+Roy (night shifts, 4+ fixed days far away) - and say why.
+
 ## Fit score rubric
 Every tracked role gets four sub-scores, 0-10 each, stored as frontmatter keys.
 `scripts/build_dashboard.py` adds them into a total out of 40 and ranks the

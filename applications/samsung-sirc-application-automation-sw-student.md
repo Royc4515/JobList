@@ -8,7 +8,7 @@ location: Tel Aviv
 work_model: On-site
 scope:
 jd_link: https://www.comeet.com/jobs/samsung/D4.005/application-automation-sw-student/39.373
-cv_version:
+cv_version: Roy_Carmelli_CV_Samsung.pdf
 contact:
 follow_up:
 gmail:
@@ -35,3 +35,5 @@ None major on the stack side.
 
 ## Notes
 2026-10-12 - From the Mesayaatech jobs list. Gated on graduation date. Same gate as the other SIRC student role already tracked.
+
+2026-10-12 - Roy's rule: apply when the work fits even if a gate fails. CV variant `Samsung` built (one page). State the real graduation date (Feb 2028) in the form. Not submitted yet.

@@ -82,6 +82,8 @@ VARIANTS = {
     "Mobileye_Calib": {"focus": "C++ and Python developer with ML basics, coding daily with Claude "
                                 "Code.",
                        "courses": ["LA", "CALC"], "neuro": True},
+    "Samsung": {"focus": "Python and C++ developer building tools and automation with Claude "
+                         "Code."},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
