@@ -18,3 +18,4 @@ Network angles:
 - **Fintech** (BlueVine alumni) - relevant to ChargeAfter.
 - Engineering managers he knows at other companies; BGU alumni.
 See leads/network-map.md.
+2026-10-12 - Roy asked about Rafael, Mobileye, ChargeAfter. Tomer connected Mobileye: Shlomo Ron, offered to talk to him. No answer yet on Rafael / ChargeAfter.

@@ -17,8 +17,8 @@ The dashboard below is auto-generated — edit application files, not this block
 Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROFILE.md)).
 
 1. **32** [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md) · role 9 · stack 9 · gates 7 · path 7 — Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
-2. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
-3. **29** [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md) · role 8 · stack 7 · gates 7 · path 7 — Studies gate passes (2-3 semesters left, Roy has 3); C++ and Python, ML basics, Claude/AI-assisted dev; CS + science minor fits CS & Neuroscience; 3 days on-site in Jerusalem; Mobileye rejected a Jerusalem algorithm student application on 2026-08-10
+2. **30** [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md) · role 8 · stack 7 · gates 7 · path 8 — Studies gate passes (2-3 semesters left, Roy has 3); C++ and Python, ML basics, Claude/AI-assisted dev; CS + science minor fits CS & Neuroscience; 3 days on-site in Jerusalem; Mobileye rejected a Jerusalem algorithm student application on 2026-08-10
+3. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
 4. **26** [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md) · role 8 · stack 7 · gates 8 · path 3 — Research role in ML/NLU/HCI open to BSc students; Python + neuro-data project + AI agents fit; schedule unstated; deadline 2026-12-13; cold big brand
 5. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
 6. **21** [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md) · role 5 · stack 5 · gates 3 · path 8 — Low-level SW in Apple's hardware org; 3+ semesters completed passes, but the minimum names EE/Computer Engineering (Roy is CS); Dolev Orgad referral available
@@ -158,7 +158,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Intel](applications/intel-software-student-x86-validation-tools.md) | Software Student for x86 Validation Tools (JR0287280) | 🚫 Dropped | 16 | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
-| [Mobileye](applications/mobileye-algorithm-sw-developer-student-calibration.md) | Algorithm SW Developer Student - Calibration Team | 📝 Not submitted | 29 | — | — |
+| [Mobileye](applications/mobileye-algorithm-sw-developer-student-calibration.md) | Algorithm SW Developer Student - Calibration Team | 📝 Not submitted | 30 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
 | [Motorola Solutions](applications/motorola-solutions-student-software-engineer.md) | Student - Software Engineer (R66325) | 🚫 Dropped | gated | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 🚫 Dropped | gated | — | — |
@@ -220,7 +220,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**14 leads** — **1** Responded · **2** Referred · **1** Intro requested · **6** Contacted · **4** To contact
+**15 leads** — **1** Responded · **2** Referred · **2** Intro requested · **6** Contacted · **4** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -228,6 +228,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Various (his network)](leads/amir-levy-family.md) | Amir Levy - linkedin.com/in/amir-levy-8a1b87 | knows-someone | Any student software / AI role - forwards Roy's CV in his groups | ✅ Referred | — |
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
+| [Mobileye](leads/mobileye-shlomo-ron-via-tomer.md) | Shlomo Ron (Mobileye, Jerusalem) - linkedin.com/in/shlomo-ron-3222a1177 - via Tomer Shmargad | knows-someone | Algorithm SW Developer Student - Calibration Team (Jerusalem) | 🤝 Intro requested | 2026-10-15 |
 | [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145 | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-18 |
