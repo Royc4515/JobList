@@ -2,7 +2,8 @@
 """Build Roy's tailored CV versions (one per entry in VARIANTS) from his base CV (.docx).
 
 Base CV: `Roy_Carmelli_CV.docx` (Drive, October 2026 - honors program, reserve duty,
-military service, Anthropic certificates). Until 2026-10-11 the base was
+military service, Anthropic certificates; the Nechita Raka project line and the 2028
+graduation year were added on 2026-10-12). Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
@@ -120,6 +121,11 @@ def build(base, spec):
     for r in find(P, "Bar-Ilan University").runs:
         r.text = r.text.replace("2027 (expected)", "2028 (expected)")
     plain = find(P, "Native English and Hebrew")  # a one-run, non-bold body line
+    # Each added line costs one: drop the least job-relevant summary lines to stay on one page.
+    extra = bool(spec.get("courses")) + bool(spec.get("neuro"))
+    for needle in ["Experienced in teaching", "Excellent interpersonal skills"][:extra]:
+        p = find(P, needle)
+        p._p.getparent().remove(p._p)
     if spec.get("courses"):
         line = f"{GPA} · Relevant coursework: " + " · ".join(COURSES[c] for c in spec["courses"]) + "."
         insert_after(find(P, "reserve duty"), plain, line)
