@@ -65,6 +65,18 @@ per-company "talked to someone there" checkbox lives in the Artifact's db
 `capabilities` so the db declaration carries over. Run
 `python3 scripts/test_build_waiting_page.py` after changing the script.
 
+## Stage alerts (Roy's standing request, 2026-10-12)
+Whenever an active process moves (a person replies, an interview/call is proposed, a test
+or coding sample arrives, documents are requested, an offer, a rejection), tell Roy in a
+way he cannot miss: open the reply with a line starting "🚨 התקדמות בתהליך" naming the
+company, what happened, the deadline and his next step - before anything else - and send a
+push notification (PushNotification) when the session supports it. Plain "we received your
+application" confirmations are not alerts. The cloud Routine "JobList stage alerts"
+(trig_013xvagu9mCPJwkejzkXQk5R, every 2 hours 07:00-23:00 Israel time) does the same from
+Gmail with push + email; it labels what it reported `JobList-alerted` so nothing repeats.
+It needs the Gmail connector attached in the claude.ai Routines UI - the trigger API
+cannot attach connectors.
+
 ## Determining application status from Gmail
 A confirmation email ("we received your application", "your application was
 sent to X") means submitted - use its date. Job-board digests (Alljobs,
