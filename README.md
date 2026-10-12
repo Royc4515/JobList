@@ -218,18 +218,21 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**10 leads** — **1** Referred · **1** Intro requested · **4** Contacted · **4** To contact
+**13 leads** — **1** Responded · **2** Referred · **1** Intro requested · **5** Contacted · **4** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| [Droxi.ai (and his network: BlueVine, Ben-Gurion University alumni)](leads/tomer-shmargad-cafe.md) | Tomer Shmargad - linkedin.com/in/tomer-shmargad-24b7a1aa | inside | Student developer at Droxi (AI clinical products), or intros in his network | 🟢 Responded | — |
+| [Various (his network)](leads/amir-levy-family.md) | Amir Levy - linkedin.com/in/amir-levy-8a1b87 | knows-someone | Any student software / AI role - forwards Roy's CV in his groups | ✅ Referred | — |
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
-| [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay K. (shay.k@atera.com) | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
+| [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145 | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik | knows-someone | Associate Software Engineer | 📨 Contacted | — |
+| [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-18 |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
-| [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 🔵 To contact | 2026-10-13 |
+| [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
 | [SAP](leads/sap-oriyah-community.md) | Oriyah | inside | Software Eng. Intern (Gateway) | 🔵 To contact | — |
 

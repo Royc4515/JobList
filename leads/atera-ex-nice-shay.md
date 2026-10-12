@@ -1,7 +1,7 @@
 ---
 company: Atera / NiCE
 target_role: Student Developer - AI agents (Atera), or via NiCE / Kravi Tech
-contact: Shay K. (shay.k@atera.com)
+contact: Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145
 relationship: Family friend - Roy's mother asked him to help; he offered to help as a friend
 connection_type: inside
 warmth: warm
@@ -70,3 +70,4 @@ Good questions for the conversation:
   2026-09-28). He accepted Roy's LinkedIn invitation on 2026-09-28. A short follow-up
   was drafted for Roy (not sent). Next check 2026-10-12.
 - 2026-10-12 - Two weeks on: still no email reply from shay.k@atera.com (Gmail checked since 2026-09-28). Asked Roy whether he messaged Shay on WhatsApp after the 2026-10-05 draft. Next check 2026-10-19.
+- 2026-10-12 - Roy named Shay as one of his three main networking contacts. Public profile: IT Manager at Atera, Hod HaSharon, 500+ connections. Close family friend who wants to help; was a mentor in the NiCE reservist job-search programme (Kravi Tech). Network angles: Atera itself, NiCE alumni, IT/infra people, other reservist mentors. See leads/network-map.md.
