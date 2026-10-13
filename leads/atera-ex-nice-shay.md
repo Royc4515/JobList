@@ -71,3 +71,4 @@ Good questions for the conversation:
   was drafted for Roy (not sent). Next check 2026-10-12.
 - 2026-10-12 - Two weeks on: still no email reply from shay.k@atera.com (Gmail checked since 2026-09-28). Asked Roy whether he messaged Shay on WhatsApp after the 2026-10-05 draft. Next check 2026-10-19.
 - 2026-10-12 - Roy named Shay as one of his three main networking contacts. Public profile: IT Manager at Atera, Hod HaSharon, 500+ connections. Close family friend who wants to help; was a mentor in the NiCE reservist job-search programme (Kravi Tech). Network angles: Atera itself, NiCE alumni, IT/infra people, other reservist mentors. See leads/network-map.md.
+- 2026-10-13 - Roy is writing to Shay with an update on the GrowthSpace interview and asking his advice on whether a prompt/agent-QA role is a good first step.
