@@ -37,17 +37,16 @@ COURSES = {
     "ASP": "Advanced Systems Programming (C++/Node.js)",
     "ARCH": "Computer Architecture (C/Assembly)",
 }
-NEURO_PROJECT = ("Cognitive Background: OpenNeuro behavioural logs to regression-ready data "
-                 "(Pandas, NumPy), team of 4.")
+NEURO_PROJECT = "Cognitive Background: OpenNeuro logs cleaned for regression (Pandas, NumPy), team of 4."
 
 # focus: replaces the "AI & Full-Stack developer ..." summary line - keep it to one line.
 # courses: list of COURSES keys -> adds a GPA + coursework line. neuro: adds the project.
 # Each added line must stay one line: with neuro, use at most two courses, or the CV spills.
 VARIANTS = {
     "General": {"focus": None},
-    "Google": {"focus": "Software developer focused on AI systems and backend, building LLM apps "
-                        "and agents in Python and Node.js.",
-               "courses": ["DS", "OOP", "PDP", "ASP"]},
+    "Google": {"focus": "Software developer focused on AI systems and backend, building LLM agents "
+                        "in Python.",
+               "courses": ["DS", "PDP"]},
     "Marvell": {"focus": "Developer focused on data and AI infrastructure, turning raw data into "
                          "model-ready datasets.",
                 "courses": ["PDP", "DS"], "neuro": True},
@@ -88,6 +87,9 @@ VARIANTS = {
     "Marvell_Validation": {"focus": "Python and C++ developer focused on automation, coding daily with AI "
                                     "tools.",
                            "courses": ["ARCH", "ASP"]},
+    "Google_Research": {"focus": "Building LLM agents and data pipelines, interested in research where ML "
+                                 "meets cognition.",
+                        "courses": ["LA", "PDP"], "neuro": True},
     "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
