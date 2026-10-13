@@ -65,6 +65,38 @@ per-company "talked to someone there" checkbox lives in the Artifact's db
 `capabilities` so the db declaration carries over. Run
 `python3 scripts/test_build_waiting_page.py` after changing the script.
 
+## Stage alerts (Roy's standing request, 2026-10-12)
+Whenever an active process moves (a person replies, an interview/call is proposed, a test
+or coding sample arrives, documents are requested, an offer, a rejection), tell Roy in a
+way he cannot miss: open the reply with a line starting "🚨 התקדמות בתהליך" naming the
+company, what happened, the deadline and his next step - before anything else - and send a
+push notification (PushNotification) when the session supports it. Plain "we received your
+application" confirmations are not alerts. The cloud Routine "JobList stage alerts"
+(trig_013xvagu9mCPJwkejzkXQk5R, every 2 hours 07:00-23:00 Israel time) does the same from
+Gmail with push + email; it labels what it reported `JobList-alerted` so nothing repeats.
+It needs the Gmail connector attached in the claude.ai Routines UI - the trigger API
+cannot attach connectors.
+
+## Interview prep - verify who the meeting is with
+Before preparing Roy for any interview or call, read the actual invite: the scheduling /
+"Interview confirmation" email (e.g. Comeet scheduler@comeet-notifications.com), its .ics
+attachment, or the calendar event. Take the interviewer's name, title, format (online /
+on-site, link or address) and time from there - never assume the recruiter who scheduled
+it is the interviewer (2026-10-13: GrowthSpace was prepped as "with Nelly", but the invite
+said Avi Zadok, ExpertX Implementation Lead). Record the interviewer in the application file.
+
+## Prep kits (`prep/`)
+Every interview, coding test or home assignment gets a folder `prep/<company>-<role>/`
+(see `prep/README.md`): a research / mock-interview prompt, one-page notes for the call, a
+debrief afterwards, and a system prompt for a practice session (tutor or coach) that Roy can
+paste into a fresh Claude / Gemini session. Create or update the kit as soon as a stage is
+scheduled, and link it from the application file. Public repo: no phone, ID, CVs here.
+
+## Referral routing
+For every role Roy may apply to, check `leads/network-map.md` and say which contact to go
+through (named contact at the company, else Tomer / Shay / Amir) before suggesting a cold
+application. Keep the map current when Roy shares new contacts or a contact's job changes.
+
 ## Determining application status from Gmail
 A confirmation email ("we received your application", "your application was
 sent to X") means submitted - use its date. Job-board digests (Alljobs,

@@ -1,17 +1,17 @@
 ---
 company: GrowthSpace
 role: AI Agent Designer (Part-Time)
-status: submitted
+status: interview
 applied: 2026-10-06
 found: 2026-10-05
 location: Tel Aviv (Menachem Begin 154)
-work_model: Hybrid
+work_model: Hybrid (Monday in the Tel Aviv office, rest remote)
 scope: Part-time, hourly
 jd_link: https://www.comeet.com/jobs/growthspace/D7.00A/ai-agent-designer-part-time/80.378
 cv_version: Roy_Carmelli_CV_GrowthSpace.pdf
-contact:
-follow_up: 2026-10-20
-gmail: הוגש 2026-10-06 דרך Comeet; ממתין לאישור במייל
+contact: Avi Zadok - ExpertX Implementation Lead (interviewer); Nelly Vilk - recruiter
+follow_up: 2026-10-16
+gmail: ראיון ראשון עם אבי צדוק התקיים 13.10; תשובה עד סוף השבוע, אחר כך 2 מטלות בית וראיון 1-2
 fit_role: 5
 fit_stack: 8
 fit_gates: 7
@@ -39,3 +39,19 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 2026-10-05 - Roy approved applying (package `submissions/2026-10-05-packages.md`, CV variant `GrowthSpace`). Psychometric 700+ still to confirm with Roy before submitting. Not submitted yet.
 
 2026-10-06 - Submitted by Roy via Comeet (success page: "Your application has been submitted"; Roy confirmed with "שלח"). CV Roy_Carmelli_CV_GrowthSpace.pdf; personal note included his psychometric score (704, posting requires 700+). Waiting for a confirmation email; follow up 2026-10-20.
+
+2026-10-08 - Recruiter Nelly Vilk replied by email (Spark Hire on behalf of GrowthSpace) with 7 screening questions before a short intro call: ~60% scope, AI tool use with a prompt-refinement example, careful work with complex material, psychometric score, technical comfort (JSON, dashboards), STEM background, hourly salary expectation. Reply drafted for Roy; not sent.
+
+2026-10-11 - Roy replied to Nelly himself with his own version of the answers (psychometric 704, 60% scope fine, salary expectation 75 NIS/hour, prompt example from his weekly tech-magazine agent with four review agents). Waiting for her reply about an intro call.
+
+2026-10-12 - Nelly proposed a short intro meeting on 2026-10-13 at 11:00; Roy confirmed by email ("כן, אני פנוי. תודה").
+
+2026-10-13 - Interview confirmation (Comeet, 2026-10-12): the 13.10 11:00 IDT meeting is with **Avi Zadok, Implementation Lead** - LinkedIn: "ExpertX Implementation Lead at Growthspace" (likely the hiring manager for this role). Online via meet.comeet.co (link in the confirmation email).
+
+2026-10-13 - First interview held with Avi Zadok (ExpertX Implementation Lead), online. Relaxed, direct conversation; covered background, interest in AI, English, reserve duty (medic), availability (3 days).
+- The work as Avi described it: not classic development. "Vibe coding", reading and analysing prompts, logical thinking, using AI tools (e.g. Claude) to find, understand and fix agent failures; defining customer-specific use cases and making solutions scale (reusable across many agents, not one-off).
+- Avi said a student with free days fits well; someone about to graduate might leave for a development job within months.
+- Work model: Tel Aviv office, hybrid - Monday in the office is mandatory, the rest remote; extra office days occasionally, announced in advance; flexible around university constraints.
+- Next steps: an answer by the end of this week (from Avi or Nelly - they interview several candidates a day). Then home assignment 1: analyse a prompt/agent with an AI tool of your choice (1-2 hours) - find the problems, explain the failure and how to fix it. Home assignment 2: an invented customer case study - solve and fix the issue with AI. Then one or two more interviews.
+
+2026-10-13 - Prep kit: prep/growthspace-ai-agent-designer/ (interview-1 notes, research prompt, debrief; home-assignment-coach.md).

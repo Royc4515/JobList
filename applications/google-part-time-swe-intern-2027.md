@@ -1,7 +1,7 @@
 ---
 company: Google
 role: Part-Time Software Engineering BS/MS Intern, 2027
-status: submitted
+status: in-review
 applied: 2026-10-01
 location: Tel Aviv (or Haifa - applicant picks)
 work_model: On-site
@@ -9,8 +9,8 @@ scope: Part-time, 2-4 days/week, min 26 weeks from Mar-May 2027
 jd_link: https://to.indeed.com/aa7z769kkb8x
 cv_version:
 contact:
-follow_up: 2026-10-15
-gmail: Submitted 2026-10-01 via Google Careers portal (success page); awaiting confirmation email
+follow_up: 2026-10-18
+gmail: 12.10 התקבל מייל "Next steps" עם תרגיל קוד: 90 דקות, 2 בעיות, להגיש עד 19.10 23:59 PT (20.10 09:59 שעון ישראל)
 fit_role: 7
 fit_stack: 8
 fit_gates: 9
@@ -47,3 +47,11 @@ before the deadline as a reminder to submit, not to chase.
 2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.
 
 2026-10-01 - Submitted via Google Careers (Tel Aviv preferred). Roy approved in chat and the portal showed the success page. Uploaded `Roy_Carmelli_CV_Google.pdf` plus the English transcript; cover note pasted. Evidence is the portal success page; no confirmation email checked yet. Follow-up 2026-10-15. Reminder: Google allows 3 applications per 30 days, so this uses one slot until about 2026-10-31. Response can take 90+ days.
+
+2026-10-12 - Email 2026-10-09 from Sourabh Swami (Online Staffing Specialist, Randstad Sourceright supporting Google): the application is moving forward; next step is a coding sample. Roy must reply with the day he wants to receive it (Mon-Fri only; 7 days to complete). No reply from Roy found in Gmail as of 2026-10-12. Reply drafted in chat.
+
+2026-10-12 - Replied to Sourabh in the thread (sent with Roy's go-ahead): ready to receive the coding sample today, Monday 2026-10-12, or as soon as possible after. Once it arrives Roy has 7 days. Follow up 2026-10-14 if nothing arrives.
+
+2026-10-13 - The coding exercise arrived on 2026-10-12 (noreply@google.com, "Next steps for your Google application"; Sourabh confirmed it the same evening). Timed 90 minutes, two problems, any of C/C++/C#/Go/Java/JavaScript/Python; a "Practice first" option on the welcome page. Deadline 2026-10-19 23:59 PT (= 2026-10-20 09:59 Israel time). Rules: own work only (official docs and standard library allowed), one window, same logged-in email. Technical issues: assessment-help@google.com with "[Scaled Assessment]" in the subject, within 24h of starting. Not started yet.
+
+2026-10-13 - Prep kit: prep/google-swe-intern-2027/ (coding-tutor.md).

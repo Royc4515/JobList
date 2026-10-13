@@ -8,14 +8,14 @@ location: Tel Aviv (Azrieli Town, Menachem Begin 146)
 work_model: On-site
 scope: Student position
 jd_link: https://www.comeet.com/jobs/samsung/D4.005/algorithms-infrastructure-student/EF.07A
-cv_version:
-contact:
+cv_version: Roy_Carmelli_CV_Samsung.pdf
+contact: Malka Izmailov (Samsung recruiter) - leads/samsung-recruiter.md
 follow_up:
 gmail:
 fit_role: 9
 fit_stack: 9
 fit_gates: 0
-fit_path: 3
+fit_path: 8
 fit_note: GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
 blurb: משרת סטודנט בצוות תשתיות האלגוריתמים של מרכז המו"פ של סמסונג: בניית אפליקציות full stack לבדיקת תמונה ומעקב ניסויים, הטמעת סוכני AI בתהליכי הפיתוח, ואחריות על CI/CD. Python ו-React, תל אביב.
 ---
@@ -37,3 +37,7 @@ AI agents, coding agents, Claude Code, MCP, Python, CI/CD, full stack, experimen
 
 ## Notes
 2026-10-05 - Found by the expanded careers scan (Samsung's Comeet board, not scanned before). Gated on studies remaining, so it is listed under "Gated out". The fit on everything else is unusually high; the only route worth trying is a person at SIRC who can say whether the 2-year rule is firm - not a cold application. Roy's call. Nothing submitted.
+
+2026-10-12 - Roy's rule: apply when the work fits even if a gate fails. CV variant `Samsung` built (one page). State the real graduation date (Feb 2028) in the form. Not submitted yet.
+
+2026-10-12 - Roy has a direct connection to Samsung's recruiter: go through her rather than applying cold.
