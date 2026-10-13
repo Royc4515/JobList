@@ -77,6 +77,14 @@ Gmail with push + email; it labels what it reported `JobList-alerted` so nothing
 It needs the Gmail connector attached in the claude.ai Routines UI - the trigger API
 cannot attach connectors.
 
+## Interview prep - verify who the meeting is with
+Before preparing Roy for any interview or call, read the actual invite: the scheduling /
+"Interview confirmation" email (e.g. Comeet scheduler@comeet-notifications.com), its .ics
+attachment, or the calendar event. Take the interviewer's name, title, format (online /
+on-site, link or address) and time from there - never assume the recruiter who scheduled
+it is the interviewer (2026-10-13: GrowthSpace was prepped as "with Nelly", but the invite
+said Avi Zadok, ExpertX Implementation Lead). Record the interviewer in the application file.
+
 ## Referral routing
 For every role Roy may apply to, check `leads/network-map.md` and say which contact to go
 through (named contact at the company, else Tomer / Shay / Amir) before suggesting a cold
