@@ -179,7 +179,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
 | [F5](applications/f5-software-development-intern-waf-waap.md) | Software Development Intern - WAF & WAAP | 📤 Submitted | 22 | 2026-10-04 | 2026-10-18 |
 | [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📤 Submitted | 26 | 2026-10-01 | 2026-10-15 |
-| [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 🔎 In review | 27 | 2026-10-01 | 2026-10-14 |
+| [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 🔎 In review | 27 | 2026-10-01 | 2026-10-18 |
 | [Marvell](applications/marvell-ai-infrastructure-engineer-intern.md) | AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499) | 📤 Submitted | 24 | 2026-10-01 | 2026-10-15 |
 | [Optimum EDA and CAD Services](applications/optimum-eda-computer-science-student-final-year.md) | Computer Science Student (Final Year) | 📤 Submitted | 23 | 2026-10-01 | 2026-10-15 |
 | [IAI (Israel Aerospace Industries)](applications/iai-software-development-student-ashdod.md) | Software Development Student | 📤 Submitted | — | 2026-09-14 | — |
