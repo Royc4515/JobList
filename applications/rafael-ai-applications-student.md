@@ -38,3 +38,5 @@ LLM APIs (Claude, OpenAI, Gemini), Claude Code, MCP, AI agents, React, TypeScrip
 2026-10-12 - Roy sent the posting (pasted text; Rafael's site blocks automated reads). Likely the same "Rafael - student, AI-based applications" SecretJobs match noted in submissions/2026-09-30-packages.md. Strong fit; CV variant `Rafael_AI` built (new October base CV, one page). Waiting for Roy's go-ahead.
 
 2026-10-12 - Referral route opened: Tomer Shmargad will look for the right person at Rafael (friends across divisions, e.g. Moshe Pnini). Wait for that before applying on the Rafael site.
+
+2026-10-13 - CV passed on internally via Tomer Shmargad (Mobileye: Shlomo Ron; Rafael: Moshe Pnini). Not applied on the site; wait to hear who submitted it before any direct application.

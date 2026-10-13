@@ -37,3 +37,5 @@ C++, Python, Claude Code, Git, Linear Algebra, Calculus, neuroscience data proje
 2026-10-12 - From the Mesayaatech jobs list (Mobileye has a dedicated link there, no direct recruiter connection - apply directly). The studies gate is the rare one Roy passes exactly ("2-3 semesters left"). CV variant `Mobileye_Calib` built: new October base CV, Linear Algebra (97) + Calculus (100) line for the maths angle, plus the OpenNeuro neuro-data project; one page.
 
 2026-10-12 - Referral route opened: Tomer Shmargad will talk to Shlomo Ron at Mobileye about this role. Wait for that before applying on Lever.
+
+2026-10-13 - CV passed on internally via Tomer Shmargad (Mobileye: Shlomo Ron; Rafael: Moshe Pnini). Not applied on the site; wait to hear who submitted it before any direct application.
