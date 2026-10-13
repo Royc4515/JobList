@@ -5,13 +5,13 @@ status: interview
 applied: 2026-10-06
 found: 2026-10-05
 location: Tel Aviv (Menachem Begin 154)
-work_model: Hybrid
+work_model: Hybrid (Monday in the Tel Aviv office, rest remote)
 scope: Part-time, hourly
 jd_link: https://www.comeet.com/jobs/growthspace/D7.00A/ai-agent-designer-part-time/80.378
 cv_version: Roy_Carmelli_CV_GrowthSpace.pdf
 contact: Avi Zadok - ExpertX Implementation Lead (interviewer); Nelly Vilk - recruiter
-follow_up: 2026-10-13
-gmail: ראיון 13.10 ב-11:00 (אונליין, Comeet Meet) עם אבי צדוק, Implementation Lead (ExpertX)
+follow_up: 2026-10-16
+gmail: ראיון ראשון עם אבי צדוק התקיים 13.10; תשובה עד סוף השבוע, אחר כך 2 מטלות בית וראיון 1-2
 fit_role: 5
 fit_stack: 8
 fit_gates: 7
@@ -47,3 +47,9 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 2026-10-12 - Nelly proposed a short intro meeting on 2026-10-13 at 11:00; Roy confirmed by email ("כן, אני פנוי. תודה").
 
 2026-10-13 - Interview confirmation (Comeet, 2026-10-12): the 13.10 11:00 IDT meeting is with **Avi Zadok, Implementation Lead** - LinkedIn: "ExpertX Implementation Lead at Growthspace" (likely the hiring manager for this role). Online via meet.comeet.co (link in the confirmation email).
+
+2026-10-13 - First interview held with Avi Zadok (ExpertX Implementation Lead), online. Relaxed, direct conversation; covered background, interest in AI, English, reserve duty (medic), availability (3 days).
+- The work as Avi described it: not classic development. "Vibe coding", reading and analysing prompts, logical thinking, using AI tools (e.g. Claude) to find, understand and fix agent failures; defining customer-specific use cases and making solutions scale (reusable across many agents, not one-off).
+- Avi said a student with free days fits well; someone about to graduate might leave for a development job within months.
+- Work model: Tel Aviv office, hybrid - Monday in the office is mandatory, the rest remote; extra office days occasionally, announced in advance; flexible around university constraints.
+- Next steps: an answer by the end of this week (from Avi or Nelly - they interview several candidates a day). Then home assignment 1: analyse a prompt/agent with an AI tool of your choice (1-2 hours) - find the problems, explain the failure and how to fix it. Home assignment 2: an invented customer case study - solve and fix the issue with AI. Then one or two more interviews.

@@ -173,7 +173,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
 | [Marvell](applications/marvell-system-chip-validation-intern.md) | System Chip Validation Intern (2604495) | 📤 Submitted | gated | 2026-10-12 | 2026-10-22 |
 | [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📤 Submitted | 20 | 2026-10-08 | 2026-10-22 |
-| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 💬 Interview | 25 | 2026-10-06 | 2026-10-13 |
+| [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 💬 Interview | 25 | 2026-10-06 | 2026-10-16 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-ai-student-ashdod.md) | AI Student - Elta Land Systems (147135) | 📤 Submitted | 23 | 2026-10-06 | 2026-10-20 |
 | [Upstream Security](applications/upstream-data-analyst-student.md) | Data Analyst (Student Position) | 📤 Submitted | 24 | 2026-10-06 | 2026-10-20 |
 | [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
