@@ -9,9 +9,9 @@ work_model: Hybrid
 scope: Part-time, hourly
 jd_link: https://www.comeet.com/jobs/growthspace/D7.00A/ai-agent-designer-part-time/80.378
 cv_version: Roy_Carmelli_CV_GrowthSpace.pdf
-contact:
+contact: Avi Zadok - ExpertX Implementation Lead (interviewer); Nelly Vilk - recruiter
 follow_up: 2026-10-13
-gmail: 2026-10-12 נלי הציעה שיחת היכרות מחר 13.10 ב-11:00; רועי אישר
+gmail: ראיון 13.10 ב-11:00 (אונליין, Comeet Meet) עם אבי צדוק, Implementation Lead (ExpertX)
 fit_role: 5
 fit_stack: 8
 fit_gates: 7
@@ -45,3 +45,5 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 2026-10-11 - Roy replied to Nelly himself with his own version of the answers (psychometric 704, 60% scope fine, salary expectation 75 NIS/hour, prompt example from his weekly tech-magazine agent with four review agents). Waiting for her reply about an intro call.
 
 2026-10-12 - Nelly proposed a short intro meeting on 2026-10-13 at 11:00; Roy confirmed by email ("כן, אני פנוי. תודה").
+
+2026-10-13 - Interview confirmation (Comeet, 2026-10-12): the 13.10 11:00 IDT meeting is with **Avi Zadok, Implementation Lead** - LinkedIn: "ExpertX Implementation Lead at Growthspace" (likely the hiring manager for this role). Online via meet.comeet.co (link in the confirmation email).
