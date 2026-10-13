@@ -220,7 +220,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**16 leads** — **1** Responded · **3** Referred · **1** Intro requested · **7** Contacted · **4** To contact
+**16 leads** — **1** Responded · **4** Referred · **1** Intro requested · **6** Contacted · **4** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
@@ -228,6 +228,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Mobileye](leads/mobileye-shlomo-ron-via-tomer.md) | Shlomo Ron (Mobileye, Jerusalem) - linkedin.com/in/shlomo-ron-3222a1177 - via Tomer Shmargad | knows-someone | Algorithm SW Developer Student - Calibration Team (Jerusalem) | ✅ Referred | 2026-10-15 |
 | [Rafael](leads/rafael-moshe-pnini-via-tomer.md) | Moshe Pnini (Rafael) - linkedin.com/in/moshe-pnini-b7b0ba133 - via Tomer Shmargad | knows-someone | CS Student - AI-Based Application Development (13481), Machon David (Krayot) | ✅ Referred | 2026-10-15 |
+| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | ✅ Referred | — |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
 | [Various (his network)](leads/amir-levy-family.md) | Amir Levy - linkedin.com/in/amir-levy-8a1b87 | knows-someone | Any student software / AI role - forwards Roy's CV in his groups | 📨 Contacted | — |
 | [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145 | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
@@ -235,7 +236,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-18 |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
-| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 📨 Contacted | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
