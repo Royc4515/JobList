@@ -36,3 +36,5 @@ C++, Linux, TCP service, systems (only what is true on the CV).
 ## Notes
 2026-10-11 - Roy sent this posting (his #4 IAI pick). IAI job 147020, Elta software plant. Same Mesayaatech x IAI reservist channel as job 147023 (Nitay). Gate fails on studies remaining; Roy to decide whether to send it through Nitay anyway with the graduation date stated plainly. Roy's #3 pick (76049687) is the signal-processing student role 147022 - see its own file.
 
+
+2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.

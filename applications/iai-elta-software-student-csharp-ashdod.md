@@ -35,3 +35,5 @@ OOP, Java, C++, full development cycle (only what is true on the CV).
 
 ## Notes
 2026-10-11 - Roy sent this posting (his #2 IAI pick, after the AI student role he already submitted). IAI job 147023, Elta software plant, C2 systems team. Also relevant: the Mesayaatech x IAI channel for reservists - Nitay (nitay@mesayaatech.co.il) forwards a CV + posting link to a dedicated IAI recruiter, and there is a general CV link for the recruiter to match roles. Gate fails on studies remaining; Roy to decide whether to send it through Nitay anyway with the graduation date stated plainly.
+
+2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.

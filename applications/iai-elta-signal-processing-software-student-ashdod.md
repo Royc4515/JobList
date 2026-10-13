@@ -35,3 +35,5 @@ C++, Python, signal processing (interest via neuroscience - neural signals), Lin
 
 ## Notes
 2026-10-11 - Roy sent this posting (his #3 IAI pick). The page returned 404 once, then loaded on recheck the same day. Roy finds it relevant because signal processing is close to how the brain's signals are analysed (his neuroscience side). Frame it as interest, not experience. To go to Nitay (Mesayaatech x IAI reservist channel) together with his other IAI picks.
+
+2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.
