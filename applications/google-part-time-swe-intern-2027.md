@@ -6,7 +6,7 @@ applied: 2026-10-01
 location: Tel Aviv (or Haifa - applicant picks)
 work_model: On-site
 scope: Part-time, 2-4 days/week, min 26 weeks from Mar-May 2027
-jd_link: https://to.indeed.com/aa7z769kkb8x
+jd_link: https://www.google.com/about/careers/applications/jobs/results/103632882076918470-parttime-software-engineering-bsms-intern-2027
 cv_version:
 contact:
 follow_up: 2026-10-18
