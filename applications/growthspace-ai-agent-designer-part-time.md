@@ -53,3 +53,5 @@ Prompt engineering, AI agents, Claude, agent evaluation, JSON.
 - Avi said a student with free days fits well; someone about to graduate might leave for a development job within months.
 - Work model: Tel Aviv office, hybrid - Monday in the office is mandatory, the rest remote; extra office days occasionally, announced in advance; flexible around university constraints.
 - Next steps: an answer by the end of this week (from Avi or Nelly - they interview several candidates a day). Then home assignment 1: analyse a prompt/agent with an AI tool of your choice (1-2 hours) - find the problems, explain the failure and how to fix it. Home assignment 2: an invented customer case study - solve and fix the issue with AI. Then one or two more interviews.
+
+2026-10-13 - Prep kit: prep/growthspace-ai-agent-designer/ (interview-1 notes, research prompt, debrief; home-assignment-coach.md).

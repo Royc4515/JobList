@@ -53,3 +53,5 @@ before the deadline as a reminder to submit, not to chase.
 2026-10-12 - Replied to Sourabh in the thread (sent with Roy's go-ahead): ready to receive the coding sample today, Monday 2026-10-12, or as soon as possible after. Once it arrives Roy has 7 days. Follow up 2026-10-14 if nothing arrives.
 
 2026-10-13 - The coding exercise arrived on 2026-10-12 (noreply@google.com, "Next steps for your Google application"; Sourabh confirmed it the same evening). Timed 90 minutes, two problems, any of C/C++/C#/Go/Java/JavaScript/Python; a "Practice first" option on the welcome page. Deadline 2026-10-19 23:59 PT (= 2026-10-20 09:59 Israel time). Rules: own work only (official docs and standard library allowed), one window, same logged-in email. Technical issues: assessment-help@google.com with "[Scaled Assessment]" in the subject, within 24h of starting. Not started yet.
+
+2026-10-13 - Prep kit: prep/google-swe-intern-2027/ (coding-tutor.md).

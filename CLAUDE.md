@@ -85,6 +85,13 @@ on-site, link or address) and time from there - never assume the recruiter who s
 it is the interviewer (2026-10-13: GrowthSpace was prepped as "with Nelly", but the invite
 said Avi Zadok, ExpertX Implementation Lead). Record the interviewer in the application file.
 
+## Prep kits (`prep/`)
+Every interview, coding test or home assignment gets a folder `prep/<company>-<role>/`
+(see `prep/README.md`): a research / mock-interview prompt, one-page notes for the call, a
+debrief afterwards, and a system prompt for a practice session (tutor or coach) that Roy can
+paste into a fresh Claude / Gemini session. Create or update the kit as soon as a stage is
+scheduled, and link it from the application file. Public repo: no phone, ID, CVs here.
+
 ## Referral routing
 For every role Roy may apply to, check `leads/network-map.md` and say which contact to go
 through (named contact at the company, else Tomer / Shay / Amir) before suggesting a cold
