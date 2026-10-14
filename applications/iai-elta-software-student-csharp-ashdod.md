@@ -1,17 +1,17 @@
 ---
 company: IAI (Israel Aerospace Industries) - Elta
 role: Software Development Student - C#/WPF, C2 systems (147023)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-14
 found: 2026-10-11
 location: Ashdod
 work_model: On-site
 scope: 3 days/week minimum (mandatory)
 jd_link: https://jobs.iai.co.il/job/76049695/
-cv_version:
+cv_version: Roy_Carmelli_CV_IAI_CSharp_147023_HE.pdf
 contact: Nitay (Mesayaatech reservist channel to IAI)
-follow_up:
-gmail:
+follow_up: 2026-10-21
+gmail: הוגש 2026-10-14 דרך חלון ההגשה הרגיל של IAI (לבקשת תע"א, דרך ניתאי ממסייעטק); אישור קבלה עוד לא נראה
 fit_role: 6
 fit_stack: 4
 fit_gates: 0
@@ -35,3 +35,5 @@ OOP, Java, C++, full development cycle (only what is true on the CV).
 
 ## Notes
 2026-10-11 - Roy sent this posting (his #2 IAI pick, after the AI student role he already submitted). IAI job 147023, Elta software plant, C2 systems team. Also relevant: the Mesayaatech x IAI channel for reservists - Nitay (nitay@mesayaatech.co.il) forwards a CV + posting link to a dedicated IAI recruiter, and there is a general CV link for the recruiter to match roles. Gate fails on studies remaining; Roy to decide whether to send it through Nitay anyway with the graduation date stated plainly.
+
+2026-10-14 - Submitted by Roy himself on jobs.iai.co.il in the regular application window (Roy's confirmation in chat). On 2026-10-13 Nitay (Mesayaatech) wrote that IAI asked reservists to apply through the normal window and he forwards the name and job number to them; he asked for a Hebrew CV and the job number. Hebrew CV Roy_Carmelli_CV_IAI_CSharp_147023_HE.pdf; GPA field 85, graduation 2028, no relative at IAI. Remaining: tell Nitay the job number (done by Roy), watch Gmail for the adamtotal confirmation. Job number 147023.

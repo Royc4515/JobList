@@ -43,3 +43,5 @@ Python, AI, deep learning, machine learning, algorithms, LLM, software modules, 
 2026-10-06 - Submitted by Roy himself on jobs.iai.co.il (CV Roy_Carmelli_CV_IAI_AI.pdf; the form had no note field; stated GPA 85.09, graduation 2028). Confirmed by Roy in chat ("הגשתי את IAI"). Confirmation email not yet seen.
 
 2026-10-12 - Confirmation found: adamtotal for IAI, 2026-10-06 09:41 UTC, "thank you for applying to a role at IAI - your CV is being reviewed by the recruiting team". No reply since.
+
+2026-10-14 - Applied again on jobs.iai.co.il in the regular window with the Hebrew CV Roy_Carmelli_CV_IAI_AI_147135_HE.pdf (Nitay's request of 2026-10-13: apply again with the job number so he can tell IAI Roy is from the Mesayaatech channel). Roy confirmed in chat. Original submission stays 2026-10-06.
