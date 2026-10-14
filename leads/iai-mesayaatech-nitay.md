@@ -6,7 +6,7 @@ relationship: Mesayaatech community (reservists in tech)
 connection_type: recruiter
 warmth: warm
 status: contacted
-follow_up: 2026-10-18
+follow_up: 2026-10-21
 linked_application: applications/iai-elta-ai-student-ashdod.md
 ---
 
@@ -15,3 +15,4 @@ linked_application: applications/iai-elta-ai-student-ashdod.md
 Roy's IAI picks in order: 76050214 (AI student, Elta Land Systems, 147135 - already submitted directly 2026-10-06), 76049695 (C#/WPF 147023), 76049687 (signal-processing software student 147022; 404 once on 2026-10-11, live on recheck), 76049547 (C++ RT embedded 147020). The three software roles require 2+ years of study left (Roy has ~3 semesters).
 Draft email to Nitay prepared in chat (all four links in Roy's order, asking him to push the AI role first); not sent.
 2026-10-12 - Roy says he emailed Nitay on 2026-10-11 (the address Mesayaatech gave) with his CV and the IAI roles. Follow up if no answer by 2026-10-18.
+2026-10-13 - Nitay replied: IAI asked that Roy apply through the regular application window; he will send them Roy's name and the job number. Wants a Hebrew CV. 2026-10-14 - Nitay confirmed he passed it on. Roy applied through the window on 2026-10-14 to 147023, 147022 and 147135 (again); 147020 returns page-not-found, ask Nitay.
