@@ -9,6 +9,7 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 |---|---|---|---|
 | Amir Levy | Family relative, eager to help; Petah Tikva | Employer unknown (ask Roy); already posted Roy's CV in a WhatsApp group | "Do you know anyone at X?" for any company; repost in his groups |
 | Shay Kopilevich | Close family friend; IT Manager at Atera; ex-NiCE; mentored reservists in NiCE's job-search programme | Atera, NiCE alumni, IT/infra people | Atera roles; NiCE; intros through former NiCE colleagues |
+| Gali Shamra Darmon | Close friend of Roy's mother; VP Division Consultants and SAP at Taldor; ex-SPL consultant placement; Bar-Ilan alumna | SAP ecosystem (SAP Israel), Taldor, recruiters and placement people | SAP student roles; intros to recruiters at target companies |
 | Afik Friedberg | Roy's mentor in the StandWithUs mentoring programme | Not confirmed; a public profile shows an Afik Friedberg as Product Manager at WSC Sports (may be him) | Career advice; "do you know anyone at X?" |
 | Tomer Shmargad | Met at "קפה בחזור"; Engineering Manager at Droxi.ai (AI clinical products); ex-BlueVine team lead; BGU | Droxi, BlueVine/fintech, engineering managers | Droxi student role; fintech (ChargeAfter); a look at his connections at X |
 
@@ -21,6 +22,7 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 | SAP | Noam, Oriyah (community) | sap-*.md |
 | Mobileye | Shlomo Ron (via Tomer Shmargad) | mobileye-shlomo-ron-via-tomer.md |
 | Rafael | Moshe Pnini and others (via Tomer Shmargad) | rafael-moshe-pnini-via-tomer.md |
+| SAP Israel / Taldor | Gali Shamra Darmon (via Roy's mother) | gali-shamra-darmon-mom.md |
 | Samsung (SIRC) | Malka Izmailov, Samsung recruiter (with Roy in StandWithUs at Bar-Ilan) | samsung-recruiter.md |
 | Marvell | aramati@marvell.com - recruiter, Mesayaatech channel (mention Mesayaatech) | applications/marvell-system-chip-validation-intern.md |
 | IAI | Nitay (Mesayaatech reservist channel) | iai-mesayaatech-nitay.md |
