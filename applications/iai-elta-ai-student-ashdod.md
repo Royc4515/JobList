@@ -45,3 +45,5 @@ Python, AI, deep learning, machine learning, algorithms, LLM, software modules, 
 2026-10-12 - Confirmation found: adamtotal for IAI, 2026-10-06 09:41 UTC, "thank you for applying to a role at IAI - your CV is being reviewed by the recruiting team". No reply since.
 
 2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.
+
+2026-10-14 - Applied again on jobs.iai.co.il in the regular window with the Hebrew CV Roy_Carmelli_CV_IAI_AI_147135_HE.pdf (Nitay's request of 2026-10-13: apply again with the job number so he can tell IAI Roy is from the Mesayaatech channel). Roy confirmed in chat. Original submission stays 2026-10-06.

@@ -38,3 +38,5 @@ C++, Linux, TCP service, systems (only what is true on the CV).
 
 
 2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.
+
+2026-10-14 - Tried to open the application form: both /job/76049547/ and /application/76049547 return the IAI "page not found" page (deleted, lost or temporarily inactive), twice. Not verified as closed, so the role stays not-submitted. Ask Nitay whether job 147020 is still open. Hebrew CV is ready: Roy_Carmelli_CV_IAI_CppEmbedded_147020_HE.pdf.

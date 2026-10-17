@@ -1,17 +1,17 @@
 ---
 company: IAI (Israel Aerospace Industries) - Elta
 role: Signal Processing Software Student (147022)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-14
 found: 2026-10-11
 location: Ashdod
 work_model: On-site
 scope: 3 days/week minimum (mandatory)
 jd_link: https://jobs.iai.co.il/job/76049687/
-cv_version:
+cv_version: Roy_Carmelli_CV_IAI_SignalProcessing_147022_HE.pdf
 contact: Nitay (Mesayaatech reservist channel to IAI)
-follow_up:
-gmail:
+follow_up: 2026-10-21
+gmail: הוגש 2026-10-14 דרך חלון ההגשה הרגיל של IAI (לבקשת תע"א, דרך ניתאי ממסייעטק); אישור קבלה עוד לא נראה
 fit_role: 7
 fit_stack: 5
 fit_gates: 0
@@ -37,3 +37,5 @@ C++, Python, signal processing (interest via neuroscience - neural signals), Lin
 2026-10-11 - Roy sent this posting (his #3 IAI pick). The page returned 404 once, then loaded on recheck the same day. Roy finds it relevant because signal processing is close to how the brain's signals are analysed (his neuroscience side). Frame it as interest, not experience. To go to Nitay (Mesayaatech x IAI reservist channel) together with his other IAI picks.
 
 2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.
+
+2026-10-14 - Submitted by Roy himself on jobs.iai.co.il in the regular application window (Roy's confirmation in chat). On 2026-10-13 Nitay (Mesayaatech) wrote that IAI asked reservists to apply through the normal window and he forwards the name and job number to them; he asked for a Hebrew CV and the job number. Hebrew CV Roy_Carmelli_CV_IAI_SignalProcessing_147022_HE.pdf; GPA field 85, graduation 2028, no relative at IAI. Remaining: tell Nitay the job number (done by Roy), watch Gmail for the adamtotal confirmation. Job number 147022. Hebrew CV adds the brain signal-processing course (three Python assignments: EEG spectral analysis, FIR/IIR filtering and Hilbert phase locking) and the MEG practicum.
