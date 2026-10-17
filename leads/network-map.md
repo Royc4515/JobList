@@ -29,6 +29,14 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 | Atera / NiCE | Shay Kopilevich | atera-ex-nice-shay.md |
 | Droxi.ai | Tomer Shmargad | tomer-shmargad-cafe.md |
 
+## Is a contact worth activating? (Roy's filter, 2026-10-17)
+Before asking parents or friends to reach out to someone, check that the person can actually move an application:
+- **Yes - works at a target company, in any role.** Any employee can submit an internal referral; that is the strongest route.
+- **Yes - tech recruiting:** recruiter, talent acquisition, HR at a tech company, or tech placement / staffing.
+- **Yes - tech people:** engineering managers and developers, who know peers and team leads at other companies.
+- **Only with a specific ask - senior managers outside software and recruiting.** Worth it only if they work at, or clearly know someone at, a named target company. Otherwise skip: a vague "help my son find a job" rarely leads anywhere.
+- Always make the ask concrete: company + role link + CV, or "who do you know in recruiting at X".
+
 ## How to route a new role
 1. Company has a named contact above -> ask that person first (referral link or a word with the recruiter).
 2. No named contact -> ask Tomer to look at his LinkedIn connections at that company (he offered help and is an engineering manager), and Amir/Shay "do you know anyone there?".

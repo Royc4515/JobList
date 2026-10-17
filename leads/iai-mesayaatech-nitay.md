@@ -18,3 +18,4 @@ Draft email to Nitay prepared in chat (all four links in Roy's order, asking him
 2026-10-13 - Nitay replied: IAI asked to change the process after being flooded - Roy applies through the regular IAI portal, then tells Nitay the job number(s) and Nitay sends IAI his name + job number so they know he came via Mesayaatech. A Hebrew CV is preferred. Roy replied he will apply. Hebrew CV built (Roy_Carmelli_CV_HE.pdf, kept outside the repo).
 
 2026-10-13 - Nitay replied: IAI asked that Roy apply through the regular application window; he will send them Roy's name and the job number. Wants a Hebrew CV. 2026-10-14 - Nitay confirmed he passed it on. Roy applied through the window on 2026-10-14 to 147023, 147022 and 147135 (again); 147020 returns page-not-found, ask Nitay.
+2026-10-17 - Roy sent Nitay the job numbers he applied to on the IAI portal (147135, 147023, 147022; 147020 page was gone).
