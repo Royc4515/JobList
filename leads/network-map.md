@@ -30,6 +30,7 @@ person who works there, used to, or knows someone there? A warm intro beats a co
 | Droxi.ai | Tomer Shmargad | tomer-shmargad-cafe.md |
 
 ## Is a contact worth activating? (Roy's filter, 2026-10-17)
+**Roy's rule: up to the second circle.** A contact is worth activating only if they are the one who hires (recruiter, hiring manager, an employee who can refer), or they are one phone call away from that person. Anyone further out is not worth activating.
 Before asking parents or friends to reach out to someone, check that the person can actually move an application:
 - **Yes - works at a target company, in any role.** Any employee can submit an internal referral; that is the strongest route.
 - **Yes - tech recruiting:** recruiter, talent acquisition, HR at a tech company, or tech placement / staffing.
