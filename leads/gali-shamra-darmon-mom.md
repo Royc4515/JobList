@@ -17,3 +17,4 @@ Network angles:
 - **Taldor** itself (IT services, consulting) and the placement / recruiting world - recruiters at other companies.
 - Bar-Ilan alumni.
 Route: the mother makes the intro, then Roy messages Gali directly with a short ask and his CV.
+- 2026-10-17 - Checked Taldor for roles: public listings (LinkedIn, Drushim) are IT services - NOC, junior security engineer, QA part-time (Tel Aviv), GIS analyst, recruiters, call-centre. No student software / AI development role found; taldor.co.il careers page did not load from the cloud. Gali's value is her network (SAP, placement / recruiters), not Taldor openings.
