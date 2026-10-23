@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**78 applications** — **1** Interview · **1** In review · **28** Submitted · **20** Not submitted · **20** Rejected · **8** Dropped
+**79 applications** — **1** Interview · **1** In review · **28** Submitted · **21** Not submitted · **20** Rejected · **8** Dropped
 
 ## Next to submit
 
@@ -22,9 +22,10 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 4. **26** [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md) · role 8 · stack 7 · gates 8 · path 3 — Research role in ML/NLU/HCI open to BSc students; Python + neuro-data project + AI agents fit; schedule unstated; deadline 2026-12-13; cold big brand
 5. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
 6. **21** [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md) · role 5 · stack 5 · gates 3 · path 8 — Low-level SW in Apple's hardware org; 3+ semesters completed passes, but the minimum names EE/Computer Engineering (Roy is CS); Dolev Orgad referral available
-7. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-8. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-9. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+7. **21** [Mandragola Ltd. — Vibe Coder / AI Web Developer](applications/mandragola-vibe-coder-ai-web-developer.md) · role 7 · stack 7 · gates 3 · path 4 — The work fits (vibe coding with Claude Code, React/TS web products, APIs, AI agents and internal tools; juniors welcome, portfolio over years); gaps are design/Figma/CMS; but full-time on-site in Netanya vs Roy's 2-3 days
+8. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+9. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+10. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (7)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -79,7 +80,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (20)
+### 📝 Not submitted (21)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
@@ -91,6 +92,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md)
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
+- [Mandragola Ltd. — Vibe Coder / AI Web Developer](applications/mandragola-vibe-coder-ai-web-developer.md)
 - [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md)
 - [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md)
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
@@ -153,6 +155,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Intel](applications/intel-ml-engineer-student.md) | ML Engineer Student | 🚫 Dropped | gated | — | — |
 | [Intel](applications/intel-software-student-x86-validation-tools.md) | Software Student for x86 Validation Tools (JR0287280) | 🚫 Dropped | 16 | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
+| [Mandragola Ltd.](applications/mandragola-vibe-coder-ai-web-developer.md) | Vibe Coder / AI Web Developer | 📝 Not submitted | 21 | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
 | [Mobileye](applications/mobileye-algorithm-sw-developer-student-calibration.md) | Algorithm SW Developer Student - Calibration Team | 📝 Not submitted | 30 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
@@ -218,22 +221,23 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 ## Networking leads
 
-**16 leads** — **1** Responded · **4** Referred · **1** Intro requested · **6** Contacted · **4** To contact
+**17 leads** — **1** Responded · **4** Referred · **1** Intro requested · **6** Contacted · **5** To contact
 
 | Company | Contact | Connection | Target role | Status | Follow-up |
 | --- | --- | --- | --- | --- | --- |
 | [Droxi.ai (and his network: BlueVine, Ben-Gurion University alumni)](leads/tomer-shmargad-cafe.md) | Tomer Shmargad - linkedin.com/in/tomer-shmargad-24b7a1aa | inside | Student developer at Droxi (AI clinical products), or intros in his network | 🟢 Responded | — |
-| [Various (his network)](leads/amir-levy-family.md) | Amir Levy - linkedin.com/in/amir-levy-8a1b87 | knows-someone | Any student software / AI role - forwards Roy's CV in his groups | ✅ Referred | — |
 | [Apple](leads/apple-dolev-orgad-referral.md) | Dolev Orgad | inside | SW Engineering Student (Jerusalem / Herzliya) | ✅ Referred | 2026-07-28 |
 | [Mobileye](leads/mobileye-shlomo-ron-via-tomer.md) | Shlomo Ron (Mobileye, Jerusalem) - linkedin.com/in/shlomo-ron-3222a1177 - via Tomer Shmargad | knows-someone | Algorithm SW Developer Student - Calibration Team (Jerusalem) | ✅ Referred | 2026-10-15 |
 | [Rafael](leads/rafael-moshe-pnini-via-tomer.md) | Moshe Pnini (Rafael) - linkedin.com/in/moshe-pnini-b7b0ba133 - via Tomer Shmargad | knows-someone | CS Student - AI-Based Application Development (13481), Machon David (Krayot) | ✅ Referred | 2026-10-15 |
+| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | ✅ Referred | — |
 | [Amazon](leads/amazon-omer-barda-referral.md) | Omer Barda | inside | Software Development Student, MLIL - Integration Validation (amazon.jobs Job ID 10506889) | 🤝 Intro requested | 2026-10-04 |
+| [Various (his network)](leads/amir-levy-family.md) | Amir Levy - linkedin.com/in/amir-levy-8a1b87 | knows-someone | Any student software / AI role - forwards Roy's CV in his groups | 📨 Contacted | — |
 | [Atera / NiCE](leads/atera-ex-nice-shay.md) | Shay Kopilevich (shay.k@atera.com) - linkedin.com/in/shay-kopilevich-25b828145 | inside | Student Developer - AI agents (Atera), or via NiCE / Kravi Tech | 📨 Contacted | 2026-10-19 |
 | [Cellebrite](leads/cellebrite-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Associate Software Engineer | 📨 Contacted | — |
 | [IAI (Israel Aerospace Industries)](leads/iai-mesayaatech-nitay.md) | Nitay (Mesayaatech) - nitay@mesayaatech.co.il | recruiter | Any IAI student software / AI role | 📨 Contacted | 2026-10-21 |
 | [Mobileye](leads/mobileye-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Python Developer - Student Position (Jerusalem) | 📨 Contacted | — |
 | [Motorola Solutions](leads/motorola-afik-referral.md) | Afik Friedberg - linkedin.com/in/afik-friedberg | knows-someone | Student - Software Engineer (R66325) | 📨 Contacted | — |
-| [Samsung (SIRC - Samsung Israel R&D Center)](leads/samsung-recruiter.md) | Malka Izmailov - Talent Acquisition & Sourcing Specialist, Samsung (SIRC) - linkedin.com/in/malka-izmailov-57816b279 | recruiter | Application Automation SW Student; Algorithm's Infrastructure Student | 📨 Contacted | — |
+| [Taldor (and her network: SAP ecosystem, IT services, consultant placement)](leads/gali-shamra-darmon-mom.md) | Gali Shamra Darmon - VP Division Consultants and SAP at Taldor - linkedin.com/in/gali-shamra-darmon-34b0465 | knows-someone | SAP Israel student roles; Taldor; general recruiting intros | 🔵 To contact | — |
 | [Hemispheric](leads/hemispheric-cold-outreach.md) | Hagai Lalazar (co-founder, computational neuroscientist) / Gidi Littwin (co-founder) | cold | Student / intern - NeuroAI (no specific req open) | 🔵 To contact | 2026-08-23 |
 | [—](leads/network-map.md) | — | — | — | 🔵 To contact | — |
 | [SAP](leads/sap-noam-community.md) | Noam | inside | Student DevOps | 🔵 To contact | — |
