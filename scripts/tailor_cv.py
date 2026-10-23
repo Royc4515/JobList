@@ -92,6 +92,8 @@ VARIANTS = {
     "Google_Research": {"grad": True, "focus": "Building LLM agents and data pipelines, interested in research where ML "
                                  "meets cognition.",
                         "courses": ["LA", "PDP"], "neuro": True},
+    "AIWeb": {"focus": "AI web developer building React/TypeScript products end to end with Claude "
+                       "Code."},
     "AmazonHaifa": {"grad": True, "focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
