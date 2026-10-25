@@ -1,8 +1,8 @@
 ---
 company: Artlist
 role: Junior Full Stack Developer (Payment Team, Growth Group)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-25
 found: 2026-10-25
 location: Tel Aviv
 work_model: Not stated
@@ -11,7 +11,7 @@ jd_link: https://www.artlistjobs.io/job-page/33.47A
 cv_version: Roy_Carmelli_CV_Artlist.pdf
 contact:
 follow_up:
-gmail:
+gmail: הוגש 25/10 - אישור מ-Artlist/Comeet ("We Got It! Thanks for applying for Junior Full Stack Developer position at Artlist", no-reply@careers.artlist.io, 2026-10-25)
 fit_role: 8
 fit_stack: 8
 fit_gates: 5
@@ -34,3 +34,5 @@ Full-stack, React, Node.js, REST APIs, AI coding tools (Claude Code).
 
 ## Notes
 2026-10-25 - From the Mesayaatech list (25.10). Worth applying: the stack and the "AI tools daily" requirement fit.
+
+2026-10-25 - Submitted via Comeet (33.47A). Roy confirmed in chat and the "We Got It" confirmation email arrived the same day. CV: Roy_Carmelli_CV_Artlist.pdf; package note pasted in "personal note".

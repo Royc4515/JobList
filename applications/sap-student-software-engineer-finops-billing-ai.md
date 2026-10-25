@@ -1,8 +1,8 @@
 ---
 company: SAP
 role: Student Software Engineer - Cloud, Big Data, Billing & AI (REF2030D)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-25
 found: 2026-10-25
 location: Ra'anana
 work_model: Hybrid
@@ -11,7 +11,7 @@ jd_link: SAP Careers - REF2030D (Ra'anana)
 cv_version: Roy_Carmelli_CV_SAP_FinOps.pdf
 contact: Gali Shamra Darmon (via Roy's mother) - leads/gali-shamra-darmon-mom.md
 follow_up:
-gmail:
+gmail: הוגש 25/10 - אישור מ-SmartRecruiters ("Your Application", notification@smartrecruiters.com, 2026-10-25)
 fit_role: 8
 fit_stack: 7
 fit_gates: 5
@@ -35,3 +35,5 @@ Backend, AI agents, MCP, Python, Node.js, Docker, automation.
 
 ## Notes
 2026-10-25 - Roy sent the posting (published about 2 weeks ago). Worth applying: MCP, agents and skills for operating cloud systems is close to Roy's daily work. Route: ask Gali Shamra Darmon (SAP division VP at Taldor) whether she knows someone at SAP Labs Israel before or right after applying.
+
+2026-10-25 - Submitted via SmartRecruiters (REF2030D, Ra'anana). Roy confirmed in chat and the "Your Application" confirmation email arrived the same day. CV: Roy_Carmelli_CV_SAP_FinOps.pdf. Availability stated as 3 days/week.
