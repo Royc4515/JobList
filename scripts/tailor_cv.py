@@ -102,6 +102,8 @@ VARIANTS = {
     "Mobileye_Data": {"grad": True, "focus": "Python developer focused on data analysis, turning large raw datasets "
                                "into clear reports.",
                       "courses": ["PDP", "LA"], "neuro": True},
+    "SAP_FinOps": {"focus": "Backend and AI developer building agents and MCP tools in Python and "
+                            "Node.js."},
 }
 
 
