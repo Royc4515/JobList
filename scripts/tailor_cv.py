@@ -97,6 +97,11 @@ VARIANTS = {
     "AmazonHaifa": {"grad": True, "focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
+    "Artlist": {"focus": "Full-stack developer building React and Node.js apps, coding daily with "
+                         "Claude Code."},
+    "Mobileye_Data": {"grad": True, "focus": "Python developer focused on data analysis, turning large raw datasets "
+                               "into clear reports.",
+                      "courses": ["PDP", "LA"], "neuro": True},
 }
 
 
