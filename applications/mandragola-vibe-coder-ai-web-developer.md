@@ -35,3 +35,5 @@ Vibe coding, Claude Code, React, TypeScript, Node.js, APIs, AI agents, portfolio
 
 ## Notes
 2026-10-23 - Roy sent the LinkedIn posting (screenshots). Under Roy's rule (apply when the work fits), worth an Easy Apply with an honest note on availability. The portfolio and the agent-usage description are a must: Nechita Raka, Aside, Sommelier Bot and the portfolio site were all built with Claude Code.
+
+2026-10-25 - Posting closed (Roy saw it closed on LinkedIn). Not submitted.
