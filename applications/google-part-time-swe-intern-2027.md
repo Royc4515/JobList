@@ -9,8 +9,8 @@ scope: Part-time, 2-4 days/week, min 26 weeks from Mar-May 2027
 jd_link: https://www.google.com/about/careers/applications/jobs/results/103632882076918470-parttime-software-engineering-bsms-intern-2027
 cv_version:
 contact:
-follow_up: 2026-10-18
-gmail: 12.10 התקבל מייל "Next steps" עם תרגיל קוד: 90 דקות, 2 בעיות, להגיש עד 19.10 23:59 PT (20.10 09:59 שעון ישראל)
+follow_up: 2026-10-29
+gmail: 12.10 התקבל תרגיל קוד (90 דקות, 2 בעיות, עד 19.10 23:59 PT) - לא בוצע, המחשב קרס; 26.10 נשלחה בקשה ל-Sourabh ול-assessment-help לתרגיל חדש, ממתין לתשובה
 fit_role: 7
 fit_stack: 8
 fit_gates: 9
@@ -55,3 +55,5 @@ before the deadline as a reminder to submit, not to chase.
 2026-10-13 - The coding exercise arrived on 2026-10-12 (noreply@google.com, "Next steps for your Google application"; Sourabh confirmed it the same evening). Timed 90 minutes, two problems, any of C/C++/C#/Go/Java/JavaScript/Python; a "Practice first" option on the welcome page. Deadline 2026-10-19 23:59 PT (= 2026-10-20 09:59 Israel time). Rules: own work only (official docs and standard library allowed), one window, same logged-in email. Technical issues: assessment-help@google.com with "[Scaled Assessment]" in the subject, within 24h of starting. Not started yet.
 
 2026-10-13 - Prep kit: prep/google-swe-intern-2027/ (coding-tutor.md).
+
+2026-10-26 - Roy missed the 2026-10-19 deadline: his computer crashed and he had no other way to access the exercise. Google's reminder (2026-10-16) says no extensions unless a scheduling conflict is reported to assessment-help, so the outcome is uncertain. Today Roy sent (via Claude, with his go-ahead) a reply to Sourabh in the thread, cc assessment-help@google.com, with "[Scaled Assessment]" at the top: states the reason, asks for a new exercise or for the original to be reopened, and notes that any accommodation request goes to assessment-help before starting. Follow up 2026-10-29 if no answer.
