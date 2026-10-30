@@ -3,7 +3,9 @@
 
 Base CV: `Roy_Carmelli_CV.docx` (Drive, October 2026 - honors program, reserve duty,
 military service, Anthropic certificates; the Nechita Raka project line and the 2028
-graduation year were added on 2026-10-12). Until 2026-10-11 the base was
+graduation year were added on 2026-10-12; on 2026-10-22, after a recruiter's
+review, the summary became bullets, a "Seeking..." line moved to the top, PROJECTS got its own
+section, the tech stack moved to SKILLS and the degree reads "2024 - present"). Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
@@ -37,17 +39,16 @@ COURSES = {
     "ASP": "Advanced Systems Programming (C++/Node.js)",
     "ARCH": "Computer Architecture (C/Assembly)",
 }
-NEURO_PROJECT = ("Cognitive Background: OpenNeuro behavioural logs to regression-ready data "
-                 "(Pandas, NumPy), team of 4.")
+NEURO_PROJECT = "Cognitive Background: OpenNeuro logs cleaned for regression (Pandas, NumPy), team of 4."
 
 # focus: replaces the "AI & Full-Stack developer ..." summary line - keep it to one line.
 # courses: list of COURSES keys -> adds a GPA + coursework line. neuro: adds the project.
 # Each added line must stay one line: with neuro, use at most two courses, or the CV spills.
 VARIANTS = {
     "General": {"focus": None},
-    "Google": {"focus": "Software developer focused on AI systems and backend, building LLM apps "
-                        "and agents in Python and Node.js.",
-               "courses": ["DS", "OOP", "PDP", "ASP"]},
+    "Google": {"grad": True, "focus": "Software developer focused on AI systems and backend, building LLM agents "
+                        "in Python.",
+               "courses": ["DS", "PDP"]},
     "Marvell": {"focus": "Developer focused on data and AI infrastructure, turning raw data into "
                          "model-ready datasets.",
                 "courses": ["PDP", "DS"], "neuro": True},
@@ -55,7 +56,7 @@ VARIANTS = {
                      "Python and C++."},
     "OptimumEDA": {"focus": "Python developer focused on automation: scripts and tools that take "
                             "repetitive work off people's hands."},
-    "AmazonMLIL": {"focus": "Python developer focused on ML infrastructure and automation, building "
+    "AmazonMLIL": {"grad": True, "focus": "Python developer focused on ML infrastructure and automation, building "
                             "tools with AI coding agents.",
                    "courses": ["PDP", "DS", "ARCH"]},
     "Claroty": {"focus": "Software developer, Python and AI tooling first, building agents and tools "
@@ -80,7 +81,7 @@ VARIANTS = {
                            "with React UIs."},
     "ChargeAfter": {"focus": "Full-stack developer building React, Node.js and MongoDB apps, with AI "
                              "integrations."},
-    "Mobileye_Calib": {"focus": "C++ and Python developer with ML basics, coding daily with Claude "
+    "Mobileye_Calib": {"grad": True, "focus": "C++ and Python developer with ML basics, coding daily with Claude "
                                 "Code.",
                        "courses": ["LA", "CALC"], "neuro": True},
     "Samsung": {"focus": "Python and C++ developer building tools and automation with Claude "
@@ -88,9 +89,24 @@ VARIANTS = {
     "Marvell_Validation": {"focus": "Python and C++ developer focused on automation, coding daily with AI "
                                     "tools.",
                            "courses": ["ARCH", "ASP"]},
-    "AmazonHaifa": {"focus": "Developer interested in systems software: C, low-level code and the "
+    "Google_Research": {"grad": True, "focus": "Building LLM agents and data pipelines, interested in research where ML "
+                                 "meets cognition.",
+                        "courses": ["LA", "PDP"], "neuro": True},
+    "AIWeb": {"focus": "AI web developer building React/TypeScript products end to end with Claude "
+                       "Code."},
+    "AmazonHaifa": {"grad": True, "focus": "Developer interested in systems software: C, low-level code and the "
                              "layer between hardware and software.",
                     "courses": ["ARCH", "ASP", "DS"]},
+    "Artlist": {"focus": "Full-stack developer building React and Node.js apps, coding daily with "
+                         "Claude Code."},
+    "Mobileye_Data": {"grad": True, "focus": "Python developer focused on data analysis, turning large raw datasets "
+                               "into clear reports.",
+                      "courses": ["PDP", "LA"], "neuro": True},
+    "SAP_FinOps": {"focus": "Backend and AI developer building agents and MCP tools in Python and "
+                            "Node.js."},
+    "Molex": {"focus": "Python developer building data pipelines, automation and internal tools "
+                       "end to end.",
+              "courses": ["PDP", "DS"]},
 }
 
 
@@ -120,9 +136,10 @@ def build(base, spec):
     d = docx.Document(base)
     P = d.paragraphs
     if spec.get("focus"):
-        set_text(find(P, "AI & Full-Stack developer"), spec["focus"])
-    for r in find(P, "Bar-Ilan University").runs:
-        r.text = r.text.replace("2027 (expected)", "2028 (expected)")
+        set_text(find(P, "AI & Full-Stack developer"), "• " + spec["focus"])
+    if spec.get("grad"):  # postings that ask for the graduation date (Google, Amazon, Mobileye)
+        rd = find(P, "reserve duty")
+        rd.runs[-1].text = rd.runs[-1].text.rstrip() + " · Expected graduation: Feb 2028"
     plain = find(P, "Native English and Hebrew")  # a one-run, non-bold body line
     # Each added line costs one: drop the least job-relevant summary lines to stay on one page.
     extra = bool(spec.get("courses")) + bool(spec.get("neuro"))

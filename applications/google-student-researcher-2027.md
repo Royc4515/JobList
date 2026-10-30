@@ -1,17 +1,17 @@
 ---
 company: Google
 role: Student Researcher, 2027
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-25
 found: 2026-10-05
 location: Tel Aviv (or Haifa - applicant picks)
 work_model:
 scope: Varies by team/project
-jd_link: https://www.linkedin.com/jobs/view/4474602338
+jd_link: https://www.google.com/about/careers/applications/jobs/results/120211620121977542-student-researcher/
 cv_version: Roy_Carmelli_CV_Google
 contact:
 follow_up: 2026-12-06
-gmail: עלה בהתראת AllJobs 05/10; טרם הוגש
+gmail: הוגש 25/10 - אישור מ-Google ("Thanks for applying to Google", noreply@google.com, 2026-10-25)
 blurb: מחקר עם צוותי Google Research בישראל, בתחומים כמו למידת מכונה, הבנת שפה טבעית ואינטראקציית אדם-מחשב. מיועד לסטודנטים לתואר ראשון, שני או שלישי.
 fit_role: 8
 fit_stack: 7
@@ -39,3 +39,5 @@ Machine learning, NLP, human-computer interaction, data science, Python, Pandas,
 2026-10-05 - Arrived via an AllJobs alert (posted on LinkedIn the same day). Deadline 2026-12-13. Strong angle for Roy: CS + Neuroscience dual major, a neuro-data research project (OpenNeuro, hierarchical regression in Python), and hands-on LLM-agent work - HCI and NLU sit right between them. Applying to both Google roles is allowed; the research track is a different pipeline from the SWE intern track.
 
 2026-10-05 - Roy approved applying. Not submitted yet.
+
+2026-10-25 - Submitted via Google Careers (Tel Aviv). Roy confirmed in chat and the "Thanks for applying to Google" confirmation email arrived the same day. CV: Roy_Carmelli_CV_Google_Research.pdf plus Roy_Carmelli_Transcript_EN.pdf. Google allows 3 applications per 30 days: Roy has now used 2 of 3 (the other is Part-Time SWE Intern 2027, 2026-10-01).

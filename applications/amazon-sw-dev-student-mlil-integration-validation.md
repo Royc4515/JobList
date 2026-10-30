@@ -46,3 +46,5 @@ No production CI/CD or Grafana experience; Python and AI-assisted development ar
 2026-10-05 - Amazon sent an "Your application is incomplete" email on 2026-10-03: the application was opened but not submitted. Status stays not-submitted; still on hold for the Omer Barda referral.
 
 2026-10-05 - Roy approved applying now, without waiting further for Omer Barda's referral (use the referral link only if it already exists). Not submitted yet.
+
+2026-10-25 - Not in amazon.jobs search results for Israel today (may be filled). Roy is sending Omer Barda the current student list instead - see leads/amazon-omer-barda-referral.md.

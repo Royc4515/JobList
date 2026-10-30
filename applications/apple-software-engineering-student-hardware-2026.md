@@ -1,8 +1,8 @@
 ---
 company: Apple
 role: Software Engineering Student - Hardware org (200676939-0865)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-25
 found: 2026-10-06
 location: Herzliya / Haifa / Jerusalem
 work_model:
@@ -11,7 +11,7 @@ jd_link: https://jobs.apple.com/en-il/details/200676939-0865/software-engineerin
 cv_version: Roy_Carmelli_CV_Apple
 contact: Dolev Orgad (referred Roy to Apple in July 2026)
 follow_up:
-gmail: נשלחה ע"י רועי 06/10; טרם הוגש
+gmail: הוגש 25/10 - אישור מ-Apple ("Thanks for your interest in Apple.", appleworldwiderecruiting@email.apple.com, 2026-10-25)
 blurb: משרת סטודנט בהנדסת תוכנה בארגון החומרה של Apple בישראל (הרצליה, חיפה או ירושלים): תוכנה ברמה נמוכה, וההתאמה לצוות נעשית יחד עם הגיוס. Python ו-C/C++ כיתרון.
 fit_role: 5
 fit_stack: 5
@@ -36,3 +36,5 @@ C, C++, Python, low-level software, embedded, systems programming, computer arch
 
 ## Notes
 2026-10-06 - Roy sent the posting. Multi-site (Herzliya, Haifa, Jerusalem), Hardware team, role 200676939-0865. Recommended path: message Dolev first - ask whether CS students are considered and whether he can refer Roy to this specific req - then apply with the grade sheet. Apple's July profile was started by Dolev's referral, so the profile already exists.
+
+2026-10-25 - Submitted via Apple Jobs (req 200676939-0865). Roy confirmed in chat and the "Thanks for your interest in Apple." confirmation email arrived the same day. CV: Roy_Carmelli_CV_Apple.pdf; transcript attached was the existing profile file grade-sheet-roy-carmelli.pdf. Roy chose not to message Dolev about this req.
