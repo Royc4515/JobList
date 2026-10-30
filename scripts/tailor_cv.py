@@ -104,6 +104,9 @@ VARIANTS = {
                       "courses": ["PDP", "LA"], "neuro": True},
     "SAP_FinOps": {"focus": "Backend and AI developer building agents and MCP tools in Python and "
                             "Node.js."},
+    "Molex": {"focus": "Python developer building data pipelines, automation and internal tools "
+                       "end to end.",
+              "courses": ["PDP", "DS"]},
 }
 
 
