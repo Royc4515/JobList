@@ -107,6 +107,11 @@ VARIANTS = {
     "Molex": {"focus": "Python developer building data pipelines, automation and internal tools "
                        "end to end.",
               "courses": ["PDP", "DS"]},
+    "Earnix": {"focus": "Python developer focused on test automation for APIs and backend, using AI "
+                        "tools daily."},
+    "AmazonSDE": {"grad": True, "focus": "Software developer building backend services and AI tools in Python "
+                           "and TypeScript.",
+                  "courses": ["DS", "OOP"]},
 }
 
 
