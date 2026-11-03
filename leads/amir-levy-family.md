@@ -5,7 +5,7 @@ contact: Amir Levy - linkedin.com/in/amir-levy-8a1b87
 relationship: Family relative, glad to help
 connection_type: knows-someone
 warmth: hot
-status: referred
+status: contacted
 follow_up:
 linked_application:
 ---
@@ -15,3 +15,4 @@ linked_application:
 - About 2026-10-05 Amir posted Roy's CV in a WhatsApp group ("מנמרים" - Roy's wording; ask what the group is).
 - Best use: a broad connector. For a specific role, ask him "do you know anyone at <company>?" and whether anyone in that group works there.
 See leads/network-map.md.
+- 2026-10-13 - Roy messaged Amir: student roles at Google, ChargeAfter, Keysight, Samsung, Marvell - does he know anyone there.

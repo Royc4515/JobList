@@ -36,4 +36,6 @@ C++, Python, signal processing (interest via neuroscience - neural signals), Lin
 ## Notes
 2026-10-11 - Roy sent this posting (his #3 IAI pick). The page returned 404 once, then loaded on recheck the same day. Roy finds it relevant because signal processing is close to how the brain's signals are analysed (his neuroscience side). Frame it as interest, not experience. To go to Nitay (Mesayaatech x IAI reservist channel) together with his other IAI picks.
 
+2026-10-13 - Mesayaatech route changed: apply on the IAI portal (Hebrew CV preferred), then send Nitay the job number so he flags Roy to IAI.
+
 2026-10-14 - Submitted by Roy himself on jobs.iai.co.il in the regular application window (Roy's confirmation in chat). On 2026-10-13 Nitay (Mesayaatech) wrote that IAI asked reservists to apply through the normal window and he forwards the name and job number to them; he asked for a Hebrew CV and the job number. Hebrew CV Roy_Carmelli_CV_IAI_SignalProcessing_147022_HE.pdf; GPA field 85, graduation 2028, no relative at IAI. Remaining: tell Nitay the job number (done by Roy), watch Gmail for the adamtotal confirmation. Job number 147022. Hebrew CV adds the brain signal-processing course (three Python assignments: EEG spectral analysis, FIR/IIR filtering and Hilbert phase locking) and the MEG practicum.
