@@ -5,8 +5,9 @@ Base CV: `Roy_Carmelli_CV.docx` (Drive, October 2026 - honors program, reserve d
 military service, Anthropic certificates; the Nechita Raka project line and the 2028
 graduation year were added on 2026-10-12; on 2026-10-22, after a recruiter's
 review, the summary became bullets, a "Seeking..." line moved to the top, PROJECTS got its own
-section, the tech stack moved to SKILLS and the degree reads "2024 - present"; on 2026-11-02
-the Nechita Raka line became "the department's modular student hub (CS, Neuroscience)"). Until 2026-10-11 the base was
+section, the tech stack moved to SKILLS and the degree reads "2024 - present"; on 2026-11-03
+the Nechita Raka line became "a multi-faculty student hub (CS, Neuroscience) with a RAG AI chat",
+with CS and Neuroscience linked to each faculty's site). Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
