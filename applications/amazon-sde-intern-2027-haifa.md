@@ -1,15 +1,15 @@
 ---
 company: Amazon
-role: 2027 Software Dev Engineer Intern - Haifa (10592105)
+role: 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)
 status: not-submitted
 applied:
 found: 2026-11-02
-location: Haifa
+location: Tel Aviv or Haifa
 work_model: In office, part-time 20 hours a week
 scope: Intern, at least 1 year left in studies
-jd_link: https://www.amazon.jobs/en/jobs/10592105/2027-software-dev-engineer-intern-haifa-israel
+jd_link: https://www.amazon.jobs/en/jobs/10592104 (Tel Aviv); https://www.amazon.jobs/en/jobs/10592105 (Haifa)
 cv_version: Roy_Carmelli_CV_AmazonSDE.pdf (+ English transcript in the same PDF)
-contact: Mesayaatech (nitay@mesayaatech.co.il) or Omer Barda - leads/amazon-omer-barda-referral.md
+contact: Omer Barda (referral) - leads/amazon-omer-barda-referral.md
 follow_up:
 gmail:
 fit_role: 8
@@ -35,3 +35,5 @@ Software development, backend services, data structures, OOP, Python, TypeScript
 
 ## Notes
 2026-11-02 - From the Mesayaatech special-connection list (2.11): send nitay@mesayaatech.co.il the job link and CV + transcript in one PDF. Posted 2026-10-29. Pick one route - Nitay or Omer Barda - not both.
+
+2026-11-03 - Omer Barda posted (2.11) that these SDE intern roles opened in Tel Aviv and Haifa and offered to refer anyone who sends a CV. Route: Omer, Tel Aviv first (10592104, same posting). Not through Nitay - one route only.

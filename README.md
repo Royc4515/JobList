@@ -19,7 +19,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 1. **33** [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md) · role 9 · stack 9 · gates 7 · path 8 — Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
 2. **30** [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md) · role 8 · stack 7 · gates 7 · path 8 — Studies gate passes (2-3 semesters left, Roy has 3); C++ and Python, ML basics, Claude/AI-assisted dev; CS + science minor fits CS & Neuroscience; 3 days on-site in Jerusalem; Mobileye rejected a Jerusalem algorithm student application on 2026-08-10
 3. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
-4. **28** [Amazon — 2027 Software Dev Engineer Intern - Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md) · role 8 · stack 7 · gates 6 · path 7 — Classic SDE intern (backend services, CS fundamentals, AI dev tools valued), part-time 20 h; 1 year left passes; Mesayaatech asks GPA 85+ - Roy 85.09 vs transcript 84.47, verify; cost is the Haifa commute
+4. **28** [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md) · role 8 · stack 7 · gates 6 · path 7 — Classic SDE intern (backend services, CS fundamentals, AI dev tools valued), part-time 20 h; 1 year left passes; Mesayaatech asks GPA 85+ - Roy 85.09 vs transcript 84.47, verify; cost is the Haifa commute
 5. **27** [Earnix — Automation Engineer - Student Position](applications/earnix-automation-engineer-student.md) · role 6 · stack 8 · gates 8 · path 5 — Python integration tests for APIs, services and databases with AI tools daily; 3 semesters left and GPA 80+ pass; Ramat Gan is close; it is test automation, not product development
 6. **25** [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md) · role 7 · stack 8 · gates 6 · path 4 — Python data pipelines, lab automation, GUIs and hardware-instrument integration; 3rd-year CS gate passes exactly; cost is 3 on-site days a week in Jerusalem; no contact there
 7. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
@@ -85,7 +85,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
 ### 📝 Not submitted (20)
-- [Amazon — 2027 Software Dev Engineer Intern - Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
+- [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
@@ -135,7 +135,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
-| [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Haifa (10592105) | 📝 Not submitted | 28 | — | — |
+| [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105) | 📝 Not submitted | 28 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-software-development-student-annapurna-haifa.md) | Software Development Student, AWS Annapurna Labs (Haifa) | 📝 Not submitted | 23 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 📝 Not submitted | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |

@@ -39,3 +39,5 @@ answers - not before, so we don't double-text him right after asking a favour.
 - Software Development Student - Haifa - https://www.amazon.jobs/en/jobs/10558894 (2+ semesters left; 2-3 days; EFA networking)
 - System Integration Student, SPIV - Haifa - https://www.amazon.jobs/en/jobs/10506556 (Python + Linux tooling; asks 2 years left - Roy has ~16 months)
 Not for Roy: Virtual Platforms (2 years left, already gated), Nitro HW/System Integration (EE), Lab Technician, Associate SA internship (Spain). MLIL (10506889) and the old Haifa SDS (10432733) no longer show in search.
+
+2026-11-03 - Omer posted in the CS group (2.11): SDE intern roles like the one he applied to opened in Tel Aviv and Haifa (2027 Software Dev Engineer Intern, 10592104 / 10592105); "send me a CV and I'll submit". Roy sends him the AmazonSDE CV, Tel Aviv first. This replaces the Mesayaatech route for that role.
