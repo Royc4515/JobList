@@ -37,3 +37,4 @@ Software development, backend services, data structures, OOP, Python, TypeScript
 2026-11-02 - From the Mesayaatech special-connection list (2.11): send nitay@mesayaatech.co.il the job link and CV + transcript in one PDF. Posted 2026-10-29. Pick one route - Nitay or Omer Barda - not both.
 
 2026-11-03 - Omer Barda posted (2.11) that these SDE intern roles opened in Tel Aviv and Haifa and offered to refer anyone who sends a CV. Route: Omer, Tel Aviv first (10592104, same posting). Not through Nitay - one route only.
+2026-11-04 - CV for this role reworked after Omer Barda's review (2026-11-03: expand the military service - performance under pressure and decision-making - and show more of the AI projects). GPA line removed (the official transcript now reads 82.60). Upload file: CV + the English transcript of 2026-11-04 in one PDF, Roy_Carmelli_CV_and_Transcript_AmazonSDE.pdf (kept out of the repo; downloadable from the waiting page).
