@@ -8,8 +8,10 @@ than in each agent.
 - Roy Carmelli. Third-year B.Sc., **Computer Science + Neuroscience**, Bar-Ilan
   University (Ramat Gan). **Expected graduation: February 2028** - about three semesters
   (~17 months) remaining as of October 2026. Available 2-3 days a week.
-- Reservist. Served as a battalion medic in the Gaza sector from 7 October and
-  continues reserve duty - availability can be interrupted by call-ups.
+- IDF: regular service 2021 - August 2024 (senior battalion medic & medical officer
+  coordinator, Gaza Division), reservist since. Served in the Gaza sector from 7 October and
+  continues reserve duty - availability can be interrupted by call-ups. On CVs the role
+  reads "2021 - present"; never label the whole period "(reserves)".
 - GitHub: https://github.com/Royc4515 - Portfolio: https://roy-carmelli-portfolio.vercel.app/
 
 ## Strengths (claim these)
