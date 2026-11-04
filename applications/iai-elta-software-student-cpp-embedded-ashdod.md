@@ -8,7 +8,7 @@ location: Ashdod
 work_model: On-site
 scope: 3 days/week minimum (mandatory)
 jd_link: https://jobs.iai.co.il/job/76049547/
-cv_version:
+cv_version: Roy_Carmelli_CV_IAI_CppEmbedded_147020_HE.pdf
 contact: Nitay (Mesayaatech reservist channel to IAI)
 follow_up:
 gmail:
