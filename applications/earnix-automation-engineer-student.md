@@ -1,8 +1,8 @@
 ---
 company: Earnix
 role: Automation Engineer - Student Position
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-04
 found: 2026-11-02
 location: Ramat Gan
 work_model: Not stated
@@ -10,8 +10,8 @@ scope: Student, 3+ semesters left, GPA 80+
 jd_link: https://earnix.com/career/79.47a/automation-engineer-student-position/
 cv_version: Roy_Carmelli_CV_Earnix.pdf
 contact:
-follow_up:
-gmail:
+follow_up: 2026-11-18
+gmail: הוגש ע"י רועי 2026-11-04 (אישור בצ'אט); ממתין למייל אישור
 fit_role: 6
 fit_stack: 8
 fit_gates: 8
@@ -34,3 +34,5 @@ Python, test automation, APIs, backend, AI tools.
 
 ## Notes
 2026-11-02 - From the Mesayaatech list (2.11), no direct connection - apply on the site (the form needs Statistics + Marketing cookies enabled).
+
+2026-11-04 - Submitted by Roy himself on the Earnix site (his explicit confirmation in chat). CV as tracked: Roy_Carmelli_CV_Earnix.pdf. Watch Gmail for a confirmation email; follow up 2026-11-18.
