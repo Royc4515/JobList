@@ -62,8 +62,19 @@ contacts or referral info, and no "talked to someone" checkbox there. Write a
 `blurb:` for each such role. The section is hidden when empty. The
 per-company "talked to someone there" checkbox lives in the Artifact's db
 (`contacts/<company_key>`, `{talked, company}`), not in the repo; republish without
-`capabilities` so the db declaration carries over. Run
+`capabilities` so the stored declaration (db with a `cvs` rule, user, assets, downloads)
+carries over. Run
 `python3 scripts/test_build_waiting_page.py` after changing the script.
+
+Tailored CV per role: every role on the page has a download button for the CV Roy sent
+(or will send) there. The page reads `cvs/<cv>` = `{asset, file, updated}` from the
+Artifact's db, where `<cv>` is the `Roy_Carmelli_CV...` name in the role's `cv_version:`
+(roles that sent the same file share it) or `role-<file stem>` when `cv_version` names no
+file. The PDF lives only in the Artifact's asset store (CVs carry Roy's phone and email;
+this repo is public). Only editors (Roy) can add or replace one: on the page, the
+"העלאת קו״ח (PDF)" button under a role, or from a session: upload with the Artifact tool
+(`asset: true`) and write the `cvs` doc with ArtifactData. Keep `cv_version:` set to the
+exact file name on every application.
 
 ## Stage alerts (Roy's standing request, 2026-10-12)
 Whenever an active process moves (a person replies, an interview/call is proposed, a test

@@ -7,7 +7,7 @@ location: Tel Aviv (or Haifa - applicant picks)
 work_model: On-site
 scope: Part-time, 2-4 days/week, min 26 weeks from Mar-May 2027
 jd_link: https://www.google.com/about/careers/applications/jobs/results/103632882076918470-parttime-software-engineering-bsms-intern-2027
-cv_version:
+cv_version: Roy_Carmelli_CV_Google.pdf
 contact:
 follow_up: 2026-10-29
 gmail: 12.10 התקבל תרגיל קוד (90 דקות, 2 בעיות, עד 19.10 23:59 PT) - לא בוצע, המחשב קרס; 26.10 נשלחה בקשה ל-Sourabh ול-assessment-help לתרגיל חדש, ממתין לתשובה

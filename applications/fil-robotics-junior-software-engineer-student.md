@@ -7,7 +7,7 @@ location: Binyamina
 work_model: Hybrid
 scope: Student, fixed-term
 jd_link: https://to.indeed.com/aaqqg9t2x9hw
-cv_version:
+cv_version: Roy_Carmelli_CV_FIL.pdf
 contact:
 follow_up: 2026-10-15
 gmail: Submitted 2026-10-01 via Fives SuccessFactors portal; portal confirmed the application was sent

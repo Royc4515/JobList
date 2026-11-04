@@ -20,6 +20,33 @@ def collect(apps, leads=(), bodies=None):
     return wp.collect(list(apps), list(leads), lambda f: bodies.get(f, ""))
 
 
+class CvKey(unittest.TestCase):
+    def test_file_name_from_cv_version(self):
+        self.assertEqual(wp.cv_key(app(cv_version="Roy_Carmelli_CV_Google.pdf")), "Roy_Carmelli_CV_Google")
+        self.assertEqual(wp.cv_key(app(cv_version="Roy_Carmelli_CV_ChargeAfter.pdf (+ English transcript)")),
+                         "Roy_Carmelli_CV_ChargeAfter")
+        self.assertEqual(wp.cv_key(app(cv_version="Roy_Carmelli_CV_Apple")), "Roy_Carmelli_CV_Apple")
+
+    def test_general_shorthand(self):
+        self.assertEqual(wp.cv_key(app(cv_version="General")), "Roy_Carmelli_CV_General")
+
+    def test_no_file_name_falls_back_to_role(self):
+        self.assertEqual(wp.cv_key(app("applications/acme-dev.md", cv_version="גרסת Low-Level")), "role-acme-dev")
+        self.assertEqual(wp.cv_key(app("applications/acme-dev.md")), "role-acme-dev")
+
+    def test_key_is_a_valid_db_segment(self):
+        import re
+        for value in ("Roy_Carmelli_CV_IAI_CSharp_147023_HE.pdf", "", "Full-Stack / Frontend (TBD)"):
+            self.assertRegex(wp.cv_key(app(cv_version=value)), r"^[A-Za-z0-9_-]{1,200}$")
+
+    def test_exported_on_both_lists(self):
+        self.assertEqual(collect([app(cv_version="Roy_Carmelli_CV_F5.pdf")])[0]["cv"], "Roy_Carmelli_CV_F5")
+        todo = wp.collect_todo([app(status="not-submitted", found="2026-11-01", fit_gates="5",
+                                    cv_version="Roy_Carmelli_CV_Earnix.pdf")],
+                               lambda f: "", date(2026, 11, 2))
+        self.assertEqual(todo[0]["cv"], "Roy_Carmelli_CV_Earnix")
+
+
 class Collect(unittest.TestCase):
     def test_only_waiting_statuses(self):
         apps = [app(f"applications/{s}.md", s) for s in
@@ -136,7 +163,7 @@ class CollectTodo(unittest.TestCase):
             fit_path="7", fit_note="Omer referral note", blurb="public blurb",
             location="Haifa", jd_link="https://x.io/j")],
             {"applications/t.md": "Omer Barda body-secret"})[0]
-        self.assertEqual(set(entry), {"company", "role", "location", "blurb", "link", "found"})
+        self.assertEqual(set(entry), {"company", "role", "location", "blurb", "link", "found", "cv"})
         blob = repr(entry)
         for secret in ("Dana", "gmail-secret", "Omer", "body-secret"):
             self.assertNotIn(secret, blob)
