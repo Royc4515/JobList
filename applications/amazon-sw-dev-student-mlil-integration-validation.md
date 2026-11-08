@@ -8,7 +8,7 @@ location: Tel Aviv
 work_model:
 scope: Student, part-time, 2-3 days/week
 jd_link: https://to.indeed.com/aajd87nkzy82
-cv_version:
+cv_version: Roy_Carmelli_CV_and_Transcript_Amazon.pdf
 contact:
 follow_up:
 gmail:

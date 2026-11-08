@@ -7,7 +7,7 @@ location: Tel Aviv
 work_model:
 scope: Part-time internship, min 20h/week (up to 100h/month), 1,040 hours, start immediately
 jd_link: https://il.linkedin.com/jobs/view/software-development-intern-waf-waap-at-f5-4465030839
-cv_version:
+cv_version: Roy_Carmelli_CV_F5.pdf
 contact:
 follow_up: 2026-10-18
 gmail: הוגש 04/10 - אישור רשמי מ-Workday ("Thank you for applying") מ-2026-10-04 11:20 UTC

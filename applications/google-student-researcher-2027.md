@@ -8,7 +8,7 @@ location: Tel Aviv (or Haifa - applicant picks)
 work_model:
 scope: Varies by team/project
 jd_link: https://www.google.com/about/careers/applications/jobs/results/120211620121977542-student-researcher/
-cv_version: Roy_Carmelli_CV_Google
+cv_version: Roy_Carmelli_CV_Google_Research.pdf
 contact:
 follow_up: 2026-12-06
 gmail: הוגש 25/10 - אישור מ-Google ("Thanks for applying to Google", noreply@google.com, 2026-10-25)

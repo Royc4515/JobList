@@ -18,6 +18,12 @@ above 0 (no failed hard gate) and a live posting. Roles without `found:` never
 appear. It exports only company, role, location, blurb, link and found date: no
 fit scores, contacts or referral info.
 
+Every role also carries `cv`: the id of its tailored CV in the page's db
+(`cvs/<cv>` = {asset, file}). It is the `Roy_Carmelli_CV...` name from the
+`cv_version:` frontmatter (so roles that sent the same file share it), or
+"role-<file stem>" when `cv_version` names no file. Only that name is exported;
+the PDF itself lives in the Artifact's asset store, never in this public repo.
+
 Days-waiting is computed in the browser, so the page stays accurate between
 rebuilds. Roles past STALE_DAYS move to a separate "no answer" section.
 Stdlib only.
@@ -45,6 +51,7 @@ REFERRAL_LEAD_STATUSES = ("referred", "responded")
 CLOSED_PATTERN = re.compile(r"posting (closed|no longer live)", re.IGNORECASE)
 ISO_DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 COMPANY_SUFFIXES = (" Ltd.", " Ltd", " Inc.", " Inc")
+CV_NAME = re.compile(r"Roy_Carmelli_CV[A-Za-z0-9_]*")
 
 
 def clean_company(name):
@@ -75,6 +82,18 @@ def iso_or_empty(value):
     return value if ISO_DATE.match(value) else ""
 
 
+def cv_key(app):
+    """The db id of the role's tailored CV (see the module docstring)."""
+    value = app.get("cv_version", "").split("#", 1)[0].strip()
+    match = CV_NAME.search(value)
+    if match:
+        return match.group(0)
+    if value == "General":
+        return "Roy_Carmelli_CV_General"
+    stem = Path(app.get("_file", "")).stem
+    return "role-" + (re.sub(r"[^A-Za-z0-9_-]+", "-", stem).strip("-") or "unknown")
+
+
 def referred_files(leads):
     return {
         lead.get("linked_application", "").strip()
@@ -98,6 +117,7 @@ def to_entry(app, body, referred):
         "link": public_link(app.get("jd_link")),
         "referral": app["_file"] in referred or "referral" in contact.lower(),
         "posting_closed": bool(CLOSED_PATTERN.search(body)),
+        "cv": cv_key(app),
     }
 
 
@@ -119,6 +139,7 @@ def to_todo_entry(app):
         "blurb": app.get("blurb", "").strip(),
         "link": public_link(app.get("jd_link")),
         "found": iso_or_empty(app.get("found")),
+        "cv": cv_key(app),
     }
 
 
