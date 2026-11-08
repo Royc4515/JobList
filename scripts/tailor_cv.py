@@ -32,7 +32,6 @@ from pathlib import Path
 
 import docx
 
-GPA = "GPA 85.09"
 COURSES = {
     "PDP": "Python Data Processing (98)",
     "DS": "Data Structures (93)",
@@ -46,7 +45,7 @@ COURSES = {
 NEURO_PROJECT = "Cognitive Background: OpenNeuro logs cleaned for regression (Pandas, NumPy), team of 4."
 
 # focus: replaces the "AI & Full-Stack developer ..." summary line - keep it to one line.
-# courses: list of COURSES keys -> adds a GPA + coursework line. neuro: adds the project.
+# courses: list of COURSES keys -> adds a coursework line. neuro: adds the project.
 # Each added line must stay one line: with neuro, use at most two courses, or the CV spills.
 VARIANTS = {
     "General": {"focus": None},
