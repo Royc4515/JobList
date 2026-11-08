@@ -1,8 +1,8 @@
 ---
 company: Copyscape
 role: Student Position - Algorithms & AI Developer
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-08
 found: 2026-11-08
 location: Israel (remote / hybrid)
 work_model: Fully remote or hybrid, 20-25 hours a week
@@ -11,7 +11,7 @@ jd_link: WhatsApp posting (8.11) - apply by email to jobs@copyscape.com
 cv_version: Roy_Carmelli_CV_Copyscape.pdf
 contact:
 follow_up:
-gmail:
+gmail: נשלח מייל ל-jobs@copyscape.com עם קו"ח 08/11
 fit_role: 9
 fit_stack: 8
 fit_gates: 9
@@ -34,3 +34,5 @@ Python, data pipelines, LLM, RAG, Claude Code, algorithms.
 
 ## Notes
 2026-11-08 - From a WhatsApp group. Apply by email to jobs@copyscape.com with the CV plus GitHub and a project link (Nechita Raka is the strongest: RAG chat, text retrieval). The Digital Marketing / SEO student role in the same post is not for Roy.
+
+2026-11-08 - Applied: email sent from Roy's Gmail to jobs@copyscape.com (on Roy's request) with Roy_Carmelli_CV_Copyscape.pdf, GitHub and portfolio links.
