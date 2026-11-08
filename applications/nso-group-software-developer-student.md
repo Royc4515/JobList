@@ -1,7 +1,7 @@
 ---
 company: NSO Group
 role: Software Developer - Student Position
-status: not-submitted
+status: dropped
 applied:
 found: 2026-11-08
 location: Not stated (Israel)
@@ -35,3 +35,5 @@ C/C++, Python, Java, computer architecture, debugging.
 
 ## Notes
 2026-11-08 - Roy sent the posting. Long shot: the GPA gate fails by a wide margin. If Roy applies anyway (his rule: a failed gate does not stop an application), use the low-level Apple CV and the site form (CV up to 2 MB). No contact at NSO in the network map.
+
+2026-11-08 - Dropped by Roy: GPA 90+ required (hard gate fails), low-level work away from his direction.
