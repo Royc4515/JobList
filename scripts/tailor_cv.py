@@ -114,6 +114,9 @@ VARIANTS = {
     "AmazonSDE": {"grad": True, "focus": "Software developer building backend services and AI tools in Python "
                            "and TypeScript.",
                   "courses": ["DS", "OOP"]},
+    "Copyscape": {"focus": "AI developer building data and LLM pipelines in Python, coding daily with "
+                           "Claude Code.",
+                  "courses": ["PDP", "LA"], "neuro": True},
 }
 
 
