@@ -50,7 +50,9 @@ Exception: an application already tracked stays tracked regardless of category.
 2. **Grades.** GPA **85.09** - Roy's own calculation, which he asked to be used. It
    leaves out a course he is retaking this year; the official
    transcript (2026-09-30) shows 84.47 until the retake grade replaces it. For a cutoff of exactly 85, say "verify": the
-   employer may read the transcript figure.
+   employer may read the transcript figure. Since 2026-11-04 the official transcript reads
+   82.60. Roy's decision (2026-11-08): CVs carry no GPA, only course grades; a form that asks
+   for the average gets 85.09 (the average without failed courses).
 3. **Location.** Base is Ramat Gan. Tel Aviv / Gush Dan / Herzliya / Petah Tikva are
    easy; Haifa, Jerusalem, Be'er Sheva and the north are long commutes unless hybrid.
 4. **Scope.** Full-time student plus reserve duty: 2-3 days a week fits, 4+ is heavy.

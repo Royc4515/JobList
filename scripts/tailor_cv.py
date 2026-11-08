@@ -7,12 +7,14 @@ graduation year were added on 2026-10-12; on 2026-10-22, after a recruiter's
 review, the summary became bullets, a "Seeking..." line moved to the top, PROJECTS got its own
 section, the tech stack moved to SKILLS and the degree reads "2024 - present"; on 2026-11-03
 the Nechita Raka line became "a multi-faculty student hub (CS, Neuroscience) with a RAG AI chat",
-with CS and Neuroscience linked to each faculty's site). Until 2026-10-11 the base was
+with CS and Neuroscience linked to each faculty's site; on 2026-11-08 the layout was tightened
+(body 11.5pt, no gap above the name), the military section and project details were taken from the
+Amazon SDE CV, CareerPredict AI was added, and the GPA left the coursework line). Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
 - the second summary line ("AI & Full-Stack developer ...") becomes the role's focus line;
-- optionally a GPA + coursework line under the reserve-duty line (only where a posting
+- optionally a coursework line (course grades, no GPA) under the reserve-duty line (only where a posting
   asks for grades or the coursework is the point);
 - optionally the neuro-data project line after the other projects (data roles).
 The graduation year is always set to 2028 (Roy finishes in February 2028).
@@ -157,7 +159,7 @@ def build(base, spec):
         p = find(P, needle)
         p._p.getparent().remove(p._p)
     if spec.get("courses"):
-        line = f"{GPA} · Relevant coursework: " + " · ".join(COURSES[c] for c in spec["courses"]) + "."
+        line = "Relevant coursework: " + " · ".join(COURSES[c] for c in spec["courses"]) + "."
         insert_after(find(P, "reserve duty"), plain, line)
     if spec.get("neuro"):
         insert_after(find(P, "Wolt Clone"), plain, NEURO_PROJECT)
