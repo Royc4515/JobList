@@ -118,6 +118,9 @@ VARIANTS = {
     "Copyscape": {"focus": "AI developer building data and LLM pipelines in Python, coding daily with "
                            "Claude Code.",
                   "courses": ["PDP", "LA"], "neuro": True},
+    "NVIDIA": {"focus": "C/C++ and Python developer interested in Linux systems software and "
+                        "automation.",
+               "courses": ["ARCH", "ASP"]},
 }
 
 
