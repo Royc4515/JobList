@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**79 applications** — **1** Interview · **1** In review · **35** Submitted · **20** Not submitted · **20** Rejected · **2** Dropped
+**79 applications** — **1** Interview · **2** In review · **28** Submitted · **18** Not submitted · **27** Rejected · **3** Dropped
 
 ## Next to submit
 
@@ -18,15 +18,13 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 1. **33** [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md) · role 9 · stack 9 · gates 7 · path 8 — Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
 2. **30** [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md) · role 8 · stack 7 · gates 7 · path 8 — Studies gate passes (2-3 semesters left, Roy has 3); C++ and Python, ML basics, Claude/AI-assisted dev; CS + science minor fits CS & Neuroscience; 3 days on-site in Jerusalem; Mobileye rejected a Jerusalem algorithm student application on 2026-08-10
-3. **30** [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md) · role 7 · stack 7 · gates 9 · path 7 — ML-accelerator CI/CD and test automation in Python, uses AI dev tools; 3 semesters left passes; warm insider (Omer Barda) not yet asked, referral first
-4. **28** [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md) · role 8 · stack 7 · gates 6 · path 7 — Classic SDE intern (backend services, CS fundamentals, AI dev tools valued), part-time 20 h; 1 year left passes; Mesayaatech asks GPA 85+ - Roy 85.09 vs transcript 84.47, verify; cost is the Haifa commute
-5. **25** [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md) · role 7 · stack 8 · gates 6 · path 4 — Python data pipelines, lab automation, GUIs and hardware-instrument integration; 3rd-year CS gate passes exactly; cost is 3 on-site days a week in Jerusalem; no contact there
-6. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
-7. **23** [Mobileye — Data Analysis Engineer - Student Position (REM)](applications/mobileye-data-analysis-engineer-student.md) · role 6 · stack 7 · gates 5 · path 5 — Python data analysis on REM mapping/validation data fits Roy's data and Python work; gate is 3 office days a week in Jerusalem, a long commute from central Israel
-8. **23** [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md) · role 5 · stack 6 · gates 9 · path 3 — Linux user-space C/C++ services plus Python automation and test frameworks for DPU BMC; no semesters or GPA gate, Tel Aviv option; systems/networking work, not AI; cold big brand
-9. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-10. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-11. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+3. **25** [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md) · role 7 · stack 8 · gates 6 · path 4 — Python data pipelines, lab automation, GUIs and hardware-instrument integration; 3rd-year CS gate passes exactly; cost is 3 on-site days a week in Jerusalem; no contact there
+4. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+5. **23** [Mobileye — Data Analysis Engineer - Student Position (REM)](applications/mobileye-data-analysis-engineer-student.md) · role 6 · stack 7 · gates 5 · path 5 — Python data analysis on REM mapping/validation data fits Roy's data and Python work; gate is 3 office days a week in Jerusalem, a long commute from central Israel
+6. **23** [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md) · role 5 · stack 6 · gates 9 · path 3 — Linux user-space C/C++ services plus Python automation and test frameworks for DPU BMC; no semesters or GPA gate, Tel Aviv option; systems/networking work, not AI; cold big brand
+7. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+8. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+9. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (6)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -46,15 +44,15 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 ### 💬 Interview (1)
 - [GrowthSpace — AI Agent Designer (Part-Time)](applications/growthspace-ai-agent-designer-part-time.md)
 
-### 🔎 In review (1)
+### 🔎 In review (2)
+- [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
 - [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 
-### 📤 Submitted (35)
+### 📤 Submitted (28)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
-- [Artlist — Junior Full Stack Developer (Payment Team, Growth Group)](applications/artlist-junior-full-stack-developer.md)
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [Claroty — Software Engineer - Student Position](applications/claroty-software-engineer-student.md)
 - [Copyscape — Student Position - Algorithms & AI Developer](applications/copyscape-algorithms-ai-developer-student.md)
@@ -63,7 +61,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6608)](applications/elbit-software-engineering-student-modiin-6608.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6610)](applications/elbit-software-engineering-student-modiin.md)
 - [F5 — Software Development Intern - WAF & WAAP](applications/f5-software-development-intern-waf-waap.md)
-- [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
 - [Google — Student Researcher, 2027](applications/google-student-researcher-2027.md)
 - [IAI (Israel Aerospace Industries) — Software Development Student](applications/iai-software-development-student-ashdod.md)
 - [IAI (Israel Aerospace Industries) - Elta — AI Student - Elta Land Systems (147135)](applications/iai-elta-ai-student-ashdod.md)
@@ -77,19 +74,12 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [Optimum EDA and CAD Services — Computer Science Student (Final Year)](applications/optimum-eda-computer-science-student-final-year.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
-- [SAP — Cloud Platform Engineer - Student (Java, UCP team) (Req 459254)](applications/sap-cloud-platform-engineer-student-java.md)
-- [SAP — Student Developer - SAP BTP - CCS (ID 443334)](applications/sap-student-developer-btp-ccs.md)
-- [SAP — Student DevOps](applications/sap-student-devops.md)
-- [SAP — Student Software Engineer - Cloud, Big Data, Billing & AI (REF2030D)](applications/sap-student-software-engineer-finops-billing-ai.md)
-- [Taboola — Software Engineer Intern](applications/taboola-software-engineer-intern.md)
 - [Upstream Security — Data Analyst (Student Position)](applications/upstream-data-analyst-student.md)
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (20)
-- [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
+### 📝 Not submitted (18)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
-- [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
 - [Google — Hardware/Electrical Engineering BS/MS Intern, 2027](applications/google-hardware-electrical-engineering-intern-2027.md)
@@ -108,29 +98,37 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [SAP — Software Engineering Intern - Unified Gateway](applications/sap-software-engineering-intern-unified-gateway.md)
 - [SAP — Student Developer - Unified Gateway](applications/sap-student-developer-unified-gateway.md)
 
-### ❌ Rejected (20)
+### ❌ Rejected (27)
 - [Amazon — 2026 Software Dev Engineer Intern - Haifa, Israel (3147202)](applications/amazon-software-dev-engineer-intern-haifa.md)
+- [Artlist — Junior Full Stack Developer (Payment Team, Growth Group)](applications/artlist-junior-full-stack-developer.md)
 - [Astera Labs — (ראה מייל לפרטי המשרה)](applications/astera-labs-see-email.md)
 - [Ceva — Architecture Software Tools Developer Student](applications/ceva-architecture-software-tools-developer-student.md)
 - [ChargeAfter — Integration Engineer Intern - Operations Group](applications/chargeafter-integration-engineer-intern.md)
 - [Check Point — Software Developer - Student Position (AI POCs team)](applications/checkpoint-software-developer-student-ai-pocs.md)
 - [Chef.i — Full-Stack Developer (Student/Junior)](applications/chefi-full-stack-developer.md)
 - [Dell Technologies — Software Engineer Student - Glil Yam (ID: 292526)](applications/dell-software-engineer-student-glil-yam.md)
+- [FIL Robotics (Fives) — Junior Software Engineer - Student Position (Ref 6148)](applications/fil-robotics-junior-software-engineer-student.md)
 - [Fullpath — Junior Backend Engineer](applications/fullpath-junior-backend-engineer.md)
 - [Intel — Wi-Fi Driver Software Developer Student (JR0284349)](applications/intel-wifi-driver-software-developer-student.md)
 - [Mobileye — Algorithm Developer Student](applications/mobileye-algorithm-developer-student.md)
 - [Mobileye — Software CI and Automation Student (EPG CI team)](applications/mobileye-software-ci-automation-student.md)
 - [NiCE — DevOps Student (Associate DevOps Engineer, CSA team)](applications/nice-devops-student.md)
 - [Red Hat — Software Engineering Intern - Ecosystem Engineering (Special Projects) R-055020](applications/redhat-software-engineering-intern-ecosystem.md)
+- [SAP — Cloud Platform Engineer - Student (Java, UCP team) (Req 459254)](applications/sap-cloud-platform-engineer-student-java.md)
+- [SAP — Student Developer - SAP BTP - CCS (ID 443334)](applications/sap-student-developer-btp-ccs.md)
+- [SAP — Student DevOps](applications/sap-student-devops.md)
+- [SAP — Student Software Engineer - Cloud, Big Data, Billing & AI (REF2030D)](applications/sap-student-software-engineer-finops-billing-ai.md)
 - [SentinelOne — macOS Software Engineering Intern](applications/sentinelone-macos-software-engineering-intern.md)
 - [SentinelOne — Software Engineer Intern (Backend)](applications/sentinelone-software-engineer-intern.md)
 - [Siemens Industry Software Ltd. — AI Research Student (Job ID 512848)](applications/siemens-ai-research-student-512848.md)
 - [Siemens Industry Software Ltd. — Application Engineering Student (Job ID 512845)](applications/siemens-application-engineering-student-512845.md)
 - [Siemens Industry Software Ltd. — Software Engineering Student](applications/siemens-software-engineering-student.md)
+- [Taboola — Software Engineer Intern](applications/taboola-software-engineer-intern.md)
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
-### 🚫 Dropped (2)
+### 🚫 Dropped (3)
+- [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [NSO Group — Software Developer - Student Position](applications/nso-group-software-developer-student.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 
@@ -138,9 +136,8 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
-| [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105) | 📝 Not submitted | 28 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-software-development-student-annapurna-haifa.md) | Software Development Student, AWS Annapurna Labs (Haifa) | 📝 Not submitted | 23 | — | — |
-| [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 📝 Not submitted | 30 | — | — |
+| [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 🚫 Dropped | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | gated | — | — |
 | [Google](applications/google-hardware-electrical-engineering-intern-2027.md) | Hardware/Electrical Engineering BS/MS Intern, 2027 | 📝 Not submitted | gated | — | — |
@@ -162,36 +159,37 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
+| [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105) | 🔎 In review | 28 | 2026-11-08 | — |
 | [Copyscape](applications/copyscape-algorithms-ai-developer-student.md) | Student Position - Algorithms & AI Developer | 📤 Submitted | 31 | 2026-11-08 | — |
 | [Earnix](applications/earnix-automation-engineer-student.md) | Automation Engineer - Student Position | 📤 Submitted | 27 | 2026-11-04 | 2026-11-18 |
 | [Apple](applications/apple-software-engineering-student-hardware-2026.md) | Software Engineering Student - Hardware org (200676939-0865) | 📤 Submitted | 21 | 2026-10-25 | — |
-| [Artlist](applications/artlist-junior-full-stack-developer.md) | Junior Full Stack Developer (Payment Team, Growth Group) | 📤 Submitted | 27 | 2026-10-25 | — |
+| [Artlist](applications/artlist-junior-full-stack-developer.md) | Junior Full Stack Developer (Payment Team, Growth Group) | ❌ Rejected | 27 | 2026-10-25 | — |
 | [ChargeAfter](applications/chargeafter-fullstack-engineer-intern.md) | Fullstack Engineer Intern | 📤 Submitted | gated | 2026-10-25 | — |
 | [Google](applications/google-student-researcher-2027.md) | Student Researcher, 2027 | 📤 Submitted | 26 | 2026-10-25 | 2026-12-06 |
-| [SAP](applications/sap-student-software-engineer-finops-billing-ai.md) | Student Software Engineer - Cloud, Big Data, Billing & AI (REF2030D) | 📤 Submitted | 27 | 2026-10-25 | — |
+| [SAP](applications/sap-student-software-engineer-finops-billing-ai.md) | Student Software Engineer - Cloud, Big Data, Billing & AI (REF2030D) | ❌ Rejected | 27 | 2026-10-25 | — |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-signal-processing-software-student-ashdod.md) | Signal Processing Software Student (147022) | 📤 Submitted | gated | 2026-10-14 | 2026-10-21 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-software-student-csharp-ashdod.md) | Software Development Student - C#/WPF, C2 systems (147023) | 📤 Submitted | gated | 2026-10-14 | 2026-10-21 |
 | [Marvell](applications/marvell-system-chip-validation-intern.md) | System Chip Validation Intern (2604495) | 📤 Submitted | gated | 2026-10-12 | 2026-10-22 |
-| [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | 📤 Submitted | 20 | 2026-10-08 | 2026-10-22 |
+| [Taboola](applications/taboola-software-engineer-intern.md) | Software Engineer Intern | ❌ Rejected | 20 | 2026-10-08 | 2026-10-22 |
 | [GrowthSpace](applications/growthspace-ai-agent-designer-part-time.md) | AI Agent Designer (Part-Time) | 💬 Interview | 25 | 2026-10-06 | 2026-10-16 |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-ai-student-ashdod.md) | AI Student - Elta Land Systems (147135) | 📤 Submitted | 23 | 2026-10-06 | 2026-10-20 |
 | [Upstream Security](applications/upstream-data-analyst-student.md) | Data Analyst (Student Position) | 📤 Submitted | 24 | 2026-10-06 | 2026-10-20 |
 | [Claroty](applications/claroty-software-engineer-student.md) | Software Engineer - Student Position | 📤 Submitted | 24 | 2026-10-04 | 2026-10-18 |
 | [F5](applications/f5-software-development-intern-waf-waap.md) | Software Development Intern - WAF & WAAP | 📤 Submitted | 22 | 2026-10-04 | 2026-10-18 |
-| [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | 📤 Submitted | 26 | 2026-10-01 | 2026-10-15 |
+| [FIL Robotics (Fives)](applications/fil-robotics-junior-software-engineer-student.md) | Junior Software Engineer - Student Position (Ref 6148) | ❌ Rejected | 26 | 2026-10-01 | 2026-10-15 |
 | [Google](applications/google-part-time-swe-intern-2027.md) | Part-Time Software Engineering BS/MS Intern, 2027 | 🔎 In review | 27 | 2026-10-01 | 2026-10-29 |
 | [Marvell](applications/marvell-ai-infrastructure-engineer-intern.md) | AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499) | 📤 Submitted | 24 | 2026-10-01 | 2026-10-15 |
 | [Optimum EDA and CAD Services](applications/optimum-eda-computer-science-student-final-year.md) | Computer Science Student (Final Year) | 📤 Submitted | 23 | 2026-10-01 | 2026-10-15 |
 | [IAI (Israel Aerospace Industries)](applications/iai-software-development-student-ashdod.md) | Software Development Student | 📤 Submitted | — | 2026-09-14 | — |
-| [SAP](applications/sap-cloud-platform-engineer-student-java.md) | Cloud Platform Engineer - Student (Java, UCP team) (Req 459254) | 📤 Submitted | — | 2026-08-25 | — |
+| [SAP](applications/sap-cloud-platform-engineer-student-java.md) | Cloud Platform Engineer - Student (Java, UCP team) (Req 459254) | ❌ Rejected | — | 2026-08-25 | — |
 | [Ceva](applications/ceva-architecture-software-tools-developer-student.md) | Architecture Software Tools Developer Student | ❌ Rejected | gated | 2026-08-24 | — |
 | [Check Point](applications/checkpoint-software-developer-student-ai-pocs.md) | Software Developer - Student Position (AI POCs team) | ❌ Rejected | — | 2026-08-24 | — |
 | [Elbit Systems](applications/elbit-software-engineering-student-modiin-6608.md) | Software Engineering Student - Modi'in (Req 6608) | 📤 Submitted | — | 2026-08-24 | — |
 | [NiCE](applications/nice-devops-student.md) | DevOps Student (Associate DevOps Engineer, CSA team) | ❌ Rejected | — | 2026-08-24 | 2026-09-07 |
 | [ChargeAfter](applications/chargeafter-integration-engineer-intern.md) | Integration Engineer Intern - Operations Group | ❌ Rejected | 26 | 2026-08-17 | — |
 | [Mobileye](applications/mobileye-software-ci-automation-student.md) | Software CI and Automation Student (EPG CI team) | ❌ Rejected | — | 2026-08-16 | — |
-| [SAP](applications/sap-student-developer-btp-ccs.md) | Student Developer - SAP BTP - CCS (ID 443334) | 📤 Submitted | — | 2026-08-11 | — |
-| [SAP](applications/sap-student-devops.md) | Student DevOps | 📤 Submitted | 18 | 2026-08-11 | — |
+| [SAP](applications/sap-student-developer-btp-ccs.md) | Student Developer - SAP BTP - CCS (ID 443334) | ❌ Rejected | — | 2026-08-11 | — |
+| [SAP](applications/sap-student-devops.md) | Student DevOps | ❌ Rejected | 18 | 2026-08-11 | — |
 | [Intel](applications/intel-ai-product-analyst-student.md) | AI Product Analyst Student - AI Solutions Group (JR0284923) | 📤 Submitted | — | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-macos-software-engineering-intern.md) | macOS Software Engineering Intern | ❌ Rejected | — | 2026-08-10 | — |
 | [SentinelOne](applications/sentinelone-software-engineer-intern.md) | Software Engineer Intern (Backend) | ❌ Rejected | — | 2026-08-10 | — |

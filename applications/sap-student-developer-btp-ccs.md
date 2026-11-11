@@ -1,7 +1,7 @@
 ---
 company: SAP
 role: Student Developer - SAP BTP - CCS (ID 443334)
-status: submitted
+status: rejected
 applied: 2026-08-11
 location: Ra'anana
 work_model:
@@ -10,7 +10,7 @@ jd_link:
 cv_version:
 contact:
 follow_up:
-gmail: הוגש 11/08 - אישור SuccessFactors (Student Developer - SAP BTP - CCS, ID 443334)
+gmail: דחייה במייל 20/10
 fit_role:
 fit_stack:
 fit_gates:
@@ -21,3 +21,5 @@ blurb: משרת סטודנט בפיתוח בפלטפורמת SAP BTP, ברעננ
 
 ## Notes
 2026-09-30 - Found while checking SAP emails: a SuccessFactors confirmation dated 2026-08-11 for "Student Developer - SAP BTP - CCS (ID: 443334)". This application was never in the tracker. Posting details were not in the email; fill in the stack if SAP responds.
+
+2026-10-20 - Rejected (SAP SuccessFactors email).
