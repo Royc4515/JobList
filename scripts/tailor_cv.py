@@ -91,7 +91,7 @@ VARIANTS = {
                          "Code."},
     "Marvell_Validation": {"focus": "Python and C++ developer focused on automation, coding daily with AI "
                                     "tools.",
-                           "courses": ["ARCH", "ASP"]},
+                           "courses": ["ARCH", "DS"]},
     "Google_Research": {"grad": True, "focus": "Building LLM agents and data pipelines, interested in research where ML "
                                  "meets cognition.",
                         "courses": ["LA", "PDP"], "neuro": True},
@@ -120,7 +120,7 @@ VARIANTS = {
                   "courses": ["PDP", "LA"], "neuro": True},
     "NVIDIA": {"focus": "C/C++ and Python developer interested in Linux systems software and "
                         "automation.",
-               "courses": ["ARCH", "ASP"]},
+               "courses": ["ARCH", "DS"]},
 }
 
 
