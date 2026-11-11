@@ -5,8 +5,8 @@ status: not-submitted
 applied:
 found: 2026-11-11
 location: Tel Aviv or Yokneam
-work_model: Not stated
-scope: Student
+work_model: Part-time (Time Type: part-time)
+scope: Student, part-time
 jd_link: https://jobs.nvidia.com/careers/job/893398542727
 cv_version: Roy_Carmelli_CV_NVIDIA.pdf
 contact:
@@ -27,10 +27,12 @@ B.Sc. student (EE / CS / CE); OOP, computer structure, operating systems; C/C++.
 No embedded / firmware or networking-protocol work; OS course not yet taken.
 
 ## Red Flags
-Systems / networking direction rather than AI. Days per week not stated.
+Systems / networking direction rather than AI. Part-time; days per week not stated.
 
 ## Keywords Optimized
 C/C++, Python, Linux, automation, computer architecture, systems programming.
 
 ## Notes
 2026-11-11 - Roy sent an NVIDIA careers link (Software Developer - Networking, JR2024804, needs 4+ years - not for Roy). The same list had this student role, which fits the gates. Apply on NVIDIA's Workday site, Tel Aviv. No contact at NVIDIA in the network map.
+
+2026-11-11 - Roy opened the posting: Time Type part-time, Yokneam + Tel Aviv.
