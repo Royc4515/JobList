@@ -299,6 +299,61 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
   .stat:nth-child(2) { border-top: 1px solid var(--line); }
   .brand { font-size: .98rem; }
 }
+
+/* Quick view: the two lists Roy actually checks, above everything else. */
+.hero.compact h1 { font-size: clamp(2rem, 5.5vw, 3.2rem); max-width: 20ch; }
+.quick { display: grid; gap: 18px; scroll-margin-top: calc(72px + env(safe-area-inset-top, 0px)); }
+.seg {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 4px; padding: 4px;
+  background: var(--fill); border-radius: 999px; max-width: 460px; width: 100%; justify-self: center;
+}
+.seg button {
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 46px; padding: 0 16px; border: 0; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--muted); font: 600 1.05rem var(--font);
+  transition: background-color .25s var(--ease), color .2s, box-shadow .25s var(--ease);
+}
+.seg button:hover { color: var(--ink); }
+.seg button[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-hover); }
+.seg small {
+  display: inline-grid; place-items: center; min-width: 26px; height: 26px; padding: 0 8px; border-radius: 999px;
+  font: 700 .85rem var(--font); font-variant-numeric: tabular-nums; background: var(--surface); color: var(--muted);
+}
+.seg button[aria-selected="true"] small { background: var(--accent-soft); color: var(--accent); }
+.seg #tab-todo[aria-selected="true"] small { background: var(--warn-soft); color: var(--warn); }
+.seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.qlist {
+  list-style: none; margin: 0; padding: 0;
+  background: var(--surface); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden;
+}
+.qrow {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 16px; align-items: center;
+  padding: 16px 22px; border-top: 1px solid var(--line);
+}
+.qrow:first-child { border-top: 0; }
+.qrow.dim { opacity: .62; }
+.q-main { min-width: 0; display: grid; gap: 3px; }
+.q-company { font-weight: 700; font-size: 1.08rem; letter-spacing: -.01em; }
+.q-role { font-size: .97rem; color: var(--muted); overflow-wrap: anywhere; }
+.q-role a { color: inherit; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.q-role a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.q-side { display: grid; justify-items: end; gap: 4px; text-align: end; }
+.q-pill {
+  font: 600 .85rem/1.3 var(--font); padding: 4px 11px; border-radius: 999px; white-space: nowrap;
+  background: var(--fill); color: var(--ink);
+}
+.q-pill.good { background: var(--good-soft); color: var(--good); }
+.q-pill.warn { background: var(--warn-soft); color: var(--warn); }
+.q-when { font-size: .82rem; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.qrow .cv-slot { grid-column: 1 / -1; }
+.q-empty { margin: 0; padding: 28px 22px; text-align: center; color: var(--muted); }
+.q-more { text-align: center; font-size: .92rem; color: var(--muted); margin: 0; }
+.q-more a { color: var(--accent); text-decoration: none; font-weight: 600; }
+@media (max-width: 600px) {
+  .qrow { padding: 14px 16px; }
+  .seg button { font-size: .98rem; padding: 0 10px; }
+}
 </style>
 
 <div dir="rtl" lang="he">
@@ -306,22 +361,32 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
     <div class="wrap bar-inner">
       <div class="brand">רועי כרמלי</div>
       <div class="nav">
-        <a href="#todo-section" id="nav-todo" hidden>עוד לא הוגשו</a>
-        <a href="#detail-section">בהמתנה</a>
+        <a href="#quick" data-tab="todo">צריך להגיש</a>
+        <a href="#quick" data-tab="done">הגשתי</a>
+        <a href="#detail-section">פירוט לפי חברה</a>
         <a href="#stale-section" id="nav-stale">בלי תשובה</a>
       </div>
     </div>
   </nav>
 
   <main class="page gutter">
-    <header class="wrap hero">
+    <header class="wrap hero compact">
       <div class="eyebrow rise">משרות סטודנט ופיתוח תוכנה</div>
-      <h1 class="rise d1">החברות שאני מחכה מהן לתשובה</h1>
-      <p class="lede rise d2">כל המשרות שהגשתי אליהן ועדיין לא קיבלתי תשובה סופית. אם אתה מכיר מישהו באחת החברות, אשמח לשמוע.</p>
-      <div class="stats rise d3" id="stats"></div>
+      <h1 class="rise d1">המשרות שלי</h1>
+      <p class="lede rise d2">מה עוד צריך להגיש ומה כבר הוגש. אם אתה מכיר מישהו באחת החברות, אשמח לשמוע.</p>
+      <div class="stats" id="stats" hidden></div>
     </header>
 
-    <section class="wrap section" id="todo-section" aria-labelledby="todo-title" hidden>
+    <section class="wrap quick rise d3" id="quick" aria-label="רשימת משרות">
+      <div class="seg" role="tablist" aria-label="סינון משרות">
+        <button type="button" role="tab" id="tab-todo" aria-controls="qlist" aria-selected="true">צריך להגיש <small id="count-todo">0</small></button>
+        <button type="button" role="tab" id="tab-done" aria-controls="qlist" aria-selected="false">הגשתי <small id="count-done">0</small></button>
+      </div>
+      <ol class="qlist" id="qlist" role="tabpanel"></ol>
+      <p class="q-more">פירוט מלא, תיאור כל משרה וקורות החיים ששלחתי: <a href="#detail-section">פירוט לפי חברה</a></p>
+    </section>
+
+    <section class="wrap section" id="todo-section" aria-labelledby="todo-title" hidden data-retired>
       <div class="section-head">
         <h2 id="todo-title">עוד לא הוגשו</h2>
         <p class="note">משרות שמצאתי בשבוע האחרון ועדיין לא הגשתי אליהן. אם אתה מכיר מישהו באחת מהן, זה הזמן לספר לי לפני שאני מגיש.</p>
@@ -329,7 +394,7 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
       <ul class="todo-list" id="todo"></ul>
     </section>
 
-    <section class="wrap section" aria-labelledby="index-title">
+    <section class="wrap section" aria-labelledby="index-title" hidden>
       <div class="section-head">
         <h2 id="index-title">חברות שהגשתי אליהן</h2>
         <p class="note">ירוק אומר שהמשרה כבר בבדיקה אצל המגייסים. המספר ליד שם החברה הוא מספר המשרות שהגשתי שם.</p>
@@ -340,7 +405,7 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
     <section class="wrap section" id="detail-section" aria-labelledby="detail-title">
       <div class="section-head">
         <div class="toolbar">
-          <h2 id="detail-title">כל המשרות לפי חברה</h2>
+          <h2 id="detail-title">פירוט לפי חברה</h2>
           <label class="search" for="filter">
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="7" cy="7" r="5.25" stroke="currentColor" stroke-width="1.6"/><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
             <input id="filter" type="search" placeholder="חיפוש חברה, משרה או עיר" aria-label="חיפוש">
@@ -605,10 +670,7 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
 
   // Roles found but not yet submitted. The build already filtered them; the
   // recency check is repeated here so the list also ages out between rebuilds.
-  var todo = JSON.parse(document.getElementById("todo-data").textContent).filter(function (r) {
-    var d = daysSince(r.found);
-    return d !== null && d <= RECENT_DAYS;
-  });
+  var todo = JSON.parse(document.getElementById("todo-data").textContent);
   function foundLabel(d) {
     return d === 0 ? "נמצאה היום" : d === 1 ? "נמצאה אתמול" : "נמצאה לפני " + d + " ימים";
   }
@@ -630,8 +692,72 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
       el("div", { cls: "wait" }, [el("b", { cls: "fresh", text: foundLabel(d) })])
     ]));
   });
-  document.getElementById("todo-section").hidden = todo.length === 0;
-  document.getElementById("nav-todo").hidden = todo.length === 0;
+  // don't touch / the to-apply roles now live in the quick list at the top; this
+  // section stays hidden so the same role is not shown twice.
+  document.getElementById("todo-section").hidden = true;
+
+  // ---- Quick list: "need to apply" vs "applied", one flat row per role ----
+  var qlist = document.getElementById("qlist");
+  var tabs = { todo: document.getElementById("tab-todo"), done: document.getElementById("tab-done") };
+  // Applied view: furthest stage first, then newest; stale roles sink to the bottom
+  // because nobody is actively waiting on them any more.
+  var applied = roles.slice().sort(function (a, b) {
+    var sa = a.days !== null && a.days > STALE_DAYS ? 1 : 0;
+    var sb = b.days !== null && b.days > STALE_DAYS ? 1 : 0;
+    return a.stage.rank - b.stage.rank || sa - sb || (b.applied || "").localeCompare(a.applied || "");
+  });
+  document.getElementById("count-todo").textContent = String(todo.length);
+  document.getElementById("count-done").textContent = String(applied.length);
+
+  function roleTitle(r) {
+    // Some postings carry two URLs in one field; only link a single clean URL.
+    var url = r.link && /^https?:\/\/\S+$/.test(r.link) ? r.link : "";
+    return url
+      ? el("a", { href: url, target: "_blank", rel: "noopener", text: r.role })
+      : document.createTextNode(r.role);
+  }
+  function qRow(company, r, pill, pillCls, when, extra, dim) {
+    return el("li", { cls: "qrow" + (dim ? " dim" : "") }, [
+      el("div", { cls: "q-main" }, [
+        el("div", { cls: "q-company", text: company }),
+        el("div", { cls: "q-role" }, [roleTitle(r)])
+      ]),
+      el("div", { cls: "q-side" }, [
+        el("span", { cls: "q-pill" + (pillCls ? " " + pillCls : ""), text: pill }),
+        when ? el("span", { cls: "q-when", text: when }) : null
+      ]),
+      extra || null
+    ]);
+  }
+  function daysText(d) { return d === 0 ? "היום" : d === 1 ? "אתמול" : "לפני " + d + " ימים"; }
+
+  function showTab(name) {
+    Object.keys(tabs).forEach(function (k) { tabs[k].setAttribute("aria-selected", k === name ? "true" : "false"); });
+    qlist.textContent = "";
+    if (name === "todo") {
+      if (!todo.length) qlist.appendChild(el("li", {}, [el("p", { cls: "q-empty", text: "אין כרגע משרות שמחכות להגשה." })]));
+      todo.forEach(function (r) {
+        var d = daysSince(r.found);
+        qlist.appendChild(qRow(r.company, r, "עוד לא הוגש", "warn", d === null ? "" : "נמצאה " + daysText(d), cvSlot(r)));
+      });
+      paintCvs();
+    } else {
+      applied.forEach(function (r) {
+        var stale = r.days !== null && r.days > STALE_DAYS;
+        var pill = r.stage.rank < 3 ? r.stage.label : stale ? "בלי תשובה מעל " + STALE_DAYS + " יום" : "הוגש, מחכה לתשובה";
+        var cls = r.stage.rank < 3 ? "good" : "";
+        var when = r.days === null ? "" : "הוגש " + daysText(r.days);
+        qlist.appendChild(qRow(r.company, r, pill, cls, when, null, stale && r.stage.rank === 3));
+      });
+    }
+    try { localStorage.setItem("jobs-tab", name); } catch (e) {}
+  }
+  Object.keys(tabs).forEach(function (k) { tabs[k].addEventListener("click", function () { showTab(k); }); });
+  document.querySelectorAll(".nav a[data-tab]").forEach(function (a) {
+    a.addEventListener("click", function () { showTab(a.dataset.tab); });
+  });
+  var startTab = todo.length ? "todo" : "done";
+  try { var saved = localStorage.getItem("jobs-tab"); if (saved === "todo" || saved === "done") startTab = saved; } catch (e) {}
 
   document.getElementById("footer").textContent =
     "הרשימה עודכנה ב-" + fmtDate(BUILT) + ". ימי ההמתנה מחושבים לפי היום.";
@@ -776,6 +902,8 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
       });
     });
   }
+  showTab(startTab);
   initShared().catch(hideTalk);
 })();
 </script>
+
