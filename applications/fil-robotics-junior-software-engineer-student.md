@@ -1,16 +1,16 @@
 ---
 company: FIL Robotics (Fives)
 role: Junior Software Engineer - Student Position (Ref 6148)
-status: submitted
+status: rejected
 applied: 2026-10-01
 location: Binyamina
 work_model: Hybrid
 scope: Student, fixed-term
 jd_link: https://to.indeed.com/aaqqg9t2x9hw
-cv_version:
+cv_version: Roy_Carmelli_CV_FIL.pdf
 contact:
 follow_up: 2026-10-15
-gmail: Submitted 2026-10-01 via Fives SuccessFactors portal; portal confirmed the application was sent
+gmail: דחייה במייל 01/11
 fit_role: 8
 fit_stack: 6
 fit_gates: 7
@@ -49,3 +49,5 @@ FIL Robotics also has two sibling student roles at the same Binyamina site: Juni
 2026-09-30 - Roy approved applying (package: `submissions/2026-09-30-packages.md`). Not submitted yet - the cloud session has no browser or portal logins; submit from Roy's computer. Mark `submitted` only on the confirmation email.
 
 2026-10-01 - Submitted via the Fives SuccessFactors portal (career55.sapsf.eu) with `Roy_Carmelli_CV_FIL.pdf` and a cover letter. The portal said "Your application has been sent. Thank you!". Roy created the portal account himself and approved in chat. Follow-up 2026-10-15.
+
+2026-11-01 - Rejected (email from Fives Group).

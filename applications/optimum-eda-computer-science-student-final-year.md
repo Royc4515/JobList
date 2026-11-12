@@ -7,7 +7,7 @@ location: Caesarea (remote options)
 work_model: Hybrid
 scope: Internship
 jd_link: https://www.linkedin.com/jobs/view/4443109385
-cv_version:
+cv_version: Roy_Carmelli_CV_OptimumEDA.pdf
 contact:
 follow_up: 2026-10-15
 gmail: Applied by email 2026-10-01 to amir@optimum-eda.com; awaiting reply

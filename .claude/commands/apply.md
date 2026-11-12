@@ -57,4 +57,7 @@ Order: **Google, Amazon MLIL, FIL Robotics, Optimum EDA, Marvell.** For each:
 Use the tracker-keeper agent to record each role: Roy's "שלח" plus the portal's
 success page is his explicit confirmation (CLAUDE.md), so set `status: submitted` and
 `applied:` to today, with a dated note. Skipped roles get a dated note saying why. Rebuild the
-dashboard, commit and push. End with a short Hebrew summary: submitted / skipped / why.
+dashboard, commit and push. Make sure each submitted role's `cv_version:` names the exact
+PDF uploaded, then upload that PDF to the waiting-page Artifact (CLAUDE.md, "Tailored CV
+per role") so it can be downloaded there. End with a short Hebrew summary: submitted /
+skipped / why.
