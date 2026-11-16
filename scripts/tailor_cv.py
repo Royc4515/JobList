@@ -19,6 +19,8 @@ What changes per version (everything else is copied from the base file as-is):
 - optionally the neuro-data project line after the other projects (data roles).
 The graduation year is always set to 2028 (Roy finishes in February 2028).
 
+The current base is rebuilt from the October Drive file with scripts/build_base_cv.py.
+
 Usage:
     pip install python-docx
     python3 scripts/tailor_cv.py <path to Roy_Carmelli_CV.docx> <output dir>
