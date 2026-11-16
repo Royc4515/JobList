@@ -121,6 +121,8 @@ VARIANTS = {
     "NVIDIA": {"focus": "C/C++ and Python developer interested in Linux systems software and "
                         "automation.",
                "courses": ["ARCH", "DS"]},
+    "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
+                        "Claude Code."},
 }
 
 
