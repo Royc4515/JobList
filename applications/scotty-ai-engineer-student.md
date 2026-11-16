@@ -1,8 +1,8 @@
 ---
 company: Scotty
 role: AI Engineer (Student / Part-Time)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-16
 found: 2026-11-16
 location: Tel Aviv
 work_model: On-site, at least 20 hours a week
@@ -11,7 +11,7 @@ jd_link: https://www.linkedin.com/jobs/view/4489749328/
 cv_version: Roy_Carmelli_CV_Scotty.pdf
 contact: Sivan Brezniak (job poster on LinkedIn, 3rd degree)
 follow_up:
-gmail:
+gmail: הוגש ב-Easy Apply 16/11 (אישור של רועי); הודעה לסיוון עוד לא נשלחה
 fit_role: 10
 fit_stack: 9
 fit_gates: 8
@@ -35,3 +35,5 @@ AI agents, MCP, integrations, skills, Claude Code, APIs, TypeScript, Python.
 
 ## Notes
 2026-11-16 - Roy sent the LinkedIn posting (Easy Apply). Apply now and message the job poster (Sivan Brezniak) with the strongest proof: Aside (AI sidebar over 6 providers), Sommelier Bot (agent acting on Google Sheets), Nechita Raka (RAG chat), daily Claude Code / MCP work.
+
+2026-11-16 - Submitted by Roy via LinkedIn Easy Apply (his confirmation in chat). Message to Sivan Brezniak not sent yet.
