@@ -1,7 +1,7 @@
 ---
 company: Qualcomm
 role: FY27 - AI Driven Test Automation Engineering Intern (3097366)
-status: not-submitted
+status: dropped
 applied:
 found: 2026-11-16
 location: Hod Hasharon
@@ -35,3 +35,5 @@ Python, AI agents, automation, debugging, log analysis, test automation.
 
 ## Notes
 2026-11-16 - Roy sent the posting. New req (3097366), different from the June application (3092068, still open as submitted). Long shot because of the M.Sc. gate; under Roy's rule (the work fits) the application is cheap. Attach the grade sheet if the form asks.
+
+2026-11-16 - Dropped by Roy: the minimum is an EE graduate on the M.Sc. track with 2+ years left.

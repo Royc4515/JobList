@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**82 applications** — **1** Interview · **2** In review · **28** Submitted · **21** Not submitted · **27** Rejected · **3** Dropped
+**82 applications** — **1** Interview · **2** In review · **28** Submitted · **20** Not submitted · **27** Rejected · **4** Dropped
 
 ## Next to submit
 
@@ -28,12 +28,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 10. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
 11. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
-**Gated out (7)** - a hard gate failed; close or drop:
+**Gated out (6)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md) · role 6 · stack 5 · gates 0 · path 3 — NO LIVE POSTING as of 2026-09-30 - CrowdStrike Workday shows no intern roles in Israel; scanner will flag a new one
 - [Google — Hardware/Electrical Engineering BS/MS Intern, 2027](applications/google-hardware-electrical-engineering-intern-2027.md) · role 1 · stack 1 · gates 0 · path 3 — GATED: requires an EE/Computer Engineering student with practical hardware experience (VLSI, ASIC, FPGA, verification); hardware is a Skip category; 12-month internship
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md) · role 6 · stack 5 · gates 0 · path 4 — Gate fails - posting requires 2+ years of study remaining (mandatory), Roy has ~3 semesters (Feb 2028); C++ yes but no RT/embedded; Linux asked; 3 days/week on-site Ashdod mandatory
-- [Qualcomm — FY27 - AI Driven Test Automation Engineering Intern (3097366)](applications/qualcomm-ai-driven-test-automation-intern-3097366.md) · role 8 · stack 7 · gates 0 · path 3 — GATED - minimum is a B.Sc. graduate in Electronic Engineering starting an M.Sc. with 2+ years left; the work itself (AI agents for log and failure analysis, Python automation, AI-assisted test generation) fits Roy closely
 - [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md) · role 7 · stack 7 · gates 0 · path 8 — Gate fails - must graduate after August 2028, Roy graduates Feb 2028; GPA 85+ also borderline (official transcript 84.47); stack fits (Python/C++, Claude Code, Flask/MongoDB)
 - [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md) · role 9 · stack 9 · gates 0 · path 8 — GATED: requires 2+ years left (Roy ~17 months). Otherwise the closest stack match found yet - AI agents and coding agents are a must-have, Python/React/CI tooling; 10 min from Ramat Gan; cold big brand.
 
@@ -81,7 +80,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (21)
+### 📝 Not submitted (20)
 - [Alignerr — Software Engineer (AI Training) - freelance](applications/alignerr-software-engineer-ai-training.md)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
@@ -95,7 +94,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
 - [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md)
 - [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md)
-- [Qualcomm — FY27 - AI Driven Test Automation Engineering Intern (3097366)](applications/qualcomm-ai-driven-test-automation-intern-3097366.md)
 - [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md)
 - [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md)
 - [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md)
@@ -133,10 +131,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
-### 🚫 Dropped (3)
+### 🚫 Dropped (4)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
 - [NSO Group — Software Developer - Student Position](applications/nso-group-software-developer-student.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
+- [Qualcomm — FY27 - AI Driven Test Automation Engineering Intern (3097366)](applications/qualcomm-ai-driven-test-automation-intern-3097366.md)
 
 ## All applications
 
@@ -158,7 +157,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [NSO Group](applications/nso-group-software-developer-student.md) | Software Developer - Student Position | 🚫 Dropped | gated | — | — |
 | [NVIDIA](applications/nvidia-software-engineering-student-dpu-bmc.md) | Software Engineering Student - DPU BMC Development (JR2028974) | 📝 Not submitted | 23 | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 🚫 Dropped | gated | — | — |
-| [Qualcomm](applications/qualcomm-ai-driven-test-automation-intern-3097366.md) | FY27 - AI Driven Test Automation Engineering Intern (3097366) | 📝 Not submitted | gated | — | — |
+| [Qualcomm](applications/qualcomm-ai-driven-test-automation-intern-3097366.md) | FY27 - AI Driven Test Automation Engineering Intern (3097366) | 🚫 Dropped | gated | — | — |
 | [Rafael](applications/rafael-ai-applications-student.md) | CS Student - AI-Based Application Development (13481) | 📝 Not submitted | 33 | — | — |
 | [Samsung Israel R&D Center (SIRC)](applications/samsung-sirc-algorithms-infrastructure-student.md) | Algorithm's Infrastructure Student | 📝 Not submitted | gated | — | — |
 | [Samsung (SIRC)](applications/samsung-sirc-application-automation-sw-student.md) | Application Automation SW Student | 📝 Not submitted | gated | — | — |
