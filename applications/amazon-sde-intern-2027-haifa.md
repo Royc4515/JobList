@@ -11,7 +11,7 @@ jd_link: https://www.amazon.jobs/en/jobs/10592104 (Tel Aviv); https://www.amazon
 cv_version: Roy_Carmelli_CV_AmazonSDE.pdf (+ English transcript in the same PDF)
 contact: Omer Barda (referral) - leads/amazon-omer-barda-referral.md
 follow_up:
-gmail: הוגש 08/11 דרך עומר; מבחן אונליין עד 17/11
+gmail: מבחן אונליין הוגש 15/11; ממתין לתשובה
 fit_role: 8
 fit_stack: 7
 fit_gates: 6
@@ -44,3 +44,5 @@ Software development, backend services, data structures, OOP, Python, TypeScript
 2026-11-08 - Submitted through Omer Barda's referral (referral email 05/11; Amazon confirmation 08/11).
 
 2026-11-10 - Online assessment invite (Amazon Assessments, HackerRank): coding challenge 100 min (2 problems, one in a repo with an AI assistant, proctored, photo ID), work simulation ~45 min, work style survey ~6 min. Due within a week: 2026-11-17. Demo test linked in the email.
+
+2026-11-15 - Online assessment completed (Amazon confirmation email). Waiting for the next step.
