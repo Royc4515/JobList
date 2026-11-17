@@ -126,6 +126,9 @@ VARIANTS = {
     "Qualcomm_AITest": {"focus": "Python developer building AI agents and automation tools for debugging "
                                  "and testing.",
                         "courses": ["PDP", "DS"]},
+    "Earnix_Java": {"focus": "Java and Python developer focused on test automation, using AI coding tools "
+                             "daily.",
+                    "courses": ["OOP", "DS"]},
     "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
                         "Claude Code."},
 }
