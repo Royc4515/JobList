@@ -1,8 +1,8 @@
 ---
 company: Earnix
 role: Automation Engineer - Student Position (S0005, Java + Python)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-17
 found: 2026-11-17
 location: Ramat Gan
 work_model: Part-time
@@ -11,7 +11,7 @@ jd_link: https://www.comeet.com/jobs/earnix/93.00B/automation-engineer---student
 cv_version: Roy_Carmelli_CV_Earnix_Java.pdf
 contact:
 follow_up:
-gmail:
+gmail: הוגש ב-Comeet 17/11 (אישור של רועי)
 fit_role: 6
 fit_stack: 8
 fit_gates: 8
@@ -34,3 +34,5 @@ Java, Python, test automation, OOP, SQL, Git, Claude Code.
 
 ## Notes
 2026-11-17 - Roy sent the Comeet posting (ID S0005, position 36.57C). Different from the Earnix role he applied to on 2026-11-04 (position 79.47A, Python integration tests): this one asks for Java and Python and SQL. Worth applying; same company recruiter, so keep both applications consistent.
+
+2026-11-17 - Submitted by Roy on Comeet (his confirmation in chat), with the personal note about the Python role.

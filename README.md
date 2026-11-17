@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**83 applications** — **1** Interview · **2** In review · **29** Submitted · **20** Not submitted · **27** Rejected · **4** Dropped
+**83 applications** — **1** Interview · **2** In review · **30** Submitted · **19** Not submitted · **27** Rejected · **4** Dropped
 
 ## Next to submit
 
@@ -19,14 +19,13 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 1. **33** [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md) · role 9 · stack 9 · gates 7 · path 8 — Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
 2. **30** [Mobileye — Algorithm SW Developer Student - Calibration Team](applications/mobileye-algorithm-sw-developer-student-calibration.md) · role 8 · stack 7 · gates 7 · path 8 — Studies gate passes (2-3 semesters left, Roy has 3); C++ and Python, ML basics, Claude/AI-assisted dev; CS + science minor fits CS & Neuroscience; 3 days on-site in Jerusalem; Mobileye rejected a Jerusalem algorithm student application on 2026-08-10
 3. **28** [Alignerr — Software Engineer (AI Training) - freelance](applications/alignerr-software-engineer-ai-training.md) · role 6 · stack 8 · gates 8 · path 6 — Writing and reviewing code to train AI coding models, remote and on Roy's own hours; Python/JS/TS and AI-tools fluency fit; freelance gig work, not a student engineering job - a side income, not a replacement
-4. **27** [Earnix — Automation Engineer - Student Position (S0005, Java + Python)](applications/earnix-automation-engineer-student-java-s0005.md) · role 6 · stack 8 · gates 8 · path 5 — Integration-test automation in Java and Python with Claude Code named in the requirements; 3 semesters left and GPA 80+ pass; Ramat Gan; a second Earnix automation req besides the Python one Roy applied to on 2026-11-04
-5. **25** [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md) · role 7 · stack 8 · gates 6 · path 4 — Python data pipelines, lab automation, GUIs and hardware-instrument integration; 3rd-year CS gate passes exactly; cost is 3 on-site days a week in Jerusalem; no contact there
-6. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
-7. **23** [Mobileye — Data Analysis Engineer - Student Position (REM)](applications/mobileye-data-analysis-engineer-student.md) · role 6 · stack 7 · gates 5 · path 5 — Python data analysis on REM mapping/validation data fits Roy's data and Python work; gate is 3 office days a week in Jerusalem, a long commute from central Israel
-8. **23** [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md) · role 5 · stack 6 · gates 9 · path 3 — Linux user-space C/C++ services plus Python automation and test frameworks for DPU BMC; no semesters or GPA gate, Tel Aviv option; systems/networking work, not AI; cold big brand
-9. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-10. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-11. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+4. **25** [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md) · role 7 · stack 8 · gates 6 · path 4 — Python data pipelines, lab automation, GUIs and hardware-instrument integration; 3rd-year CS gate passes exactly; cost is 3 on-site days a week in Jerusalem; no contact there
+5. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+6. **23** [Mobileye — Data Analysis Engineer - Student Position (REM)](applications/mobileye-data-analysis-engineer-student.md) · role 6 · stack 7 · gates 5 · path 5 — Python data analysis on REM mapping/validation data fits Roy's data and Python work; gate is 3 office days a week in Jerusalem, a long commute from central Israel
+7. **23** [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md) · role 5 · stack 6 · gates 9 · path 3 — Linux user-space C/C++ services plus Python automation and test frameworks for DPU BMC; no semesters or GPA gate, Tel Aviv option; systems/networking work, not AI; cold big brand
+8. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+9. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+10. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (6)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -50,7 +49,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
 - [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 
-### 📤 Submitted (29)
+### 📤 Submitted (30)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
@@ -58,6 +57,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [ChargeAfter — Fullstack Engineer Intern](applications/chargeafter-fullstack-engineer-intern.md)
 - [Claroty — Software Engineer - Student Position](applications/claroty-software-engineer-student.md)
 - [Copyscape — Student Position - Algorithms & AI Developer](applications/copyscape-algorithms-ai-developer-student.md)
+- [Earnix — Automation Engineer - Student Position (S0005, Java + Python)](applications/earnix-automation-engineer-student-java-s0005.md)
 - [Earnix — Automation Engineer - Student Position](applications/earnix-automation-engineer-student.md)
 - [Elbit Systems — Software Developer Student - Netanya (Req 6355)](applications/elbit-software-developer-student-netanya.md)
 - [Elbit Systems — Software Engineering Student - Modi'in (Req 6608)](applications/elbit-software-engineering-student-modiin-6608.md)
@@ -81,12 +81,11 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (20)
+### 📝 Not submitted (19)
 - [Alignerr — Software Engineer (AI Training) - freelance](applications/alignerr-software-engineer-ai-training.md)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
-- [Earnix — Automation Engineer - Student Position (S0005, Java + Python)](applications/earnix-automation-engineer-student-java-s0005.md)
 - [Google — Hardware/Electrical Engineering BS/MS Intern, 2027](applications/google-hardware-electrical-engineering-intern-2027.md)
 - [IAI (Israel Aerospace Industries) - Elta — Software Development Student - C++ RT Embedded (147020)](applications/iai-elta-software-student-cpp-embedded-ashdod.md)
 - [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md)
@@ -147,7 +146,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 🚫 Dropped | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
 | [CrowdStrike](applications/crowdstrike-engineering-intern.md) | Engineering Intern | 📝 Not submitted | gated | — | — |
-| [Earnix](applications/earnix-automation-engineer-student-java-s0005.md) | Automation Engineer - Student Position (S0005, Java + Python) | 📝 Not submitted | 27 | — | — |
 | [Google](applications/google-hardware-electrical-engineering-intern-2027.md) | Hardware/Electrical Engineering BS/MS Intern, 2027 | 📝 Not submitted | gated | — | — |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-software-student-cpp-embedded-ashdod.md) | Software Development Student - C++ RT Embedded (147020) | 📝 Not submitted | gated | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
@@ -168,6 +166,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [SAP](applications/sap-student-developer-unified-gateway.md) | Student Developer - Unified Gateway | 📝 Not submitted | 19 | — | TBD |
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
+| [Earnix](applications/earnix-automation-engineer-student-java-s0005.md) | Automation Engineer - Student Position (S0005, Java + Python) | 📤 Submitted | 27 | 2026-11-17 | — |
 | [Scotty](applications/scotty-ai-engineer-student.md) | AI Engineer (Student / Part-Time) | 📤 Submitted | 32 | 2026-11-16 | — |
 | [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105) | 🔎 In review | 28 | 2026-11-08 | — |
 | [Copyscape](applications/copyscape-algorithms-ai-developer-student.md) | Student Position - Algorithms & AI Developer | 📤 Submitted | 31 | 2026-11-08 | — |
