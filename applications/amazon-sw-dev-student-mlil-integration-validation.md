@@ -1,17 +1,17 @@
 ---
 company: Amazon (Annapurna Labs)
 role: Software Development Student, MLIL - Integration Validation
-status: not-submitted
+status: dropped
 applied:
 found: 2026-10-01
 location: Tel Aviv
 work_model:
 scope: Student, part-time, 2-3 days/week
 jd_link: https://to.indeed.com/aajd87nkzy82
-cv_version:
+cv_version: Roy_Carmelli_CV_and_Transcript_Amazon.pdf
 contact:
 follow_up:
-gmail:
+gmail: האפליקציה בוטלה 08/11
 fit_role: 7
 fit_stack: 7
 fit_gates: 9
@@ -46,3 +46,7 @@ No production CI/CD or Grafana experience; Python and AI-assisted development ar
 2026-10-05 - Amazon sent an "Your application is incomplete" email on 2026-10-03: the application was opened but not submitted. Status stays not-submitted; still on hold for the Omer Barda referral.
 
 2026-10-05 - Roy approved applying now, without waiting further for Omer Barda's referral (use the referral link only if it already exists). Not submitted yet.
+
+2026-10-25 - Not in amazon.jobs search results for Israel today (may be filled). Roy is sending Omer Barda the current student list instead - see leads/amazon-omer-barda-referral.md.
+
+2026-11-08 - Withdrawn by Roy (Amazon confirmation email), in favour of the SDE intern roles via Omer.

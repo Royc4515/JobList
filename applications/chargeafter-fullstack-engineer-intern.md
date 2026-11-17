@@ -1,8 +1,8 @@
 ---
 company: ChargeAfter
 role: Fullstack Engineer Intern
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-10-25
 found: 2026-09-28
 location: Tel Aviv
 work_model: Hybrid
@@ -11,12 +11,13 @@ jd_link: https://www.comeet.com/jobs/chargeafter/C5.004/fullstack-engineer-inter
 cv_version: Roy_Carmelli_CV_ChargeAfter.pdf (+ English transcript)
 contact:
 follow_up:
-gmail: No application email (checked 2026-09-28)
+gmail: הוגש 25/10 - אישור מ-Comeet ("We Got It: Thanks for applying for Fullstack Engineer Intern", chargeafter.comeet-notifications.com, 2026-10-25)
 fit_role: 6
 fit_stack: 7
 fit_gates: 0
 fit_path: 5
 fit_note: GATED: requires at least 2 years until graduation (Roy ~1.4) ; GPA 85 borderline (85.09)
+blurb: משרת סטודנט/ית בפיתוח Fullstack ב-ChargeAfter בתל אביב (2-3 ימים בשבוע, מודל היברידי): עבודה עם .NET Core בצד השרת, React בצד הלקוח ו-MongoDB.
 ---
 
 ## Stack Required
@@ -44,3 +45,5 @@ React, MongoDB, full-stack, agile, .NET Core.
 2026-10-05 - Posting still live on ChargeAfter's Comeet board (FA.D53), verified by the careers scan. Still gated on the 2-year studies requirement.
 
 2026-10-12 - Roy decided to apply anyway despite the gates ("what do I lose"). CV variant `ChargeAfter` built (full-stack focus, no GPA line on the CV since the attached official transcript shows 84.47). Grade sheet required - attach the official English transcript. Not submitted yet.
+
+2026-10-25 - Submitted via Comeet (FA.D53), despite the studies-remaining gate (Roy decided to apply on 2026-10-12). Roy confirmed in chat and the "We Got It" confirmation email arrived the same day. CV: Roy_Carmelli_CV_ChargeAfter.pdf.

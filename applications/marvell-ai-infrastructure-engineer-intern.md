@@ -7,7 +7,7 @@ location: Petah Tikva
 work_model: On-site
 scope: Student position (Workday lists "Full time" - confirm hours)
 jd_link: https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Petah-Tikva/AI-Infrastructure-Engineer-Intern_2604499
-cv_version:
+cv_version: Roy_Carmelli_CV_Marvell.pdf
 contact:
 follow_up: 2026-10-15
 gmail: Submitted 2026-10-01 via Workday (req 2604499); status Application In Process
