@@ -138,6 +138,9 @@ VARIANTS = {
     "Millennium_AI": {"grad": True, "focus": "AI engineer building LLM applications, agents and data pipelines in "
                                          "Python.",
                       "courses": ["DS", "PDP"]},
+    "Altera": {"focus": "Python developer building monitoring and automation tools, coding daily with "
+                        "Claude Code.",
+               "courses": ["ARCH", "DS"]},
     "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
                         "Claude Code."},
 }

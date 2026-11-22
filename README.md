@@ -10,13 +10,13 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**85 applications** — **1** Interview · **2** In review · **34** Submitted · **16** Not submitted · **28** Rejected · **4** Dropped
+**87 applications** — **1** Interview · **2** In review · **34** Submitted · **16** Not submitted · **28** Rejected · **6** Dropped
 
 ## Next to submit
 
 Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROFILE.md)).
 
-1. **33** [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md) · role 9 · stack 9 · gates 7 · path 8 — Near-exact match - LLM/VLM integration, OpenAI/Anthropic APIs, Claude Code + Git, Python/TS, React UI; no studies-remaining line, 2 days/week minimum; cost is the commute to the Krayot
+1. **25** [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md) · role 6 · stack 6 · gates 8 · path 5 — Tools for resource monitoring and user interaction for a chip-development team's compute environment; B.Sc. CS student gate passes, no years-left line; TLV listed as an extra location; no contact at Altera
 2. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
 3. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
 4. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
@@ -83,6 +83,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
 ### 📝 Not submitted (16)
+- [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
@@ -93,7 +94,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Mobileye — Data Analysis Engineer - Student Position (REM)](applications/mobileye-data-analysis-engineer-student.md)
 - [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md)
 - [Molex (Teramount) — Software Engineer - Student Position (196845)](applications/molex-teramount-software-engineer-student.md)
-- [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md)
 - [Samsung (SIRC) — Application Automation SW Student](applications/samsung-sirc-application-automation-sw-student.md)
 - [Samsung Israel R&D Center (SIRC) — Algorithm's Infrastructure Student](applications/samsung-sirc-algorithms-infrastructure-student.md)
 - [SAP — Software Eng. Intern (Gateway)](applications/sap-software-eng-intern-gateway.md)
@@ -130,16 +130,19 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Texas Instruments — WiFi Software Development Intern (25007138)](applications/ti-wifi-software-development-intern.md)
 - [Wix — (ראה מייל לפרטי המשרה)](applications/wix-see-email.md)
 
-### 🚫 Dropped (4)
+### 🚫 Dropped (6)
 - [Amazon (Annapurna Labs) — Software Development Student, MLIL - Integration Validation](applications/amazon-sw-dev-student-mlil-integration-validation.md)
+- [Microsoft — Data Science Intern (200062523)](applications/microsoft-data-science-intern-herzliya.md)
 - [NSO Group — Software Developer - Student Position](applications/nso-group-software-developer-student.md)
 - [Personetics — AI & Automation Specialist Student](applications/personetics-ai-automation-specialist-student.md)
 - [Qualcomm — FY27 - AI Driven Test Automation Engineering Intern (3097366)](applications/qualcomm-ai-driven-test-automation-intern-3097366.md)
+- [Rafael — CS Student - AI-Based Application Development (13481)](applications/rafael-ai-applications-student.md)
 
 ## All applications
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
+| [Altera](applications/altera-engineering-compute-student.md) | Engineering Compute Student (R03491) | 📝 Not submitted | 25 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-software-development-student-annapurna-haifa.md) | Software Development Student, AWS Annapurna Labs (Haifa) | 📝 Not submitted | 23 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 🚫 Dropped | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
@@ -147,6 +150,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Google](applications/google-hardware-electrical-engineering-intern-2027.md) | Hardware/Electrical Engineering BS/MS Intern, 2027 | 📝 Not submitted | gated | — | — |
 | [IAI (Israel Aerospace Industries) - Elta](applications/iai-elta-software-student-cpp-embedded-ashdod.md) | Software Development Student - C++ RT Embedded (147020) | 📝 Not submitted | gated | — | — |
 | [Keysight](applications/keysight-full-stack-dev-student.md) | Full Stack Dev Student | 📝 Not submitted | 17 | — | — |
+| [Microsoft](applications/microsoft-data-science-intern-herzliya.md) | Data Science Intern (200062523) | 🚫 Dropped | gated | — | — |
 | [Microsoft](applications/microsoft-security-research-intern.md) | Security Research Intern | 📝 Not submitted | 15 | — | — |
 | [Mobileye](applications/mobileye-data-analysis-engineer-student.md) | Data Analysis Engineer - Student Position (REM) | 📝 Not submitted | 23 | — | — |
 | [Mobileye](applications/mobileye-ml-software-infrastructure-student.md) | ML Software & Infrastructure Engineer (Student) - Hawkeye | 📝 Not submitted | 20 | — | — |
@@ -154,7 +158,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [NSO Group](applications/nso-group-software-developer-student.md) | Software Developer - Student Position | 🚫 Dropped | gated | — | — |
 | [Personetics](applications/personetics-ai-automation-specialist-student.md) | AI & Automation Specialist Student | 🚫 Dropped | gated | — | — |
 | [Qualcomm](applications/qualcomm-ai-driven-test-automation-intern-3097366.md) | FY27 - AI Driven Test Automation Engineering Intern (3097366) | 🚫 Dropped | gated | — | — |
-| [Rafael](applications/rafael-ai-applications-student.md) | CS Student - AI-Based Application Development (13481) | 📝 Not submitted | 33 | — | — |
+| [Rafael](applications/rafael-ai-applications-student.md) | CS Student - AI-Based Application Development (13481) | 🚫 Dropped | 33 | — | — |
 | [Samsung Israel R&D Center (SIRC)](applications/samsung-sirc-algorithms-infrastructure-student.md) | Algorithm's Infrastructure Student | 📝 Not submitted | gated | — | — |
 | [Samsung (SIRC)](applications/samsung-sirc-application-automation-sw-student.md) | Application Automation SW Student | 📝 Not submitted | gated | — | — |
 | [SAP](applications/sap-software-eng-intern-gateway.md) | Software Eng. Intern (Gateway) | 📝 Not submitted | 24 | — | — |
