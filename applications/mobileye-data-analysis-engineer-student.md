@@ -34,3 +34,5 @@ Python, data analysis, large data sets, validation, reports.
 
 ## Notes
 2026-10-25 - From the Mesayaatech list (22.10). Route: Tomer already passed Roy's CV to Mobileye (Shlomo Ron); mention this role to him too.
+
+2026-11-22 - Posting closed (Lever returns 404; the career-board scan also flagged it).
