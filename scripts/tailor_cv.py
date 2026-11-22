@@ -132,6 +132,9 @@ VARIANTS = {
     "Upwind_Backend": {"focus": "Backend developer building services and APIs in Python and Node.js, with "
                                 "Docker.",
                        "courses": ["DS", "OOP"]},
+    "Alignerr": {"focus": "Software developer writing and reviewing code daily with AI coding tools, "
+                          "Python and TypeScript.",
+                 "courses": ["DS", "OOP"]},
     "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
                         "Claude Code."},
 }

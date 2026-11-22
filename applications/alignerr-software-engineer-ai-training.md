@@ -8,7 +8,7 @@ location: Remote
 work_model: Remote, freelance hourly contract, 10-40 hours a week
 scope: Freelance (not a student position)
 jd_link: https://www.alignerr.com/jobs/62fc9ca0-8204-44f2-ab2c-d6a1c4f80c3b
-cv_version: Roy_Carmelli_CV_General.pdf
+cv_version: Roy_Carmelli_CV_Alignerr.pdf
 contact:
 follow_up:
 gmail:
