@@ -129,6 +129,9 @@ VARIANTS = {
     "Earnix_Java": {"focus": "Java and Python developer focused on test automation, using AI coding tools "
                              "daily.",
                     "courses": ["OOP", "DS"]},
+    "Upwind_Backend": {"focus": "Backend developer building services and APIs in Python and Node.js, with "
+                                "Docker.",
+                       "courses": ["DS", "OOP"]},
     "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
                         "Claude Code."},
 }
