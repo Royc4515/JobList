@@ -11,7 +11,7 @@ jd_link: WhatsApp posting (8.11) - apply by email to jobs@copyscape.com
 cv_version: Roy_Carmelli_CV_Copyscape.pdf
 contact:
 follow_up:
-gmail: נשלח מייל ל-jobs@copyscape.com עם קו"ח 08/11
+gmail: נשלח 08/11; אלי מ-Copyscape אישר קבלה 13/11
 fit_role: 9
 fit_stack: 8
 fit_gates: 9
@@ -36,3 +36,5 @@ Python, data pipelines, LLM, RAG, Claude Code, algorithms.
 2026-11-08 - From a WhatsApp group. Apply by email to jobs@copyscape.com with the CV plus GitHub and a project link (Nechita Raka is the strongest: RAG chat, text retrieval). The Digital Marketing / SEO student role in the same post is not for Roy.
 
 2026-11-08 - Applied: email sent from Roy's Gmail to jobs@copyscape.com (on Roy's request) with Roy_Carmelli_CV_Copyscape.pdf, GitHub and portfolio links.
+
+2026-11-13 - Eli Parkes (eli@copyscape.com) replied: application received, they will be in touch.

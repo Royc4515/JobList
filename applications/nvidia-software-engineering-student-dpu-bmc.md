@@ -1,8 +1,8 @@
 ---
 company: NVIDIA
 role: Software Engineering Student - DPU BMC Development (JR2028974)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-11
 found: 2026-11-11
 location: Tel Aviv or Yokneam
 work_model: Part-time (Time Type: part-time)
@@ -11,7 +11,7 @@ jd_link: https://jobs.nvidia.com/careers/job/893398542727
 cv_version: Roy_Carmelli_CV_NVIDIA.pdf
 contact:
 follow_up:
-gmail:
+gmail: אישור הגשה מ-NVIDIA Workday 11/11
 fit_role: 5
 fit_stack: 6
 fit_gates: 9
@@ -36,3 +36,5 @@ C/C++, Python, Linux, automation, computer architecture, systems programming.
 2026-11-11 - Roy sent an NVIDIA careers link (Software Developer - Networking, JR2024804, needs 4+ years - not for Roy). The same list had this student role, which fits the gates. Apply on NVIDIA's Workday site, Tel Aviv. No contact at NVIDIA in the network map.
 
 2026-11-11 - Roy opened the posting: Time Type part-time, Yokneam + Tel Aviv.
+
+2026-11-11 - Submitted (NVIDIA Workday confirmation email for JR2028974).

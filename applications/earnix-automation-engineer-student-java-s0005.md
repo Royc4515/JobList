@@ -11,7 +11,7 @@ jd_link: https://www.comeet.com/jobs/earnix/93.00B/automation-engineer---student
 cv_version: Roy_Carmelli_CV_Earnix_Java.pdf
 contact:
 follow_up:
-gmail: הוגש ב-Comeet 17/11 (אישור של רועי)
+gmail: הוגש 17/11, אישור מ-Comeet
 fit_role: 6
 fit_stack: 8
 fit_gates: 8
