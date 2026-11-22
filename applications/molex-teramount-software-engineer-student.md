@@ -34,3 +34,5 @@ Python, data pipelines, automation, internal tools, data structures.
 
 ## Notes
 2026-10-30 - Roy sent the posting (Koch/Avature, via LinkedIn). Worth applying: the work is Python tooling and pipelines and the 3rd-year gate fits. No contact at Molex/Teramount in the network map - ask Tomer / Shay / Amir if they know someone there.
+
+2026-11-22 - Posting closed: the Avature job page returns 404.

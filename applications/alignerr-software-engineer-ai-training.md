@@ -1,8 +1,8 @@
 ---
 company: Alignerr
 role: Software Engineer (AI Training) - freelance
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-22
 found: 2026-11-12
 location: Remote
 work_model: Remote, freelance hourly contract, 10-40 hours a week
@@ -11,7 +11,7 @@ jd_link: https://www.alignerr.com/jobs/62fc9ca0-8204-44f2-ab2c-d6a1c4f80c3b
 cv_version: Roy_Carmelli_CV_Alignerr.pdf
 contact:
 follow_up:
-gmail:
+gmail: נפתח חשבון והבקשה הושלמה 22/11 (מייל מ-Alignerr)
 fit_role: 6
 fit_stack: 8
 fit_gates: 8
@@ -35,3 +35,5 @@ Python, TypeScript, code review, LLM, AI coding tools.
 
 ## Notes
 2026-11-12 - Roy sent the LinkedIn posting. Worth applying as a flexible side gig that uses his daily AI-coding work; keep the student-position search as the main track.
+
+2026-11-22 - Account created and application completed (Alignerr email the same day). Next: their skills assessment if they send one.
