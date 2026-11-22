@@ -135,6 +135,9 @@ VARIANTS = {
     "Alignerr": {"focus": "Software developer writing and reviewing code daily with AI coding tools, "
                           "Python and TypeScript.",
                  "courses": ["DS", "OOP"]},
+    "Millennium_AI": {"grad": True, "focus": "AI engineer building LLM applications, agents and data pipelines in "
+                                         "Python.",
+                      "courses": ["DS", "PDP"]},
     "Scotty": {"focus": "AI engineer building agents, MCP integrations and skills, coding daily with "
                         "Claude Code."},
 }
