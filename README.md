@@ -10,17 +10,16 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**87 applications** — **1** Interview · **2** In review · **34** Submitted · **16** Not submitted · **28** Rejected · **6** Dropped
+**87 applications** — **1** Interview · **2** In review · **35** Submitted · **15** Not submitted · **28** Rejected · **6** Dropped
 
 ## Next to submit
 
 Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROFILE.md)).
 
-1. **25** [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md) · role 6 · stack 6 · gates 8 · path 5 — Tools for resource monitoring and user interaction for a chip-development team's compute environment; B.Sc. CS student gate passes, no years-left line; TLV listed as an extra location; no contact at Altera
-2. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
-3. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
-4. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
-5. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
+1. **23** [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md) · role 4 · stack 6 · gates 7 · path 6 — Low-level C/SRD networking in Haifa, no hybrid stated; studies gate passes (2+ semesters); Omer Barda referral already spent on MLIL; maybe
+2. **20** [Mobileye — ML Software & Infrastructure Engineer (Student) - Hawkeye](applications/mobileye-ml-software-infrastructure-student.md) · role 7 · stack 5 · gates 5 · path 3 — Not on Mobileye's Lever board 2026-10-05 - very likely CLOSED; location/gates unknown
+3. **17** [Keysight — Full Stack Dev Student](applications/keysight-full-stack-dev-student.md) · role 5 · stack 2 · gates 7 · path 3 — Hard C#/.NET requirement Roy does not have
+4. **15** [Microsoft — Security Research Intern](applications/microsoft-security-research-intern.md) · role 2 · stack 1 · gates 9 · path 3 — Vulnerability research with no project in the field; cold big-brand
 
 **Gated out (6)** - a hard gate failed; close or drop:
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md) · role 6 · stack 5 · gates 0 · path 2 — GATED: requires at least 2 years remaining until graduation, Roy has about three semesters
@@ -46,9 +45,10 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
 - [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 
-### 📤 Submitted (34)
+### 📤 Submitted (35)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Alignerr — Software Engineer (AI Training) - freelance](applications/alignerr-software-engineer-ai-training.md)
+- [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md)
 - [Apple — Software Engineering Student - Hardware org (200676939-0865)](applications/apple-software-engineering-student-hardware-2026.md)
 - [Apple — SW Engineering Student (Herzliya)](applications/apple-sw-engineering-student-herzliya.md)
 - [Apple — SW Engineering Student](applications/apple-sw-engineering-student-jerusalem.md)
@@ -82,8 +82,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Waterfall Security Solutions — Full Stack Developer (Student)](applications/waterfall-security-full-stack-developer.md)
 - [מערך הדיגיטל הלאומי — סטודנט/ית מפתח/ת Design System](applications/national-digital-agency-design-system-student.md)
 
-### 📝 Not submitted (16)
-- [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md)
+### 📝 Not submitted (15)
 - [Amazon (Annapurna Labs) — Software Development Student, AWS Annapurna Labs (Haifa)](applications/amazon-software-development-student-annapurna-haifa.md)
 - [Amazon (Annapurna Labs) — Software Engineer Student, Virtual Platforms, Annapurna Labs](applications/amazon-sw-engineer-student-virtual-platforms.md)
 - [CrowdStrike — Engineering Intern](applications/crowdstrike-engineering-intern.md)
@@ -142,7 +141,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 
 | Company | Role | Status | Fit | Applied | Follow-up |
 | --- | --- | --- | --- | --- | --- |
-| [Altera](applications/altera-engineering-compute-student.md) | Engineering Compute Student (R03491) | 📝 Not submitted | 25 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-software-development-student-annapurna-haifa.md) | Software Development Student, AWS Annapurna Labs (Haifa) | 📝 Not submitted | 23 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-dev-student-mlil-integration-validation.md) | Software Development Student, MLIL - Integration Validation | 🚫 Dropped | 30 | — | — |
 | [Amazon (Annapurna Labs)](applications/amazon-sw-engineer-student-virtual-platforms.md) | Software Engineer Student, Virtual Platforms, Annapurna Labs | 📝 Not submitted | gated | — | — |
@@ -167,6 +165,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Siemens Industry Software Ltd.](applications/siemens-ai-research-student-512848.md) | AI Research Student (Job ID 512848) | ❌ Rejected | — | — | — |
 | [Siemens Industry Software Ltd.](applications/siemens-application-engineering-student-512845.md) | Application Engineering Student (Job ID 512845) | ❌ Rejected | — | — | — |
 | [Alignerr](applications/alignerr-software-engineer-ai-training.md) | Software Engineer (AI Training) - freelance | 📤 Submitted | 28 | 2026-11-22 | — |
+| [Altera](applications/altera-engineering-compute-student.md) | Engineering Compute Student (R03491) | 📤 Submitted | 25 | 2026-11-22 | 2026-12-06 |
 | [Millennium](applications/millennium-applied-ai-engineer-intern-2027-tel-aviv.md) | 2027 Applied AI Engineer Intern, Tel Aviv (REQ-30173) | 📤 Submitted | 27 | 2026-11-22 | — |
 | [Mobileye](applications/mobileye-algorithm-sw-developer-student-calibration.md) | Algorithm SW Developer Student - Calibration Team | 📤 Submitted | 30 | 2026-11-22 | 2026-12-06 |
 | [Upwind](applications/upwind-software-engineer-intern-backend.md) | Software Engineer Intern (Backend Engineer - Student Position) | 📤 Submitted | 27 | 2026-11-22 | — |
