@@ -91,8 +91,8 @@ VARIANTS = {
                        "courses": ["LA", "CALC"], "neuro": True},
     "Samsung": {"focus": "Python and C++ developer building tools and automation with Claude "
                          "Code."},
-    "Marvell_Validation": {"focus": "Python and C++ developer focused on automation, coding daily with AI "
-                                    "tools.",
+    "Marvell_Validation": {"focus": "Python and C++ developer building test automation and debugging tools "
+                                    "with AI.",
                            "courses": ["ARCH", "DS"]},
     "Google_Research": {"grad": True, "focus": "Building LLM agents and data pipelines, interested in research where ML "
                                  "meets cognition.",
