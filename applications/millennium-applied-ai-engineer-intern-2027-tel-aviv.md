@@ -1,8 +1,8 @@
 ---
 company: Millennium
 role: 2027 Applied AI Engineer Intern, Tel Aviv (REQ-30173)
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-22
 found: 2026-11-22
 location: Tel Aviv
 work_model: Not stated (2027 internship; hours and dates not stated)
@@ -11,7 +11,7 @@ jd_link: https://campusjobs.mlp.com/careers/job/755957778856
 cv_version: Roy_Carmelli_CV_Millennium_AI.pdf
 contact:
 follow_up:
-gmail:
+gmail: הוגש 22/11 (אישור של רועי)
 fit_role: 9
 fit_stack: 7
 fit_gates: 8
@@ -35,3 +35,5 @@ LLM, AI agents, Python, data pipelines, data structures, algorithms.
 
 ## Notes
 2026-11-22 - Roy sent the posting (LinkedIn). Apply; use one of the two allowed applications on Tel Aviv (the other could be the Tel Aviv Quantitative Developer intern only if it fits - it likely needs strong C++/math). No contact at Millennium in the network map.
+
+2026-11-22 - Submitted by Roy on the Millennium campus site (his confirmation in chat). One of the two allowed applications used.
