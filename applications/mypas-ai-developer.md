@@ -31,3 +31,5 @@ No n8n / Make. Everything else matches.
 
 ## Notes
 2026-11-23 - Roy saw Amit Weiss's LinkedIn post (hiring for the MyPAS AI team). Plan: LinkedIn DM to Amit, asking about part-time, with the portfolio; send the CV if he answers. No contact in the network map.
+
+2026-11-23 - Amit posted that everyone who commented got an online interview with their AI interview agent; to get the link, comment the code word on his repost. Roy is commenting to get the link.
