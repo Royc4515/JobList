@@ -56,6 +56,17 @@ empty), up to 3 public GitHub repos ("an AI agent will go through the code and a
 to the evaluation; share only projects you wrote yourself"), CV (optional - I'll upload my AI-
 focused CV).
 
+## Read my GitHub first
+My GitHub: https://github.com/Royc4515 (portfolio: https://roy-carmelli-portfolio.vercel.app/).
+Before anything else, go through my repos yourself: list my public repos (the profile page, or
+https://github.com/Royc4515?tab=repositories), and for the ones that look like real projects read
+the README and the main code files (entry point, agent / MCP / RAG logic, config). Use whatever
+you have - an attached GitHub connection, web fetch, or the raw files at
+https://raw.githubusercontent.com/Royc4515/<repo>/<branch>/<path>. Then give me a short table:
+repo, what it does, stack, AI / agent / MCP / automation parts, README quality, any secrets or
+keys you spotted. Base every answer we prepare on what is really in the code. If you cannot reach
+a repo (private, or no web access), tell me and ask me to paste the README or attach it.
+
 ## What to do with me
 1. Repo choice: ask me for my candidate repos, then for each one check with me: is it public,
    did I write it, is there a clear README (what it does, stack, how to run, a screenshot or
