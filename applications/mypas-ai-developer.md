@@ -1,8 +1,8 @@
 ---
 company: MyPAS
 role: AI Developer (junior, AI agents and automations)
-status: not-submitted
-applied:
+status: interview
+applied: 2026-11-24
 found: 2026-11-23
 location: Israel (not stated)
 work_model: Not stated
@@ -11,7 +11,7 @@ jd_link: LinkedIn post by Amit Weiss (MyPAS AI team), 2026-11-22
 cv_version: Roy_Carmelli_CV_Scotty.pdf
 contact: Amit Weiss (MyPAS, ABAP / React / AI developer) - LinkedIn DM
 follow_up:
-gmail:
+gmail: קיבל קישור לראיון AI אונליין (hirelens, כ-25 דק׳) 24/11
 fit_role: 9
 fit_stack: 9
 fit_gates: 6
@@ -33,3 +33,5 @@ No n8n / Make. Everything else matches.
 2026-11-23 - Roy saw Amit Weiss's LinkedIn post (hiring for the MyPAS AI team). Plan: LinkedIn DM to Amit, asking about part-time, with the portfolio; send the CV if he answers. No contact in the network map.
 
 2026-11-23 - Amit posted that everyone who commented got an online interview with their AI interview agent; to get the link, comment the code word on his repost. Roy is commenting to get the link.
+
+2026-11-24 - Got the link to the AI interview (hirelens-app.com, role "AI Developer / AI Automation Builder (Junior)", about 25 minutes, recorded and AI-scored, a person reviews the result). Form takes up to 3 public GitHub repos (an AI agent reviews the code) and a CV. Plan: Scotty CV, salary left empty.
