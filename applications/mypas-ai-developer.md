@@ -35,3 +35,5 @@ No n8n / Make. Everything else matches.
 2026-11-23 - Amit posted that everyone who commented got an online interview with their AI interview agent; to get the link, comment the code word on his repost. Roy is commenting to get the link.
 
 2026-11-24 - Got the link to the AI interview (hirelens-app.com, role "AI Developer / AI Automation Builder (Junior)", about 25 minutes, recorded and AI-scored, a person reviews the result). Form takes up to 3 public GitHub repos (an AI agent reviews the code) and a CV. Plan: Scotty CV, salary left empty.
+
+2026-11-24 - Prep kit: prep/mypas-ai-developer/interview-1-coach.md (coach prompt for filling the form, choosing repos and a mock AI interview).

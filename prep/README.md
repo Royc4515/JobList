@@ -21,3 +21,4 @@ Rules:
 - `google-swe-intern-2027/` - coding exercise (90 min, 2 problems, due 2026-10-19 PT).
 - `growthspace-ai-agent-designer/` - interview 1 (done 2026-10-13) and the two home
   assignments.
+- `mypas-ai-developer/` - AI-run online interview (hirelens), coach prompt.
