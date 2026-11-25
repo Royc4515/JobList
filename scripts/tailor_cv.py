@@ -11,13 +11,15 @@ graduation "2024 - 2028 (expected)", MEG research practicum line, Python first, 
 summary line, engineering facts in the project lines, Supabase and a tests/CI line in SKILLS.
 Later the same day, at Roy's request: font changed from David to Arial (sizes x0.82, same colours
 and layout) for readability, and each project now runs up to two lines (what / why / one proof
-point, e.g. Nechita Raka's 271 launch-week visitors).
+point, e.g. Nechita Raka's page views). Military section rewritten by Roy (regular service and
+reserves line plus four labelled bullets); the reserve-duty line left EDUCATION, so the GPA line
+now anchors on the research-practicum line. Links are shown as plain URLs for ATS parsing.
 A Hebrew base `Roy_Carmelli_CV_HE.docx` in the same template was made the same day. Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
 - the second summary line ("AI & Full-Stack developer ...") becomes the role's focus line;
-- optionally a GPA + coursework line under the reserve-duty line (only where a posting
+- optionally a GPA + coursework line under the research-practicum line (only where a posting
   asks for grades or the coursework is the point);
 - optionally the neuro-data project line after the other projects (data roles).
 The graduation year is always set to 2028 (Roy finishes in February 2028).
@@ -140,7 +142,7 @@ def build(base, spec):
         p._p.getparent().remove(p._p)
     if spec.get("courses"):
         line = f"{GPA} · Relevant coursework: " + " · ".join(COURSES[c] for c in spec["courses"]) + "."
-        insert_after(find(P, "reserve duty"), plain, line)
+        insert_after(find(P, "Research practicum"), plain, line)
     if spec.get("neuro"):
         insert_after(find(P, "Wolt Clone"), plain, NEURO_PROJECT)
     return d
