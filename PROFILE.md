@@ -18,7 +18,9 @@ than in each agent.
 - **Python** is the main language.
 - **Daily AI-tooling practice**: Claude Code, MCP. Builds agents unprompted:
   Aside (browser extension talking to six model providers), Wine Sommelier
-  (Telegram agent), this JobList tracker, LAMBDA (academic management).
+  (Telegram agent), this JobList tracker, LAMBDA (academic management), Fit Check
+  (Expo + Supabase wardrobe app with its own MCP server, Nov 2026), Leet-for-Berger
+  (interview-practice site with a code judge in 8 languages, Nov 2026).
 - Data Structures: 93.
 - MongoDB from an advanced systems programming course (coursework, not production).
 

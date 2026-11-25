@@ -38,3 +38,5 @@ C/C++, Python, Linux, automation, computer architecture, systems programming.
 2026-11-11 - Roy opened the posting: Time Type part-time, Yokneam + Tel Aviv.
 
 2026-11-11 - Submitted (NVIDIA Workday confirmation email for JR2028974).
+
+2026-11-11 - Workday answers (recorded in a duplicate file opened on `main` the same day, merged here 2026-11-25): source NVIDIA.COM, work authorization Yes, sponsorship No; work experience entered as the IDF Gaza Division medic role, start 11/2021 (month unverified); no grade sheet attached. Candidate Home shows "Application Received". Workday link: https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Israel-Yokneam/Software-Engineering-Student_JR2028974
