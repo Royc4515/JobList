@@ -1,8 +1,8 @@
 ---
 company: Mobileye
 role: Algorithm SW Developer Student - Calibration Team
-status: not-submitted
-applied:
+status: submitted
+applied: 2026-11-22
 found: 2026-10-12
 location: Jerusalem
 work_model: On-site
@@ -10,8 +10,8 @@ scope: 3 days/week minimum
 jd_link: https://jobs.eu.lever.co/mobileye/bbeb4626-09ea-4975-b5a2-56e4441b8784
 cv_version: Roy_Carmelli_CV_Mobileye_Calib.pdf
 contact: Shlomo Ron (Mobileye) via Tomer Shmargad - leads/mobileye-shlomo-ron-via-tomer.md
-follow_up:
-gmail:
+follow_up: 2026-12-06
+gmail: הוגש ב-Lever 22/11 (מייל "Thank you for your application")
 fit_role: 8
 fit_stack: 7
 fit_gates: 7
@@ -39,3 +39,5 @@ C++, Python, Claude Code, Git, Linear Algebra, Calculus, neuroscience data proje
 2026-10-12 - Referral route opened: Tomer Shmargad will talk to Shlomo Ron at Mobileye about this role. Wait for that before applying on Lever.
 
 2026-10-13 - CV passed on internally via Tomer Shmargad (Mobileye: Shlomo Ron; Rafael: Moshe Pnini). Not applied on the site; wait to hear who submitted it before any direct application.
+
+2026-11-22 - Applied directly on Lever (no news from the Tomer route since 10-13). Confirmation email "Thank you for your application" received the same day.
