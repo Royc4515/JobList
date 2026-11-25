@@ -6,6 +6,9 @@ military service, Anthropic certificates; the Nechita Raka project line and the 
 graduation year were added on 2026-10-12). Updated 2026-11-25 from Roy's GitHub: Fit Check and
 Leet-for-Berger added to PROJECTS, every project name links to its repo or site, Wolt Clone line
 now lists React Native and C++; the template (David, sizes, colours, one page) is unchanged.
+After a recruiter + hiring-manager review the same day: availability tagline "2-3 days a week",
+graduation "2024 - 2028 (expected)", MEG research practicum line, Python first, a guardrails
+summary line, engineering facts in the project lines, Supabase and a tests/CI line in SKILLS.
 A Hebrew base `Roy_Carmelli_CV_HE.docx` in the same template was made the same day. Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
