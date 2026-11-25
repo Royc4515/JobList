@@ -9,6 +9,9 @@ now lists React Native and C++; the template (David, sizes, colours, one page) i
 After a recruiter + hiring-manager review the same day: availability tagline "2-3 days a week",
 graduation "2024 - 2028 (expected)", MEG research practicum line, Python first, a guardrails
 summary line, engineering facts in the project lines, Supabase and a tests/CI line in SKILLS.
+Later the same day, at Roy's request: font changed from David to Arial (sizes x0.82, same colours
+and layout) for readability, and each project now runs up to two lines (what / why / one proof
+point, e.g. Nechita Raka's 271 launch-week visitors).
 A Hebrew base `Roy_Carmelli_CV_HE.docx` in the same template was made the same day. Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
