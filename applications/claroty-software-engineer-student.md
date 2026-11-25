@@ -7,7 +7,7 @@ location: Tel Aviv
 work_model: Hybrid
 scope: Part-time, 2.5 days/week
 jd_link: https://www.linkedin.com/jobs/view/4472969032/
-cv_version:
+cv_version: Roy_Carmelli_CV_Claroty.pdf
 contact:
 follow_up: 2026-10-18
 gmail: הוגש 04/10 - אישור רשמי מ-Comeet ("We Got It") מ-2026-10-04 11:10 UTC

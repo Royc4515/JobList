@@ -41,3 +41,5 @@ AI agents, coding agents, Claude Code, MCP, Python, CI/CD, full stack, experimen
 2026-10-12 - Roy's rule: apply when the work fits even if a gate fails. CV variant `Samsung` built (one page). State the real graduation date (Feb 2028) in the form. Not submitted yet.
 
 2026-10-12 - Roy has a direct connection to Samsung's recruiter: go through her rather than applying cold.
+
+2026-10-13 - Samsung recruiter Malka Izmailov agreed to pass Roy's CV on internally for both SIRC student roles. Do not apply on Comeet separately unless she asks.

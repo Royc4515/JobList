@@ -1,7 +1,7 @@
 ---
 company: Taboola
 role: Software Engineer Intern
-status: submitted
+status: rejected
 applied: 2026-10-08
 found: 2026-10-05
 location: Tel Aviv
@@ -11,7 +11,7 @@ jd_link: https://www.linkedin.com/jobs/view/4475758248/
 cv_version:
 contact:
 follow_up: 2026-10-22
-gmail: הוגש 2026-10-08 דרך LinkedIn; אישור קבלה מ-LinkedIn ומ-Greenhouse של טאבולה (2026-10-08)
+gmail: דחייה במייל 13/10
 fit_role: 6
 fit_stack: 3
 fit_gates: 8
@@ -42,3 +42,5 @@ Python, SQL, backend, data pipelines, Git (only what is true on the CV).
 2026-10-08 - Taboola reposted the role on LinkedIn (job 4475758248, Software Engineer Intern, Ad Creatives team, Tel Aviv, hybrid 3 office days; Java/OOP, SQL, large-scale systems, GenAI coding tools; bonus Spark/Kafka). Roy applied through LinkedIn on 2026-10-08 and confirmed it in chat. Submitted.
 
 2026-10-08 - Confirmation emails: LinkedIn "your application was sent to Taboola" (15:30 UTC) and Taboola Greenhouse "We have received your application for our Software Engineer Intern position" (15:31 UTC).
+
+2026-10-13 - Rejected (Greenhouse email).

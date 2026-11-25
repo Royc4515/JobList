@@ -1,16 +1,16 @@
 ---
 company: Marvell
 role: AI Infrastructure Engineer Intern (CTO Office AI Research, 2604499)
-status: submitted
+status: rejected
 applied: 2026-10-01
 location: Petah Tikva
 work_model: On-site
 scope: Student position (Workday lists "Full time" - confirm hours)
 jd_link: https://marvell.wd1.myworkdayjobs.com/en-US/MarvellCareers/job/Petah-Tikva/AI-Infrastructure-Engineer-Intern_2604499
-cv_version:
+cv_version: Roy_Carmelli_CV_Marvell.pdf
 contact:
 follow_up: 2026-10-15
-gmail: Submitted 2026-10-01 via Workday (req 2604499); status Application In Process
+gmail: דחייה במייל מ-Workday 25/10
 fit_role: 7
 fit_stack: 6
 fit_gates: 8
@@ -46,3 +46,5 @@ Angle for the CV: this tracker and the agents Roy builds are real data-extractio
 2026-10-01 - Submitted via Workday (req 2604499) with `Roy_Carmelli_CV_Marvell.pdf`. Workday shows "Application In Process". No cover-letter field. Roy approved in chat. Follow-up 2026-10-15.
 
 2026-10-05 - Posting closed (liveness check: Workday JSON endpoint 404). Status unchanged.
+
+2026-10-25 - Rejected (Marvell Workday email).
