@@ -3,7 +3,10 @@
 
 Base CV: `Roy_Carmelli_CV.docx` (Drive, October 2026 - honors program, reserve duty,
 military service, Anthropic certificates; the Nechita Raka project line and the 2028
-graduation year were added on 2026-10-12). Until 2026-10-11 the base was
+graduation year were added on 2026-10-12). Updated 2026-11-25 from Roy's GitHub: Fit Check and
+Leet-for-Berger added to PROJECTS, every project name links to its repo or site, Wolt Clone line
+now lists React Native and C++; the template (David, sizes, colours, one page) is unchanged.
+A Hebrew base `Roy_Carmelli_CV_HE.docx` in the same template was made the same day. Until 2026-10-11 the base was
 `Roy_Carmelli_CV_sep2026.docx`; packages submitted before then used that one.
 
 What changes per version (everything else is copied from the base file as-is):
