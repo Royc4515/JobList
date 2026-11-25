@@ -10,7 +10,7 @@ The dashboard below is auto-generated — edit application files, not this block
 
 <!-- DASHBOARD:START -->
 
-**89 applications** — **2** Interview · **2** In review · **36** Submitted · **15** Not submitted · **28** Rejected · **6** Dropped
+**88 applications** — **2** Interview · **2** In review · **35** Submitted · **15** Not submitted · **28** Rejected · **6** Dropped
 
 ## Next to submit
 
@@ -46,7 +46,7 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Amazon — 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105)](applications/amazon-sde-intern-2027-haifa.md)
 - [Google — Part-Time Software Engineering BS/MS Intern, 2027](applications/google-part-time-swe-intern-2027.md)
 
-### 📤 Submitted (36)
+### 📤 Submitted (35)
 - [AI6Labs (Wearable Devices) — AI Engineer Student](applications/ai6labs-ai-engineer-student.md)
 - [Alignerr — Software Engineer (AI Training) - freelance](applications/alignerr-software-engineer-ai-training.md)
 - [Altera — Engineering Compute Student (R03491)](applications/altera-engineering-compute-student.md)
@@ -75,7 +75,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 - [Mobileye — Python Developer - Student Position (Road algorithm team)](applications/mobileye-python-developer-student-jerusalem.md)
 - [Mobileye — Software Engineer Student Position](applications/mobileye-software-engineer-student.md)
 - [NVIDIA — Software Engineering Student - DPU BMC Development (JR2028974)](applications/nvidia-software-engineering-student-dpu-bmc.md)
-- [NVIDIA — Software Engineering Student (JR2028974)](applications/nvidia-software-engineering-student-yokneam.md)
 - [Optimum EDA and CAD Services — Computer Science Student (Final Year)](applications/optimum-eda-computer-science-student-final-year.md)
 - [Qualcomm — Intern FY27 - AI Driven Test Automation Engineer (3092068)](applications/qualcomm-intern-fy27-ai-test-automation.md)
 - [Scotty — AI Engineer (Student / Part-Time)](applications/scotty-ai-engineer-student.md)
@@ -175,7 +174,6 @@ Not-submitted roles ranked by fit score out of 40 (rubric in [`PROFILE.md`](PROF
 | [Earnix](applications/earnix-automation-engineer-student-java-s0005.md) | Automation Engineer - Student Position (S0005, Java + Python) | 📤 Submitted | 27 | 2026-11-17 | — |
 | [Scotty](applications/scotty-ai-engineer-student.md) | AI Engineer (Student / Part-Time) | 📤 Submitted | 32 | 2026-11-16 | — |
 | [NVIDIA](applications/nvidia-software-engineering-student-dpu-bmc.md) | Software Engineering Student - DPU BMC Development (JR2028974) | 📤 Submitted | 23 | 2026-11-11 | — |
-| [NVIDIA](applications/nvidia-software-engineering-student-yokneam.md) | Software Engineering Student (JR2028974) | 📤 Submitted | 22 | 2026-11-11 | — |
 | [Amazon](applications/amazon-sde-intern-2027-haifa.md) | 2027 Software Dev Engineer Intern - Tel Aviv (10592104) / Haifa (10592105) | 🔎 In review | 28 | 2026-11-08 | — |
 | [Copyscape](applications/copyscape-algorithms-ai-developer-student.md) | Student Position - Algorithms & AI Developer | 📤 Submitted | 31 | 2026-11-08 | — |
 | [Earnix](applications/earnix-automation-engineer-student.md) | Automation Engineer - Student Position | 📤 Submitted | 27 | 2026-11-04 | 2026-11-18 |
