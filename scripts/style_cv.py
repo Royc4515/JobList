@@ -13,6 +13,8 @@ Formatting only, every level one step louder than the last (body text is grey 43
   a line break.
 - "strong": bold in a slightly softened black (STRONG_INK). Bold is wider - re-check
   line breaks after adding one.
+- modifiers on any level: "grow" (half-points added to the size; 1 = +0.5pt) and
+  "italic". Both are also a scale - see CV_EMPHASIS.md for when (and when not).
 - links: blue LINK + underline (the underline is what says "clickable"). Project names
   and the portfolio are also bold; the portfolio is half a point larger on the contact
   line.
@@ -21,7 +23,7 @@ Usage:
     python3 scripts/style_cv.py <in .docx> <out .docx> [emphasis.json]
 
 emphasis.json (per tailored CV) replaces the General list:
-    [{"phrase": "1,500+ page views", "level": "strong", "why": "..."}, ...]
+    [{"phrase": "1,500+ page views", "level": "strong", "grow": 1, "why": "..."}, ...]
 Each phrase must appear verbatim inside one plain (non-link) run; a missing phrase is
 an error, so a tailored text change can't silently drop an emphasis.
 
@@ -51,13 +53,13 @@ EMPHASIS = [
     ("MEG study", "soft"),
     ("all live or open source", "soft"),
     ("Promoted by the department", "soft"),
-    ("1,500+ page views", "strong"),
+    ("1,500+ page views", "strong", {"grow": 1}),
     ("its own MCP server", "soft"),
     ("agentic AI", "soft"),
     ("225 problems", "soft"),
     ("400+ reserve-duty days", "soft"),
     ("mass-casualty events", "soft"),
-    ("12 to 30+ people", "strong"),
+    ("12 to 30+ people", "strong", {"grow": 1}),
     ("Python, TypeScript, JavaScript, React, Node.js, Supabase, MongoDB, Java and C/C++",
      "soft"),
 ]
@@ -89,7 +91,7 @@ def style_link(r, bold=False, size=None):
         set_prop(rpr, "w:szCs", size)
 
 
-def emphasize(d, phrase, level):
+def emphasize(d, phrase, level, grow=0, italic=False):
     if level not in LEVELS:
         raise SystemExit(f"Unknown level {level!r} for {phrase!r} (use {LEVELS})")
     for p in d.paragraphs:
@@ -107,6 +109,14 @@ def emphasize(d, phrase, level):
                 set_prop(mrpr, "w:b", "1")
                 set_prop(mrpr, "w:bCs", "1")
             set_prop(mrpr, "w:color", STRONG_INK if level == "strong" else SOFT_INK)
+            if grow:
+                sz = mrpr.find(qn("w:sz"))
+                base = int(sz.get(qn("w:val"))) if sz is not None else 21
+                set_prop(mrpr, "w:sz", str(base + grow))
+                set_prop(mrpr, "w:szCs", str(base + grow))
+            if italic:
+                set_prop(mrpr, "w:i", "1")
+                set_prop(mrpr, "w:iCs", "1")
             tail = copy.deepcopy(r)
             tail.find(qn("w:t")).text = after
             tail.find(qn("w:t")).set(qn("xml:space"), "preserve")
@@ -124,7 +134,8 @@ def main():
     emphasis = EMPHASIS
     if len(sys.argv) == 4:
         with open(sys.argv[3], encoding="utf-8") as f:
-            emphasis = [(e["phrase"], e["level"]) for e in json.load(f)]
+            emphasis = [(e["phrase"], e["level"],
+                         {k: e[k] for k in ("grow", "italic") if k in e}) for e in json.load(f)]
     d = docx.Document(sys.argv[1])
     for p in d.paragraphs:
         for r in p._p.findall(qn("w:r")):
@@ -140,8 +151,8 @@ def main():
             for r in h.findall(qn("w:r")):
                 style_link(r, bold=portfolio or project,
                            size="20" if portfolio and i < 3 else None)
-    for phrase, level in emphasis:
-        emphasize(d, phrase, level)
+    for phrase, level, *mods in emphasis:
+        emphasize(d, phrase, level, **(mods[0] if mods else {}))
     d.save(sys.argv[2])
     print("wrote", sys.argv[2])
 

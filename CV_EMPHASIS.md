@@ -20,6 +20,40 @@ The body text is grey `434343`. Each level is one step louder than the one befor
 | key links | blue + underline + bold | project names (they head each entry), the portfolio | - |
 | top link | key link, +0.5pt on the contact line | the portfolio only | 1 |
 
+### Other tools: size, italic, and a different font
+
+These are separate dimensions, and each is a scale of its own. Use them only after the critique
+in section 2.
+
+**Size (`"grow"` in the JSON, in half-points: 1 = +0.5pt).**
+- It's the quietest way to push one fact a step above strong. The eye picks up a slightly bigger
+  word without reading it.
+- Only on top of strong, and only on a number with its noun. At most +0.5pt in running text
+  (+1pt only on a standalone line). At most 2 per page.
+- Critique: a size jump inside a line raises that line's height. More than +0.5pt starts to look
+  like a typo or a copy-paste from another document. Re-check line breaks, since it widens the line.
+- General CV: "1,500+ page views" and "12 to 30+ people" get +0.5pt. They're the two proofs to
+  remember. "AI & Full-Stack developer" stays at normal size, because it's already near the top.
+
+**Italic (`"italic": true`).**
+- In a sans-serif font, italic reads as *different* and *quieter*, not louder. It's a tool for
+  setting something apart, not for promoting it.
+- Good for: a name or title of a thing (a course, a certificate, a study), or a short aside you
+  want the eye to skip. Also good for a standalone line of context; the availability line is
+  already italic for this reason.
+- Critique: italic + bold together looks loud and off. Italic on a keyword makes it *weaker*.
+  Several italic islands in one paragraph make the page look busy.
+- General CV: none in the body. The page already has one italic line (availability), and that's
+  the right amount.
+
+**A different font.**
+- Don't use one inside running text. A word in another typeface mid-sentence looks like a
+  copy-paste error to HR, not a design choice. Monospace for tech names makes the line look
+  like a README.
+- The only legitimate use is a deliberate pairing at the *structure* level: one font for the
+  name and section headings, another for the body. That's a whole-CV design decision. It needs
+  Roy's approval and a full render check, and is never done per phrase.
+
 Rules that come out of the scale:
 - **Something that's already loud doesn't get louder.** Headings, job titles and the military
   labels ("Leadership:") are already bold, so nothing next to them goes higher than soft.
@@ -70,7 +104,7 @@ public repo):
 
 ```json
 [
-  {"phrase": "1,500+ page views", "level": "strong",
+  {"phrase": "1,500+ page views", "level": "strong", "grow": 1,
    "why": "only real-user proof on the page; critique: next to a soft phrase, no conflict"}
 ]
 ```
@@ -105,12 +139,12 @@ can see why each phrase was chosen.
 | MEG study | soft | The research signal of the dual degree. Goes to strong for neuro or data roles. |
 | all live or open source | soft | Tells the reader the links are worth clicking, without competing with the project names. |
 | Promoted by the department | soft | Supports the number that follows. Strong would compete with it. |
-| 1,500+ page views | strong | The only real-user number on the page. |
+| 1,500+ page views | strong +0.5pt | The only real-user number on the page. The size bump puts it one step above the other strong phrases. |
 | its own MCP server | soft | A strong AI-tooling keyword. |
 | agentic AI | soft | Keyword; the rest of the line is description. |
 | 225 problems | soft | Gives the project scale. Without it, it reads as "another site". |
 | 400+ reserve-duty days | soft | Shows commitment. Strong could read as "unavailable". |
 | mass-casualty events | soft | Context for decisions under pressure. The label next to it is already bold. |
-| 12 to 30+ people | strong | Leadership scale as a number. |
+| 12 to 30+ people | strong +0.5pt | Leadership scale as a number. The size bump lets it stand out from the bold "Leadership:" label next to it. |
 | Skills stack line | soft | The keyword list HR matches against; the whole line on purpose. |
 | Wolt Clone, Aside text | none | The project names already stand out, and there's no number worth lifting. |

@@ -78,7 +78,8 @@ exact file name on every application.
 
 ## CV emphasis (Roy's method, 2026-11-26)
 Every CV, General or tailored, goes through `scripts/style_cv.py` after `scripts/tailor_cv.py`.
-Read `CV_EMPHASIS.md` first. Emphasis is a scale (body / soft / strong / links), not yes-or-no.
+Read `CV_EMPHASIS.md` first. Emphasis is a scale (body / soft / strong / links, plus size and italic as modifiers), not
+yes-or-no; no font changes inside running text.
 Critique every candidate phrase and give a reason before choosing its level and exact words.
 Write the per-role decisions to `cv_emphasis/<Variant>.json` and copy the table into the
 submission package. Formatting only - never change wording to make emphasis fit.
