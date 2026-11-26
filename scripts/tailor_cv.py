@@ -32,7 +32,8 @@ Usage:
     pip install python-docx
     python3 scripts/tailor_cv.py <path to Roy_Carmelli_CV.docx> <output dir>
 
-Then export each .docx to PDF (Word or LibreOffice) and check it is one page.
+Then style each version with scripts/style_cv.py (emphasis per role - see CV_EMPHASIS.md),
+export it to PDF (Word or LibreOffice) and check it is one page.
 The output contains personal details - never commit it (this repo is public).
 """
 import copy
