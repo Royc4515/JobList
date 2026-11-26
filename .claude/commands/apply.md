@@ -21,16 +21,20 @@ it is public and they contain Roy's phone number, email and ID number.**
 2. **Tailored CVs:** `pip install python-docx pypdf` if needed, then
    `python scripts/tailor_cv.py <base.docx> ~/Documents/JobList-CVs`. It writes every
    version in its `VARIANTS` (one per role, plus `General`); use the one the package names.
-3. **PDF:** export each `.docx` to PDF with Word (or LibreOffice). Open each PDF and
+3. **Emphasis:** follow `CV_EMPHASIS.md`. For each role's CV, critique the candidate
+   phrases against the posting and write `cv_emphasis/<Variant>.json`, then
+   `python scripts/style_cv.py <tailored .docx> <styled .docx> cv_emphasis/<Variant>.json`.
+   Put the decision table (phrase / level / why) in the package for Roy.
+4. **PDF:** export each styled `.docx` to PDF with Word (or LibreOffice). Open each PDF and
    check it is **exactly one page**. If one spills over, stop and tell Roy - do not
    edit the text yourself.
-4. **Transcript:** if `Roy_Carmelli_Transcript_EN.pdf` is not already in Downloads,
+5. **Transcript:** if `Roy_Carmelli_Transcript_EN.pdf` is not already in Downloads,
    open Bar-Ilan's Inbar in the browser and download the **English** grade transcript
    (גיליון ציונים באנגלית). If Inbar asks for a login or a code, stop and ask Roy.
    Save it as `Roy_Carmelli_Transcript_EN.pdf`. Do not edit it.
-5. **Amazon file:** merge `Roy_Carmelli_CV_AmazonMLIL.pdf` + the transcript into
+6. **Amazon file:** merge `Roy_Carmelli_CV_AmazonMLIL.pdf` + the transcript into
    `Roy_Carmelli_CV_and_Transcript_Amazon.pdf` (pypdf).
-6. Show Roy the folder listing and page counts in one short message, then continue.
+7. Show Roy the folder listing and page counts in one short message, then continue.
 
 ## 2. Submit, one role at a time
 Order: **Google, Amazon MLIL, FIL Robotics, Optimum EDA, Marvell.** For each:

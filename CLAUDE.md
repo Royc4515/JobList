@@ -75,6 +75,18 @@ this repo is public). Only editors (Roy) can add or replace one: on the page, th
 "העלאת קו״ח (PDF)" button under a role, or from a session: upload with the Artifact tool
 (`asset: true`) and write the `cvs` doc with ArtifactData. Keep `cv_version:` set to the
 exact file name on every application.
+The page header also has a "current general CV" button: `cvs/Roy_Carmelli_CV`. Whenever the
+general English CV changes, upload the new PDF and point that doc at it (Drive:
+`Roy_Carmelli_CV.pdf`). Never overwrite `cvs/Roy_Carmelli_CV_General` - that is the June file
+roles marked `cv_version: General` actually received.
+
+## CV emphasis (Roy's method, 2026-11-26)
+Every CV, General or tailored, goes through `scripts/style_cv.py` after `scripts/tailor_cv.py`.
+Read `CV_EMPHASIS.md` first. Emphasis is a scale (body / soft / strong / links, plus size and italic as modifiers), not
+yes-or-no; no font changes inside running text.
+Critique every candidate phrase and give a reason before choosing its level and exact words.
+Write the per-role decisions to `cv_emphasis/<Variant>.json` and copy the table into the
+submission package. Formatting only - never change wording to make emphasis fit.
 
 ## Stage alerts (Roy's standing request, 2026-10-12)
 Whenever an active process moves (a person replies, an interview/call is proposed, a test

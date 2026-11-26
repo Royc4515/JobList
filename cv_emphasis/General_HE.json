@@ -1,0 +1,19 @@
+[
+  {"phrase": "2-3 ימים בשבוע", "level": "soft", "why": "Availability is the first filter for student roles; the line is plain (not italic) in Hebrew, but soft keeps it calm."},
+  {"phrase": "בתוכנית מצטיינים", "level": "soft", "why": "Differentiator, not a fact to leave with; strong would compete with the first line."},
+  {"phrase": "מפתח AI ו-Full Stack", "level": "strong", "why": "Role identity - what HR matches to the job title."},
+  {"phrase": "מודלי שפה גדולים (LLMs)", "level": "soft", "why": "Keyword match; it's in the same line as the strong phrase, so not strong."},
+  {"phrase": "מנגנוני הגנה", "level": "soft", "why": "Guardrails - production-minded AI. The list after the colon is the proof."},
+  {"phrase": "עברית ואנגלית ברמת שפת אם", "level": "soft", "why": "Matters to companies with English-speaking clients or teams."},
+  {"phrase": "ניסוי MEG", "level": "soft", "why": "The research signal of the dual degree; strong for neuro/data roles."},
+  {"phrase": "כולם פעילים או בקוד פתוח", "level": "soft", "why": "Tells the reader the links are worth clicking."},
+  {"phrase": "קודם על ידי המחלקה", "level": "soft", "why": "Supports the number after it without competing."},
+  {"phrase": "יותר מ-1,500 צפיות", "level": "strong", "grow": 1, "why": "Only real-user number on the page; +0.5pt lifts it above the other strong phrases."},
+  {"phrase": "שרת MCP ייעודי", "level": "soft", "why": "Strong AI-tooling keyword."},
+  {"phrase": "AI אג'נטי", "level": "soft", "why": "Keyword; the rest is description."},
+  {"phrase": "225 שאלות", "level": "soft", "why": "Scale; without it the project reads as another site."},
+  {"phrase": "יותר מ-400 ימי מילואים", "level": "soft", "why": "Commitment; strong could read as 'often unavailable'."},
+  {"phrase": "אירועים רבי נפגעים", "level": "soft", "why": "Context for decisions under pressure; the label beside it is already bold."},
+  {"phrase": "מ-12 ליותר מ-30 אנשים", "level": "strong", "grow": 1, "why": "Leadership scale as a number; +0.5pt so it beats the bold label next to it."},
+  {"phrase": "Python, TypeScript, JavaScript, React, Node.js, C/C++, Supabase, MongoDB ו-Java", "level": "soft", "why": "The keyword list HR matches against; the whole line on purpose."}
+]
