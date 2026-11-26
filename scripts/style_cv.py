@@ -7,10 +7,9 @@ all, and the facts an HR screener should catch must be visible at a glance.
 
 What it changes (formatting only):
 - every hyperlink: bright blue LINK, underlined; project names also bold.
-- the portfolio link (contact line + "more on my portfolio"): bold, light-blue
-  highlight; on the contact line one size up.
-- EMPHASIS phrases: bold, near-black INK, so numbers and keywords pop out of the grey.
-- "Available 2-3 days a week" line: the day count bold.
+- the portfolio link (contact line + "more on my portfolio"): bold; on the contact
+  line one size up.
+- EMPHASIS phrases (kept few, so the page stays calm): bold, near-black INK.
 
 Usage:
     python3 scripts/style_cv.py <base .docx> <output .docx>
@@ -23,32 +22,21 @@ import sys
 import docx
 from docx.oxml.ns import qn
 
-LINK = "0B5FD6"
-INK = "111111"
-HIGHLIGHT = "DCEBFF"
+LINK = "1A5FC8"
+INK = "1C1C1C"
 PORTFOLIO = "roy-carmelli-portfolio"
 
 # Phrases to bold, in reading order. Each must appear verbatim in a plain (non-link) run.
 EMPHASIS = [
-    "2-3 days a week",
-    "3rd-year B.Sc.", "honors program",
+    "honors program",
     "AI & Full-Stack developer", "LLM apps and agents",
-    "guardrails",
-    "led people and projects",
-    "teaching, tutoring and professional training",
-    "Native English and Hebrew",
-    "MEG study",
     "all live or open source",
     "Promoted by the department", "1,500+ page views",
     "its own MCP server",
-    "agentic AI sommelier",
     "225 problems",
-    "team of 2", "React Native",
     "400+ reserve-duty days",
     "mass-casualty events",
     "12 to 30+ people",
-    "Claude Code, AI agents, MCP and LLM APIs",
-    "Anthropic certificates",
 ]
 
 WOLT_OLD = ", a food-delivery app built by a team of 2 in a systems course. My part:"
@@ -66,21 +54,13 @@ def set_prop(rpr, tag, val):
     return el
 
 
-def style_link(r, bold=False, highlight=False, size=None):
+def style_link(r, bold=False, size=None):
     rpr = r.find(qn("w:rPr"))
     set_prop(rpr, "w:color", LINK)
     set_prop(rpr, "w:u", "single")
     if bold:
         set_prop(rpr, "w:b", "1")
         set_prop(rpr, "w:bCs", "1")
-    if highlight:
-        shd = rpr.find(qn("w:shd"))
-        if shd is None:
-            shd = rpr.makeelement(qn("w:shd"), {})
-            rpr.append(shd)
-        shd.set(qn("w:val"), "clear")
-        shd.set(qn("w:color"), "auto")
-        shd.set(qn("w:fill"), HIGHLIGHT)
     if size:
         set_prop(rpr, "w:sz", size)
         set_prop(rpr, "w:szCs", size)
@@ -128,7 +108,7 @@ def main():
             project = h is p._p.find(qn("w:hyperlink")) and p._p.index(h) <= 1 and i > 3 \
                 and "Claude" not in text
             for r in h.findall(qn("w:r")):
-                style_link(r, bold=portfolio or project, highlight=portfolio,
+                style_link(r, bold=portfolio or project,
                            size="21" if portfolio and i < 3 else None)
     for phrase in EMPHASIS:
         emphasize(d, phrase)
