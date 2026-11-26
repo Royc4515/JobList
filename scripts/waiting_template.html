@@ -376,7 +376,10 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
       <h1 class="rise d1">המשרות שלי</h1>
       <p class="lede rise d2">מה עוד צריך להגיש ומה כבר הוגש. אם אתה מכיר מישהו באחת החברות, אשמח לשמוע.</p>
       <div class="stats" id="stats" hidden></div>
-      <div class="cv-slot main-cv rise d2" id="main-cv" data-key="Roy_Carmelli_CV" data-label="קו״ח כללי" data-main="1"></div>
+      <div class="cv-slot main-cv rise d2" id="main-cv">
+        <div class="cv-slot" data-key="Roy_Carmelli_CV" data-label="קו״ח כללי באנגלית" data-main="קו״ח עדכני באנגלית"></div>
+        <div class="cv-slot" data-key="Roy_Carmelli_CV_HE" data-label="קו״ח כללי בעברית" data-main="קו״ח עדכני בעברית"></div>
+      </div>
     </header>
 
     <section class="wrap quick rise d3" id="quick" aria-label="רשימת משרות">
@@ -578,10 +581,9 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
     .forEach(function (c) { addChip(c, " quiet"); });
 
   // One CV slot per role, filled once the page's db answers (cvs/<cv> = {asset, file}),
-  // plus the current general CV in the header (cvs/Roy_Carmelli_CV).
+  // plus the current general CV in the header (cvs/Roy_Carmelli_CV, cvs/Roy_Carmelli_CV_HE).
   var cvSlots = [];
-  var mainCvSlot = document.getElementById("main-cv");
-  if (mainCvSlot) cvSlots.push(mainCvSlot);
+  document.querySelectorAll("#main-cv [data-key]").forEach(function (slot) { cvSlots.push(slot); });
   function cvSlot(r) {
     var slot = el("div", { cls: "cv-slot" });
     slot.dataset.key = r.cv || "";
@@ -848,13 +850,13 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible, .talk input:focus-visi
       slot.textContent = "";
       if (ref && downloads) {
         if (!slot.dataset.main) anyCv = true;
-        slot.appendChild(button("soft", ICON_DOWN, slot.dataset.main ? "הורדת קו״ח עדכני" : "הורדת קו״ח למשרה",
+        slot.appendChild(button("soft", ICON_DOWN, slot.dataset.main ? "הורדת " + slot.dataset.main : "הורדת קו״ח למשרה",
           function () { downloadCv(key, this); }));
       }
       if (assets && cvDb) {
         var label = slot.dataset.label;
         slot.appendChild(button("line small", ICON_UP,
-          ref ? "החלפת הקובץ" : (slot.dataset.main ? "העלאת קו״ח כללי (PDF)" : "העלאת קו״ח (PDF)"),
+          ref ? "החלפת הקובץ" : (slot.dataset.main ? "העלאת " + slot.dataset.main + " (PDF)" : "העלאת קו״ח (PDF)"),
           function () { pickAndUpload(key, label, this); }));
       }
     });

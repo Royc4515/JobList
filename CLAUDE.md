@@ -75,9 +75,9 @@ this repo is public). Only editors (Roy) can add or replace one: on the page, th
 "העלאת קו״ח (PDF)" button under a role, or from a session: upload with the Artifact tool
 (`asset: true`) and write the `cvs` doc with ArtifactData. Keep `cv_version:` set to the
 exact file name on every application.
-The page header also has a "current general CV" button: `cvs/Roy_Carmelli_CV`. Whenever the
-general English CV changes, upload the new PDF and point that doc at it (Drive:
-`Roy_Carmelli_CV.pdf`). Never overwrite `cvs/Roy_Carmelli_CV_General` - that is the June file
+The page header also has "current general CV" buttons: `cvs/Roy_Carmelli_CV` (English) and
+`cvs/Roy_Carmelli_CV_HE` (Hebrew). Whenever a general CV changes, upload the new PDF and point
+that doc at it (Drive: `Roy_Carmelli_CV.pdf` / `Roy_Carmelli_CV_HE.pdf`). Never overwrite `cvs/Roy_Carmelli_CV_General` - that is the June file
 roles marked `cv_version: General` actually received.
 
 ## CV emphasis (Roy's method, 2026-11-26)
