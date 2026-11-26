@@ -33,6 +33,12 @@ Held back on purpose: a Barça "assist of the season" card (Omer #6 -> Roy #10,
 file out/omer_barca_card.png, not in the repo). Send it with the reply once Omer
 answers - not before, so we don't double-text him right after asking a favour.
 
+2026-10-01 15:17-16:20 (recovered 2026-11-25 from the unmerged feat/waiting-page branch) - At Roy's
+request Claude sent Omer a few invented pictures, short honest messages and an 8-second Flow
+video. Omer twice asked Roy to write to him himself, and at 16:16 wrote "כדאי לך למחוק את הבוט הזה"
+(you should delete this bot). Claude stopped; Roy continued with him directly. Standing rule: never
+message Omer through Claude again - anything for Omer goes from Roy himself.
+
 2026-10-25 - Current Amazon student roles in Israel (amazon.jobs search), the list Roy sends Omer:
 - SW Automation Student, Annapurna Labs - Tel Aviv - https://www.amazon.jobs/en/jobs/10503596 (test automation, Java/C++/C# OOP; no semesters line)
 - Software Automation Student, Annapurna Labs - Haifa - https://www.amazon.jobs/en/jobs/10582178 (3+ semesters left: Roy has 3; 2-3 days)
