@@ -5,11 +5,16 @@ Approved request 2026-11-26: links must stand out from the body text (the old li
 navy 1F4E79 was almost the same as the grey 434343 body), the portfolio link most of
 all, and the facts an HR screener should catch must be visible at a glance.
 
-What it changes (formatting only):
-- every hyperlink: bright blue LINK, underlined; project names also bold.
-- the portfolio link (contact line + "more on my portfolio"): bold; on the contact
-  line one size up.
-- EMPHASIS phrases (kept few, so the page stays calm): bold, near-black INK.
+What it changes (formatting only). Emphasis is a scale, not on/off - the body is grey
+434343, and each level is one step louder than the last:
+- "soft": the same weight, a darker ink (SOFT_INK). Noticed on a skim, never shouts.
+  Keywords that match job ads or back a claim.
+- "strong": bold in a slightly softened black (STRONG_INK). Only the few hard facts
+  a screener should leave with (role identity, real-user numbers, leadership scale).
+- links: bright blue LINK. Project names are bold and not underlined (they head
+  each entry; the blue says "link"). Inline links (email, LinkedIn, GitHub,
+  certificates) keep a regular weight with an underline. The portfolio - the one
+  link Roy wants clicked - is bold + underlined, half a point larger on the contact line.
 
 Usage:
     python3 scripts/style_cv.py <base .docx> <output .docx>
@@ -23,20 +28,23 @@ import docx
 from docx.oxml.ns import qn
 
 LINK = "1A5FC8"
-INK = "1C1C1C"
+SOFT_INK = "161616"
+STRONG_INK = "262626"
 PORTFOLIO = "roy-carmelli-portfolio"
 
-# Phrases to bold, in reading order. Each must appear verbatim in a plain (non-link) run.
+# (phrase, level) in reading order. Each must appear verbatim in a plain (non-link) run.
 EMPHASIS = [
-    "honors program",
-    "AI & Full-Stack developer", "LLM apps and agents",
-    "all live or open source",
-    "Promoted by the department", "1,500+ page views",
-    "its own MCP server",
-    "225 problems",
-    "400+ reserve-duty days",
-    "mass-casualty events",
-    "12 to 30+ people",
+    ("honors program", "soft"),
+    ("AI & Full-Stack developer", "strong"),
+    ("LLM apps and agents", "soft"),
+    ("all live or open source", "soft"),
+    ("Promoted by the department", "soft"),
+    ("1,500+ page views", "strong"),
+    ("its own MCP server", "soft"),
+    ("225 problems", "soft"),
+    ("400+ reserve-duty days", "soft"),
+    ("mass-casualty events", "soft"),
+    ("12 to 30+ people", "strong"),
 ]
 
 WOLT_OLD = ", a food-delivery app built by a team of 2 in a systems course. My part:"
@@ -54,10 +62,10 @@ def set_prop(rpr, tag, val):
     return el
 
 
-def style_link(r, bold=False, size=None):
+def style_link(r, bold=False, underline=True, size=None):
     rpr = r.find(qn("w:rPr"))
     set_prop(rpr, "w:color", LINK)
-    set_prop(rpr, "w:u", "single")
+    set_prop(rpr, "w:u", "single" if underline else "none")
     if bold:
         set_prop(rpr, "w:b", "1")
         set_prop(rpr, "w:bCs", "1")
@@ -66,7 +74,7 @@ def style_link(r, bold=False, size=None):
         set_prop(rpr, "w:szCs", size)
 
 
-def emphasize(d, phrase):
+def emphasize(d, phrase, level):
     for p in d.paragraphs:
         for r in p._p.findall(qn("w:r")):
             t = r.find(qn("w:t"))
@@ -78,9 +86,10 @@ def emphasize(d, phrase):
             mt.text = phrase
             mt.set(qn("xml:space"), "preserve")
             mrpr = mid.find(qn("w:rPr"))
-            set_prop(mrpr, "w:b", "1")
-            set_prop(mrpr, "w:bCs", "1")
-            set_prop(mrpr, "w:color", INK)
+            if level == "strong":
+                set_prop(mrpr, "w:b", "1")
+                set_prop(mrpr, "w:bCs", "1")
+            set_prop(mrpr, "w:color", STRONG_INK if level == "strong" else SOFT_INK)
             tail = copy.deepcopy(r)
             tail.find(qn("w:t")).text = after
             tail.find(qn("w:t")).set(qn("xml:space"), "preserve")
@@ -108,10 +117,10 @@ def main():
             project = h is p._p.find(qn("w:hyperlink")) and p._p.index(h) <= 1 and i > 3 \
                 and "Claude" not in text
             for r in h.findall(qn("w:r")):
-                style_link(r, bold=portfolio or project,
-                           size="21" if portfolio and i < 3 else None)
-    for phrase in EMPHASIS:
-        emphasize(d, phrase)
+                style_link(r, bold=portfolio or project, underline=not project,
+                           size="20" if portfolio and i < 3 else None)
+    for phrase, level in EMPHASIS:
+        emphasize(d, phrase, level)
     d.save(sys.argv[2])
     print("wrote", sys.argv[2])
 
