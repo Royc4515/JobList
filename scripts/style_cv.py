@@ -145,7 +145,7 @@ def main():
     for i, p in enumerate(d.paragraphs):
         for h in p._p.findall(qn("w:hyperlink")):
             text = "".join(x.text or "" for x in h.iter(qn("w:t")))
-            portfolio = PORTFOLIO in text or text == "portfolio"
+            portfolio = PORTFOLIO in text or text in ("portfolio", "תיק העבודות")
             project = h is p._p.find(qn("w:hyperlink")) and p._p.index(h) <= 1 and i > 3 \
                 and "Claude" not in text
             for r in h.findall(qn("w:r")):

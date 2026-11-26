@@ -121,12 +121,17 @@ can see why each phrase was chosen.
 ## 4. Check before sending
 
 1. Extract the text from the PDF and compare it with the unstyled version. It must be identical.
+   For Hebrew, strip whitespace and bidi control marks (U+200E/F, U+202A-202E) before comparing:
+   pdftotext inserts them wherever a line break lands, so a moved break looks like a text change.
 2. The PDF is exactly one page, and has the same line count as the unstyled version.
 3. Every link annotation is still there.
 4. Look at the rendered page: once at full page ("what does the eye catch in 6 seconds?") and
    once zoomed in, to see the soft level is visible but quiet.
 
 ## General CV decisions (2026-11-26)
+
+Hebrew General CV: the same choices, in `cv_emphasis/General_HE.json`. Run
+`python3 scripts/style_cv.py <Roy_Carmelli_CV_HE.docx> <out> cv_emphasis/General_HE.json`.
 
 | Phrase | Level | Why / critique |
 |---|---|---|
